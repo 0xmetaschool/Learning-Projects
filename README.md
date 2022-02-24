@@ -7,11 +7,8 @@ If you are new to this space, start with these projects.
 
 
 👉 Write a Hello World Solidity Contract: https://bit.ly/3BCseZi
-
 👉 Mint an ElonMusk NFT: https://bit.ly/3o1rO8U
-
 👉 Connect MetaMask to your Web: https://bit.ly/3I4b8WA
-
 👉 Create a Web3 NFT minting application: https://bit.ly/3LTKeCZ
 
 
