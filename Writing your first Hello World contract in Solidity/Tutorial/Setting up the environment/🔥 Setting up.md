@@ -1,0 +1,95 @@
+﻿# Setting up the environment
+
+## **🔥 Setting up**
+
+Let’s get to setting up the environment first.  
+  
+1. We will install and set up our metamask account.  
+2. We will create an alchemy app.
+
+#### Creating alchemy ⛓ app
+
+Alchemy gives you the ability to read and write on the blockchain via their infrastructure. It saves you time. It saves you money and keeps things efficient. Let’s sign up at Alchemy, get your free account, and follow the instructions below.
+
+Sign up for your free account and get to create an app.
+
+1.  Environment - Staging
+2.  Chain - Ethereum
+3.  Network - Rinkeby
+
+![](https://lh6.googleusercontent.com/Bb5Mjaz4jGyF-_e9RHFtSRnSO_0nZTEgN9IuMjhkFCGL0vTfnpTdAzqXnNTo2qktp0uiR3gKmcokgX1bssf0sF9p-J5PmJU6HL7srmTClorF_hQVvjNtKcBGb_1zQw2Pd_ihqW_N)
+
+Your API key and HTTP address is important, save it somewhere for now, and we will use it in our project later.
+
+![](https://lh3.googleusercontent.com/GCh8lNY9s3lIBMPUX9-HdalprHLxldLq5KDzrq_9UmZXR1wixjsFIYv6JaBmFGN9pCY0vI4FrS8dLs_1HoxfHN2EUVrxCmkTGzI1_QCWH8gw-an-uCG9MU4WilBiJGzPKa54TTA3)
+
+####   
+Creating 🦊 MetaMask wallet
+
+Your metamask wallet is your key to the web3 world. You can interact with the blockchain via a MetaMask account. And of course, generally, it is your digital wallet to store, swap and buy cryptocurrencies, tokens, NFTs, and other amazing things in the web3 world.
+
+MetaMask has a mobile application and a Chrome browser extension too. I personally use MetaMask on my Chrome browser extension because I do most of the work on my laptop.
+
+Anyways, let’s go!
+
+Here are the installation steps:
+
+-   Go to MetaMask.io
+-   Click Download and Install the Chrome Extension.
+-   Setup your secure password.
+-   The next step is the most important one.
+-   Secure your 12-word phrase properly, never share it with anyone. Write it somewhere because if you lose it, you will never have a way to recover your account. So be mindful of that.
+
+Congrats! your account is created and you must have received a public address. The public address will be in the pattern of:
+
+_Example: 0x37EA9984481459885141F571907992e7261E837C_
+
+You can use this public address to buy, trade, and store Ethereum based tokens, cryptos, NFTs and you can even use it to sign in to websites like OpenSea. But are you wondering if it is safe to share this cryptic long address?
+
+Yes, it is completely safe. You can share this address publicly to accept, buy, trade or store Ethereum based crypto.
+
+#### Changing your network on MetaMask
+
+We will not be using the live/production environment at the moment because it will be expensive to deploy a contract. You will need some real ETH to do that! And of course, learning and deploying contracts on production for the purpose of learning is not sustainable.
+
+![](https://lh3.googleusercontent.com/8M9wszNIh_apSoY5Cvpi9asp2OR_qqdElulrmeoBGctMOT-srHhO7ZS4efwUFPTQc2PnhFR-_uApHBMAqstbrI9pf66cxkzY4JHST8ztl2yxGYzYbuMgtwVdhnVBWzFvV7suSfXS)
+
+We will switch to Rinkeby Network, which is a test network that pretty much is a simulation of Ethereum blockchain production. Just open chrome and switch your network to Rinkeby, if you are not able to see it.
+
+Here are the steps to turn on test networks
+
+1.  Go to settings
+2.  Open Advanced
+3.  Scroll down to Show Test Networks
+4.  Turn on
+
+![](https://lh3.googleusercontent.com/J1aA9vZcf8gE3h9ypNI2nQ0-wRypnCCCwNBDHtc7C9qcyzlkbOmlb6IDUxxN1xIwQpfIwSPZrmXy-C5hS65lcFIKg5U0LZaXhGw_y2QxGurmhwZSHcJwK0gk5KCaUpu45pmz8jl2)
+
+#### Get some fake ETH $$ 🤑
+
+Try the following websites and try to get some fake ETHs. This fake money will be used for deploying your contract and doing transactions on your contract. This is not real money, you can’t buy NFTs, or other assets via these ETH.  
+  
+All you have to do is to drop your public address on the following links and the ETH will be transferred.
+
+1.  [https://faucets.chain.link/rinkeby](https://faucets.chain.link/rinkeby)
+2.  [https://rinkeby-faucet.com/](https://rinkeby-faucet.com/)
+
+#### Get your private 🦊 MetaMask key
+
+Open the metamask extension to find your private key. While writing and deploying your contract you sign off each contract with your private key to tell the blockchain that you are a legit person creating a real transaction. Now if that private key is made visible, the hacker can gain access to your account and then the rest will be history.
+
+![](https://metaschool.s3-ap-southeast-1.amazonaws.com/images/Hrpx2AwPanh5OLiGRAV8U3AMBi8NMecZPCYuG8g5.png)
+
+I will tell you how to keep your account and private key safe in the next steps. For now, export the private key and paste it somewhere secure. DON'T COMMIT IT ON GITHUB, DON'T SHARE IT ON DISCORD, DON'T SHARE IT ANYWHERE! IF YOUR KEY IS PUBLIC, HACKERS AND STEALERS WILL TAKE ALL YOUR FUND AND EVERYTHING THAT IS ASSOCIATED WITH THAT ACCOUNT.
+
+BE EXTRAAA VIGILANT!!
+
+### Assignment
+
+#### Progress Report - Share your public wallet address
+
+Progress Report - Share your public wallet address
+
+**Your response is**
+
+
