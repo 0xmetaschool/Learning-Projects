@@ -45,7 +45,7 @@ Now let's open in project in VScode. Open the Hardhat config file.
 * @type import('hardhat/config').HardhatUserConfig
 */
 module.exports = {
- solidity: "0.7.3",
+ solidity: "0.8.9",
 };
 ```
 
@@ -64,7 +64,7 @@ HelloWorld
 > scripts
 hardhat.config.js
 package-lock.json
-Package.json
+package.json
 ```
 
 The contracts directory will have the contract of your Hello World. Create a HelloWorld.sol file in the contracts folder and write the following code.
@@ -72,7 +72,7 @@ The contracts directory will have the contract of your Hello World. Create a Hel
 ```
 /SPDX-License-Identifier: UNLICENSED
  
-pragma solidity >= 0.7.3;
+pragma solidity >= 0.8.9;
  
 contract HelloWorld {
     //events
