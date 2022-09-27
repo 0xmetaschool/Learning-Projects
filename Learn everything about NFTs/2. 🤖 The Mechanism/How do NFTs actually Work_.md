@@ -1,8 +1,6 @@
 ﻿# 🤖 The Mechanism
 
-## **How do NFTs actually Work?**
-
-## How do NFTs work?
+## **How do NFTs actually work?**
 
 NFTs are different from ERC-20 tokens, such as DAI or LINK, in that each individual token is completely unique and is not divisible. NFTs give the ability to assign or claim ownership of any unique piece of digital data, trackable by using Ethereum's blockchain as a public ledger. An NFT is minted from digital objects as a representation of digital or non-digital assets. For example, an NFT could represent:
 
