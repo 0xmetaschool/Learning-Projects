@@ -50,7 +50,7 @@ Decentraland, a virtual reality game, even lets you buy NFTs representing virtua
 
 ### Making Ethereum addresses more memorable
 
-The Ethereum Name Service uses NFTs to provide your Ethereum address with an easier-to-remember name like mywallet.eth. This means you could ask someone to send you ETH via mywallet.eth rather than 0x123456789......
+The [Ethereum Name Service](https://ens.domains/) uses NFTs to provide your Ethereum address with an easier-to-remember name like mywallet.eth. This means you could ask someone to send you ETH via mywallet.eth rather than 0x123456789......
 
 This works in a similar way to a website domain name which makes an IP address more memorable. And like domains, ENS names have value, usually based on length and relevance. With ENS you don't need a domain registry to facilitate the transfer of ownership. Instead, you can trade your ENS names on an NFT marketplace.
 
@@ -91,7 +91,7 @@ NFT creators can also create "shares" for their NFT. This gives investors and fa
 
 This is still experimental but you can learn more about fractional NFT ownership at the following exchanges:
 
--   [NIFTEX](https://landing.niftex.com/)
+-   [NIFTEX](https://cloudflare-ipfs.com/ipfs/QmVWSGkrDC8cDFVfDTRu9cQEHPBsJxaTkv89BkvKQ99yf6/#/)
 -   [NFTX](https://gallery.nftx.org/)
 
 In theory, this would unlock the possibility to do things like own a piece of a Picasso. You would become a shareholder in a Picasso NFT, meaning you would have a say in things like revenue sharing. It's very likely that one day soon owning a fraction of an NFT will enter you into a decentralised autonomous organisation (DAO) for managing that asset.
@@ -171,7 +171,7 @@ This vision is being delivered right now.
 
 #### A greener Ethereum: Eth2
 
-Ethereum is currently going through a series of upgrades, known as Eth2, that will replace mining with [staking](https://ethereum.org/en/eth2/staking/). This will remove computing power as a security mechanism, and reduce Ethereum's carbon footprint by ~99.95%[1](https://ethereum.org/en/nft/#fn-1). In this world, stakers commit funds instead of computing power to secure the network.
+Ethereum went through a series of upgrades, known as Eth2([The Merge](https://ethereum.org/en/upgrades/merge/)), that replaced mining with [staking](https://ethereum.org/en/eth2/staking/). This removed computing power as a security mechanism, and reduced Ethereum's carbon footprint by ~99.95%[1](https://ethereum.org/en/nft/#fn-1). In this world, stakers commit funds instead of computing power to secure the network.
 
 The energy-cost of Ethereum will become the cost of running a home computer multiplied by the number of nodes in the network. If there are 10,000 nodes in the network and the cost of running a home computer is roughly 525kWh per year. That's 5,250,000kWh[1](https://ethereum.org/en/nft/#fn-1)  per year for the entire network.
 
@@ -185,7 +185,7 @@ It’s also important to remember that Ethereum does more than just financial tr
 
 #### Timelines
 
-The process has already started. [The Beacon Chain](https://ethereum.org/en/eth2/beacon-chain/), the first upgrade, shipped in December 2020. This provides the foundation for staking by allowing stakers to join the system. The next step relevant to energy efficiency is to merge the current chain, the one secured by miners, into the Beacon Chain where mining isn't needed. Timelines can't be exact at this stage, but it's estimated that this will happen sometime in 2022. This process is known as the merge (formerly referred to as the docking).  
+The process has already started. [The Beacon Chain](https://ethereum.org/en/eth2/beacon-chain/), the first upgrade, shipped in December 2020. This provides the foundation for staking by allowing stakers to join the system. The next step relevant to energy efficiency is to merge the current chain, the one secured by miners, into the Beacon Chain where mining isn't needed. 
 
 ### Assignment
 
