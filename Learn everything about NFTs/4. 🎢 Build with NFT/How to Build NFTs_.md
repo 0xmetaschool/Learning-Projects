@@ -6,7 +6,7 @@ Still wondering how to build NFTs? Don’t worry, let us share some more informa
 
 ## Build with NFTs
 
-Most NFTs are built using a consistent standard known as [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/). However, there are other standards that you might want to look into. The [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226)  standard allows for semi-fungible tokens which is particularly useful in the realm of gaming. And more recently, [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309)  has been proposed to make minting NFTs a lot more efficient. This standard lets you mint as many as you like in one transaction!
+Most NFTs are built using a consistent standard known as [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/). However, there are other standards that you might want to look into. The [ERC-1155](https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/) standard allows for semi-fungible tokens which is particularly useful in the realm of gaming. And more recently, [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309)  has been proposed to make minting NFTs a lot more efficient. This standard lets you mint as many as you like in one transaction!
 
 Well, that’s all we've got for now but if you are planning to turn into an NFT guru, here’s some more reading material for you! Happy reading!
 
