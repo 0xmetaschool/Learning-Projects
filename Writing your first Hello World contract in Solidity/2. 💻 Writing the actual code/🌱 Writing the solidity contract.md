@@ -5,11 +5,11 @@
 We are getting to the meat of this project. Now we will write the code. I hope you have already installed Node to your machine, and have VScode installed.
 
 1.  Install [node from here](https://nodejs.org/en/).
-2.  Download [VScode](https://code.visualstudio.com/)
+2.  Download [VScode from here](https://code.visualstudio.com/)
 
 Open the terminal and run the following commands.
 
-```
+```bash
 mkdir Hello-World
 cd Hello-World
 ls
@@ -29,23 +29,21 @@ When you run the last command, you will get an option to create an Empty project
 888    888 .d888888 888    888  888 888  888 .d888888 888
 888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
 888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
- 
-👷 Welcome to Hardhat v2.8.4 👷‍
- 
-✔ What do you want to do? · Create an empty hardhat.config.js
+
+👷 Welcome to Hardhat v2.11.2 👷‍
+
+? What do you want to do? - Create an empty hardhat.config.js
 ✨ Config file created ✨
 ```
 
-Now let's open in project in VScode. Open the Hardhat config file.
+Now let's open the project in VScode. Open the Hardhat config file.
 
-**✨  Side tip: Install Solidity Extension in VScode to help with syntax and coding error issues.**
+**✨  Side tip : Install [Solidity Extension](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) by Juan Blanco in VScode to help with syntax and coding error issues.**
 
-```
-/**
-* @type import('hardhat/config').HardhatUserConfig
-*/
+```go
+/** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
- solidity: "0.7.3",
+  solidity: "0.8.17",
 };
 ```
 
@@ -53,26 +51,26 @@ There is not much going on here except for we are mentioning the version of soli
 
 #### Creating Directories for Code
 
-Now we will create two directories, contracts, scripts.
+Now we will create two directories - contracts & scripts.
 
 The contracts directory will have all the contracts for the project and scripts directory will have all the deployments scripts and other stuff related to the project. By now the structure of your project will look something like this.
 
 ```
-HelloWorld
-> contracts
-> node_modules
-> scripts
-hardhat.config.js
-package-lock.json
-Package.json
+Hello-World
+ > contracts
+ > node_modules
+ > scripts
+ hardhat.config.js
+ package-lock.json
+ package.json
 ```
 
 The contracts directory will have the contract of your Hello World. Create a HelloWorld.sol file in the contracts folder and write the following code.
 
-```
-/SPDX-License-Identifier: UNLICENSED
+```go
+// SPDX-License-Identifier: UNLICENSED
  
-pragma solidity >= 0.7.3;
+pragma solidity ^0.8.4;
  
 contract HelloWorld {
     //events
