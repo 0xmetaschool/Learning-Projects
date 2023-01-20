@@ -1,17 +1,21 @@
 ﻿# 🐝 How are transactions executed?
 
-## **The Process of Transaction Execution 😍**
+## The Process of Transaction Execution 😍
 
 We’ve come to one of the most complex parts of the Ethereum protocol: the execution of a transaction. Say you send a transaction off into the Ethereum network to be processed. What happens to transition the state of Ethereum to include your transaction?
 
 ![](https://lh6.googleusercontent.com/6eNqO71lOP86G7T87dczDJBStjAxz6vL8Ts4FHnJqL_kORO2Y8twQ7hZqII7ELHSlR61z6y42-Q2B2Q7nkjc5muQjVrgP0FFob4XeKk_0-f-cR6ViWd46-s_wVy8K3QeQEtaFmZQ)
 
-First, all transactions must meet an initial set of requirements in order to be executed. These include:
+First, all transactions must meet an initial set of requirements in order to be executed. 
+
+These include:
 
 -   The transaction must be a properly formatted RLP. “RLP” stands for “Recursive Length Prefix” and is a data format used to encode nested arrays of binary data. RLP is the format Ethereum uses to serialize objects.
 -   Valid transaction signature.
 -   Valid transaction nonce. Recall that the nonce of an account is the count of transactions sent from that account. To be valid, a transaction nonce must be equal to the sender account’s nonce.
--   The transaction’s gas limit must be equal to or greater than the intrinsic gas used by the transaction. The intrinsic gas includes:
+-   The transaction’s gas limit must be equal to or greater than the intrinsic gas used by the transaction. 
+
+The intrinsic gas includes:
 
 1.  a predefined cost of 21,000 gas for executing the transaction
 2.  a gas fee for data sent with the transaction (4 gas for every byte of data or code that equals zero, and 68 gas for every non-zero byte of data or code)
@@ -27,9 +31,11 @@ If the transaction meets all of the above requirements for validity, then we mov
 
 First, we deduct the upfront cost of execution from the sender’s balance and increase the nonce of the sender’s account by 1 to account for the current transaction. At this point, we can calculate the gas remaining as the total gas limit for the transaction minus the intrinsic gas used.
 
-**![](https://lh6.googleusercontent.com/CRdp6yuD6D5eEU3ZK0H_jJneeB99txnCb1QwJYSie4RH3KGAE84BNSSWW0NWl-k_DHNuRY8kjSRHMeSYmysfZrWqTOaAsO0SsTnywVW8sXWj9yxTYshl1dmELFBYIFE0zroTpiEf)**
+![](https://lh6.googleusercontent.com/CRdp6yuD6D5eEU3ZK0H_jJneeB99txnCb1QwJYSie4RH3KGAE84BNSSWW0NWl-k_DHNuRY8kjSRHMeSYmysfZrWqTOaAsO0SsTnywVW8sXWj9yxTYshl1dmELFBYIFE0zroTpiEf)
 
-Next, the transaction starts executing. Throughout the execution of a transaction, Ethereum keeps track of the “substate.” This substate is a way to record information accrued during the transaction that will be needed immediately after the transaction completes. Specifically, it contains:
+Next, the transaction starts executing. Throughout the execution of a transaction, Ethereum keeps track of the “substate.” This substate is a way to record information accrued during the transaction that will be needed immediately after the transaction completes. 
+
+Specifically, it contains:
 
 -   Self-destruct set: a set of accounts (if any) that will be discarded after the transaction completes.
 -   Log series: archived and indexable checkpoints of the virtual machine’s code execution.
@@ -49,7 +55,7 @@ Finally, we’re left with the new state and a set of logs created by the transa
 
 Now that we’ve covered the basics of transaction execution, let’s look at some of the differences between contract-creating transactions and message calls.
 
-## Contract creation
+### Contract creation
 
 Recall that in Ethereum, there are two types of accounts: contract accounts and externally owned accounts. When we say a transaction is “contract-creating,” we mean that the purpose of the transaction is to create a new contract account.
 
@@ -75,7 +81,7 @@ If all goes well and we make it this far without exceptions, then any remaining 
 
 Hooray!
 
-## Message calls
+### Message calls
 
 The execution of a message call is similar to that of contract creation, with a few differences.
 
@@ -83,12 +89,6 @@ A message call execution does not include any init code, since no new accounts a
 
 As is true with contract creation, if a message call execution exits because it runs out of gas or because the transaction is invalid (e.g. stack overflow, invalid jump destination, or invalid instruction), none of the gas used is refunded to the original caller. Instead, all of the remaining unused gas is consumed, and the state is reset to the point immediately prior to balance transfer.
 
-Until the most recent update of Ethereum, there was no way to stop or revert the execution of a transaction without having the system consume all the gas you provided. For example, say you authored a contract that threw an error when a caller was not authorized to perform some transaction. In previous versions of Ethereum, the remaining gas would still be consumed, and no gas would be refunded to the sender. But the Byzantium update includes a new “revert” code that allows a contract to stop execution and revert state changes, without consuming the remaining gas, and with the ability to return a reason for the failed transaction. If a transaction exists due to revert, then the unused gas is returned to the sender.
+Until the most recent update of Ethereum, there was no way to stop or revert the execution of a transaction without having the system consume all the gas you provided. For example, say you authored a contract that threw an error when a caller was not authorized to perform some transaction. 
 
-### Assignment
-
-#### How would you rate your understanding of the process of Transaction Execution?
-
-Rate on the scale of 1-5 (5 being the highest)
-
-**Your response is**
+In previous versions of Ethereum, the remaining gas would still be consumed, and no gas would be refunded to the sender. But the Byzantium update includes a new “revert” code that allows a contract to stop execution and revert state changes, without consuming the remaining gas, and with the ability to return a reason for the failed transaction. If a transaction exists due to revert, then the unused gas is returned to the sender.

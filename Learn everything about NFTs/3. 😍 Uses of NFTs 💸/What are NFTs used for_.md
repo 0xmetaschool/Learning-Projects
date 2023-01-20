@@ -1,10 +1,10 @@
 ﻿# 😍 Uses of NFTs 💸
 
-## **What are NFTs used for?**
+## What are NFTs used for?
 
 Now the ‘million-dollar’ question (literally, no pun-intended) is what can NFTs be used for and how to make serious money through them $$$ ? Let’s find out!
 
-## What are NFTs used for?
+### What are NFTs used for?
 
 Here's more information on some of the better developed use-cases and visions for NFTs on Ethereum.
 
@@ -14,7 +14,7 @@ Here's more information on some of the better developed use-cases and visions fo
 -   [Physical items](https://ethereum.org/en/nft/#nft-physical-items)
 -   [Investments and collateral](https://ethereum.org/en/nft/#nfts-and-defi)
 
-### Maximising earnings for creators
+#### Maximising earnings for creators
 
 The biggest use of NFTs today is in the digital content realm. That's because that industry today is broken. Content creators see their profits and earning potential swallowed by platforms.
 
@@ -24,7 +24,7 @@ NFTs power a new creator economy where creators don't hand ownership of their co
 
 When they sell their content, funds go directly to them. If the new owner then sells the NFT, the original creator can even automatically receive royalties. This is guaranteed every time it's sold because the creator's address is part of the token's metadata – metadata which can't be modified.
 
-#### The copy/paste problem
+##### The copy/paste problem
 
 Naysayers often bring up the fact that NFTs "are dumb" usually alongside a picture of them screenshotting an NFT artwork. "Look, now I have that image for free!" they say smugly.
 
@@ -34,7 +34,7 @@ Ultimately owning the real thing is as valuable as the market makes it. The more
 
 Owning the verifiably real thing will always have more value than not.
 
-### Boosting gaming potential
+#### Boosting gaming potential
 
 NFTs have seen a lot of interest from game developers. NFTs can provide records of ownership for in-game items, fuel in-game economies, and bring a host of benefits to the players.
 
@@ -48,9 +48,9 @@ Ultimately the items you grind for in-game can outlive the games themselves. Eve
 
 Decentraland, a virtual reality game, even lets you buy NFTs representing virtual parcels of land that you can use as you see fit.
 
-### Making Ethereum addresses more memorable
+#### Making Ethereum addresses more memorable
 
-The [Ethereum Name Service](https://ens.domains/) uses NFTs to provide your Ethereum address with an easier-to-remember name like mywallet.eth. This means you could ask someone to send you ETH via mywallet.eth rather than 0x123456789......
+The  [Ethereum Name Service](https://ens.domains/)  uses NFTs to provide your Ethereum address with an easier-to-remember name like mywallet.eth. This means you could ask someone to send you ETH via mywallet.eth rather than 0x123456789......
 
 This works in a similar way to a website domain name which makes an IP address more memorable. And like domains, ENS names have value, usually based on length and relevance. With ENS you don't need a domain registry to facilitate the transfer of ownership. Instead, you can trade your ENS names on an NFT marketplace.
 
@@ -61,7 +61,7 @@ Your ENS name can:
 -   Store any arbitrary information, including profile information like email addresses and Twitter handles.  
     
 
-### Physical items
+#### Physical items
 
 The tokenisation of physical items isn't yet as developed as their digital counterparts. But there are plenty of projects exploring the tokenisation of real estate, one-of-a-kind fashion items, and more.
 
@@ -100,7 +100,7 @@ These are Ethereum-powered organisations that allow strangers, like global share
 
 As mentioned, this is an emerging space. NFTs, DAOs, fractionalised tokens are all developing at different paces. But all their infrastructure exists and can work together easily because they all speak the same language: Ethereum. So watch this space.
 
-## Ethereum and NFTs
+### Ethereum and NFTs
 
 Ethereum makes it possible for NFTs to work for a number of reasons:
 
@@ -110,7 +110,7 @@ Ethereum makes it possible for NFTs to work for a number of reasons:
 -   All Ethereum products share the same "backend". Put another way, all Ethereum products can easily understand each other – this makes NFTs portable across products. You can buy an NFT on one product and sell it on another easily. As a creator you can list your NFTs on multiple products at the same time – every product will have the most up-to-date ownership information.
 -   Ethereum never goes down, meaning your tokens will always be available to sell.
 
-## The environmental impact of NFTs
+### The environmental impact of NFTs
 
 My eco-friendly folks! This one's for you!
 
@@ -171,11 +171,11 @@ This vision is being delivered right now.
 
 #### A greener Ethereum: Eth2
 
-Ethereum went through a series of upgrades, known as Eth2([The Merge](https://ethereum.org/en/upgrades/merge/)), that replaced mining with [staking](https://ethereum.org/en/eth2/staking/). This removed computing power as a security mechanism, and reduced Ethereum's carbon footprint by ~99.95%[1](https://ethereum.org/en/nft/#fn-1). In this world, stakers commit funds instead of computing power to secure the network.
+Ethereum went through a series of upgrades, known as  [Eth2(The Merge)](https://ethereum.org/en/upgrades/merge/), that replaced mining with [staking](https://ethereum.org/en/eth2/staking/). This removed computing power as a security mechanism, and reduced Ethereum's carbon footprint by ~99.95%[[1]](https://ethereum.org/en/nft/#fn-1). In this world, stakers commit funds instead of computing power to secure the network.
 
-The energy-cost of Ethereum will become the cost of running a home computer multiplied by the number of nodes in the network. If there are 10,000 nodes in the network and the cost of running a home computer is roughly 525kWh per year. That's 5,250,000kWh[1](https://ethereum.org/en/nft/#fn-1)  per year for the entire network.
+The energy-cost of Ethereum will become the cost of running a home computer multiplied by the number of nodes in the network. If there are 10,000 nodes in the network and the cost of running a home computer is roughly 525kWh per year. That's 5,250,000kWh[[1]](https://ethereum.org/en/nft/#fn-1)  per year for the entire network.
 
-We can use this to compare Eth2 to a global service like Visa. 100,000 Visa transactions uses 149kWh of energy[2](https://ethereum.org/en/nft/#fn-2). In Eth2, that same number of transactions would cost 17.4kWh of energy or ~11% of the total energy[3](https://ethereum.org/en/nft/#fn-3). That's without considering the many optimisations being worked on in parallel to Eth2, like [rollups](https://ethereum.org/en/glossary/#rollups). It could be as little as 0.1666666667kWh of energy for 100,000 transactions.
+We can use this to compare Eth2 to a global service like Visa. 100,000 Visa transactions uses 149kWh of energy[[2]](https://ethereum.org/en/nft/#fn-2). In Eth2, that same number of transactions would cost 17.4kWh of energy or ~11% of the total energy[[3]](https://ethereum.org/en/nft/#fn-3). That's without considering the many optimisations being worked on in parallel to Eth2, like [rollups](https://ethereum.org/en/glossary/#rollups). It could be as little as 0.1666666667kWh of energy for 100,000 transactions.
 
 Importantly this improves the energy efficiency while preserving Ethereum's decentralization and security. Many other blockchains out there might already use some form of staking, but they're secured by a select few stakers, not the thousands that Ethereum will have. The more decentralization, the more secure the system.
 
@@ -185,12 +185,4 @@ It’s also important to remember that Ethereum does more than just financial tr
 
 #### Timelines
 
-The process has already started. [The Beacon Chain](https://ethereum.org/en/eth2/beacon-chain/), the first upgrade, shipped in December 2020. This provides the foundation for staking by allowing stakers to join the system. The next step relevant to energy efficiency is to merge the current chain, the one secured by miners, into the Beacon Chain where mining isn't needed. 
-
-### Assignment
-
-#### Do you think creators can maximise their earnings through NFTs?
-
-Answer in 'Yes' or 'No'
-
-**Your response is**
+The process has already started. [The Beacon Chain](https://ethereum.org/en/eth2/beacon-chain/), the first upgrade, shipped in December 2020. This provides the foundation for staking by allowing stakers to join the system. The next step relevant to energy efficiency is to merge the current chain, the one secured by miners, into the Beacon Chain where mining isn't needed.
