@@ -1,5 +1,5 @@
 # Create a Simple GPT-4 Model
-
+---
 Yo, listen up, we're about to create a simple GPT-4 model on MindsDB. 
 
 ## Create simple GPT-4 model
@@ -50,9 +50,7 @@ Just replace "Hi, how are you?" with your own prompt and run the code.
 
 ![Running simple GPT-4 model generation code.gif](Create%20a%20Simple%20GPT-4%20Model%20492b4760fb32466a8d50a15230f651c9/Running_simple_GPT-4_model_generation_code.gif)
 
-## Assignment
-
-Run the following prompts using the code we created in this lesson:
-
+---
+**Assignment: Run the following prompts using the code we created in this lesson.**
 1. What are you upto?
 2. Say this in Kanye West style: “You are a great person. I love you man!”

@@ -1,5 +1,5 @@
 # Setup Your Development Environment
-
+---
 Listen up, y'all, 'cause I got some knowledge to drop. We're about to take our AI bot game to the next level using MindsDB and OpenAI API key.
 
 ## **What is MindsDB?**
@@ -46,4 +46,5 @@ Once you have generated your API key, you can start using it in your projects. H
 - **Integrating with your application:** You can use the API key to integrate OpenAI APIs with your application and add AI capabilities.
 - **Accessing the OpenAI Playground:** You can use the API key to access the OpenAI Playground and test out the capabilities of OpenAI models.
 
-Assignment: Head over to [MindsDB documentation](https://docs.mindsdb.com/nlp/nlp-mindsdb-openai), create OpenAI model and paste the screenshot of your code here.
+---
+**Assignment: Head over to [MindsDB documentation](https://docs.mindsdb.com/nlp/nlp-mindsdb-openai), create OpenAI model and paste the screenshot of your code here.**

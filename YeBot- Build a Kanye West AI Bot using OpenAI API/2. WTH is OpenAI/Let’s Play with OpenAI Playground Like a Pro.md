@@ -1,5 +1,5 @@
 # Let’s Play with OpenAI Playground Like a Pro
-
+---
 Yo, let's talk about the OpenAI Playground, fam.
 
 ## What is OpenAI Playground?
@@ -63,4 +63,5 @@ Reply as Kanye West: "I recently had a breakup. Advice me. What should I do?"
 
 So go ahead and give the OpenAI Playground a try, and see what kind of magic you can create. It's lit!
 
+---
 **Assignment: Did the Playground deliver the right answers in Kanye's style?**

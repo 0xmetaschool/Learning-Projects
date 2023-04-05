@@ -1,5 +1,5 @@
 # Create a Yeezy Twitter bot
-
+---
 Yo, we on the next step now! We wanna make MindsDB write some responses back into Twitter. But first, you gotta sign up for a Twitter dev account so we can actually write tweets back into Twitter, not just read them. If you don't have a dev account yet, no worries, just sign up and wait a day or so for approval.
 
 ## Now what?
@@ -71,4 +71,5 @@ Here's how it works, fam:
 
 Boom! We're done here, let the `gpt4_twitter_job` take care of business.
 
-Assignment: Share the screenshot of your AI twitter bot’s profile page.
+---
+**Assignment: Share the screenshot of your AI twitter bot’s profile page.**

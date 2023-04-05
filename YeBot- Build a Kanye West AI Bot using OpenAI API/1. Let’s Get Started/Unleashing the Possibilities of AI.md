@@ -40,6 +40,6 @@ Let me tell you about this AI and Machine Learning thing, it's crazy! The possib
 
 AI and Machine Learning are changing the way we live and work, and we need to make sure we're using them for good.
 
-## Assignment
+---
 
-What are the types of ML algorithm used by ChatGPT?
+**Assignment: What are the types of ML algorithm used by ChatGPT?**

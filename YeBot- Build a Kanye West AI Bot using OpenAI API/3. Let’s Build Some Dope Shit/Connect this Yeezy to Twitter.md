@@ -1,5 +1,5 @@
 # Connect this Yeezy to Twitter
-
+---
 Yo, listen up! We 'bout to make some moves and get connected to Twitter using MindsDB SQL statement. 
 
 ## Create database
@@ -66,4 +66,5 @@ Here is what each part of the code does:
 
 Yo! Keep your energy high because in the next lesson, we're gonna create a Twitter account and integrate this dope bot to make it reply to tweets automatically every hour. It's gonna be lit! Stay tuned, my people!
 
+---
 **Assignment: Share the screenshot of the result you got the query.**

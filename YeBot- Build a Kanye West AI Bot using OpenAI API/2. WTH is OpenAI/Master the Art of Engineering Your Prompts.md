@@ -1,4 +1,5 @@
 # Master the Art of Engineering Your Prompts
+---
 
 Yo, yo, yo, listen up! It's time to step up your game with OpenAI API and engineer your prompts like a true pro. In this lesson, we'll break down the importance of prompt engineering and how to use it effectively.
 
@@ -49,5 +50,7 @@ Prompt: "Write a 200-word review of the movie 'The Matrix Resurrections.' Discus
 ## And that’s a wrap up!
 
 Alright, You're now equipped with the knowledge to engineer your prompts like a pro in OpenAI API. By using well-structured prompts, you can create amazing AI-powered applications that generate accurate and useful output. So, let's get started and engineer some sick prompts!
+
+---
 
 **Assignment: Write a prompt to make OpenAI mimic a character**

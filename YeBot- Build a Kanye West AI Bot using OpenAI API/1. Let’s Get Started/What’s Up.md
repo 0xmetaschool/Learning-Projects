@@ -1,5 +1,5 @@
 # What’s Up?
-
+---
 Yo, yo, yo! What's good, everyone? We are Metaschool, and today we’re here to tell you about a course that's gonna blow your mind!
 
 We're talking about a course where we're gonna teach you how to make your very own Twitter AI bot using the latest and greatest technology - the GPT-4 model. And not just any bot, we're talking about a bot that's gonna mimic the one and only, Kanye West.
@@ -9,8 +9,8 @@ Now, I know you're probably thinking, "Hey, why would I want to make a bot that 
 But don't take my word for it, you gotta try it out for yourself. We've got a live Kanye West AI bot on Twitter {`Twitter link`} that's already causing a stir. People can't get enough of it! So, before you even start this course, go check it out and see what all the fuss is about.
 
 So, are you ready to step up and take on the challenge? Let's do this, fam! 
-
-## **Learning objectives**
+---
+## Learning objectives
 
 Throughout the course, we'll be learning about some crazy stuff, including:
 
@@ -21,7 +21,7 @@ Throughout the course, we'll be learning about some crazy stuff, including:
 5. Creating a simple GPT-4 model and witnessing the magic of AI-powered responses – it's gonna blow your mind!
 6. Building and running a Twitter AI bot from scratch using OpenAI API and getting responses on your tweets from Kanye himself – like, for real!
 
-## **Prerequisites**
+## Prerequisites
 
 Learning new tech is always easier when you got some prior knowledge. So, before diving into OpenAI and AI model development, we recommend brushing up on the following:
 
@@ -30,4 +30,6 @@ Learning new tech is always easier when you got some prior knowledge. So, before
 
 But don't sweat it, my peeps – you can still learn OpenAI API and AI model development without knowing everything in advance. It's just gonna be way smoother if you got some background knowledge under your belt. So let's get learning, fam – it's gonna be lit!
 
-**Assignment: What’s a fav character you’d want to recreate?**
+---
+## Assignment
+What’s a fav character you’d want to recreate?

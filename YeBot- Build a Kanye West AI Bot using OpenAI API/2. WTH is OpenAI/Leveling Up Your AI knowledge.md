@@ -1,5 +1,5 @@
 # Leveling Up Your AI knowledge
-
+---
 Hey fam, here in this lesson, we're gonna talk about OpenAI and its GPT models. This is some next-level tech, fam, and it's gonna blow your mind!
 
 ## **What is OpenAI?**
@@ -23,5 +23,7 @@ Basically, OpenAI’s API provides pre-trained GPT AI models that you can fine-t
 As we dive deeper into OpenAI's GPT models, let's keep in mind the responsibility that comes with this kind of power. We have the opportunity to create some truly amazing things, but we need to do it in a way that's ethical and responsible.
 
 Are you ready to unleash the power of OpenAI's GPT models and create something truly epic? Let's do this, fam!
+
+---
 
 **Assignment: What’s the difference between ChatGPT 3 vs ChatGPT 4 (DYOR)**
