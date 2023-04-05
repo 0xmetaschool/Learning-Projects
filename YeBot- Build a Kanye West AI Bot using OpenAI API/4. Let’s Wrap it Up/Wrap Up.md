@@ -1,5 +1,5 @@
 # Wrap Up
----
+
 What's up everybody! we just finished a dope course on using OpenAI to create a AI bot that can reply to tweets just like Kanye West.
 
 We went through all the steps to set up a database, train the model, and link it to Twitter. And then we created a job that automates the whole process, so my character can reply to tweets every hour without me even lifting a finger.
@@ -15,4 +15,4 @@ PS: And remember, this course is just the beginning. OpenAI have the power to tr
 Don’t forgot to post about your bot on twitter and tag us @0xmetaschool
 
 ---
-**Assignment: What’s the next AI project you want learn from Metaschool.**
+**Assignment:** What’s the next AI project you want learn from Metaschool.
