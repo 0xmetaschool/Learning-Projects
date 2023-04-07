@@ -34,7 +34,7 @@ Now let us explain the code line by line:
 
 Let’s look at what is the output of the above code.
 
-![Running Simple GPT-4 Model.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Create%20a%20Simple%20GPT-4%20Model%20492b4760fb32466a8d50a15230f651c9/Running_Simple_GPT-4_Model.gif)
+![Running Simple GPT-4 Model.gif](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Create%20a%20Simple%20GPT-4%20Model%20492b4760fb32466a8d50a15230f651c9/Running_Simple_GPT-4_Model.gif)
 
 ## Generate response
 
@@ -52,4 +52,4 @@ Just replace "Hi, how are you?" with your own prompt and run the code.
 
 Let’s look at what is the output of the above code.
 
-![Running simple GPT-4 model generation code.gif](Create%20a%20Simple%20GPT-4%20Model%20492b4760fb32466a8d50a15230f651c9/Running_simple_GPT-4_model_generation_code.gif)
+![Running simple GPT-4 model generation code.gif](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Create%20a%20Simple%20GPT-4%20Model%20492b4760fb32466a8d50a15230f651c9/Running_simple_GPT-4_model_generation_code.gif)
