@@ -37,7 +37,7 @@ Homies, let’s break this code down:
 
 Run this model in mindsDB and see the output.
 
-![Running KanyeGPT model.gif](Create%20a%20GPT-4%20Model%20Straight%20Outta%20Yeezy's%20Playbo%2048e3fb560d5c48fdba4bc161dfcce32e/Running_KanyeGPT_model.gif)
+![Running KanyeGPT model.gif](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Create%20a%20GPT-4%20Model%20Straight%20Outta%20Yeezy's%20Playbo%2048e3fb560d5c48fdba4bc161dfcce32e/Running_KanyeGPT_model.gif)
 
 ## Test the model
 
@@ -54,6 +54,6 @@ This is a SQL query that selects the response from the `mindsdb.kanye_chat`model
 
 ### Output
 
-![Running KanyeBot model generation code.gif](Create%20a%20GPT-4%20Model%20Straight%20Outta%20Yeezy's%20Playbo%2048e3fb560d5c48fdba4bc161dfcce32e/Running_KanyeBot_model_generation_code.gif)
+![Running KanyeBot model generation code.gif](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Create%20a%20GPT-4%20Model%20Straight%20Outta%20Yeezy's%20Playbo%2048e3fb560d5c48fdba4bc161dfcce32e/Running_KanyeBot_model_generation_code.gif)
 
 🎉 You did it! You made Kanye chat, yo!
