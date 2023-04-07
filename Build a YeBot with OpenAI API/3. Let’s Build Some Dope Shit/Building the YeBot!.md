@@ -45,7 +45,7 @@ Here's how to set up the development environment on MindsDB Cloud:
 
 MindsDB editor looks like this: 
 
-![Untitled](Building%20the%20YeBot!%203dd9862e53234b329875e7c69ae64c11/Untitled.png)
+![Untitled](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Building%20the%20YeBot!%203dd9862e53234b329875e7c69ae64c11/Untitled.png)
 
 Now that we have setup the MindsDB, we will learn how to run our model in MindsDB in the next lesson.
 
