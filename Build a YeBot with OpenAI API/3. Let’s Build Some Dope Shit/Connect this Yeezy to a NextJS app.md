@@ -46,13 +46,13 @@ npx create-next-app kanye-ai
 
 Let’s see this happening live.
 
-![run nps command.gif](Connect%20this%20Yeezy%20to%20a%20NextJS%20app%2080b6a5a75f174da0bfa594412d04afc6/run_nps_command.gif)
+![run nps command.gif](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Connect%20this%20Yeezy%20to%20a%20NextJS%20app%2080b6a5a75f174da0bfa594412d04afc6/run_nps_command.gif)
 
 ### Files structure
 
 After creating the app, open VS code using the command `code .` The file structure will look like this:
 
-![Untitled](Connect%20this%20Yeezy%20to%20a%20NextJS%20app%2080b6a5a75f174da0bfa594412d04afc6/Untitled.png)
+![Untitled](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Connect%20this%20Yeezy%20to%20a%20NextJS%20app%2080b6a5a75f174da0bfa594412d04afc6/Untitled.png)
 
 ### Install axios first
 
