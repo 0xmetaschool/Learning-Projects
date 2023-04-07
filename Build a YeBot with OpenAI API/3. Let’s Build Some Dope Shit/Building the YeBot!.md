@@ -24,7 +24,7 @@ To train our model, we'll use MindsDB Cloud and the OpenAI engine. By setting up
 
 First things first! Let’s setup our development environment and learn what the hell is MindsDB.
 
-## **What is MindsDB?**
+## What is MindsDB?
 
 Now, if you ain't heard of MindsDB, let me put you on. It's an open-source tool that makes it easy for anyone to create and train machine learning models. You can use it to build all sorts of AI bots, from chatbots to recommendation systems.
 
@@ -36,7 +36,7 @@ Now, if you ain't heard of MindsDB, let me put you on. It's an open-source tool 
 - There’s no limit in MindsDB, you can use it for as long as you want to use it.
 - Above all, we can easily train our model using prompts!
 
-## **Setting up the Development Environment on MindsDB Cloud**
+## Setting up the Development Environment on MindsDB Cloud
 
 Here's how to set up the development environment on MindsDB Cloud:
 

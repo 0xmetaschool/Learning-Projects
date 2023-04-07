@@ -2,7 +2,7 @@
 
 Yo, check it out! The last model didn't do it for us, but we ain't giving up. We got something better, alright? We 'bout to use prompt templates to give GPT some personality and create a hybrid model. That's how we do it!
 
-## **Make a Kanye West chat model**
+## Make a Kanye West chat model
 
 Let's create a fresh model named `mindsdb.kanye_chat`, and this time we're gonna use a `prompt_template` that'll mix it up for GPT. It's gonna be dope. Run this code in the editor:
 
@@ -50,7 +50,7 @@ author_username = "someuser"
 AND text="What do you think about kim?";
 ```
 
-This is a SQL query that selects the response from the `mindsdb.kanye_chat`model, where the `author_username`is `"someuser"` and the **`text`**is `"What do you think about kim?"`. This query is used to test the `mindsdb.kanye_chat` model and see how it responds to this specific input.
+This is a SQL query that selects the response from the `mindsdb.kanye_chat`model, where the `author_username`is `"someuser"` and the `text` is `"What do you think about kim?"`. This query is used to test the `mindsdb.kanye_chat` model and see how it responds to this specific input.
 
 ### Output
 

@@ -98,25 +98,25 @@ if __name__ == '__main__':
 This is a Flask web application that serves as an API for a chatbot that interacts with MySQL database. Here is a high-level overview of what the code does:
 
 1. Import necessary modules: 
-    1. **`json`** for JSON manipulation,
-    2.  **`create_engine`** from SQLAlchemy for database connection, 
-    3. **`Flask`** for web application framework, 
-    4. **`request`** and **`jsonify`** from Flask for handling HTTP requests and responses, and 
-    5. **`CORS`** from **`flask_cors`** for handling Cross-Origin Resource Sharing (CORS) headers.
-2. Create a Flask web application instance with the name **`app`**.
-3. Set CORS headers for the application to allow cross-origin requests from **`http://localhost:3000`** with credentials support, which allows the chatbot API to be accessed from a web application running on **`http://localhost:3000`** without any CORS restrictions.
-4. Define a route **`/bot`** that handles **`POST`** requests. This is the endpoint that the chatbot API will listen to for receiving user messages.
-5. Inside the **`kanye_bot`** function, first, the CORS headers for the response are set in the **`headers`** dictionary. These headers specify the allowed origin, allowed methods, allowed headers, and support for credentials in the response.
-6. Get the request data from the HTTP request payload as JSON using **`request.get_json()`** function. The user's message is extracted from the request payload.
+    1. `json` for JSON manipulation,
+    2.  `create_engine` from SQLAlchemy for database connection, 
+    3. `Flask` for web application framework, 
+    4. `request` and `jsonify` from Flask for handling HTTP requests and responses, and 
+    5. `CORS` from `flask_cors` for handling Cross-Origin Resource Sharing (CORS) headers.
+2. Create a Flask web application instance with the name `app`.
+3. Set CORS headers for the application to allow cross-origin requests from `http://localhost:3000` with credentials support, which allows the chatbot API to be accessed from a web application running on `http://localhost:3000` without any CORS restrictions.
+4. Define a route `/bot` that handles `POST` requests. This is the endpoint that the chatbot API will listen to for receiving user messages.
+5. Inside the `kanye_bot` function, first, the CORS headers for the response are set in the `headers` dictionary. These headers specify the allowed origin, allowed methods, allowed headers, and support for credentials in the response.
+6. Get the request data from the HTTP request payload as JSON using `request.get_json()` function. The user's message is extracted from the request payload.
 7. Define the MySQL database credentials (user, password, host, port, and database) for connecting to a MindsDB database.
-8. Define a function **`get_connection`** that takes the database credentials as arguments and returns a SQLAlchemy database engine object for connecting to the MindsDB database.
-9. Try to create a database engine using the **`get_connection`** function and store it in the **`engine`** variable. If the connection is successful, a success message is printed to the console. If the connection fails, an error message is printed.
-10. Run a SQL query to fetch the response from the **`mindsdb.kanye_chat`** table where the **`text`** column matches the user's message. The fetched rows are converted into dictionaries and appended to the **`results`** list.
-11. Create a dictionary **`result_dict`** to store the **`results`** list with a key **`'results'`** for JSON formatting.
-12. Convert the **`result_dict`** dictionary to a JSON format using **`json.dumps()`** function with **`ensure_ascii=False`** argument to preserve non-ASCII characters.
-13. Return the JSON response with the CORS headers and a **`200`** HTTP status code indicating a successful response.
-14. If any exceptions occur during processing, catch them and return an error response with a **`500`** HTTP status code and an error message in the response body.
-15. Finally, if the script is run directly (not imported as a module), start the Flask application to run on **`http://localhost`** with port **`8080`** using **`app.run()`** function.
+8. Define a function `get_connection` that takes the database credentials as arguments and returns a SQLAlchemy database engine object for connecting to the MindsDB database.
+9. Try to create a database engine using the `get_connection` function and store it in the `engine` variable. If the connection is successful, a success message is printed to the console. If the connection fails, an error message is printed.
+10. Run a SQL query to fetch the response from the `mindsdb.kanye_chat` table where the `text` column matches the user's message. The fetched rows are converted into dictionaries and appended to the `results` list.
+11. Create a dictionary `result_dict` to store the `results` list with a key `'results'` for JSON formatting.
+12. Convert the `result_dict` dictionary to a JSON format using `json.dumps()` function with `ensure_ascii=False` argument to preserve non-ASCII characters.
+13. Return the JSON response with the CORS headers and a `200` HTTP status code indicating a successful response.
+14. If any exceptions occur during processing, catch them and return an error response with a `500` HTTP status code and an error message in the response body.
+15. Finally, if the script is run directly (not imported as a module), start the Flask application to run on `http://localhost` with port `8080` using `app.run()` function.
 
 > **Note:** Do remember to replace `'<replace with your mindsdb email>'` and `'<replace with your mindsdb password>'` with your email and password.
 > 
@@ -157,7 +157,7 @@ python3 server.py
 ```
 
 > **Note:** Make sure your terminal is opened in the root directory `kanye-ai` for the commands to work.
-> 
+>
 
 Let’s see this happening live:
 

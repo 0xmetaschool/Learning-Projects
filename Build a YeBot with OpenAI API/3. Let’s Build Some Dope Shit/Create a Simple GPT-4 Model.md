@@ -23,12 +23,12 @@ Replace the API key with your key and try running the code and view the output.
 
 Now let us explain the code line by line:
 
-- **`CREATE MODEL mindsdb.gpt_bot`**: This line sets up a new MindsDB model called **`gpt_bot`**.
-- **`PREDICT response`**: This line tells the model that we want it to predict a response based on a prompt.
-- **`USING engine = 'openai'`**: This line specifies that we're using the OpenAI engine for the model.
-- **`api_key = 'your openai key'`**: This line gives the model access to OpenAI APIs using your API key.
-- **`model_name = 'gpt-4'`**: This line tells the model to use the GPT-4 architecture for predictions.
-- **`prompt_template = 'respond to {{text}} by {{author_username}}'`**: This line specifies the format of the prompt we want to provide to the model. In this case, we want it to respond to a certain text by a particular author.
+- `CREATE MODEL mindsdb.gpt_bot`: This line sets up a new MindsDB model called `gpt_bot`.
+- `PREDICT response`: This line tells the model that we want it to predict a response based on a prompt.
+- `USING engine = 'openai'`: This line specifies that we're using the OpenAI engine for the model.
+- `api_key = 'your openai key'`: This line gives the model access to OpenAI APIs using your API key.
+- `model_name = 'gpt-4'`: This line tells the model to use the GPT-4 architecture for predictions.
+- `prompt_template = 'respond to {{text}} by {{author_username}}'`: This line specifies the format of the prompt we want to provide to the model. In this case, we want it to respond to a certain text by a particular author.
 
 ### Output
 

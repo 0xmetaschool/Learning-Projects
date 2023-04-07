@@ -185,13 +185,13 @@ export default iMessage;
 
 Here's a breakdown of the key elements in the code:
 
-1. **`import React, { useState } from "react";`**: This line imports the necessary modules from React, including the **`useState`** hook, which allows the component to manage its state.
-2. **`const [userInput, setUserInput] = useState("");`**: This line declares a state variable **`userInput`** and a function **`setUserInput`** to update its value using the **`useState`** hook. The initial value of **`userInput`** is set to an empty string.
-3. **`const [messages, setMessages] = useState([]);`**: This line declares a state variable **`messages`** and a function **`setMessages`** to update its value using the **`useState`** hook. The initial value of **`messages`** is set to an empty array.
-4. **`const [kanyeTyping, setKanyeTyping] = useState(false);`**: This line declares a state variable **`kanyeTyping`** and a function **`setKanyeTyping`** to update its value using the **`useState`** hook. The initial value of **`kanyeTyping`** is set to **`false`**.
-5. **`const handleChange = (event) => { ... }`**: This is an event handler function that is called when the value of the input field changes. It uses **`setUserInput`** to update the value of **`userInput`** state variable with the new value of the input field.
-6. **`const handleSubmit = async (event) => { ... }`**: This is an event handler function that is called when the form is submitted. It prevents the default form submission behavior, sends a request to the backend API using **`axios.post`** to interact with the chatbot, and updates the **`messages`** state variable with the response from the backend API.
-7. The **`return`** statement renders the UI of the chat window using JSX (JavaScript XML) syntax, which is a syntax extension for writing XML-like code in JavaScript. It includes HTML elements, CSS classes, and dynamic values from the state variables **`userInput`**, **`messages`**, and **`kanyeTyping`** to display the chatbot conversation interface.
+1. `import React, { useState } from "react";`: This line imports the necessary modules from React, including the `useState` hook, which allows the component to manage its state.
+2. `const [userInput, setUserInput] = useState("");`: This line declares a state variable `userInput` and a function `setUserInput` to update its value using the `useState` hook. The initial value of `userInput` is set to an empty string.
+3. `const [messages, setMessages] = useState([]);`: This line declares a state variable `messages` and a function `setMessages` to update its value using the `useState` hook. The initial value of `messages` is set to an empty array.
+4. `const [kanyeTyping, setKanyeTyping] = useState(false);`: This line declares a state variable `kanyeTyping` and a function `setKanyeTyping` to update its value using the `useState` hook. The initial value of `kanyeTyping` is set to `false`.
+5. `const handleChange = (event) => { ... }`: This is an event handler function that is called when the value of the input field changes. It uses `setUserInput` to update the value of `userInput` state variable with the new value of the input field.
+6. `const handleSubmit = async (event) => { ... }`: This is an event handler function that is called when the form is submitted. It prevents the default form submission behavior, sends a request to the backend API using `axios.post` to interact with the chatbot, and updates the `messages` state variable with the response from the backend API.
+7. The `return` statement renders the UI of the chat window using JSX (JavaScript XML) syntax, which is a syntax extension for writing XML-like code in JavaScript. It includes HTML elements, CSS classes, and dynamic values from the state variables `userInput`, `messages`, and `kanyeTyping` to display the chatbot conversation interface.
 8. The component is exported as the default export at the end of the code, which allows it to be imported and used in other parts of the application.
 
 ## Add stylesheet to your NextJS app
@@ -360,18 +360,18 @@ Now, let’s add stylesheet to our NextJS app, replace this code with your `glob
 
 The given CSS code represents the styling for a chatbot user interface. Let's break it down:
 
-1. **`.chat-bot-header`**: This represents the header of the chatbot, which includes properties such as font size, text alignment, font weight, font family, and color.
-2. **`.chat-container`**: This represents the container that holds the entire chatbot interface. It has properties for width, maximum width, margin, display, flex direction, height, margin top, border, and border radius.
-3. **`.chat-window`**: This represents the chat window where the messages between the user and the bot are displayed. It includes properties such as background color, border radius, padding, height, and overflow-y for scroll functionality.
-4. **`.message-container`**: This represents the container for individual messages within the chat window. It has properties for display, flex direction, justify content, and margin bottom.
-5. **`.user-message`** and **`.bot-message`**: These represent the style for user and bot messages respectively. They include properties such as background color, color, border radius, padding, margin left/right, display, flex direction, justify content, align items, and max width.
-6. **`.profile-image`** and **`.user-image`**: These represent the style for profile images of the bot and user respectively. They include properties such as width, height, border radius, and margin right/left.
-7. **`.form`**: This represents the form element for user input. It includes properties for display, flex direction, justify content, align items, and margin.
-8. **`.form input[type="text"]`**: This represents the input field for user text input. It includes properties for flex, padding, border radius, font size, and background color.
-9. **`.form button[type="submit"]`**: This represents the submit button within the form. It includes properties for background color, color, border, outline, border radius, width, height, margin left, display, justify content, and align items.
-10. **`.typing-bubble`**: This represents a typing indicator bubble, which could be used to indicate that the bot is typing a response. It includes properties for width.
-11. **`.header`**: This represents the header section of the chatbot, which includes properties for display, flex direction, justify content, align items, and padding.
-12. **`.contact-info`**: This represents the contact information section within the header. It includes properties for display, flex direction, and align items.
-13. **`.name`**: This represents the name or title within the contact information section. It includes properties for font family, font size, font weight, and margin top.
-14. **`.back-button`** and **`.video-icon`**: These represent styles for back button and video icon within the header respectively. They include properties for font size and color.
-15. **`.ref-link`**: This represents a reference link style, which includes properties for color, text decoration, and font weight.
+1. `.chat-bot-header`: This represents the header of the chatbot, which includes properties such as font size, text alignment, font weight, font family, and color.
+2. `.chat-container`: This represents the container that holds the entire chatbot interface. It has properties for width, maximum width, margin, display, flex direction, height, margin top, border, and border radius.
+3. `.chat-window`: This represents the chat window where the messages between the user and the bot are displayed. It includes properties such as background color, border radius, padding, height, and overflow-y for scroll functionality.
+4. `.message-container`: This represents the container for individual messages within the chat window. It has properties for display, flex direction, justify content, and margin bottom.
+5. `.user-message` and `.bot-message`: These represent the style for user and bot messages respectively. They include properties such as background color, color, border radius, padding, margin left/right, display, flex direction, justify content, align items, and max width.
+6. `.profile-image` and `.user-image`: These represent the style for profile images of the bot and user respectively. They include properties such as width, height, border radius, and margin right/left.
+7. `.form`: This represents the form element for user input. It includes properties for display, flex direction, justify content, align items, and margin.
+8. `.form input[type="text"]`: This represents the input field for user text input. It includes properties for flex, padding, border radius, font size, and background color.
+9. `.form button[type="submit"]`: This represents the submit button within the form. It includes properties for background color, color, border, outline, border radius, width, height, margin left, display, justify content, and align items.
+10. `.typing-bubble`: This represents a typing indicator bubble, which could be used to indicate that the bot is typing a response. It includes properties for width.
+11. `.header`: This represents the header section of the chatbot, which includes properties for display, flex direction, justify content, align items, and padding.
+12. `.contact-info`: This represents the contact information section within the header. It includes properties for display, flex direction, and align items.
+13. `.name`: This represents the name or title within the contact information section. It includes properties for font family, font size, font weight, and margin top.
+14. `.back-button` and `.video-icon`: These represent styles for back button and video icon within the header respectively. They include properties for font size and color.
+15. `.ref-link`: This represents a reference link style, which includes properties for color, text decoration, and font weight.
