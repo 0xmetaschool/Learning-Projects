@@ -143,7 +143,7 @@ Now in your terminal run the following command:
 
 Let’s see this happening live:
 
-![run pip command.gif](Create%20a%20Local%20Python%20Server%20da134c5573004ef2b821c9f5ce89c5c0/run_pip_command.gif)
+![run pip command.gif](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Create%20a%20Local%20Python%20Server%20da134c5573004ef2b821c9f5ce89c5c0/run_pip_command.gif)
 
 🎉 Congratulation, you have successfully created a local API server!
 
@@ -161,10 +161,10 @@ python3 server.py
 
 Let’s see this happening live:
 
-![running server.gif](Create%20a%20Local%20Python%20Server%20da134c5573004ef2b821c9f5ce89c5c0/running_server.gif)
+![running server.gif](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Create%20a%20Local%20Python%20Server%20da134c5573004ef2b821c9f5ce89c5c0/running_server.gif)
 
 and voila your server is ready to respond to the NextJS frontend requests.
 
 We will use this URL in our `index.js` file in `[axios.post](http://axios.post)` function. We can do this like this:
 
-![Untitled](Create%20a%20Local%20Python%20Server%20da134c5573004ef2b821c9f5ce89c5c0/Untitled.png)
+![Untitled](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20YeBot%20with%20OpenAI%20API/3.%20Let%E2%80%99s%20Build%20Some%20Dope%20Shit/Create%20a%20Local%20Python%20Server%20da134c5573004ef2b821c9f5ce89c5c0/Untitled.png)
