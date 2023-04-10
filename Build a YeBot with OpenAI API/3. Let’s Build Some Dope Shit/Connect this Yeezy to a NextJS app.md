@@ -58,7 +58,7 @@ After creating the app, open VS code using the command `code .` The file structu
 
 Before moving forward, let’s run the following command in your terminal to install `axios` library:
 
-```python
+```
 npm install axios
 ```
 
@@ -66,7 +66,7 @@ npm install axios
 
 Now replace the index.js under `kanye-ai/src/pages/index.js` with this code:
 
-```jsx
+```
 import React, { useState } from "react";
 import Head from "next/head";
 import axios from "axios";
@@ -198,7 +198,7 @@ Here's a breakdown of the key elements in the code:
 
 Now, let’s add stylesheet to our NextJS app, replace this code with your `globals.css` code under `kanye-ai/src/style/globals.css`
 
-```jsx
+```
 /* chatbot */
 .chat-bot-header{
   font-size: 16px;
