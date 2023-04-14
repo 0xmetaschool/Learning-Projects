@@ -25,7 +25,7 @@ Not that we have covered the boring part, let’s dive into creating the server.
 
 Create a file called `server.py` under `kanye-ai` root directory and paste this code:
 
-```jsx
+```
 import json
 from sqlalchemy import create_engine
 from flask import Flask, request, jsonify
@@ -125,7 +125,7 @@ This is a Flask web application that serves as an API for a chatbot that interac
 
 Create a file called `requirement.txt` under the root folder of `kanye-ai` folder and paste this:
 
-```jsx
+```
 sqlalchemy==1.4.47
 flask-cors
 flask
@@ -134,7 +134,7 @@ pymysql==1.0.3
 
 Now in your terminal run the following command:
 
-```python
+```
  pip install -r requirement.txt
 ```
 
@@ -151,7 +151,7 @@ Let’s see this happening live:
 
 To run this server just run this command in your terminal.
 
-```jsx
+```
 python3 server.py
 
 ```
