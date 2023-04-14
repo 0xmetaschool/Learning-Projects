@@ -6,7 +6,7 @@ Yo, check it out! The last model didn't do it for us, but we ain't giving up. We
 
 Let's create a fresh model named `mindsdb.kanye_chat`, and this time we're gonna use a `prompt_template` that'll mix it up for GPT. It's gonna be dope. Run this code in the editor:
 
-```jsx
+```
 CREATE MODEL mindsdb.kanye_chat
 PREDICT response
 USING
@@ -43,7 +43,7 @@ Run this model in mindsDB and see the output.
 
 Test the model using following query:
 
-```jsx
+```
 SELECT response from mindsdb.kanye_chat
 WHERE
 author_username = "someuser"
