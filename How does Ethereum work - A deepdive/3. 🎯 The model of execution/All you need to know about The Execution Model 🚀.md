@@ -1,14 +1,15 @@
 ﻿# 🎯 The model of execution
 
-## **All you need to know about The Execution Model 🚀**
+## All you need to know about The Execution Model 🚀
 
-## Execution model
+### Execution model
 
 So far, we’ve learned about the series of steps that have to happen for a transaction to execute from start to finish. Now, we’ll look at how the transaction actually executes within the VM.
 
 The part of the protocol that actually handles processing the transactions is Ethereum’s own virtual machine, known as the Ethereum Virtual Machine (EVM).
 
 The EVM is a Turing complete virtual machine, as defined earlier. The only limitation the EVM has that a typical Turing complete machine does not is that the EVM is intrinsically bound by gas. Thus, the total amount of computation that can be done is intrinsically limited by the amount of gas provided.  
+
 ![](https://lh5.googleusercontent.com/Bplawsohn862Xut1echN74jbW9ULOHF41HHuspjAYZCIXfTFrCEgmrZ9caNFT8UyXOBiu0HF0C9e3CfHBykcaUMkTNMWnctHAGyXxOTuVNG5d0wfmgZqACjH2Ct5ZGXZVBQRaciP)
 
 Moreover, the EVM has a stack-based architecture. A [stack machine](https://en.wikipedia.org/wiki/Stack_machine)  is a computer that uses a last-in, first-out stack to hold temporary values.
@@ -65,7 +66,7 @@ Assuming the execution doesn’t hit an exceptional state and reaches a “contr
 
 Phew. We got through one of the most complex parts of Ethereum. Even if you didn’t fully comprehend this part, that’s okay. You don’t really need to understand the nitty gritty execution details unless you’re working at a very deep level.
 
-## How a block gets finalized
+### How a block gets finalized
 
 Finally, let’s look at how a block of many transactions gets finalized.
 
@@ -86,11 +87,3 @@ The beneficiary address is awarded 5 Ether for mining the block. (Under Ethereum
 4) Verify (or, if mining, compute a valid) state and nonce
 
 Ensure that all transactions and resultant state changes are applied, and then define the new block as the state after the block reward has been applied to the final transaction’s resultant state. Verification occurs by checking this final state against the state trie stored in the header.
-
-### Assignment
-
-#### How would you rate your understanding of the Execution Model?
-
-Rate on the scale of 1-5 (5 being the highest)
-
-**Your response is**
