@@ -1,6 +1,4 @@
-﻿# 🔮 How mining of proof of work happens?
-
-## **How to Mine Proof of Work 🤖**
+﻿# How to Mine Proof of Work 🤖
 
 ## Mining proof of work
 
@@ -16,8 +14,8 @@ where m is the mixHash, n is the nonce, Hn is the new block’s header (excludin
 
 In the “Blocks” section, we talked about the various items that exist in a block header. Two of those components were called the mixHash and the nonce. As you may recall:
 
--   mixHash is a hash that, when combined with the nonce, proves that this block has carried out enough computation
--   nonce is a hash that, when combined with the mixHash, proves that this block has carried out enough computation
+- mixHash is a hash that, when combined with the nonce, proves that this block has carried out enough computation
+- nonce is a hash that, when combined with the mixHash, proves that this block has carried out enough computation
 
 The PoW function is used to evaluate these two items.
 
@@ -45,14 +43,14 @@ This is exactly what the PoW algorithm does: it ensures that a particular blockc
 
 Beyond providing a secure blockchain, PoW is also a way to distribute wealth to those who expend their computation for providing this security. Recall that a miner receives a reward for mining a block, including:
 
--   a static block reward of 5 ether for the “winning’” block (soon to be [changed to 3 ether](https://github.com/ethereum/EIPs/pull/669))
--   the cost of gas expended within the block by the transactions included in the block
--   an extra reward for including ommers as part of the block
+- a static block reward of 5 ether for the “winning’” block (soon to be [changed to 3 ether](https://github.com/ethereum/EIPs/pull/669))
+- the cost of gas expended within the block by the transactions included in the block
+- an extra reward for including ommers as part of the block
 
 In order to ensure that the use of the PoW consensus mechanism for security and wealth distribution is sustainable in the long run, Ethereum strives to instill these two properties:
 
--   Make it accessible to as many people as possible. In other words, people shouldn’t need specialized or uncommon hardware to run the algorithm. The purpose of this is to make the wealth distribution model as open as possible so that anyone can provide any amount of computing power in return for Ether.
--   Reduce the possibility for any single node (or small set) to make a disproportionate amount of profit. Any node that can make a disproportionate amount of profit means that the node has a large influence on determining the canonical blockchain. This is troublesome because it reduces network security.
+- Make it accessible to as many people as possible. In other words, people shouldn’t need specialized or uncommon hardware to run the algorithm. The purpose of this is to make the wealth distribution model as open as possible so that anyone can provide any amount of computing power in return for Ether.
+- Reduce the possibility for any single node (or small set) to make a disproportionate amount of profit. Any node that can make a disproportionate amount of profit means that the node has a large influence on determining the canonical blockchain. This is troublesome because it reduces network security.
 
 In the Bitcoin blockchain network, one problem that arises in relation to the above two properties is that the PoW algorithm is a SHA256 hash function. The weakness with this type of function is that it can be solved much more efficiently using specialized hardware, also known as ASICs.
 
@@ -67,11 +65,3 @@ One thing to note is that Ethereum is transitioning from a PoW consensus mechani
 There’s a lot to digest in this post, I know. If it takes you multiple reads to fully understand what’s going on, that’s totally fine. I personally read the Ethereum yellow paper, white paper, and various parts of the code base many times before grokking what was going on.
 
 Good luck! :)
-
-### Assignment
-
-#### Do you think this lesson will help you 'mine proof of work'?
-
-Answer in "Yes" or "No"
-
-**Your response is**
