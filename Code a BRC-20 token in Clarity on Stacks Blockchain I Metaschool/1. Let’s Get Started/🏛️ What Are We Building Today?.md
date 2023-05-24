@@ -1,4 +1,5 @@
-# What are we building?
+# 🏛️ What Are We Building Today?
+
 
 gm everyone 🌈, I am Fareeha and I am are very excited to bring the first ever learning tutorial for developers on Stacks blockchain on Metaschool.
 
@@ -8,7 +9,7 @@ Why Stacks blockchain? Do you know bitcoin has been running for more than 10 yea
 
 Not only this Stacks has more than 5K+ active developers with more than 1B dollar in total locked value!
 
-## Course Overview
+## Course overview
 
 We will:
 
@@ -18,18 +19,19 @@ We will:
 4. Set up Hiro Wallet and online IDE
 5. Deploy the Clarity smart contract on Stacks
 
-### Who exactly should take this course?
+## Who exactly should take this course?
 
 You should have a basic knowledge of programming concepts like object-oriented programming, data structures, and algorithms. This will help you have a fast start to this tutorial. 
 
-### Prerequisites
+## Prerequisites
+
 We will be using online tools for coding and deployment so you don't need to install anything.
 
 ## Proof of completion
 
 If you complete this course with me today, you will be getting a special NFT, a utility token, which will unlock many more opportunities for you on the Metaschool platform. Here is how the NFT looks like.
 
-![Untitled](What%20are%20we%20building%2074eb6b94db9743ecaae410a31882ab1f/Untitled.gif)
+![Untitled](https://github.com/0xmetaschool/Learning-Projects/assets/129931419/39ec7f2b-da59-4a3c-b81f-90e3fe8c50c4)
 
 Now before we move forward, let’s set some house rules first.
 1. Pleaseeeee do your quick assignments properly. 
@@ -40,7 +42,7 @@ Now before we move forward, let’s set some house rules first.
 
 ## 🛠 Contributing to this project!
 
-Here’s the GREAT news for you! This is an open source project, you can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects/). If you find an issues in the course, please feel free to resolve it.
+Here’s the GREAT news for you! This is an open source project, you can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects). If you find an issues in the course, please feel free to resolve it.
 We, at Metaschool, love love love contributions by our community and we give acknowledgement to contributors in our discord and GitHub profile too.
 
 **Fun fact:** All our projects are 100% open-source.
