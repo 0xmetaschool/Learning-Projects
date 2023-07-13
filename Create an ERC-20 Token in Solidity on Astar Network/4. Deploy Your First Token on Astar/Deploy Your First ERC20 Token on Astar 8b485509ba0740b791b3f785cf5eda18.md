@@ -1,0 +1,79 @@
+# Deploy Your First ERC20 Token on Astar
+
+Welcome back! You did great in the last lesson, learning all about writing an ERC20 token in Solidity. In this lesson, you will learn to compile and deploy your token.
+
+Let’s start this awesome journey!
+
+## Let’s compile and deploy
+
+1. Remember you made a file in Remix IDE? Paste ERC20 token code in `MyScooby.sol` file. Giving the code again here, so you don’t need to go back to the previous lesson.
+
+    ```
+    // SPDX-License-Identifier: MIT
+    pragma solidity ^0.8.20;
+
+    import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+    contract MyScooby is ERC20 {
+
+        constructor() ERC20("ScoobyCoin", "SCOOBY") {
+            _mint(msg.sender, 100 * 10 ** ERC20.decimals());
+        }
+    }
+    ```
+
+2. Next, let’s hover to the Solidity compiler. Solidity compiler is a 3rd icon in the list of icons at the side bar. Let me show you where to hover using an image as well, it will help you better than words.
+![Frame 3560339 (9).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_astar/4.%20Deploy%20Your%20First%20ERC20%20Token%20on%20Astar/Frame_3560339_(9).png?raw=true)
+
+3. Next, you’ll notice the compiler version set in the compiler is not right. Let’s select the auto compile flag, which will automatically set the version and compile your contract as well.
+
+    > **Note:** In your case, if the box is already ticked don’t untick it.
+    > 
+    ![Frame 3560339 (14).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_astar/4.%20Deploy%20Your%20First%20ERC20%20Token%20on%20Astar/Frame_3560339_(14).gif?raw=true)
+
+4. Now, I will show you how to deploy your token, but before that you need to connect  Remix IDE to your Metamask account.
+- Click on deploy icon (Ethereum logo) that is right next to the compile icon (search icon) in the side bar.
+- Click and scroll through the “Environment” bar and select “Injected Provider - Metamask.”
+- The Metamask page will appear. Click on “Next” and “Connect” to finally connect your Metamask to Remix IDE.
+
+    > **Don’t worry!** If your MetaMask is already connected, your contract will automatically be deployed on Shibuya account address.
+    > 
+
+    As my MetaMask is already connected, let me show you the above steps using one of the GIF I created for an existing course. (Don’t worry the steps are same even if the solidity file is different.) 
+    ![connect metamask GIF.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_astar/4.%20Deploy%20Your%20First%20ERC20%20Token%20on%20Astar/connect_metamask_GIF.gif?raw=true)
+
+5. Now, we will officially deploy our token.
+    - Click on “Deploy” button to deploy your contract.
+    - Click on “Confirm” to confirm the transaction of SBY from your Metamask.
+
+    Let’s look at this happening live in the following GIF.
+    ![deploy contract GIF.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_astar/4.%20Deploy%20Your%20First%20ERC20%20Token%20on%20Astar/deploy_contract_GIF.gif?raw=true)
+
+If you face the following error at your Remix IDE, please try changing your “GAS LIMIT” from `3000000` to the gas limit shown next to your `constructor` in `MyScooby.sol` file. 
+
+> **Note:** If it still doesn’t work try reloading your Remix IDE and deploy the contract again.
+> 
+![Frame 3560339 (11).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_astar/4.%20Deploy%20Your%20First%20ERC20%20Token%20on%20Astar/Frame_3560339_(11).png?raw=true)
+
+Let me show you where the gas limit will be shown  in `MyScooby.sol`.
+
+![Frame 3560339 (17).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_astar/4.%20Deploy%20Your%20First%20ERC20%20Token%20on%20Astar/Frame_3560339_(17).png?raw=true)
+
+## Interact with contract
+
+Great work! I hope you have deployed your contract now. But wait there’s more you need to do 😅.  You need to interact with the token and add it to your Metamask. Let’s jump into it right away.
+
+1. First of all, you need to copy the contract address of your recently deployed token from “Deployed Contracts” section from the side bar. Let’s see how you can do this.
+![copy account address GIF.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_astar/4.%20Deploy%20Your%20First%20ERC20%20Token%20on%20Astar/copy_account_address_GIF.gif?raw=true)
+Isn’t it fun to copy things? 😅 Anyhow now you need to add the copied address to the Metamask.
+
+2. Open your Metamask, head over to “Import Tokens” option and paste your contract address. (The symbol of the token will automatically be filled).
+![import token GIF.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_astar/4.%20Deploy%20Your%20First%20ERC20%20Token%20on%20Astar/import_token_GIF.gif?raw=true)
+Awesome, you have added META tokens to your wallet! Now we’re almost at our last step. 
+
+3. Head over to this website: [https://blockscout.com/shibuya/accounts](https://blockscout.com/shibuya/accounts) and paste your contract address (you copied from Remix IDE) in the search bar to find out more information of your recently deployed token.
+![explore token GIF.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_astar/4.%20Deploy%20Your%20First%20ERC20%20Token%20on%20Astar/explore_token_GIF.gif?raw=true)
+
+## That’s a wrap
+
+Phew! You’ve done it! It was a long process but I’m so glad that you made it this far! And I salute your patience for following each and every step. That’s pretty much it for this course. In next lesson, we will wrap up the course and give you an overview of what you have learned so far.
