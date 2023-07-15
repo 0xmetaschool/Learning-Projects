@@ -68,7 +68,7 @@ The contracts directory will have the contract of your Hello World. Create a Hel
 ```go
 // SPDX-License-Identifier: UNLICENSED
 
-pragma solidity ^0.8.4;
+pragma solidity ^0.8.17;
 
 contract HelloWorld {
     //events
