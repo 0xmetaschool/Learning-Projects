@@ -1,0 +1,112 @@
+# Set Up Protostar And ArgentX
+
+Welcome back!  So we completed leaning about Starknet and Cairo programming language. Awesome, you did great! Well, get ready because in this lesson, we're going to learn how to set up the dev environment for running our code. We will set up Protostar and ArgentX now! Are you excited? Let's get started!
+
+## What is development environment?
+
+We now need a super cool environment to run our code in and we need to set it up!
+
+For this tutorial, we will use Protostar, ArgentX wallet, and then StarkScan for navigating the network. Don’t worry, setting them is super easy and you will do it no time!
+
+## What is protostar?
+
+It’s a development framework for building and deploying smart contracts on the Starknet network.
+
+If you are a **Windows users**,  install WSL before proceeding. Just open PowerShell or Windows Command Prompt in **administrator** mode by right-clicking and selecting "Run as administrator", enter the `wsl --install` command, then restart your machine. You can refer [here](https://learn.microsoft.com/en-us/windows/wsl/install) for more info.
+
+Here are steps on how to install Protostar:
+
+### Steps:
+
+1. Open a terminal window and navigate to the directory where you want to install Protostar.
+2. Run the following command:
+    ```
+    curl -L https://raw.githubusercontent.com/software-mansion/protostar/master/install.sh | bash -s -- -v 0.13.0
+    ```
+
+1. Restart your terminal.
+2. Run the command, `protostar -v` and you will see results similar to what’s shown below:
+    
+    ![Screen Shot 2023-05-05 at 4.29.54 PM.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Code%20an%20ERC-20%20token%20in%20Cairo%20on%20Starknet%20Blockchain/assests/L3_protostar_version.jpg?raw=true)
+    
+## Build project
+
+Let’s build our project by running the following commands:
+
+```
+protostar init cairo_token
+cd cairo_token
+```
+
+This will create the following files and folders for you. It’s a basic structure for you to get started quickly.
+
+![L3_2_updated_init_code_folders.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Code%20an%20ERC-20%20token%20in%20Cairo%20on%20Starknet%20Blockchain/assests/L3_2_updated_init_code_folders.jpg?raw=true)
+
+Let's discuss the created folders and files:
+
+- The `src` folder contains your `contract` that will have our token source code file in it later on.
+- The `test` folder contains your test files.
+- The `lib.cairo` is very important and it is necessary for it to be placed in `src` folder. You can utilize it by defining functions or modules, etc.
+- The  `protostar.toml` that holds your command configurations, allowing you to avoid passing arguments each time you run a command.
+- The `Scrab.toml` contains dependencies for your package. And we need to install it, you can run the following command or for Windows users, you can check the installation [here](https://docs.swmansion.com/scarb/docs/install).
+
+Quick Note: Scrab is a package manager for Cairo and it is similar to NPM (a package manager for javascript). This basically will help you with your project dependencies when you are developing using Cairo
+
+    ```
+    curl --proto '=https' --tlsv1.2 -sSf https://docs.swmansion.com/scarb/install.sh | sh
+    ```
+
+Let’s delete the unnecessary files and make our directory ready for building ERC20 token. Delete the following:
+
+- The folder `business_logic` as we will not defining any so we do not need it.
+- The file `business_logic.cairo`.
+- The file `contract/hello_starknet.cairo` as we will create a new file for our token.
+
+This is how our working directory will look like (if you have any other folders like `hello_starknet`, you can delete it):
+
+![L3_2_updated_init_code_folders_deleted_files.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Code%20an%20ERC-20%20token%20in%20Cairo%20on%20Starknet%20Blockchain/assests/L3_2_updated_init_code_folders_deleted_files.jpg?raw=true)
+
+Now let’s move on to ArgentX setup…
+
+## Setup ArgentX
+
+It is one of most popular wallet and only-freely available wallet on Starknet.
+
+You can add it easily using browser extension. For chrome, just go to [this](https://chrome.google.com/webstore/detail/argent-x/dlcobpjiigpikoobohmabehhmhfoodbb/related) link and then add to chrome.
+
+![Screen Shot 2023-05-05 at 4.44.30 PM.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Code%20an%20ERC-20%20token%20in%20Cairo%20on%20Starknet%20Blockchain/assests/L3_3_argentX.jpg?raw=true)
+
+Once you add ArgentX extension to Chrome, you will be redirected to new page. Click on create a new wallet, accept terms and conditions and then add your password. Your wallet will be created, easy-peasy, isn’t it 🕶️
+
+![argentX.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Code%20an%20ERC-20%20token%20in%20Cairo%20on%20Starknet%20Blockchain/assests/L3_4_argent_create_wallet.gif?raw=true)
+
+Now, your ArgentX will look something similar to what’s shown below. 
+
+![Screen Shot 2023-05-08 at 2.44.40 PM.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Code%20an%20ERC-20%20token%20in%20Cairo%20on%20Starknet%20Blockchain/assests/L3_5_argentX_wallet_created.jpg?raw=true)
+
+## Getting some tokens
+
+Now, it's time to get some test tokens, so we can deploy our contracts on Starknet.
+
+Here's a simple step-by-step guide:
+
+- Open your Argent X wallet.
+- Change the network to Testnet, it’s usually located in the top right corner. It will ask you to create an account for testnet. so upon creation, your network will be set to Testnet.
+
+    ![create testnet account.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Code%20an%20ERC-20%20token%20in%20Cairo%20on%20Starknet%20Blockchain/assests/L3_6_change_to_testnet.gif?raw=true)
+
+- Now, you need to copy your account address from your wallet. It's like copying your home address to receive something.
+    
+    ![Screen Shot 2023-05-08 at 2.44.40 PM.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Code%20an%20ERC-20%20token%20in%20Cairo%20on%20Starknet%20Blockchain/assests/L3_7_argentX_wallet_created%20copy.jpg?raw=true)
+    
+- Go to [https://faucet.goerli.starknet.io/](https://faucet.goerli.starknet.io/) using your web browser. This is a special website that helps you get some test tokens for your Testnet account. Connect your wallet and hit the Send Request button.
+
+    ![Screen Recording (1).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Code%20an%20ERC-20%20token%20in%20Cairo%20on%20Starknet%20Blockchain/assests/L3_8_get_tokens.gif?raw=true)
+
+- Now, all you have to do is wait for the transaction to complete. Check your wallet after around 5 mins, you will see at least 0.002 amount credited to your wallet.
+
+## Wrap up
+
+In this lesson, we learned about setting up a development environment for running our code. We used Protostar along with Argent X for wallet interactions and a faucet to get some tokens.
+
+In the next lesson, we will finally start writing the code of ERC20 token.
