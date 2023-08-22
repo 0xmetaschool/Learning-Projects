@@ -15,7 +15,7 @@ Welcome back!  So, you've completed learning about Algorand? Awesome! In this le
     npm list algosdk
     ```
     
-- Create a new file named `CreateAccount.js` in the root of your directory. I’ll explain what this file does in the later section of this lesson, so don’t worry! For now just follow the steps and all of this will become clear soon 💪🏼
+- Create a new file named `CreateAccount.js` in the root of your directory. I’ll explain what this file does later in this lesson, so don’t worry! For now just follow the steps and all of this will become clear soon 💪🏼
 - Paste the following code to the file:
     
     ```
