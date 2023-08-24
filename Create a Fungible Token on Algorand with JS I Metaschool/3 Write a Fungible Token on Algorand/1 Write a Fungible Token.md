@@ -48,7 +48,7 @@ async function deployToken() {
 - The code sets up the connection to the Algorand Testnet using the `algodToken`, `algodServer`, and `algodPort`.
 - Define the necessary constants:
     - `algodToken`
-        - Replace YOUR_API_KEY with the one you copied from [PureStake](https://developer.purestake.io/login) in the section 2 lesson 1 named Setup Environment.
+        - Replace YOUR_API_KEY with the one you copied from [PureStake](https://developer.purestake.io/login) in the section 2 lesson 1 named [Setup Environment](https://metaschool.so/courses/create-a-fungible-token-on-algorand-with-js/lesson/b381dc8f-0701-49d3-bb24-194c88ed772e).
     - `algodServer` has the URL of the Algorand network that the program will connect to.
     - `algodPort` has the port number (443) for the connection to the Algorand network.
 - `const algodClient = new algosdk.Algodv2(algodToken, algodServer, algodPort);`: This line creates a new connection to the Algorand network using the previously set token, URL, and port number.
