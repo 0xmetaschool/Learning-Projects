@@ -83,14 +83,14 @@ Welcome back!  So, you've completed learning about Algorand? Awesome! In this le
 
 Let’s understand what we did in the `CreateAccount.js` file:
 
-```jsx
+```
 const algosdk = require('algosdk');
 const fs = require('fs');
 ```
 
 - The code imports the required modules: `algosdk` for interacting with the Algorand blockchain and `fs` for file system operations.
 
-```jsx
+```
 function keypress() {
   return new Promise((resolve) => {
     process.stdin.once('data', () => {
@@ -105,7 +105,7 @@ function keypress() {
     - `return new Promise((resolve) => { ... });`: This line creates a new `Promise`. A `**Promise`** in JavaScript is a way to handle operations that don't complete instantly, like waiting for user input. The Promise has a `**resolve`** function, which, when called, signals that the Promise has successfully completed its task.
     - `process.stdin.once('data', () => { resolve(); });`: The `.once('data', ...)` means we're waiting for a one-time event where the user provides some input (e.g., pressing a key). Once this input is detected, the `resolve` function of the `Promise` is called, indicating that the waiting period is over and the `Promise` is fulfilled.
 
-```jsx
+```
 async function createAccountAndExport() {
   const generatedAccount = algosdk.generateAccount();
   const passphrase = algosdk.secretKeyToMnemonic(generatedAccount.sk);
@@ -128,13 +128,13 @@ async function createAccountAndExport() {
 - `await keypress();`: This line waits for the user to press any key. The program will pause here until the user presses a key.
 - The function prompts the user to press any key when the account is funded, using the previously defined `keypress` function and `await` to wait for the keypress.
 
-```jsx
+```
   const privateKeyBase64 = Buffer.from(generatedAccount.sk).toString('base64');
 ```
 
 - The private key of the generated account is converted to a `base64` string representation.
 
-```jsx
+```
   const accountData = {
     address: generatedAccount.addr,
     passphrase: passphrase,
@@ -148,20 +148,20 @@ async function createAccountAndExport() {
 - The `accountData` object is written to a JSON file named `account.json`, with an indentation of 2 spaces for better readability.
 - Storing the account data is essential as we will need while creating a fungible token.
 
-```jsx
+```
   console.log("Account details exported to account.json");
 ```
 
 - A message is displayed in the console to indicate that the account details have been successfully exported to the JSON file.
 
-```jsx
+```
   process.exit();
 }
 ```
 
 - The script exits after all the necessary operations are completed.
 
-```jsx
+```
 createAccountAndExport();
 ```
 

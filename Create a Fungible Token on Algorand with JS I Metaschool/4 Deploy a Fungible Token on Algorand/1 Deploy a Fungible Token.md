@@ -6,7 +6,7 @@ Kudos for making this far! Till now, you've written the code to create your toke
 
 So open up your terminal and run the following command:
 
-```jsx
+```
 node CreateAsset.js
 ```
 

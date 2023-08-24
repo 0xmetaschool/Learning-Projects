@@ -8,20 +8,20 @@ Now, you’re just going to dive right into the project.
 
 Create a file named `CreateAsset.js` in the root folder and let’s start writing the code.
 
-```jsx
+```
 const algosdk = require('algosdk');
 const fs = require('fs');
 ```
 
 - The code imports the required modules: `algosdk` for interacting with the Algorand blockchain and `fs` for file system operations.
 
-```jsx
+```
 async function deployToken() {
 ```
 
 - The `deployToken` function is declared. It will handle the process of deploying a new token on the Algorand blockchain.
 
-```jsx
+```
   const accountData = JSON.parse(fs.readFileSync('account.json', 'utf8'));
   const { address, privateKey } = accountData;
 ```
@@ -29,13 +29,13 @@ async function deployToken() {
 - The code reads the account details from a JSON file named `account.json` created in the last lesson, which should contain the address and private key of the Algorand account to be used for token deployment.
 - The `address` and `privateKey` variables are extracted from the `accountData` object.
 
-```jsx
+```
   const privateKeyUint8 = new Uint8Array(Buffer.from(privateKey, 'base64'));
 ```
 
 - The private key, which was stored in `base64` format, is converted back to a `Uint8Array` so it can be used for signing transactions.
 
-```jsx
+```
   console.log("Connecting to Algorand Testnet");
   const algodToken = {
     "x-api-key": "YOUR_API_KEY" // fill in yours
@@ -55,13 +55,13 @@ async function deployToken() {
 - `const suggestedParams = await algodClient.getTransactionParams().do();`: This line fetches the transaction parameters from the Algorand network. These parameters will be used to create a new asset/fungible token.
 - An instance of `algosdk.Algodv2` is created to interact with the Algorand node.
 
-```jsx
+```
   const suggestedParams = await algodClient.getTransactionParams().do();
 ```
 
 - The suggested transaction parameters are fetched from the Algorand node to include in the asset creation transaction.
 
-```jsx
+```
   console.log("Creating the Token Metadata");
   const txn = algosdk.makeAssetCreateTxnWithSuggestedParamsFromObject({
     from: address,
@@ -90,26 +90,26 @@ async function deployToken() {
 
 The `txn` variable now holds the asset creation transaction, ready to be signed and submitted to the Algorand network to create the new token.
 
-```jsx
+```
   const signedTxn = algosdk.signTransaction(txn, privateKeyUint8);
 ```
 
 - The transaction is signed using the private key converted to `Uint8Array`.
 
-```jsx
+```
   await algodClient.sendRawTransaction(signedTxn.blob).do();
 ```
 
 - The signed transaction is submitted to the Algorand network for processing.
 
-```jsx
+```
   const result = await algosdk.waitForConfirmation(algodClient, txn.txID().toString(), 3);
 
 ```
 
 - The code waits for the transaction to be confirmed on the blockchain using `algosdk.waitForConfirmation()`.
 
-```jsx
+```
   console.log("Token deployed");
   const assetIndex = result['asset-index'];
   console.log(`Asset ID created: ${assetIndex}`);
@@ -118,21 +118,21 @@ The `txn` variable now holds the asset creation transaction, ready to be signed 
 - A success message is displayed, indicating that the token deployment was successful.
 - The asset index of the newly created token is retrieved from the `result` object and printed to the console.
 
-```jsx
+```
   const url = `https://testnet.algoexplorer.io/asset/${assetIndex}`;
   console.log(`Asset URL: ${url}`);
 ```
 
 - The AlgoExplorer URL for the newly created asset is constructed and printed to the console.
 
-```jsx
+```
   process.exit();
 }
 ```
 
 - The script ends after the token deployment process is completed.
 
-```jsx
+```
 deployToken();
 ```
 
@@ -142,7 +142,7 @@ deployToken();
 
 Here is the complete code of `CreateAsset.js` for you:
 
-```jsx
+```
 const algosdk = require('algosdk');
 const fs = require('fs');
 
