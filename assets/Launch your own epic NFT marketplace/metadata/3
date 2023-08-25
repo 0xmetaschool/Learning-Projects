@@ -1,5 +1,5 @@
 {
     "description": "This is a lion NFT",
-    "image": "<your-image-pinata-link-here>",
+    "image": "ipfs://<CID-of-your-image-pinata-link-here>",
     "name": "Lion"
 }
