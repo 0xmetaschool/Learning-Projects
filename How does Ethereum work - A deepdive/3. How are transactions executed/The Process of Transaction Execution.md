@@ -1,4 +1,4 @@
-﻿# The Process of Transaction Execution 😍
+﻿# The Process of Transaction Execution
 
 We’ve come to one of the most complex parts of the Ethereum protocol: the execution of a transaction. Say you send a transaction off into the Ethereum network to be processed. What happens to transition the state of Ethereum to include your transaction?
 

@@ -1,4 +1,4 @@
-﻿# How to Mine Proof of Work 🤖
+﻿# How to Mine Proof of Work
 
 ## Mining proof of work
 
