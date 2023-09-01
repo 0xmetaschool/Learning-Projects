@@ -68,7 +68,7 @@ const claimAddress = accounts[0].address;
 
 We will read and parse the Merkle tree data. But where is it? You must have noticed that when you ran the deployment script for AirDropV1 module, the JSON file named `tree.json` was created. This file contains all of the data of Merkle tree. Let me show you the project directory to make this more clear.
 
-![project-directory.png](Claim%20the%20AirDrop%20Module%20fc8932e9fe8642f3bad5e8080fd773c8/project-directory.png)
+![project-directory.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Claim%20the%20AirDrop%20Module/project-directory.png?raw=true)
 
 Now, we will read the data, parse it, and extract the leaf nodes data from it.
 
@@ -230,7 +230,7 @@ npx hardhat run scripts/AirDropV1/3_claim.js --network testnet
 
 This command will give you the output like this:
 
-![claim-output.png](Claim%20the%20AirDrop%20Module%20fc8932e9fe8642f3bad5e8080fd773c8/claim-output.png)
+![claim-output.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Claim%20the%20AirDrop%20Module/claim-output.png?raw=true)
 
 ## That’s a wrap
 

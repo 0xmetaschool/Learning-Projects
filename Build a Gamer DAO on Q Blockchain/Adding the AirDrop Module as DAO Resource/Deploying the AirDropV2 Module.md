@@ -140,7 +140,7 @@ MODULE_IMPLEMENTATION = "YOUR-AIRDROP-V2-ADDRESS"
 
 Here’s how the command output will look like.
 
-![Frame 3560339 (5).png](Deploying%20the%20AirDropV2%20Module%203a5bec3df83d4304a94082fed22be6ba/Frame_3560339_(5).png)
+![Frame 3560339 (5).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Deploying%20the%20AirDropV2%20Module/Frame_3560339_(5).png?raw=true)
 
 ## That’s a wrap
 

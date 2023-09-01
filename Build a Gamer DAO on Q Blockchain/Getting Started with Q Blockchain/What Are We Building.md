@@ -35,7 +35,7 @@ This course is for enthusiastic web3 developers who wish to learn about Q blockc
 
 If you complete this course with me, you will be getting a special NFT, a utility token, which will unlock many more opportunities for you on the Metaschool platform. Here is how the NFT looks like.
 
-![Untitled (1).gif](What%20Are%20We%20Building%20946b1c71ea5b46059dbfff912272c48a/Untitled_(1).gif)
+![Untitled (1).gif](https://github.com/0xmetaschool/Learning-Projects/blob/87e32dadb3072a9a92002461585601ebf3775fce/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/What%20Are%20We%20Building/Untitled_(1).gif?raw=true)
 
 Now before we move forward, let’s set some house rules first.
 1. Pleaseeeee do your quick assignments properly. 

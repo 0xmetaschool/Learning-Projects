@@ -8,11 +8,11 @@ Let’s understand DAOs using real-world example.
 
 Imagine you and your friends want to make decisions together, like what game to play or what movie to watch. Normally, one person would be in charge and make the final decision. But what if you all want to have a say and make decisions together as a group? That's where a DAO comes in!
 
-![Frame 3560339 (12).png](Understanding%20the%20Concept%20of%20DAOs%204654e370a7724baaabb1926a7fbfb62b/Frame_3560339_(12).png)
+![Frame 3560339 (12).png](https://github.com/0xmetaschool/Learning-Projects/blob/87e32dadb3072a9a92002461585601ebf3775fce/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/Understanding%20the%20Concept%20of%20DAOs/Frame_3560339_(12).png?raw=true)
 
 DAO stands for "Decentralized Autonomous Organization." It's like a special kind of group where decisions are made by everyone involved, without any one person being in charge. Instead of having a boss or a leader, a DAO uses blockchain technology and smart contracts to let everyone participate in the decision-making process.
 
-![Frame 3560339 (13).png](Understanding%20the%20Concept%20of%20DAOs%204654e370a7724baaabb1926a7fbfb62b/Frame_3560339_(13).png)
+![Frame 3560339 (13).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/Understanding%20the%20Concept%20of%20DAOs/Frame_3560339_(13).png?raw=true)
 
 In a DAO, blockchain helps keep track of all the decisions and actions taken by the group. It's a way of keeping everything transparent and fair.
 
@@ -24,11 +24,11 @@ DAOs use something called smart contracts, which are like logical agreements wri
 
 For example, when a decision is made, the smart contract automatically does things like sending tokens, adding members, executing a function on blockchain to increase or decrease the number of tokens available.
 
-![Frame 3560339 (15).png](Understanding%20the%20Concept%20of%20DAOs%204654e370a7724baaabb1926a7fbfb62b/Frame_3560339_(15).png)
+![Frame 3560339 (15).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/Understanding%20the%20Concept%20of%20DAOs/Frame_3560339_(15).png?raw=true)
 
 When it's time to make decisions in a DAO, the voting process is recorded on the blockchain so everyone can see it and it cannot be changed. People who own more tokens in the DAO usually have more voting power. So, if you have more tokens, your vote counts more. But there is also DAOs, where one Member has only one vote. No matter how many tokens they have. 
 
-![Frame 3560339 (14).png](Understanding%20the%20Concept%20of%20DAOs%204654e370a7724baaabb1926a7fbfb62b/Frame_3560339_(14).png)
+![Frame 3560339 (14).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/Understanding%20the%20Concept%20of%20DAOs/Frame_3560339_(14).png?raw=true)
 
 The token based voting is often used , because of the idea, that you have more tokens, you're more invested in the DAO and more likely to make good decisions.
 
@@ -55,7 +55,7 @@ Here's the interesting part: in Decentraland, there's no boss or person in charg
 
 Even big companies like Coca-Cola and Adidas are part of this DAO and take part in the decision-making. They can use their influence to make decisions that benefit the whole community.
 
-![Frame 3560339 (16).png](Understanding%20the%20Concept%20of%20DAOs%204654e370a7724baaabb1926a7fbfb62b/Frame_3560339_(16).png)
+![Frame 3560339 (16).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/Understanding%20the%20Concept%20of%20DAOs/Frame_3560339_(16).png?raw=true)
 
 So, in summary, [Decentraland](https://decentraland.org/) is an example of a DAO where the members control everything, and even famous companies can join in and contribute.
 

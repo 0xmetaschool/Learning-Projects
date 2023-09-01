@@ -331,7 +331,7 @@ npx hardhat run scripts/AirDropV1/1_deploy_token.js --network testnet
 
 The output of this will be similar to below (ignore any warning encountered):
 
-![Frame 3560365.jpg](Create%20and%20Deploy%20QRC20%20Token%209b05298c25ff4dfaab85b28da5b43de8/Frame_3560365.jpg)
+![Frame 3560365.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Create%20and%20Deploy%20QRC20%20Token/Frame_3560365.jpg?raw=true)
 
 It will give a contract address. ***Copy the contract address. We will use it in the next lesson for the DAO creation.***
 

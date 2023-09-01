@@ -223,11 +223,11 @@ npx hardhat run scripts/AirDropV1/2_deploy_airdropV1.js --network testnet
 
 This command will give you the output like this:
 
-![Frame 3560339 (3).png](Deploy%20AirDropV1%20Module%20cd54dbe8115545e3af2d10db1059297f/Frame_3560339_(3).png)
+![Frame 3560339 (3).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Deploy%20AirDropV1%20Module/Frame_3560339_(3).png?raw=true)
 
 Now, head over to your Q DAO Factory Dashboard. You will notice that your DAO is now filled with 2k Meta tokens.
 
-![Frame 3560339 (4).png](Deploy%20AirDropV1%20Module%20cd54dbe8115545e3af2d10db1059297f/Frame_3560339_(4).png)
+![Frame 3560339 (4).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Deploy%20AirDropV1%20Module/Frame_3560339_(4).png?raw=true)
 
 ## That’s a wrap
 

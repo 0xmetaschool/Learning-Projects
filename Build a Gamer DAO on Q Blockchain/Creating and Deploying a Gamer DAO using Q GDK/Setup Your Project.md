@@ -34,7 +34,7 @@ To deploy scripts on the blockchain, you will need to use a private key. To do t
 - Enter your Metamask wallet password.
 - Copy the private key shown.
     
-    ![Frame 3560364 (11).gif](Setup%20Your%20Project%20ad5103eb60bf4a23b8803c1758c862cf/Frame_3560364_(11).gif)
+    ![Frame 3560364 (11).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Setup%20Your%20Project/Frame_3560364_(11).gif?raw=true)
     
 
 Now navigate to `.env` in your main folder (Q-boilerplate-code) with the following content. Replace “ENTER_YOUR_KEY” with the private key of your wallet that you copied.

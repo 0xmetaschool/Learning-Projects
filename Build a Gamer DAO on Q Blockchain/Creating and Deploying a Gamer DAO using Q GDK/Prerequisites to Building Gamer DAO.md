@@ -31,7 +31,7 @@ A Merkle tree is a tree data structure where so called “leaf nodes” represen
 
 Let’s look at how exactly a Merkle tree looks like.
 
-![Frame 3560339 (4).png](Prerequisites%20to%20Building%20Gamer%20DAO%206806cff09ca84bc2acefaaf1848bbc61/Frame_3560339_(4).png)
+![Frame 3560339 (4).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Prerequisites%20to%20Building%20Gamer%20DAO/Frame_3560339_(4).png?raw=true)
 
 Here, “H(…)” represents the hash function of its child nodes and “A”, “B”, “C”, “D”, “E” and “F” represent the data present in the tree. The root node (”H(ABCDCDEF)”) contains the root hash of the complete tree.
 
@@ -47,7 +47,7 @@ To do this, we will use Merkle proof. Merkle proof will create a new tree, but t
 
 Let’s look at the following tree. Here, Merkle proof is collecting some data from the original tree and generating some new data. The boxes in blue are picked from original Merkle tree whereas the boxes in red are the hashes Merkle proof generated itself.
 
-![Frame 3560339 (11).png](Prerequisites%20to%20Building%20Gamer%20DAO%206806cff09ca84bc2acefaaf1848bbc61/Frame_3560339_(11).png)
+![Frame 3560339 (11).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Prerequisites%20to%20Building%20Gamer%20DAO/Frame_3560339_(11).png?raw=true)
 
 After generating the new Merkle root hash, it will be compared with the hash of the original Merkle tree root. If both of the hashes matches it means the data “D” given by the user is valid, otherwise it is not. Remember that even the slight change in data changes the hash of the branch and the root hash node.
 
