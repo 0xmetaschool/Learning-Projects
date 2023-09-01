@@ -1,0 +1,308 @@
+# Creating a Voting Situation
+
+In the last lesson, you deployed the `AirDropV2` contract. In this lesson, we will create two proposals for DAO Members to vote on. There will be two voting situations created, one for adding the module to the DAO Registry and one for managing the module by voting.
+
+## What exactly will this script do?
+
+- This script will be responsible for launching two new proposals on our DAO.
+- This will allow DAO participants to vote on the proposals and make a decision on adding the new module to the DAO.
+
+## Let’s get started
+
+But before moving forward let’s add some environmental variables to `.env` file
+
+1. Add the address of the voting contract that will be used for adding the new module to the DAO Registry. You should use the `GENERAL_VOTING:DAO Token Holder` address from the DAO Registry in the Dashboard. You find the DAO Registry when clicking on the green “Parameters” button in the top right hand corner of the DAO Dashboard.
+
+```
+MAIN_DAO_VOTING_ADDRESS = "YOUR-GENERAL_VOTING:DAO Token Holder-ADDRESS"
+```
+
+Here’s a GIF for your ease to find the `GENERAL_VOTING:DAO Token Holder` address.
+
+![Frame 3560339.gif](Creating%20a%20Voting%20Situation%20c0c8b3b8f1e84ee78559eba22490b2ca/Frame_3560339.gif)
+
+1. Add the address of the voting contract used for managing the new module - It determines who can use the module. Again, use the `GENERAL_VOTING:DAO Token Holder` address from the DAO Registry in the Dashboard for this field as well. It will allow every DAO member to use the module.
+
+```
+VOTING_CONTRACT_ADDRESS = "YOUR-GENERAL_VOTING:DAO Token Holder-ADDRESS"
+```
+
+1. Add the module name to the `.env` file like this.
+
+```
+MODULE_NAME = "AirDropV2"
+```
+
+1. Add following two variables as it is and do not change them.
+
+```
+DAO_REGISTRY_NAME = "DAO_REGISTRY"
+TEN_PERCENTAGE = "100000000000000000000000000"
+```
+
+## Let’s start off with the code
+
+Navigate to `deploy/AirDropV2/2_createVoting.js` and coding on second script file for `AirDropV2` which is `2_createVoting.js`.
+
+### Import dependencies
+
+In this section, we will import the necessary modules and libraries.
+
+```
+// Importing dependencies
+const { getEncodedData } = require("@q-dev/gdk-sdk");
+const { ethers } = require("hardhat");
+require('dotenv').config();
+const { MODULE_NAME, MAIN_DAO_VOTING_ADDRESS, VOTING_CONTRACT_ADDRESS, TEN_PERCENTAGE, DAO_REGISTRY_NAME } = process.env;
+```
+
+- `getEncodedData`: This function comes from the `@q-dev/gdk-sdk` library, which is used to encode data for smart contract interactions.
+- `ethers`: This comes from the `hardhat` package, which allow us to interact with EVM blockchains like Ethereum and Q and smart contracts.
+- `dotenv`: It helps us read environment variables from a `.env` file.
+- `process.env`: This is used to extract specific environment variables like `MODULE_NAME`, `MAIN_DAO_VOTING_ADDRESS`, etc., from the `.env` file.
+
+### `buildVotingSituation` function
+
+Next let’s come to the building the parameters required for the voting situation: The `buildVotingSituation` function returns the required parameter for the voting situations. 
+
+```
+function buildVotingSituation(name, target) {
+    return {
+        votingSituationName: name,
+        votingValues: {
+            votingPeriod: 300,
+            vetoPeriod: 60,
+            proposalExecutionPeriod: 1000,
+            requiredQuorum: TEN_PERCENTAGE,
+            requiredMajority: TEN_PERCENTAGE,
+            requiredVetoQuorum: TEN_PERCENTAGE,
+            votingType: 0,
+            votingTarget: target,
+            votingMinAmount: 1,
+        },
+    };
+}
+```
+
+The function returns an object representing the voting situation that shall be created for managing the module. It will be initiated with the following properties:
+
+- `votingSituationName`: This property stores the name of the voting situation, which helps identify it uniquely.
+- `votingValues`: This property holds an object containing various voting values and parameters, such as:
+    - `votingPeriod`: The duration of the voting period in seconds. For example, it is set to 300 seconds (5 minutes) here. This allows for quickly using the module in the beginning and can later be changed to a longer period by a configuration parameter vote.
+    - `vetoPeriod`: The duration of the veto period in seconds. In this case, it is set to 60 seconds (1 minute).
+    - `proposalExecutionPeriod`: The duration for the proposal execution period in seconds. Here, it is set to 1000 seconds (16 minutes and 40 seconds).
+    - `requiredQuorum`: The required quorum percentage for the proposal to be valid. This is represented by the variable `TEN_PERCENTAGE`, which would typically be 10% of the total voters.
+    - `requiredMajority`: The required majority percentage for the proposal to pass. Again, represented by `TEN_PERCENTAGE`, indicating 10% of the total voters.
+    - `requiredVetoQuorum`: The required veto quorum percentage to prevent a proposal from being passed. Similar to the previous two, it's represented by `TEN_PERCENTAGE`.
+    - `votingType`: The type of voting method used. Here, it's set to 0, which represents a standard voting method.
+    - `votingTarget`: The target of the voting, which could be the name or address of the proposal subject. This value is provided through the `target` parameter of the function.
+    - `votingMinAmount`: The minimum amount of votes required for a proposal to be valid. In this case, it's set to 1, indicating that at least one vote is needed for the proposal to be considered.
+
+### `main` function
+
+Now let’s come to the async `main()` function which will have the code to interact with our DAO and create two proposals.
+
+```
+async function main() {
+	// Rest of the code goes here
+}
+main();
+```
+
+From now on, we will add the code to the `main()` function.
+
+### Retrieve Ethereum accounts
+
+The first step is to retrieve Ethereum accounts.
+
+```
+// Retrieve Ethereum accounts
+const accounts = await ethers.getSigners();
+const senderAddress = accounts[0].address;
+```
+
+- The function `ethers.getSigners()` is used to get a list of accounts.
+- `await` is used to wait for the accounts to be retrieved, as it is an asynchronous operation.
+- `const senderAddress = accounts[0].address;` stores the address of the first account in the variable `senderAddress`, in this case it’s your wallet address.
+
+### Create instance
+
+Now we will create an instance of the `GeneralDAOVoting` contract using `ethers.getContractFactory`.
+
+```
+// Get the contract factories for GeneralDAOVoting
+const GeneralDAOVotingFactory = await ethers.getContractFactory("GeneralDAOVoting");
+```
+
+Next, we attach the instance with its deployed contract address to interact with it using `attach`. 
+
+```
+// Attach to existing instances of GeneralDAOVoting
+const VotingContract = GeneralDAOVotingFactory.attach(VOTING_CONTRACT_ADDRESS);
+const MainDAOContract = GeneralDAOVotingFactory.attach(MAIN_DAO_VOTING_ADDRESS);
+```
+
+### Voting situation
+
+Now we will move on to create the voting situation.
+
+```
+console.log("Creating Voting Situation");
+
+// Creating voting situations for adding a new module and the module itself
+const daoRegistrySituation = buildVotingSituation("DAORegistry", `${DAO_REGISTRY_NAME}`);		
+const moduleVoteSituation = buildVotingSituation(`${MODULE_NAME}`, `${MODULE_NAME}`);
+```
+
+### Encoding the data
+
+We will encode this data to pass it with our transaction to Voting Contract and Main DAO Contract respectively using `getEncodedData`. 
+
+```
+// Encoding the data for proposals
+const addDRSituationCalldata = getEncodedData("GeneralDAOVoting", "createDAOVotingSituation", daoRegistrySituation);
+const addModuleVoteSituationCalldata = getEncodedData("GeneralDAOVoting", "createDAOVotingSituation", moduleVoteSituation);
+```
+
+### `createProposal` function
+
+Now let’s compile this all together and send a transaction to the `createProposal` function of both the smart contracts using the instance we created and pass the respective call data with the name and the description of the proposal.
+
+```
+console.log("Creating Proposal for DAORegistry situation");
+
+// Creating voting proposals for the new voting situations
+await MainDAOContract.createProposal("General Update Vote", "Adding DAORegistry Situation", addDRSituationCalldata, {
+    from: senderAddress,
+});
+console.log("Proposal Created");
+
+console.log(`Create Proposal for ${MODULE_NAME} situation`);
+
+await VotingContract.createProposal("General Update Vote", `Adding ${MODULE_NAME} Situation`, addModuleVoteSituationCalldata, {
+    from: senderAddress,
+});
+console.log("Proposal Created");
+```
+
+Kudos to you, because you have successfully created your script to interact with your DAO. 
+
+## Complete code
+
+Now, let’s look at how the complete code looks like.
+
+```
+// Importing dependencies
+const { getEncodedData } = require("@q-dev/gdk-sdk");
+const { ethers } = require("hardhat");
+require('dotenv').config();
+const { MODULE_NAME, MAIN_DAO_VOTING_ADDRESS, VOTING_CONTRACT_ADDRESS, TEN_PERCENTAGE, DAO_REGISTRY_NAME } = process.env;
+
+// Function to create a voting situation object
+function buildVotingSituation(name, target) {
+  return {
+    votingSituationName: name,
+    votingValues: {
+      votingPeriod: 300,
+      vetoPeriod: 60,
+      proposalExecutionPeriod: 1000,
+      requiredQuorum: TEN_PERCENTAGE,
+      requiredMajority: TEN_PERCENTAGE,
+      requiredVetoQuorum: TEN_PERCENTAGE,
+      votingType: 0,
+      votingTarget: target,
+      votingMinAmount: 1,
+    },
+  };
+}
+
+// The main function for deploying voting proposals
+async function main() {
+    // Retrieve Ethereum accounts
+    const accounts = await ethers.getSigners();
+    const senderAddress = accounts[0].address;
+
+    // Get the contract factories for GeneralDAOVoting
+    const GeneralDAOVotingFactory = await ethers.getContractFactory("GeneralDAOVoting");
+
+    // Attach to existing instances of GeneralDAOVoting
+    const VotingContract = GeneralDAOVotingFactory.attach(VOTING_CONTRACT_ADDRESS);
+    const MainDAOContract = GeneralDAOVotingFactory.attach(MAIN_DAO_VOTING_ADDRESS);
+
+		console.log("Creating Voting Situation");
+
+    // Creating voting situations for adding a new module and the module itself
+    const daoRegistrySituation = buildVotingSituation("DAORegistry", `${DAO_REGISTRY_NAME}`);		
+		const moduleVoteSituation = buildVotingSituation(`${MODULE_NAME}`, `${MODULE_NAME}`);
+
+    // Encoding the data for proposals
+    const addDRSituationCalldata = getEncodedData("GeneralDAOVoting", "createDAOVotingSituation", daoRegistrySituation);
+    const addModuleVoteSituationCalldata = getEncodedData("GeneralDAOVoting", "createDAOVotingSituation", moduleVoteSituation);
+
+		console.log("Creating Proposal for DAORegistry situation");
+
+    // Creating voting proposals for the new voting situations
+    await MainDAOContract.createProposal("General Update Vote", "Adding DAORegistry Situation", addDRSituationCalldata, {
+        from: senderAddress,
+    });
+		console.log("Proposal Created");
+
+		console.log(`Create Proposal for ${MODULE_NAME} situation`);
+
+    await VotingContract.createProposal("General Update Vote", `Adding ${MODULE_NAME} Situation`, addModuleVoteSituationCalldata, {
+        from: senderAddress,
+    });
+		console.log("Proposal Created");
+}
+
+// Call the main function to deploy voting proposals
+main();
+```
+
+## Let’s run the script
+
+Follow the following steps beofore you run the `2_createVoting.js` script. Because since we will be creating proposals to vote on, you need to prepare your account to be able to vote.
+
+1. First, you need to mint tokens from your DAO dashboard as you need to have some of your token to acquire the voting power. Make sure, that the private key in the `.env` file belongs to the account that you now increase the voting weight for.
+    1. Click on the three dots on “DAO Token Supply” card.
+    2. Click on “Mint Tokens”
+        
+        ![Frame 3560339 (3).png](Creating%20a%20Voting%20Situation%20c0c8b3b8f1e84ee78559eba22490b2ca/Frame_3560339_(3).png)
+        
+    3. Paste your account address and select only the minted tokens count for quorum. 
+    4. If you don’t want to mint all tokens, everything works fine as well. Just Make sure to have more than 10 % of all minted tokens in your account. Because remember - that’s the quorum for the proposal.
+
+Here’s a GIF where we’re showing you to the steps for your ease.
+
+1. After minting the tokens, you need to deposit the tokens to the DAO Vault to increase your voting power. The DAO Vault is important, so nobody can vote twice with their token.
+    1. Go to the “Voting Power” section in the side bar.
+    2. Choose maximum token on the “Deposit” card and click “Approve” to deposit maximum amount of tokens to your voting power.
+    3. Once you have approved the transfer, now click on “Deposit” to stake your token on the DAO. The “Deposit” button will be in the same place as the “Approve” button before.
+    4. You will now see your voting power updated in the Overview card.
+
+Here’s a GIF where we’re showing you to the steps for your ease.
+
+1. Finally, run the following command to run the migration script.
+
+```
+npx hardhat run scripts/AirDropV2/2_createVoting.js --network testnet
+```
+
+The command will give you the following output.
+
+![airdrop-v2-output.png](Creating%20a%20Voting%20Situation%20c0c8b3b8f1e84ee78559eba22490b2ca/airdrop-v2-output.png)
+
+1. Go back to the DAO dashboard and move to the “Governance” section from the side bar. Here, you will find two pending proposals.
+2. Go to each proposal one-by-one and vote for “yes” on both of them. You need to be quick, because the voting period is only 5 minutes. If you for some reason did not manage to vote on both proposals in time, you have to start again by running the migration script and create two new proposals.
+
+Here’s a GIF where we’re showing you to the steps for your ease.
+
+1. Wait until the proposals get accepted (which we set to 5 minutes), then again click on each proposal one-by-one and execute the proposal. Here’s how you can do that.
+
+1. Once executed, you have given the power to vote on adding the new modules to the DAO and to voting on the AirDropV2 module.
+
+## That’s a wrap
+
+Overall, this deployment file sets up voting situations for adding a new module to the DAO Registry and enables the module to interact through voting. It provides a structured approach to propose and vote on changes within a DAO. This approach would be the same for any module you want to add to the DAO.
+
+Next, we will create a proposal to officially add the module in the DAO, by including it in the DAO Registry as an official DAO Resource.

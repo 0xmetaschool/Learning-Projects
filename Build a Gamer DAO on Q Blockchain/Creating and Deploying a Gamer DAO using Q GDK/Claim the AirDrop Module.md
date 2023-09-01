@@ -1,0 +1,239 @@
+# Claim the AirDrop Module
+
+Awesome folks! So far, you have deployed the QRC20 token and AirDrop module. Now, in this lesson, you will learn to claim the AirDrop module. Basically, you will write code for Merkle Proof. Remember, we learned Merkle Proof at the start of the section? We will implement it now. We will check whether the address that is calling the claim file is the part of Merkle tree or not.
+
+## Let’s start coding.
+
+Navigate to `scripts/AirDropV1/3_claim.js` and start writing the following code.
+
+### Add necessary modules
+
+Let’s start with importing some necessary modules. You have already used them in last lesson. So, we will move forward without explaining them here again.
+
+```
+const { ethers } = require("hardhat");
+const keccak256 = require("keccak256");
+const { MerkleTree } = require("merkletreejs");
+web3 = require('web3');
+const fs = require("fs");
+```
+
+### Start with `main()` function
+
+Again, we will start with creating the an async `main` function.
+
+```
+async function main() {
+	// Rest of the code goes here
+}
+main();
+```
+
+After ending the `main()`, I called it simply adding the `main();` line.
+
+From now on, we will add the code inside of the main function. As `main` function will contain all of the necessary code.
+
+### Import AirDrop contract
+
+At the start of the `main` function, we will first import the `AirDropV1` contract using the contract address we got in the last lesson.
+
+```
+// Define the address of the deployed Airdrop contract
+const Airdrop = "YOUR-AIRDROP-CONTRACT-ADDRESS";
+// Get the Contract Factory for the Airdrop contract
+const Airdrop_fac = await ethers.getContractFactory("AirDropV1");
+// Attach the Contract instance to the deployed Airdrop contract
+const contract = Airdrop_fac.attach(Airdrop);
+```
+
+- First, we’re filling the contract address with the address we got after deploying the `AirDropV1` module.
+- Then, we’re using `getContractFactory` function to get the `AirDropV1` contract factory.
+- At last, we’re attaching the contract factory with our deployed contract address to create an instance of the contract that we can interact with.
+
+### Get the caller address
+
+Next, we need to fetch the address of the person who is actually calling this script file (`3_claim.js`). He’s the one who we need to check whether belongs to Merkle tree or not.
+
+```
+// Get the signer accounts (Ethereum addresses with signing capabilities)
+const accounts = await ethers.getSigners();
+// Get the Ethereum address of the caller (claimer)
+const claimAddress = accounts[0].address; 
+```
+
+- First, We use the `ethers` library to obtain a list of signer accounts that can sign transactions.
+- Then, we extract the address of the caller (claimer) from the list of signer accounts, which will always be at 0th index.
+
+### Parse Merkle Tree and create new one
+
+We will read and parse the Merkle tree data. But where is it? You must have noticed that when you ran the deployment script for AirDropV1 module, the JSON file named `tree.json` was created. This file contains all of the data of Merkle tree. Let me show you the project directory to make this more clear.
+
+![project-directory.png](Claim%20the%20AirDrop%20Module%20fc8932e9fe8642f3bad5e8080fd773c8/project-directory.png)
+
+Now, we will read the data, parse it, and extract the leaf nodes data from it.
+
+```
+// Read and parse Merkle tree data from the 'tree.json' file
+const jsonData = fs.readFileSync('tree.json', 'utf-8');
+const data = JSON.parse(jsonData);
+const leafNodes = data.leafNodes.map((node) => Buffer.from(node, 'hex'));
+// Create a Merkle tree from the leaf nodes
+const merkleTree = new MerkleTree(leafNodes, keccak256, { sortPairs: true });
+```
+
+- Here, first line simply reads the JSON file, `tree.json`.
+- Second line parse the `jsonData` and store it in `data` constant.
+- Then, we extract the leaf nodes data (user addresses in hexadecimal format) from the parsed JSON data and convert them to Buffer objects.
+- At last, we create new Merkle Tree using the leaf nodes, using the `MerkleTree` class from the `merkletreejs` library.
+- The `keccak256` hashing function is used to hash the leaf nodes.
+- The `{ sortPairs: true }` option ensures that the pairs of nodes are sorted before hashing.
+
+### Print Merkle Tree
+
+Printing the Merkle Tree will help you visualize how actually the Merkle Tree looks like. So, let’s do that and have a glimpse of accomplishment.
+
+```
+// Display the Merkle tree structure
+console.log("---------");
+console.log("Merkle Tree");
+console.log("---------");
+console.log(merkleTree.toString());
+```
+
+### Generate Merkle Proofs
+
+Here, we’re generating Merkle proofs for all the leaf nodes using the `getHexProof` function using the `merkleTree` instance.
+
+```
+// Generate Merkle proofs for all leaf nodes
+const proofArray = leafNodes.map((node) =>
+  merkleTree.getHexProof(node)
+);
+```
+
+### Claim AirDrop
+
+Now, we will write the main part of our code. We will go through each hexadecimal code generated for each leaf node and check if the caller address is whitelisted or not.
+
+```
+// Initialize a flag to track whether the airdrop has been claimed
+let isClaimed = false;
+// Loop through each proof and attempt to claim airdrop
+for (let i = 0; i < proofArray.length; i++) {
+  // Check if the caller's address is whitelisted for this proof
+  const isWhitelisted = await contract.isWhitelistedUser(claimAddress, proofArray[i]);
+  
+  // If whitelisted, claim the airdrop reward
+  if (isWhitelisted) {
+    await contract.claimReward(claimAddress, proofArray[i]);
+    console.log("Claimed Airdrop for address:", claimAddress);
+    isClaimed = true; // Set the flag to true
+    break; // Exit the loop
+  }
+}
+```
+
+- First, we set up a flag `isClaimed` and initialize it as `false`. We use this flag to check whether the `claimAddress` is whitelisted address or not.
+- Then, we loop through each proof in the `proofArray` and check if the caller's address is whitelisted for that proof using the `isWhitelistedUser` function from the contract.
+- If the caller is whitelisted, we claim the airdrop reward by calling the `claimReward` function from the contract with the caller's address and the proof.
+- We print a message indicating that the airdrop has been claimed for the caller's address.
+- If the caller address is whitelisted, we set the `isClaimed` flag to `true` and break out of the loop.
+
+### Check flag
+
+If the `isClaimed` flag is still `false` after the loop, it means the caller's address wasn't whitelisted for any of the proofs. In this case, we print a message indicating that the caller is not a whitelisted user.
+
+```
+// If the airdrop was not claimed, print a message
+if (!isClaimed) {
+  console.log("Not a whitelisted user.");
+}
+```
+
+## Complete code
+
+Here’s how the complete code looks like.
+
+```
+const { ethers } = require("hardhat");
+const keccak256 = require("keccak256");
+const { MerkleTree } = require("merkletreejs");
+web3 = require('web3');
+const fs = require("fs");
+
+async function main() {
+	// Define the address of the deployed Airdrop contract
+	const Airdrop = "YOUR-AIRDROP-CONTRACT-ADDRESS";
+	// Get the Contract Factory for the Airdrop contract
+	const Airdrop_fac = await ethers.getContractFactory("AirDropV1");
+	// Attach the Contract instance to the deployed Airdrop contract
+	const contract = Airdrop_fac.attach(Airdrop);
+
+	// Get the signer accounts (Ethereum addresses with signing capabilities)
+	const accounts = await ethers.getSigners();
+	// Get the Ethereum address of the caller (claimer)
+	const claimAddress = accounts[0].address;
+
+	// Read and parse Merkle tree data from the 'tree.json' file
+	const jsonData = fs.readFileSync('tree.json', 'utf-8');
+	const data = JSON.parse(jsonData);
+	const leafNodes = data.leafNodes.map((node) => Buffer.from(node, 'hex'));
+	// Create a Merkle tree from the leaf nodes
+	const merkleTree = new MerkleTree(leafNodes, keccak256, { sortPairs: true });
+
+	// Display the Merkle tree structure
+	console.log("---------");
+	console.log("Merkle Tree");
+	console.log("---------");
+	console.log(merkleTree.toString());
+
+	// Generate Merkle proofs for all leaf nodes
+	const proofArray = leafNodes.map((node) =>
+	  merkleTree.getHexProof(node)
+	);
+
+	console.log("Claiming Airdrop");
+
+	// Initialize a flag to track whether the airdrop has been claimed
+	let isClaimed = false;
+	// Loop through each proof and attempt to claim airdrop
+	for (let i = 0; i < proofArray.length; i++) {
+	  // Check if the caller's address is whitelisted for this proof
+	  const isWhitelisted = await contract.isWhitelistedUser(claimAddress, proofArray[i]);
+	  
+	  // If whitelisted, claim the airdrop reward
+	  if (isWhitelisted) {
+	    await contract.claimReward(claimAddress, proofArray[i]);
+	    console.log("Claimed Airdrop for address:", claimAddress);
+	    isClaimed = true; // Set the flag to true
+	    break; // Exit the loop
+	  }
+	}
+
+	// If the airdrop was not claimed, print a message
+  if (!isClaimed) {
+    console.log("Not a whitelisted user.");
+  }
+
+}
+// Call the main function to initiate the airdrop claiming process
+main();
+```
+
+## Let’s run the script
+
+After updating the addresses, run the following command to run the `3_claim.js` script file.
+
+```
+npx hardhat run scripts/AirDropV1/3_claim.js --network testnet
+```
+
+This command will give you the output like this:
+
+![claim-output.png](Claim%20the%20AirDrop%20Module%20fc8932e9fe8642f3bad5e8080fd773c8/claim-output.png)
+
+## That’s a wrap
+
+In summary, this script essentially automates the process of checking if a caller's address is whitelisted for any of the provided proofs and claiming the AirDrop reward if eligible.
+
+From next section, we will implement the more advanced version of this basic AirDrop module, which will be integrated into the DAO and be managed fully decentralized without the module deployer having to control it.and then deploy it using different deployment scripts.
