@@ -134,7 +134,7 @@ npx hardhat run scripts/AirDropV2/4_initModule.js --network testnet
 
 The command will give you the following output.
 
-![airdrop-v2-output-3.png](Initialize%20the%20AirDropV2%20Module%203361fb42ba0947b89b62beaecbdf8a93/airdrop-v2-output-3.png)
+![airdrop-v2-output-3.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Initialize%20the%20AirDropV2%20Module/airdrop-v2-output-3.png?raw=true)
 
 ## That’s a wrap
 

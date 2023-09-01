@@ -12,22 +12,22 @@ For this tutorial, you will use Metamask wallet, Q faucet, and Remix for compili
 
 Just go to the link [https://metaschool.so/rpc/qTestnet](https://metaschool.so/rpc/qTestnet) and click on “Add to Metamask” **** to quickly add Q Testnet to your MetaMask. Here’s how it looks like.
 
-![Frame 3560339 (2).png](Setup%20MetaMask%2069c2ff6739774d63bf2e21dcff36fea9/Frame_3560339_(2).png)
+![Frame 3560339 (2).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Setup%20MetaMask/Frame_3560339_(2).png?raw=true)
 
 ### Manual steps
 
 1. If you have not yet installed Metamask, you can download it from [here](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) for Chrome. If you are using any other browser, kindly try searching MetaMask extension for your browser.
 2. Open your MetaMask browser extension, scroll through networks and click on “Add Network” button.
     
-    ![Frame 3560364 (1).gif](Setup%20MetaMask%2069c2ff6739774d63bf2e21dcff36fea9/Frame_3560364_(1).gif)
+    ![Frame 3560364 (1).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Setup%20MetaMask/Frame_3560364_(1).gif?raw=true)
     
     The following screen will appear after clicking the “Add Network” button. 
     
-    ![Frame 3560339 (1).png](Setup%20MetaMask%2069c2ff6739774d63bf2e21dcff36fea9/Frame_3560339_(1).png)
+    ![Frame 3560339 (1).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Setup%20MetaMask/Frame_3560339_(1).png?raw=true)
     
 3. Now click on the “Add a network manually” to add a new network to your MetaMask. 
 
-![Frame 3560339 (1).gif](Setup%20MetaMask%2069c2ff6739774d63bf2e21dcff36fea9/Frame_3560339_(1).gif)
+![Frame 3560339 (1).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Setup%20MetaMask/Frame_3560339_(1).gif?raw=true)
 
 1. Now fill in the following details:
     1. **Network name**: Q Testnet
@@ -46,11 +46,11 @@ Next, we will fill your newly created Q Testnet account with tokens using the Q 
 1. Copy your Q account address. you can find it in your MetaMask account.
 2. Next, head over to [https://faucet.qtestnet.org/](https://faucet.qtestnet.org/), connect your MetaMask or paste your copied address to the Wallet address field. Select “I am human," and then click on “Claim tokens” button.
     
-    ![Frame 3560364 (4).gif](Setup%20MetaMask%2069c2ff6739774d63bf2e21dcff36fea9/Frame_3560364_(4).gif)
+    ![Frame 3560364 (4).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Setup%20MetaMask/Frame_3560364_(4).gif?raw=true)
     
 3. In the next couple of seconds, your wallet will be filled with 5 Q tokens.
     
-    ![Frame 3560364 (8).jpg](Setup%20MetaMask%2069c2ff6739774d63bf2e21dcff36fea9/Frame_3560364_(8).jpg)
+    ![Frame 3560364 (8).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Setup%20MetaMask/Frame_3560364_(8).jpg?raw=true)
     
 
 Now you have Q tokens in your Metamask wallet. The next step is becoming familiar with the Remix IDE.
@@ -63,7 +63,7 @@ Here's the deal: Remix is all about making your life easier when you're working 
 
 Head over to [https://remix.ethereum.org/](https://remix.ethereum.org/) and click on “New File” button. Set the name of your file as `MyFirstDAO.sol`.
 
-![Frame 3560364 (5).gif](Setup%20MetaMask%2069c2ff6739774d63bf2e21dcff36fea9/Frame_3560364_(5).gif)
+![Frame 3560364 (5).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Setup%20MetaMask/Frame_3560364_(5).gif?raw=true)
 
 ## That’s a wrap
 

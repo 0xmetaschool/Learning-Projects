@@ -6,7 +6,7 @@ Welcome back! I’m so proud of you that you have built your own DAO on Q blockc
 
 First, clone this [https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate](https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate) which is the frontend using the command, 
 
-```jsx
+```
 git clone [https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate](https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate)
 ```
 
@@ -16,13 +16,13 @@ Next, let’s install the dependencies using the command, `yarn install`
 
 After the frontend is installed, let’s run the frontend using the command `yarn start`
 
-![Untitled](Connect%20the%20DAO%20to%20the%20Frontend%20b40dade35d1342c5bfa167427f592cc5/Untitled.png)
+![Untitled](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Connect%20DAO%20to%20the%20Frontend/Connect%20the%20DAO%20to%20the%20Frontend/Untitled.png?raw=true)
 
 Now paste the `DAO_REGISTRY_ADDRESS` you have copied in to the search DAO field to connect to your DAO
 
 Congrats, you have successfully connected your DAO to the frontend and you will now be able to interact with your DAO.
 
-![Untitled](Connect%20the%20DAO%20to%20the%20Frontend%20b40dade35d1342c5bfa167427f592cc5/Untitled%201.png)
+![Untitled](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Connect%20DAO%20to%20the%20Frontend/Connect%20the%20DAO%20to%20the%20Frontend/Untitled%201.png?raw=true)
 
 ## Let’s create a AirDropV2 proposal
 
@@ -30,11 +30,11 @@ Now since we have connected our DAO to the frontend let’s create a AirDropV2 p
 
 First, go to Governance and click on Create proposal
 
-![Untitled](Connect%20the%20DAO%20to%20the%20Frontend%20b40dade35d1342c5bfa167427f592cc5/Untitled%202.png)
+![Untitled](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Connect%20DAO%20to%20the%20Frontend/Connect%20the%20DAO%20to%20the%20Frontend/Untitled%202.png?raw=true)
 
 select AirDropV2 as proposal type and click on next and add the campaign details
 
-![Untitled](Connect%20the%20DAO%20to%20the%20Frontend%20b40dade35d1342c5bfa167427f592cc5/Untitled%203.png)
+![Untitled](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Connect%20DAO%20to%20the%20Frontend/Connect%20the%20DAO%20to%20the%20Frontend/Untitled%203.png?raw=true)
 
 You will find the reward token address on the Dashboard of the DAO, reward amount is the amount of token needs to be airdropped per user and lastly we need to fill in at least two addresses and click add address one by one after inputting every address and finally click next and submit the transaction
 

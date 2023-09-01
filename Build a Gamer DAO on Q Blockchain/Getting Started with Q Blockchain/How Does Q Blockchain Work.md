@@ -10,7 +10,7 @@ The Q Protocol is built on three important pillars, which build a strong foundat
 - **Enforce**: In Q system, everyone follows rules and resolutions. These rules are  written down in the Q Constitution. To make sure everyone follows the rules, Q has two seperate types of nodes in the network called root nodes and validators. The validators run the blockchain, while the root nodes enforce the rules and make sure that they’re followed.
 - **Resolve**: Sometimes, there are disagreements or problems between the participants (like validators and Q token holders). ****In those cases, Q has integrated dispute resolution into the system. It allows participants to make a case before the International Chamber of Commerce, Court of Arbitration (ICC) who makes a fair judgment~~s~~ to resolve these disputes when the rules don't provide a clear answer. The ICC decision can be then implemented on the blockchain by the root nodes.
     
-    ![Frame 3560364 (5).jpg](How%20Does%20Q%20Blockchain%20Work%201f557a0213c14d74a58b7117ed907319/Frame_3560364_(5).jpg)
+    ![Frame 3560364 (5).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/How%20Does%20Q%20Blockchain%20Work/Frame_3560364_(5).jpg?raw=true)
     
 
 **********************All three pillars********************** include both on-chain and off-chain blockchain parts. On-chain means the things that happen directly on the Q blockchain, and off-chain means the things that happen “in real live”, so basically in our traditional world. The enforcement is crucial to make sure the rules the rules are respected and followed properly.
@@ -19,7 +19,7 @@ The Q Protocol is built on three important pillars, which build a strong foundat
 
 Lets look at the main components of the Q Protocol, which play an essential part in the Q architecture using the following diagram: 
 
-![Frame 3560364 (4).jpg](How%20Does%20Q%20Blockchain%20Work%201f557a0213c14d74a58b7117ed907319/Frame_3560364_(4).jpg)
+![Frame 3560364 (4).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/How%20Does%20Q%20Blockchain%20Work/Frame_3560364_(4).jpg?raw=true)
 
 ## How does the Q Blockchain work?
 

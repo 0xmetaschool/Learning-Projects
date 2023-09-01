@@ -19,7 +19,7 @@ MAIN_DAO_VOTING_ADDRESS = "YOUR-GENERAL_VOTING:DAO Token Holder-ADDRESS"
 
 Here’s a GIF for your ease to find the `GENERAL_VOTING:DAO Token Holder` address.
 
-![Frame 3560339.gif](Creating%20a%20Voting%20Situation%20c0c8b3b8f1e84ee78559eba22490b2ca/Frame_3560339.gif)
+![Frame 3560339.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Creating%20a%20Voting%20Situation/Frame_3560339.gif?raw=true)
 
 1. Add the address of the voting contract used for managing the new module - It determines who can use the module. Again, use the `GENERAL_VOTING:DAO Token Holder` address from the DAO Registry in the Dashboard for this field as well. It will allow every DAO member to use the module.
 
@@ -267,7 +267,7 @@ Follow the following steps beofore you run the `2_createVoting.js` script. Becau
     1. Click on the three dots on “DAO Token Supply” card.
     2. Click on “Mint Tokens”
         
-        ![Frame 3560339 (3).png](Creating%20a%20Voting%20Situation%20c0c8b3b8f1e84ee78559eba22490b2ca/Frame_3560339_(3).png)
+        ![Frame 3560339 (3).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Creating%20a%20Voting%20Situation/Frame_3560339_(3).png?raw=true)
         
     3. Paste your account address and select only the minted tokens count for quorum. 
     4. If you don’t want to mint all tokens, everything works fine as well. Just Make sure to have more than 10 % of all minted tokens in your account. Because remember - that’s the quorum for the proposal.
@@ -290,7 +290,7 @@ npx hardhat run scripts/AirDropV2/2_createVoting.js --network testnet
 
 The command will give you the following output.
 
-![airdrop-v2-output.png](Creating%20a%20Voting%20Situation%20c0c8b3b8f1e84ee78559eba22490b2ca/airdrop-v2-output.png)
+![airdrop-v2-output.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Creating%20a%20Voting%20Situation/airdrop-v2-output.png?raw=true)
 
 1. Go back to the DAO dashboard and move to the “Governance” section from the side bar. Here, you will find two pending proposals.
 2. Go to each proposal one-by-one and vote for “yes” on both of them. You need to be quick, because the voting period is only 5 minutes. If you for some reason did not manage to vote on both proposals in time, you have to start again by running the migration script and create two new proposals.

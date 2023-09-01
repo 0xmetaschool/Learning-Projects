@@ -163,7 +163,7 @@ npx hardhat run scripts/AirDropV2/3_addModule.js --network testnet
 
 Here’s how the command output will look like.
 
-![airdrop-v2-output-2.png](Adding%20the%20AirDropV2%20Module%20479d9e3381214678a150c4544a4a180b/airdrop-v2-output-2.png)
+![airdrop-v2-output-2.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Adding%20the%20AirDropV2%20Module/airdrop-v2-output-2.png?raw=true)
 
 1. Go to the DAO dashboard and move to the “Governance” section from the side bar. Here, you will find one new pending proposals.
 2. Go to the proposal and vote for “yes.”
