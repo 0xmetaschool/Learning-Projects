@@ -36,15 +36,15 @@ yarn start
 
 You can view your frontend on [http://localhost:**3000**/](http://localhost:3000/):
 
-![Frame 3560365 (23).jpg](Connect%20the%20DAO%20to%20the%20Frontend/Frame_3560365_(23).jpg)
+![Frame 3560365 (23).jpg](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Connect%20DAO%20to%20the%20Frontend/Connect%20the%20DAO%20to%20the%20Frontend/Frame_3560365_(23).jpg)
 
 Next, connect to your wallet by clicking “Connect Wallet”. (Make sure your Metamask is connected to Q Testnet.)
 
-![Frame 3560365 (14).gif](Connect%20the%20DAO%20to%20the%20Frontend/Frame_3560365_(14).gif)
+![Frame 3560365 (14).gif](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Connect%20DAO%20to%20the%20Frontend/Connect%20the%20DAO%20to%20the%20Frontend/Frame_3560365_(14).gif)
 
 Remember the `DAO_REGISTRY_ADDRESS` you copied in the lesson “Build DAO Using the Q DAO Factory”. Paste it to the search DAO field to connect to your DAO. Once you are done, congrats, you have successfully connected your DAO to the frontend and now you can interact with your DAO.
 
-![Frame 3560365 (15).gif](Connect%20the%20DAO%20to%20the%20Frontend/Frame_3560365_(15).gif)
+![Frame 3560365 (15).gif](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Connect%20DAO%20to%20the%20Frontend/Connect%20the%20DAO%20to%20the%20Frontend/Frame_3560365_(15).gif)
 
 ## Let’s create a AirDropV2 proposal
 
@@ -52,7 +52,7 @@ Now since we have connected our DAO to the frontend let’s create a AirDropV2 p
 
 First, go to Governance (3rd option on left panel) and then click on “Create proposal”:
 
-![Frame 3560365 (26).jpg](Connect%20the%20DAO%20to%20the%20Frontend/Frame_3560365_(26).jpg)
+![Frame 3560365 (26).jpg](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Connect%20DAO%20to%20the%20Frontend/Connect%20the%20DAO%20to%20the%20Frontend/Frame_3560365_(26).jpg)
 
 - **Note**: Make sure your Total Voting Weight is not zero, otherwise you will not be able to create AirDrop module. In case your total voting weight is zero, follow the steps given below:
     1. Go to “Voting Power” which is the 2nd option on your left panel.
@@ -70,11 +70,11 @@ After clicking on “Create proposal”, follow the steps given below:
 - Click on Next.
 - Click on Submit to submit the transaction. See the following gif where I have followed all steps:
     
-    ![Screen Recording 2023-09-02 at 12.21.06 PM.gif](Connect%20the%20DAO%20to%20the%20Frontend/Screen_Recording_2023-09-02_at_12.21.06_PM.gif)
+    ![Screen Recording 2023-09-02 at 12.21.06 PM.gif](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Connect%20DAO%20to%20the%20Frontend/Connect%20the%20DAO%20to%20the%20Frontend/Screen_Recording_2023-09-02_at_12.21.06_PM.gif)
     
 - Now see your local folder, you will find `tree.json` there. For me, I found it in my Downloads folder.
     
-    ![Frame 3560364 (32).jpg](Connect%20the%20DAO%20to%20the%20Frontend/Frame_3560364_(32).jpg)
+    ![Frame 3560364 (32).jpg](https://github.com/0xmetaschool/Learning-Projects/raw/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Connect%20DAO%20to%20the%20Frontend/Connect%20the%20DAO%20to%20the%20Frontend/Frame_3560364_(32).jpg)
     
 
 Now open your frontend code in your IDE or Visual Studio. Open `src/artifacts/tree.json` to edit. Replace the content of `tree.json` with the one that was downloaded in your local folder.
