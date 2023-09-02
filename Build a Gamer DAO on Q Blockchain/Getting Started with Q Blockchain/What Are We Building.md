@@ -44,7 +44,7 @@ Now before we move forward, let’s set some house rules first.
 
 ## 🛠 Contributing to this project!
 
-Here’s the GREAT news for you! This is an open source project, you can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects). If you find any issues in the course, please feel free to resolve it.
+Here’s the GREAT news for you! This is an open source project, you can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects/tree/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain). If you find any issues in the course, please feel free to resolve it.
 We, at Metaschool, love love love contributions by our community and we give acknowledgement to contributors in our discord and GitHub profile too.
 
 **Fun fact:** All our projects are 100% open-source.

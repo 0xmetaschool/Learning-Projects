@@ -6,7 +6,7 @@ Get ready to buckle up for a wild ride through the ever-evolving world of blockc
 
 Q Blockchain is not like any other blockchain you've heard of. It's unique because it combines the best features from different worlds. Let me explain:
 
-- Imagine a public ledger where everyone can see what's going on. That’s how blockchains work and ****that’s how Q Blockchain works too. It's open and decentralized, which means it's transparent and fair.
+- Imagine a public ledger where everyone can see what's going on. That’s how blockchains work and that’s how Q Blockchain works too. It's open and decentralized, which means it's transparent and fair.
 - But here's the cool part: Q Blockchain goes a step further. It also allows "enforceable private contracts." These contracts are what normal businesses already use. They are reliable and can allow for more nuances than just the programmable smart contracts. It's like having extra protection and trust in what's happening on the blockchain.
 - Q Blockchain also has a special governance framework. This framework makes things predictable. You know exactly how the system works and evolves, which makes it easier to understand and manage. In Q Constitution, clear rules and guidelines for decision-making are written down. For example, the Q Constitution explains how the whole community can decide on technical changes.
 - With Q Blockchain, you can say goodbye to the old way of thinking where "code-is-law." Q is all about pushing boundaries and being creative. Q Blockchain opens up a whole new world of decentralized decision-making, where people can have a say and make things happen in exciting ways.
