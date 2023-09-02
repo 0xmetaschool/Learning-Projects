@@ -4,7 +4,7 @@ gm everyone ☀️, today Metaschool and Q team are very excited to bring the fi
 
 So what are we building? We will be building understanding of Q blockchain and how it works. We will build Gamer DAO with and without using Q GDK. We will add Airdrop functionality as well. This course is important as it equips you with necessary knowledge to ace your exciting journey of Q blockchain.
 
-The Q Protocol is made up of proof-of-stake blockchain that's compatible with the Ethereum Virtual Machine (EVM). Which means, smart contracts that work on other chains like Ethereum also work on Q. ********************************************************************************************************************It also includes a bunch of smart contracts that make everything run smoothly.
+The Q Protocol is made up of proof-of-stake blockchain that's compatible with the Ethereum Virtual Machine (EVM). Which means, smart contracts that work on other chains like Ethereum also work on Q. It also includes a bunch of smart contracts that make everything run smoothly.
 
 **Why Q?** Q has more than 50 dApps and 100+ partners and builders including Chainlayer, web3.org, Tencent Cloud and many more. It has cross chain connectivity with Ethereum and a bridge too!
 
