@@ -7,7 +7,7 @@ Welcome back! I’m so proud of you that you have built your own DAO on Q blockc
 First, clone this [https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate](https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate) which is the frontend using the command, 
 
 ```
-git clone [https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate](https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate)
+git clone https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate
 ```
 
 Now run `cd build-a-gamer-dao-q-boilerplate` to go to the root folder of the frontend.
@@ -38,7 +38,11 @@ select AirDropV2 as proposal type and click on next and add the campaign details
 
 You will find the reward token address on the Dashboard of the DAO, reward amount is the amount of token needs to be airdropped per user and lastly we need to fill in at least two addresses and click add address one by one after inputting every address and finally click next and submit the transaction
 
-Now simply vote on the proposal and once its passed execute the proposal, make sure you execute the proposal with 1-2 min after the voting ends or else the execution period will end.
+Once you create the proposal, a file named `tree.json` will be downloaded to your local system which contains the merkle tree data needed to claim the airdrop which you have already learned while working with AirDropV1 module.
+
+Copy the content of `tree.json` to `build-a-gamer-dao-q-boilerplate/src/artifacts/tree.json` this will overwrite the existing merkle tree in the frontend with the one which refers to your whitelisted addresses.
+
+Now simply go back to the proposal and vote on the proposal and once its passed execute the proposal, make sure you execute the proposal with 1-2 min after the voting ends or else the execution period will end.
 
 Once the proposal is executed, the whitelisted address can connect their wallet and claim their DAO token.
 
