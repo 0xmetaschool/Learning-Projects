@@ -22,8 +22,6 @@ We will:
 
 This course is for enthusiastic web3 developers who wish to learn about Q blockchain. You should have a basic knowledge of blockchain, [consensus mechanism](https://metaschool.so/articles/consensus-mechanism-meaning/), Solidity Programming language, and programming basics because in this course we will focus more on building Gamer DAO.
 
-- If you want to learn Solidity programming language in detail, you can refer to our course [10 days of Solidity](https://metaschool.so/courses/10-days-of-solidity).
-
 ## Prerequisites
 
 - Metamask extension installed in your browser ([Chrome extension link](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn))
