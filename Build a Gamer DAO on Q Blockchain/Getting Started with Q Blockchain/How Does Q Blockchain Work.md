@@ -13,7 +13,7 @@ The Q Protocol is built on three important pillars, which build a strong foundat
     ![Frame 3560364 (5).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/How%20Does%20Q%20Blockchain%20Work/Frame_3560364_(5).jpg?raw=true)
     
 
-**All three pillars** include both on-chain and off-chain blockchain parts. On-chain means the things that happen directly on the Q blockchain, and off-chain means the things that happen “in real live”, so basically in our traditional world. The enforcement is crucial to make sure the rules the rules are respected and followed properly.
+**All three pillars** include both on-chain and off-chain blockchain parts. On-chain means the things that happen directly on the Q blockchain, and off-chain means the things that happen “in real live”, so basically in our traditional world. The enforcement is crucial to make sure the rules are respected and followed properly.
 
 ## What are the main elements of the Q Protocol?
 
