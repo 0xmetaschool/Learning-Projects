@@ -69,7 +69,7 @@ The code obtains the contract factory for the `GeneralDAOVoting` contract using 
   const GeneralDAOVotingFactory = await ethers.getContractFactory("GeneralDAOVoting");
 ```
 
-The obtained contract factory is then attached to the Main DAO address to create an instance and interact with our DAO using `**<contract factory>.attach(<contract address>)`.**
+The obtained contract factory is then attached to the Main DAO address to create an instance and interact with our DAO using `**<contract factory>.attach(<contract address>)`.\*\*
 
 ```
 // Attach to existing instances of GeneralDAOVoting
@@ -84,7 +84,7 @@ The code creates encoded call data to add the new module to the DAO Registry usi
 const addModuleCalldata = getEncodedData("DAORegistry", "addProxyContract", MODULE_NAME, MODULE_IMPLEMENTATION);
 ```
 
-`getEncodedData` encodes: 
+`getEncodedData` encodes:
 
 - the contract name (`DAORegistry`)
 - the function name (`addProxyContract`)
@@ -140,7 +140,7 @@ async function main() {
 
   // Creating a voting proposal to add the module to the DAO Registry
   console.log(`Create Proposal to add ${MODULE_NAME} module to the DAO Registry`);
-  await VotingContract.createProposal("DAORegistry", `Adding ${MODULE_NAME} to the DAO Contract Registry`, addModuleCalldata, {        
+  await VotingContract.createProposal("DAORegistry", `Adding ${MODULE_NAME} to the DAO Contract Registry`, addModuleCalldata, {
     from: senderAddress,
   });
 
@@ -170,7 +170,12 @@ Here’s how the command output will look like.
 
 Here’s a GIF where we’re showing you to the steps for your ease.
 
+![vote-propsal.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Adding%20the%20AirDropV2%20Module/vote-proposal-2-dao.gif?raw=true)
+
 1. Wait until the proposals passes and then go to the proposal and “Execute” it. Here’s how you can do that.
+
+![execute-propsal.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Adding%20the%20AirDropV2%20Module/execute-proposal-2-dao.gif?raw=true)
+
 2. Once executed, you have successfully added the external module as a DAO resource.
 
 ## That’s a wrap
