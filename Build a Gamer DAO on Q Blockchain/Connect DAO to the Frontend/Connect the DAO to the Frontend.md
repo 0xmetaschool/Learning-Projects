@@ -7,7 +7,7 @@ Welcome back! I’m so proud of you that you have built your own DAO on Q blockc
 First, clone this [https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate](https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate) which is the frontend using the command:
 
 ```
-git clone [https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate](https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate)
+git clone https://github.com/0xmetaschool/build-a-gamer-dao-q-boilerplate
 ```
 
 Now run the following command to go to the root folder of the frontend:

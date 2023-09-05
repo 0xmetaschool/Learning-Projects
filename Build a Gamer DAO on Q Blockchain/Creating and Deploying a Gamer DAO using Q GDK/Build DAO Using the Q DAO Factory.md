@@ -114,7 +114,7 @@ Once you are done specifying all nitty gritty details of your DAO, the Q DAO Fac
 - If nothing seems to happen, but you see a small “1” in your Metamask icon, open the add-on and confirm the pending transactions.
     
     
-    ![Screen Recording 2023-08-08 at 1.00.04 PM.gif](Build%20DAO%20Using%20the%20Q%20DAO%20Factory%20af87f3c1d4b94ed7a85d34c7f289a0bf/Screen_Recording_2023-08-08_at_1.00.04_PM.gif)
+    ![Screen Recording 2023-08-08 at 1.00.04 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Build%20DAO%20Using%20the%20Q%20DAO%20Factory/Screen_Recording_2023-08-08_at_1.00.04_PM.gif?raw=true)
     
 
 - After approving all transactions, you will see a window similar to below. Click on “Go to DAO Dashboard” to view your dashboard that you can use to manage your DAO.
@@ -124,9 +124,9 @@ Once you are done specifying all nitty gritty details of your DAO, the Q DAO Fac
 
 - Before moving on, let’s copy the DAO Registry address and paste it in our HardHat project `.env` file in the following format.
 
-```
-DAO_REGISTRY_ADDRESS = "YOUR-DAO-REGISTRY-ADDRESS"
-```
+    ```
+    DAO_REGISTRY_ADDRESS = "YOUR-DAO-REGISTRY-ADDRESS"
+    ```
 
 - After clicking on “Go to DAO Dashboard”, you will see a window similar to below. Here you can mint your DAO Token, and create and vote on proposals.
     
