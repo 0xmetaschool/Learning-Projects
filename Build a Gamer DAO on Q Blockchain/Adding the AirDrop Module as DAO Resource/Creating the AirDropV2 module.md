@@ -13,7 +13,7 @@ Let’s first look at what exactly AirDropV2 will do and why we want to create i
 
 ## Prerequisite
 
-Before moving forward, create another solidity file called `ACampaignAirDrop.sol` ****under `contracts/lib` and copy its code from [here](https://github.com/0xmetaschool/Q-boilerplate-code/blob/main/contracts/libs/ACampaignAirDrop.sol). This is a pre-defined contract which contains the logic for managing a airdrop campaign.
+Before moving forward, create another solidity file called `ACampaignAirDrop.sol` under `contracts/lib` and copy its code from [here](https://github.com/0xmetaschool/Q-boilerplate-code/blob/main/contracts/libs/ACampaignAirDrop.sol). This is a pre-defined contract which contains the logic for managing a airdrop campaign.
 
 ## Let’s start coding
 
