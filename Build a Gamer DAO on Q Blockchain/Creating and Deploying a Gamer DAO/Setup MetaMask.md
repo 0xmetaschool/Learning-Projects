@@ -31,7 +31,7 @@ Just go to the link [https://metaschool.so/rpc/qTestnet](https://metaschool.so/r
 
 1. Now fill in the following details:
     1. **Network name**: Q Testnet
-    2. **New RPC URL**: [https://q-testnet.rpc.thirdweb.com](https://q-testnet.rpc.thirdweb.com/)
+    2. **New RPC URL**: [https://rpc.qtestnet.org/](https://rpc.qtestnet.org/)
     3. **Chain ID**: `35443`
     4. **Currency symbol**: Q
     5. **Block explorer URL**: [https://explorer.qtestnet.org/](https://explorer.qtestnet.org/)
