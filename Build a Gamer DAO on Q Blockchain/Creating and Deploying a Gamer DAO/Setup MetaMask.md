@@ -8,13 +8,7 @@ You now need a super cool environment to run our code in and you need to set it 
 
 For this tutorial, you will use Metamask wallet, Q faucet, and Remix for compiling and deploying your code. Don’t worry, setting them is super easy and you will do it in no time!
 
-### Quick setup
-
-Just go to the link [https://metaschool.so/rpc/qTestnet](https://metaschool.so/rpc/qTestnet) and click on “Add to Metamask” to quickly add Q Testnet to your MetaMask. Here’s how it looks like.
-
-![Frame 3560339 (2).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Setup%20MetaMask/Frame_3560339_(2).png?raw=true)
-
-### Manual steps
+### Setup
 
 1. If you have not yet installed Metamask, you can download it from [here](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) for Chrome. If you are using any other browser, kindly try searching MetaMask extension for your browser.
 2. Open your MetaMask browser extension, scroll through networks and click on “Add Network” button.
