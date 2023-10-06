@@ -1,55 +1,90 @@
 # Create and Deploy QRC20 Token
 
-Hi, welcome back! So you have set up your Hardhat project. Now it’s time to create a QRC20 Token so we can use it later when we create our DAO.
+Hi, welcome back! So you have set up your Hardhat project. Now it’s time to create a QRC20 Token so we can use it later when we create our DAO. Here’s why we are creating the token.
+
+1. We need to create the token so that we can use it as native token for our DAO.
+2. A fixed number of tokens will be given to the members who are added to the DAO. These tokens will given them voting power to vote on proposals.
+3. The proposals in the DAO cannot be accepted until the member’s voting power is not more than 10% of the tokens available in the DAO.
+
+So, it is important to create a token for our DAO. Let’s create and deploy one using our Hardhat project.
 
 ## Let’s start coding
 
-Navigate to `contracts/QRC20.sol`. This code is a part of Q GDK contracts so you don't have to write it and we’ll explain the code. So let’s start understanding the code of the contract QRC20 token with features of minting, burning, total supply cap, and contract metadata.
+Navigate to `contracts/QRC20.sol`. This code is a part of [Q GDK contracts](https://gitlab.com/q-dev/q-gdk/gdk-contracts) so you don't have to write it and we’ll explain the code to you. So let’s start understanding the code of the contract `QRC20` token with features of minting, burning, total supply cap, and contract metadata.
+
+### Importing essentials
+
+First of all, the `QRC20.sol` file specify the license for the contract (LGPL-3.0-or-later) and the version of the Solidity compiler to use (0.8.19).
 
 ```
 // SPDX-License-Identifier: LGPL-3.0-or-later
 pragma solidity 0.8.19;
-
 ```
 
-- The above lines specify the license for the contract (LGPL-3.0-or-later) and the version of the Solidity compiler to use (0.8.19).
+Then imports two contract from the OpenZeppelin library: `OwnableUpgradeable` and `ERC20Upgradeable`.
 
 ```
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
 ```
 
-- These lines import two modules from the OpenZeppelin library: `OwnableUpgradeable` and `ERC20Upgradeable`.
-- The `OwnableUpgradeable` contract provides a basic implementation of an ownership mechanism to restrict access to certain functions to only the contract owner.
-- The `ERC20Upgradeable` contract provides an implementation of the ERC-20 token standard with upgradability features.
+Let’s understand the modules functionality in detail.
+
+- The `OwnableUpgradeable` contract allow us to restrict the use of any function in the smart contract. It allow us to use functions like `onlyOwner()`, `_checkOwner()`, `_transferOwnership()` etc to restrict the functions so that they can only be called by the owner of the contract and not anyone else.
+- The `ERC20Upgradeable` contract provides an implementation of the ERC-20 token standard. This contract is used to use ERC-20 standards and create our own token.
+
+Then again imports two modules: `IQRC20` and `ContractMetadata` from the `@q-dev/gdk-contracts` library.
 
 ```
 import "@q-dev/gdk-contracts/interfaces/tokens/IQRC20.sol";
 import "@q-dev/gdk-contracts/metadata/ContractMetadata.sol";
 ```
 
-- These lines import two modules: `IQRC20` and `ContractMetadata` from the `@q-dev/gdk-contracts` library.
-- `IQRC20` is an interface defining the standard functions of a QRC20 token.
-- `ContractMetadata` provides functionality to add metadata to the contract, such as a contract URI.
+Let’s understand the modules functionality in detail.
+
+- `IQRC20` is an interface defining the standard functions of a QRC20 token. You can explore the complete contract [here](https://gitlab.com/q-dev/q-gdk/gdk-contracts/-/blob/main/contracts/interfaces/tokens/IQRC20.sol?ref_type=heads).
+- `ContractMetadata` provides functionality to change and retrieve metadata of the contract, such as a contract URI. You can explore the complete contract [here](https://gitlab.com/q-dev/q-gdk/gdk-contracts/-/blob/main/contracts/metadata/ContractMetadata.sol?ref_type=heads).
+
+### Declaring `QRC20` contract
+
+After importing the essential modules, the contract `QRC20` is declared using the following line.
 
 ```
 contract QRC20 is IQRC20, ERC20Upgradeable, ContractMetadata, OwnableUpgradeable {
+
+		// Rest of the code goes here
+
+}
 ```
 
-- This line declares the `QRC20` contract, which inherits from four other contracts: `IQRC20`, `ERC20Upgradeable`, `ContractMetadata`, and `OwnableUpgradeable`.
-- The contract is a regular QRC20 token with additional features, including minting and burning tokens, a total supply cap, and contract metadata.
+The `QRC20` contract inherits from four contracts that were imported earlier: 
+
+- `IQRC20`
+- `ERC20Upgradeable`
+- `ContractMetadata`
+- `OwnableUpgradeable`
+
+Rest of the code goes inside of the `QRC20` contract.
+
+### Declaring state variables
+
+At the start of contract, state variables are being declared. State variables are those variable that are created inside of the contract but out of the contract functions. State variables can never be deleted therefore it is a good practice to use less state variables.
 
 ```
 string public QRC20_RESOURCE;
 uint256 public totalSupplyCap;
 uint8 internal _decimals;
-
 ```
 
-- These lines declare three state variables:
-    - `QRC20_RESOURCE`: A string variable to store the resource of the QRC20 token.
-    - `totalSupplyCap`: A uint256 variable to set the total supply cap of the token. It restricts the total supply of the token.
-    - `_decimals`: An internal uint8 variable to store the number of decimals for the token. When you’ll mint or transfer tokens, you will be actually sending the `the_count_of_tokens * 10^decimals`.
+These lines declare three state variables:
+
+- `QRC20_RESOURCE`: A `string` variable to store the resource of the `QRC20` token.
+- `totalSupplyCap`: A `uint256` variable to set the total supply cap of the token. It restricts the total supply of the token.
+- `_decimals`: An internal `uint8` variable to store the number of decimals for the token. When you’ll mint or transfer tokens, you will be actually sending the `the_count_of_tokens * 10^decimals`.
+
+## Creating `initialize` function
+
+Here, we changed the code from original GDK `QRC20` contract. We initialized a function with different name and passed couple of more inputs. This function works like a constructor for the contract. It initalizes the state variables and call the constructors of the contracts we inherited. Let’s first look the function parameters in detail.
 
 ```
 function initialize(
@@ -62,14 +97,16 @@ function initialize(
 ) public initializer {
 ```
 
-- The function `initialize` is a special function in the contract that is used for initializing the contract's state variables when the contract is deployed.
-- The initialize function takes six input parameters:
-    - `name_`: A string representing the name of the QRC20 token.
-    - `symbol_`: A string representing the symbol of the QRC20 token (e.g., "BTC").
-    - `decimals_`: An unsigned integer representing the number of decimals for the token (e.g., 18 for Ether).
-    - `contractURI_`: A string containing the contract URI (Uniform Resource Identifier), which is used to provide metadata for the contract.
-    - `resource_`: A string representing the resource of the QRC20 token.
-    - `totalSupplyCap_`: An unsigned integer representing the maximum total supply cap for the token (optional; set to 0 for no cap).
+The `initialize` function takes six input parameters, from which some parameters will be passed to inherited contracts constructors.
+
+- `name_`: A string representing the name of the QRC20 token.
+- `symbol_`: A string representing the symbol of the QRC20 token (e.g., "BTC").
+- `decimals_`: An unsigned integer representing the number of decimals for the token (e.g., 18 for Ether).
+- `contractURI_`: A string containing the contract URI (Uniform Resource Identifier), which is used to provide metadata for the contract.
+- `resource_`: A string representing the resource of the QRC20 token.
+- `totalSupplyCap_`: An unsigned integer representing the maximum total supply cap for the token (optional; set to 0 for no cap).
+
+Now, let’s look at the internal implementation of the function.
 
 ```
  public initializer {
@@ -86,12 +123,16 @@ function initialize(
 
 Let’s take a look at the code inside the `public initializer` function:
 
-- The line `__ERC20_init(name_, symbol_);` calls the `__ERC20_init` function inherited from `ERC20Upgradeable`. This initializes the ERC20 token with the given `name_` and `symbol_`. It sets the name and symbol of the token, which are required for an ERC20 token.
+- The line `__ERC20_init(name_, symbol_);` calls the `__ERC20_init` constructor inherited from `ERC20Upgradeable`. This initializes the ERC20 token with the given `name_` and `symbol_`. It sets the name and symbol of the token, which are required for an ERC20 token.
 - The line `__ContractMetadata_init(contractURI_);` calls the `__ContractMetadata_init` function inherited from `ContractMetadata`. This initializes the contract metadata with the provided `contractURI_`. The contract URI is used to provide additional information and metadata about the contract on-chain.
 - The line `QRC20_RESOURCE = resource_;` sets the `QRC20_RESOURCE` variable to the value of `resource_`. This variable stores the resource of the QRC20 token, which could be a description or a link to external resources related to the token.
 - The line `_decimals = decimals_;` sets the `_decimals` variable to the value of `decimals_`. This variable stores the number of decimals for the token, which is essential for handling fractional amounts of the token.
 - The line `totalSupplyCap = totalSupplyCap_;` sets the `totalSupplyCap` variable to the value of `totalSupplyCap_`. This variable represents the maximum total supply cap for the token. If it is set to 0, there is no cap on the total supply.
 - The line `__Ownable_init();` calls the `__Ownable_init` function inherited from `OwnableUpgradeable`. This initializes the contract with an owner, who has certain privileges and can perform specific actions that are restricted to the owner.
+
+## Overriding the modifier
+
+Here, Q GDK initializes a `modifier`. The `modifier` is used to check whether the function caller is an owner of the contract or not. This basically overrides the security of the contract which was different in `IQRC20` interface.
 
 ```
 modifier onlyChangeMetadataPermission() override {
@@ -100,10 +141,9 @@ modifier onlyChangeMetadataPermission() override {
 }
 ```
 
-This is a modifier called `onlyChangeMetadataPermission`:
+## Overriding the minting function
 
-- It overrides the same-named function from the `IQRC20` interface.
-- The modifier checks whether the function caller is the contract owner before executing the function.
+Here, we are again using the OOP concepts and overriding the `mintTo` function. We are specifying that this function can only be called by the owner of the contract.
 
 ```
 function mintTo(address account, uint256 amount) external override onlyOwner {
@@ -112,10 +152,16 @@ function mintTo(address account, uint256 amount) external override onlyOwner {
 }
 ```
 
+Let’s understand the code in detail.
+
 - This function `mintTo` allows the contract owner to mint new tokens to a specified account.
 - The `onlyOwner` modifier ensures that only the contract owner can call this function.
 - The function checks if the total supply cap is not reached before minting new tokens using the `require` statement.
 - If the condition is met, the `_mint` function is called to mint the tokens.
+
+### Overriding the burn function
+
+The `burnFrom` function allows a user to burn their own tokens or tokens from another account with proper approval (allowance).
 
 ```
 function burnFrom(address account, uint256 amount) external override {
@@ -126,9 +172,14 @@ function burnFrom(address account, uint256 amount) external override {
 }
 ```
 
-- The `burnFrom` function allows a user to burn their own tokens or tokens from another account with proper approval (allowance).
+Let’s understand the code in detail.
+
 - If the caller is not the account owner (`msg.sender`), the function calls `_spendAllowance` to reduce the allowance of the account by the specified amount.
 - Then, the function calls `_burn` to burn the tokens from the account.
+
+### Overriding the decimals function
+
+The `decimals` function is a public view function that returns the number of decimals for the token. It is defined as part of the `IQRC20` interface and overrides it. The value is fetched from the `_decimals` variable.
 
 ```
 function decimals() public view override returns (uint8) {
@@ -136,12 +187,9 @@ function decimals() public view override returns (uint8) {
 }
 ```
 
-- This function `decimals` is a public view function that returns the number of decimals for the token.
-- It is defined as part of the `IQRC20` interface and overrides it. The value is fetched from the `_decimals` variable.
-
 ## Complete code
 
-The complete code of QRC20 Token is below:
+The complete code of `QRC20` token is looks like this:
 
 ```
 // SPDX-License-Identifier: LGPL-3.0-or-later
@@ -212,27 +260,33 @@ contract QRC20 is IQRC20, ERC20Upgradeable, ContractMetadata, OwnableUpgradeable
 }
 ```
 
-## Deploy the token
+## Deploy the QRC20 token
 
-You will need a javascript file to deploy the token on the Q Blockchain. This will do the same as we did in the RemixIDE earlier, but this time from your own computer. Navigate to `scripts/AirDropV1/1_deploy_token.js`.
+You will need a javascript file to deploy the token on the Q Blockchain. This will do the same as we did in the RemixIDE earlier, but this time from your own computer and Hardhat project. Navigate to `scripts/AirDropV1/1_deploy_token.js`. We have already provided you the code in the boilerplate. So let’s understand the code.
 
-### Code for deploy script
+### Understand the deployment script
+
+Let’s undertsand the deployment script line by line. First of all, the script import the necessary modules for the script to work.
 
 ```
 const { ethers, upgrades } = require("hardhat");
 Web3 = require('web3');
 ```
 
-- The above lines import necessary modules for the script to work.
 - `ethers` and `upgrades` are used from the `hardhat` library to interact with the Ethereum blockchain and handle contract upgrades.
 - `Web3` is used to work with the Ethereum network.
 
+Then the script defines an asynchronous function named `main`.
+
 ```
 async function main() {
+	// Rest of the code goes here
+}
 ```
 
-- The script defines an asynchronous function named `main`.
 - The `async` keyword indicates that the function contains asynchronous operations that will return Promises.
+
+Now, we will understand the code we have added inside of the `main` function.
 
 ```
     //Metadata
@@ -244,7 +298,7 @@ async function main() {
     const totalSupplyCap = Web3.utils.toWei('1000000000', 'ether');
 ```
 
-- The above lines declare variables that store the metadata and configuration for the QRC20 token that will be deployed.
+- The above lines declare variables that store the metadata and configuration for the `QRC20` token that will be deployed.
 - `name`, `symbol`, and `decimals` represent the name, symbol, and number of decimals for the token.
 - `contractURI` is an empty string in this example, but it can be used to store metadata about the contract, like a JSON file URI.
 - `resource` is a string variable that holds the resource of the QRC20 token.
@@ -269,18 +323,18 @@ async function main() {
 ```
 
 - `await qrc.waitForDeployment()` waits for the contract deployment to complete.
-- `await qrc.getAddress()` retrieves the address of the deployed QRC20 token contract.
-- The line `console.log("QRC20 deployed to:", qrc20Address);` logs the address of the deployed QRC20 token to the console.
+- `await qrc.getAddress()` retrieves the address of the deployed `QRC20` token contract.
+- The line `console.log("QRC20 deployed to:", qrc20Address);` logs the address of the deployed `QRC20` token to the console.
+
+Outside of the `main` function, at the end of deployment file, we call the function to start the script and deploy the `QRC20` token.
 
 ```
 main();
 ```
 
-- The `main()` function is called, starting the script and deploying the QRC20 token.
-
 ### Complete code
 
-The complete code of `1_deploy_token.js` is below:
+The complete code of `1_deploy_token.js` looks like this (You can also view this in the Hardhat project):
 
 ```
 // Import necessary modules
@@ -323,15 +377,15 @@ main();
 
 ## Command to deploy the token
 
-Now open your terminal from your Q-boilerplate-code directory and run the following command to finally deploy your QRC20 token:
+Now, open your terminal from your `Q-boilerplate-code` directory and run the following command to finally deploy your `QRC20` contract:
 
 ```
-npx hardhat run scripts/AirDropV1/1_deploy_token.js --network testnet
+npx hardhat run scripts/AirDropV1/1_deploy_token.js --network testnets
 ```
 
 The output of this will be similar to below (ignore any warning encountered):
 
-![Frame 3560365.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Create%20and%20Deploy%20QRC20%20Token/Frame_3560365.jpg?raw=true)
+![Frame_3560365.webp](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/main/assests_for_all/assests_for_q/q-update/3.%20Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/3.%20Create%20and%20Deploy%20QRC20%20Token/Frame_3560365.webp)
 
 It will give a contract address. ***Copy the contract address. We will use it in the next lesson for the DAO creation.***
 

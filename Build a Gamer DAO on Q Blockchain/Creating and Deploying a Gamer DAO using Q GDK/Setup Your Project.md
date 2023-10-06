@@ -1,32 +1,46 @@
-# Setup Your Project
+# Setup Your Hardhat Project
 
-Greetings folks! You have been doing so awesome till now we discussed about understanding the concepts, and implementing them. 
+Greetings folks! You have been doing so awesome. Till now we discussed about understanding the concepts, and implementing them. 
 
-Well, in the next steps, we will be creating our own token and then use the Q DAO Factory to for building a DAO for our token holders. Then we will show you how you can make use of all your developer power to add an additional AirDrop Module to your DAO which all your token holders can use together! 
+In this section, we will follow along the following steps:
 
-So what are you waiting for? Let’s dive in!
+1. Setup our project
+2. Create your native DAO token
+3. Build DAO using Q DAO Factory
+4. Add AirDrop Module to your DAO
+
+So what are you waiting for? Let’s start setting up our hardhat project.
 
 ## Prerequisites
 
 First, we need a few installations so make sure you have the following on your machine:
 
-- A code editor (we are using [Install Visual Studio](https://code.visualstudio.com/download))
-- [Install Node.js](https://nodejs.org/en)
+- A code editor (we are using [Visual Studio](https://code.visualstudio.com/download).)
+- [Install Node.js](https://nodejs.org/en/download) (Please make sure to install `v18` for this project. We are using `v18.17.1`.)
+- [Install GitHub](https://github.com/git-guides/install-git)
 
-## Download boilerplate project
+## Clone the boilerplate Hardhat project
 
-To save you some work, we created a npm project with hardhat configuration files. You can download the basic project by cloning the repo from [here](https://github.com/0xmetaschool/Q-boilerplate-code).
-
-Now open a terminal in the main folder, Q-boilerplate-code-main,  and run the following command to install all dependencies:
+To save you some work, we created a npm project with Hardhat configuration files. Open the terminal and run the following command to clone the GitHub repository. 
 
 ```
-npm install --force
+git clone https://github.com/0xmetaschool/Q-boilerplate-code.git
+```
+
+Now, run the following command to move to the repository folder and install all dependencies:
+
+```
+cd Q-boilerplate
+npm install dotenv --save --force
 npm install --save-dev hardhat --force
+npm install --force
 ```
+
+**Note:** If you are planning to not use the boilerplate project and create your own Hardhat project, please make sure that you are using same config file and copying other important files from `contracts` folder.
 
 ## Update `.env` file
 
-To deploy scripts on the blockchain, you will need to use a private key. To do this, you can fetch your private key from one of your accounts in Metamask (we recommend creating a new account for this). To get the private key:
+To deploy scripts on the blockchain, you will need to use a private key from your wallet. To do this, you can fetch your private key from one of your accounts in Metamask Q network (we recommend creating a new account for this). To get the private key:
 
 - Click on your account.
 - Click on “Account details”.
@@ -34,17 +48,15 @@ To deploy scripts on the blockchain, you will need to use a private key. To do t
 - Enter your Metamask wallet password.
 - Copy the private key shown.
     
-    ![Frame 3560364 (11).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Setup%20Your%20Project/Frame_3560364_(11).gif?raw=true)
+    ![ezgif.com-optimize (16).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/3.%20Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/2.%20Setup%20Your%20Project/ezgif.com-optimize_(16).gif?raw=true)
     
 
-Now navigate to `.env` in your main folder (Q-boilerplate-code) with the following content. Replace “ENTER_YOUR_KEY” with the private key of your wallet that you copied.
+Now, navigate to `.env` in your main folder (`Q-boilerplate-code`) with the following content. Replace `“ENTER_YOUR_KEY”` with the private key of your wallet that you copied.
 
 ```
 PRIVATE_KEY="ENTER_YOUR_KEY"
 ```
 
-- This `.env` will be added to `.gitignore`, so we accidentally don’t push our sensitive information to Github.
-
 ## That’s a wrap
 
-Phew! You are all set to start your project. Next, we will start adding the code to it. First of all, we will create a token that will be a native token for our DAO. So let’s move to the next steps.
+You are all set to start your project. Next, we will start adding the code to it. Our first task would be to create a token that will be a native token for our DAO. So let’s move to the next steps.

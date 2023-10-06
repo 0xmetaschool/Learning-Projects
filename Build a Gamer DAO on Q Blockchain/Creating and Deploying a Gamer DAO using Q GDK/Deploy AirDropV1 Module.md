@@ -6,9 +6,9 @@ Awesome folks! So you created a complex module to do AirDrops. Now it’s time t
 
 Navigate to `scripts/AirDropV1/2_deploy_airdropV1.js` and start writing the following code:
 
-### Adding necessary modules
+### Add necessary modules
 
-The following lines import necessary modules for the script to work.
+The following lines import necessary modules for the script to work with.
 
 ```
 const { ethers } = require("hardhat");
@@ -30,11 +30,15 @@ The script defines an asynchronous function named `main`.
 
 ```
 async function main() {
+	// Rest of the code goes here
+}
 ```
 
 - The `async` keyword indicates that the function contains asynchronous operations that will return Promises.  We used Promises because sometimes our function does not immediately return a result. For example, sometimes, we have to wait for the blockchain we are interacting with to confirm a transaction.
 
-### Adding contants
+Now, we will add the code to our `main` function.
+
+### Add contants
 
 The following lines set the `qrc20Address` variables to the address of the QRC20 token contract you deployed. 
 
@@ -82,7 +86,7 @@ fs.writeFileSync("tree.json", JSON.stringify(data, null, 2));
 
 ```
 
-- `addresses` is an array of objects, each containing public wallet addresses. These are the addresses we will use for whitelisting. You can add your wallet address here along with any other address you want to add.
+- `addresses` is an array of objects, each containing public wallet addresses. These are the addresses we will use for whitelisting. You can add your wallet address here along with any other address you want to add. You can also use just one address here.
 - `leafNodes` is an array of hashed addresses using the keccak256 algorithm.
 - A Merkle tree is created using the `MerkleTree` constructor, passing in `leafNodes` and the keccak256 function for hashing, with `sortPairs: true` to ensure pairs are sorted before hashing.
 - The Merkle root of the tree is obtained using `merkleTree.getHexRoot()`.
@@ -122,7 +126,6 @@ Remember we didn’t mint our in previous lessons? This block of code just do th
 	const mintAmount = Web3.utils.toWei('2000', 'ether');
 	await contract.mintTo(airdropAddress, mintAmount);
 	console.log("Airdrop Funded...");
-}
 ```
 
 - In, `mintAmount` variable we are basically storing the amount of tokens we want to mint. Here, we are storing `2000` in `mintAmount` constant. You can also set up the amount of tokens you want to mint.
@@ -132,7 +135,7 @@ Here, our `main` function ends.
 
 ### Call `main` function
 
-Lastly, we call `main()` to run the script.
+Lastly, outside of the `main` function, we will call `main()` to run the script.
 
 ```
 main();
@@ -140,7 +143,7 @@ main();
 
 ## Complete code
 
-Here’s how the complete code looks like.
+Here’s how the complete code looks like. Remember to add this in `2_deploy_airdropV1.js` file.
 
 ```
 const { ethers } = require("hardhat");
@@ -223,11 +226,11 @@ npx hardhat run scripts/AirDropV1/2_deploy_airdropV1.js --network testnet
 
 This command will give you the output like this:
 
-![Frame 3560339 (3).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Deploy%20AirDropV1%20Module/Frame_3560339_(3).png?raw=true)
+![Frame 3560339 (3).webp](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/main/assests_for_all/assests_for_q/q-update/3.%20Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/6.%20Deploy%20AirDropV1%20Module/Frame_3560339_(3).webp)
 
 Now, head over to your Q DAO Factory Dashboard. You will notice that your DAO is now filled with 2k Meta tokens.
 
-![Frame 3560339 (4).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/Deploy%20AirDropV1%20Module/Frame_3560339_(4).png?raw=true)
+![Frame 3560339 (4) (1).webp](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/main/assests_for_all/assests_for_q/q-update/3.%20Creating%20and%20Deploying%20a%20Gamer%20DAO%20using%20Q%20GDK/6.%20Deploy%20AirDropV1%20Module/Frame_3560339_(4)_(1).webp)
 
 ## That’s a wrap
 
