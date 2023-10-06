@@ -13,7 +13,7 @@ Q Blockchain is not like any other blockchain you've heard of. It's unique becau
 
 So, Q Blockchain combines openness, transparency, reliability, and cool governance features to give us the best of both worlds–the blockchain world or web3 and the traditional world of business. Q is all about making things fair, understandable, and pushing the limits of what technology can do.
 
-![Frame 3560364 (2).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/Introduction%20to%20Q%20Blockchain/Frame_3560364_(2).jpg?raw=true)
+![Frame 3560364 (2).jpg](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/main/assests_for_all/assests_for_q/q-update/1.%20Getting%20Started%20with%20Q%20Blockchain/2.%20Introduction%20to%20Q%20Blockchain/Frame_3560364_(2).webp)
 
 So to dive deep into why Q is so awesome and the requirement of today’s world first let's take a fun journey through the different generations of blockchain!
 
@@ -23,7 +23,7 @@ So to dive deep into why Q is so awesome and the requirement of today’s world 
 
 **Blockchain 2.0** - Here comes Ethereum, the superstar of the second generation! It saw blockchain as a whole new innovative tech playground. With Ethereum, we could create super secure smart contracts and dive into the world of decentralized apps (dApps). It was like the blockchain's true calling beyond just digital money. And get this, it managed to handle a cool 15 transactions per second!
 
-![Frame 3560364 (6).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/Introduction%20to%20Q%20Blockchain/Frame_3560364_(6).jpg?raw=true)
+![Frame 3560364 (6).jpg](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/main/assests_for_all/assests_for_q/q-update/1.%20Getting%20Started%20with%20Q%20Blockchain/2.%20Introduction%20to%20Q%20Blockchain/Frame_3560364_(6).webp)
 
 **Blockchain 3.0** - Now things are getting faster! Say hello to Cardano and EOS, the heroes of the third generation. They blew our minds with processing speeds that went way beyond 3000 transactions per second. How did they do it? They switched things up with a Delegated Proof of Ownership (DPoS) consensus mechanism. It's all about energy efficiency and generating a new block in just 0.5 seconds. Zoom!
 
@@ -39,7 +39,7 @@ Imagine this: You've got a crew of rockstar participants, all coming together an
 
 Q Blockchain doesn't mess around when it comes to governance. It's all about making sure everyone's on board and singing from the same hymn sheet. It's like a big group hug of consensus!
 
-![Frame 3560364 (3).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/Introduction%20to%20Q%20Blockchain/Frame_3560364_(3).jpg?raw=true)
+![Frame 3560364 (3).jpg](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/main/assests_for_all/assests_for_q/q-update/1.%20Getting%20Started%20with%20Q%20Blockchain/2.%20Introduction%20to%20Q%20Blockchain/Frame_3560364_(3).webp)
 
 So, when you step into the Q Blockchain party, you know things are gonna be tight. The governance framework is the DJ spinning the tracks and the Q Constitution is the sheet with the notes and dancing steps, making sure everyone's grooving to the same beat. It's like having a superhero referee who keeps the game fair and fun.
 

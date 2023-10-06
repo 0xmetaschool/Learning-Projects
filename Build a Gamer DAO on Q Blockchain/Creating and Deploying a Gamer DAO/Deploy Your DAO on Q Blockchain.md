@@ -13,7 +13,7 @@ Next, you’ll notice the compiler version set in the compiler is not right. Let
 > **Note:** In your case, if the box is already selected don’t unselect it.
 > 
 
-![Frame 3560339 (5).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Deploy%20Your%20DAO%20on%20Q%20Blockchain/Frame_3560339_(5).jpg?raw=true)
+![Frame 3560339 (5).jpg](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/main/assests_for_all/assests_for_q/q-update/2.%20Creating%20and%20Deploying%20a%20Gamer%20DAO/4.%20Deploy%20Your%20DAO%20on%20Q%20Blockchain/1.webp)
 
 Now, I will show you how to deploy your DAO, but before that you need to connect Remix IDE to your MetaMask account.
 
@@ -23,7 +23,7 @@ Now, I will show you how to deploy your DAO, but before that you need to connect
 
 Now, let’s look at this happening live.
 
-![Screen Recording GIF.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Deploy%20Your%20DAO%20on%20Q%20Blockchain/Screen_Recording_GIF.gif?raw=true)
+![Screen Recording GIF.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/2.%20Creating%20and%20Deploying%20a%20Gamer%20DAO/4.%20Deploy%20Your%20DAO%20on%20Q%20Blockchain/2.gif?raw=true)
 
 Now, we will officially deploy the DAO.
 
@@ -32,7 +32,7 @@ Now, we will officially deploy the DAO.
 
 Let’s look at this happening live in the following GIF.
 
-![Frame 3560364 (6).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Deploy%20Your%20DAO%20on%20Q%20Blockchain/Frame_3560364_(6).gif?raw=true)
+![Frame 3560364 (6).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/2.%20Creating%20and%20Deploying%20a%20Gamer%20DAO/4.%20Deploy%20Your%20DAO%20on%20Q%20Blockchain/3.gif?raw=true)
 
 ## Interact with DAO
 
@@ -46,7 +46,7 @@ Let’s go to the “Deployed Contracts” section and then do the following:
 - Click on “Confirm” in your MetaMask to approve the transaction.
 - You will see the successful transaction completed in the logs at the bottom of the remix interface.
     
-    ![Frame 3560364 (7).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Deploy%20Your%20DAO%20on%20Q%20Blockchain/Frame_3560364_(7).gif?raw=true)
+    ![Frame 3560364 (7).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/2.%20Creating%20and%20Deploying%20a%20Gamer%20DAO/4.%20Deploy%20Your%20DAO%20on%20Q%20Blockchain/4.gif?raw=true)
     
 
 Now let’s try out the `createProposal` function:
@@ -56,14 +56,14 @@ Now let’s try out the `createProposal` function:
 - Click on “Confirm” in your MetaMask to approve the transaction.
 - You will see the successful transaction completed in the logs.
     
-    ![Frame 3560364 (8).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Deploy%20Your%20DAO%20on%20Q%20Blockchain/Frame_3560364_(8).gif?raw=true)
+    ![Frame 3560364 (8).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/2.%20Creating%20and%20Deploying%20a%20Gamer%20DAO/4.%20Deploy%20Your%20DAO%20on%20Q%20Blockchain/5.gif?raw=true)
     
 
 Now let’s try out the `vote` function:
 
 - First we need the `_proposalId` that was generated as a result of executing `createProposal` function. We can find it in the logs, to expand the transaction logs, click on arrow icon next to the “Debug” button.
     
-    ![Frame 3560364 (9).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Deploy%20Your%20DAO%20on%20Q%20Blockchain/Frame_3560364_(9).gif?raw=true)
+    ![Frame 3560364 (9).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/2.%20Creating%20and%20Deploying%20a%20Gamer%20DAO/4.%20Deploy%20Your%20DAO%20on%20Q%20Blockchain/6.gif?raw=true)
     
 - Expand the `vote` function in the list of functions on the left.
 - Add value of `_proposalId`. In my case, it is `0`.
@@ -72,7 +72,7 @@ Now let’s try out the `vote` function:
 - Click on “Confirm” to approve the transaction.
 - You will see the successful transaction completed in the logs.
     
-    ![Frame 3560364 (10).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Creating%20and%20Deploying%20a%20Gamer%20DAO/Deploy%20Your%20DAO%20on%20Q%20Blockchain/Frame_3560364_(10).gif?raw=true)
+    ![Frame 3560364 (10).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/2.%20Creating%20and%20Deploying%20a%20Gamer%20DAO/4.%20Deploy%20Your%20DAO%20on%20Q%20Blockchain/7.gif?raw=true)
     
 
 A small task for you now: try other functions too! 💪🏼

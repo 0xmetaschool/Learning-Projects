@@ -42,7 +42,7 @@ Don't worry! We will cover essential concepts along the way and explain code in 
 
 If you complete this course with me, you will be getting a special NFT, a utility token, which will unlock many more opportunities for you on the Metaschool platform. Here is how the NFT looks like.
 
-![Untitled (1).gif](<https://github.com/0xmetaschool/Learning-Projects/blob/87e32dadb3072a9a92002461585601ebf3775fce/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Getting%20Started%20with%20Q%20Blockchain/What%20Are%20We%20Building/Untitled_(1).gif?raw=true>)
+![Untitled (1).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/1.%20Getting%20Started%20with%20Q%20Blockchain/1.%20What%20Are%20We%20Building/Untitled_(1).gif?raw=true)
 
 **Not only this!** You will get the following perks after completing this course.
 
