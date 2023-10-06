@@ -140,8 +140,12 @@ MODULE_IMPLEMENTATION = "YOUR-AIRDROP-V2-ADDRESS"
 
 Here’s how the command output will look like.
 
-![Frame 3560339 (5).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Deploying%20the%20AirDropV2%20Module/Frame_3560339_(5).png?raw=true)
+![Frame 3560339 (5).webp](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/main/assests_for_all/assests_for_q/q-update/4.%20Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/2.%20Deploying%20the%20AirDropV2%20Module/Frame%203560339%20(5).webp)
 
 ## That’s a wrap
 
 Congratulations on deploying the `AirDropV2` contract. Next, we will move forward and work on creating a second script for our `AirDropV2` module which will create the proposal for DAO members to vote on. The proposal will be adding the module to the registry.
+
+**Assignment**: Share the screenshot of your output after deploying AirDropV2 module.
+
+**Assignment description**: Do share with us.

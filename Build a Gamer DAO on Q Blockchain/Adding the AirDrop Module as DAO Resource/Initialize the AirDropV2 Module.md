@@ -1,6 +1,6 @@
 # Initialize the AirDropV2 Module
 
-In last lesson, you created the third script for adding the AirDropV2 module to your DAO, were we added the module to the DAO Registry and turned into an official DAO resource. In this lesson, we will build the fourth script for initializing the AIrDropV2 module and finalizing the setup.
+In last lesson, you created the third script for adding the AirDropV2 module to your DAO, were we added the module to the DAO Registry and turned into an official DAO resource. In this lesson, we will build the fourth script for initializing the AirDropV2 module and finalizing the setup.
 
 ## What exactly will this script do?
 
@@ -66,7 +66,8 @@ const daoRegistry = DAORegistryFactory.attach(DAO_REGISTRY_ADDRESS);
 const AirDropProxy = AirDropV2Factory.attach(await daoRegistry.getContract(MODULE_NAME));
 ```
 
-Now, we will attach these contract factories to the DAO registry address and the address of our AirdropV2 contract from the DAO registry respectively. This is again a pretty straight forward process as explained in the last lesson. Only this time, for the AirDropV2 contract address, we will use the instance of the DAO Registry to call the `getContract()` function which takes the name of the module as a parameter and returns the address of the AirDropV2 contract.
+- Here, we are attaching the contract factories to the DAO registry address and the address of our AirdropV2 contract from the DAO registry respectively.
+- This is again a pretty straight forward process as explained in the last lesson. Only this time, for the AirDropV2 contract address, we will use the instance of the DAO Registry to call the `getContract()` function which takes the name of the module as a parameter and returns the address of the AirDropV2 contract.
 
 ### Init `AirDropV2` module
 
@@ -81,7 +82,7 @@ await AirDropProxy.__AirDropV2_init(VOTING_CONTRACT_ADDRESS, {
 console.log(`Initialized ${MODULE_NAME}`);
 ```
 
-- The function takes `VOTING_CONTRACT_ADDRESS` as a parameter and we again send the transaction from the senderAddress (This part is optional if you don’t have multiple addresses)
+- The function takes `VOTING_CONTRACT_ADDRESS` as a parameter and we again send the transaction from the `senderAddress` (This part is optional if you don’t have multiple addresses).
 - Lastly, the`console.log` statements are used to indicate the initialization process and its completion.
 
 ## Complete code
@@ -134,11 +135,10 @@ npx hardhat run scripts/AirDropV2/4_initModule.js --network testnet
 
 The command will give you the following output.
 
-![airdrop-v2-output-3.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Initialize%20the%20AirDropV2%20Module/airdrop-v2-output-3.png?raw=true)
+![airdrop-v2-output-3.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/4.%20Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/5.%20Initialize%20the%20AirDropV2%20Module/airdrop-v2-output-3.png?raw=true)
 
 ## That’s a wrap
 
 In summary, this script initializes the `AirDropV2` module by calling its `__AirDropV2_init` function with the specified parameters. The script uses the provided environment variables to fetch contract addresses, and the `ethers` library to interact with the Q blockchain. It demonstrates how to connect to existing contract instances and initialize a contract module within a DAO system.
 
 Congratulations you have successfully added a Airdrop module as a DAO resource, now you will be able to create and manage the Airdrop campaign from the DAO itself, so let’s not waste time and move on to create a frontend to interact with the new functions we have added to our DAO.
-
