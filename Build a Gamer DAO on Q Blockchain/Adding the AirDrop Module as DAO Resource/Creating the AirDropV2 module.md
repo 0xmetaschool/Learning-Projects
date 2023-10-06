@@ -1,6 +1,6 @@
 # Creating the AirDropV2 module
 
-Welcome Back! So far you have deployed your DAO on Q blockchain and you have a hardhat project which we have used to deploy the version 1 of the Airdrop module. Now, in this lesson you will learn how to create a version 2 of the Airdrop module to overcome the limitations of the previous version. 
+Welcome Back! So far you have deployed your DAO on Q blockchain and you have a hardhat project which we have used to deploy the version 1 of the Airdrop module. Now, in this lesson you will learn how to create a version 2 of the Airdrop module to overcome the limitations of the previous version.
 
 ## What exactly AirDrop V2 will do?
 
@@ -13,7 +13,7 @@ Let’s first look at what exactly AirDropV2 will do and why we want to create i
 
 ## Prerequisite
 
-Before moving forward, create another solidity file called `ACampaignAirDrop.sol` under `contracts/lib` and copy its code from [here](https://github.com/0xmetaschool/Q-boilerplate-code/blob/main/contracts/libs/ACampaignAirDrop.sol). This is a pre-defined contract which contains the logic for managing a airdrop campaign.
+Before moving forward, create another solidity file called `ACampaignAirDrop.sol` ****under `contracts/lib` and copy its code from [here](https://github.com/0xmetaschool/Q-boilerplate-code/blob/main/contracts/libs/ACampaignAirDrop.sol). This is a pre-defined contract which contains the logic for managing a airdrop campaign.
 
 ## Let’s start coding
 
@@ -230,4 +230,3 @@ contract AirDropV2 is ACampaignAirDrop, Initializable, IDAOResource {
 ## That’s a wrap
 
 In this lesson, you learned to improve the Airdrop first version. In next lesson, we will move onto deploying the `AirDropV2` module on Q blockchain.
-

@@ -145,7 +145,3 @@ Here’s how the command output will look like.
 ## That’s a wrap
 
 Congratulations on deploying the `AirDropV2` contract. Next, we will move forward and work on creating a second script for our `AirDropV2` module which will create the proposal for DAO members to vote on. The proposal will be adding the module to the registry.
-
-**Assignment**: Share the screenshot of your output after deploying AirDropV2 module.
-
-**Assignment description**: Do share with us.

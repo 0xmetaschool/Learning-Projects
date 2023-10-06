@@ -17,23 +17,19 @@ But before moving forward let’s add some environmental variables to `.env` fil
 MAIN_DAO_VOTING_ADDRESS = "YOUR-GENERAL_VOTING:DAO Token Holder-ADDRESS"
 ```
 
-Here’s a GIF for your ease to find the `GENERAL_VOTING:DAO Token Holder` address.
-
-![Frame 3560339.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Creating%20a%20Voting%20Situation/find%20dao%20holder%20address.gif?raw=true)
-
-2. Add the address of the voting contract used for managing the new module - It determines who can use the module. Again, use the `GENERAL_VOTING:DAO Token Holder` address from the DAO Registry in the Dashboard for this field as well. It will allow every DAO member to use the module.
+1. Add the address of the voting contract used for managing the new module - It determines who can use the module. Again, use the `GENERAL_VOTING:DAO Token Holder` address from the DAO Registry in the Dashboard for this field as well. It will allow every DAO member to use the module.
 
 ```
 VOTING_CONTRACT_ADDRESS = "YOUR-GENERAL_VOTING:DAO Token Holder-ADDRESS"
 ```
 
-3. Add the module name to the `.env` file like this.
+1. Add the module name to the `.env` file like this.
 
 ```
 MODULE_NAME = "AirDropV2"
 ```
 
-4. Add following two variables as it is and do not change them.
+1. Add following two variables as it is and do not change them.
 
 ```
 DAO_REGISTRY_NAME = "DAO_REGISTRY"
@@ -63,7 +59,7 @@ const { MODULE_NAME, MAIN_DAO_VOTING_ADDRESS, VOTING_CONTRACT_ADDRESS, TEN_PERCE
 
 ### `buildVotingSituation` function
 
-Next let’s come to the building the parameters required for the voting situation: The `buildVotingSituation` function returns the required parameter for the voting situations.
+Next let’s come to the building the parameters required for the voting situation: The `buildVotingSituation` function returns the required parameter for the voting situations. 
 
 ```
 function buildVotingSituation(name, target) {
@@ -88,15 +84,15 @@ The function returns an object representing the voting situation that shall be c
 
 - `votingSituationName`: This property stores the name of the voting situation, which helps identify it uniquely.
 - `votingValues`: This property holds an object containing various voting values and parameters, such as:
-  - `votingPeriod`: The duration of the voting period in seconds. For example, it is set to 300 seconds (5 minutes) here. This allows for quickly using the module in the beginning and can later be changed to a longer period by a configuration parameter vote.
-  - `vetoPeriod`: The duration of the veto period in seconds. In this case, it is set to 60 seconds (1 minute).
-  - `proposalExecutionPeriod`: The duration for the proposal execution period in seconds. Here, it is set to 1000 seconds (16 minutes and 40 seconds).
-  - `requiredQuorum`: The required quorum percentage for the proposal to be valid. This is represented by the variable `TEN_PERCENTAGE`, which would typically be 10% of the total voters.
-  - `requiredMajority`: The required majority percentage for the proposal to pass. Again, represented by `TEN_PERCENTAGE`, indicating 10% of the total voters.
-  - `requiredVetoQuorum`: The required veto quorum percentage to prevent a proposal from being passed. Similar to the previous two, it's represented by `TEN_PERCENTAGE`.
-  - `votingType`: The type of voting method used. Here, it's set to 0, which represents a standard voting method.
-  - `votingTarget`: The target of the voting, which could be the name or address of the proposal subject. This value is provided through the `target` parameter of the function.
-  - `votingMinAmount`: The minimum amount of votes required for a proposal to be valid. In this case, it's set to 1, indicating that at least one vote is needed for the proposal to be considered.
+    - `votingPeriod`: The duration of the voting period in seconds. For example, it is set to 300 seconds (5 minutes) here. This allows for quickly using the module in the beginning and can later be changed to a longer period by a configuration parameter vote.
+    - `vetoPeriod`: The duration of the veto period in seconds. In this case, it is set to 60 seconds (1 minute).
+    - `proposalExecutionPeriod`: The duration for the proposal execution period in seconds. Here, it is set to 1000 seconds (16 minutes and 40 seconds).
+    - `requiredQuorum`: The required quorum percentage for the proposal to be valid. This is represented by the variable `TEN_PERCENTAGE`, which would typically be 10% of the total voters.
+    - `requiredMajority`: The required majority percentage for the proposal to pass. Again, represented by `TEN_PERCENTAGE`, indicating 10% of the total voters.
+    - `requiredVetoQuorum`: The required veto quorum percentage to prevent a proposal from being passed. Similar to the previous two, it's represented by `TEN_PERCENTAGE`.
+    - `votingType`: The type of voting method used. Here, it's set to 0, which represents a standard voting method.
+    - `votingTarget`: The target of the voting, which could be the name or address of the proposal subject. This value is provided through the `target` parameter of the function.
+    - `votingMinAmount`: The minimum amount of votes required for a proposal to be valid. In this case, it's set to 1, indicating that at least one vote is needed for the proposal to be considered.
 
 ### `main` function
 
@@ -134,7 +130,7 @@ Now we will create an instance of the `GeneralDAOVoting` contract using `ethers.
 const GeneralDAOVotingFactory = await ethers.getContractFactory("GeneralDAOVoting");
 ```
 
-Next, we attach the instance with its deployed contract address to interact with it using `attach`.
+Next, we attach the instance with its deployed contract address to interact with it using `attach`. 
 
 ```
 // Attach to existing instances of GeneralDAOVoting
@@ -150,13 +146,13 @@ Now we will move on to create the voting situation.
 console.log("Creating Voting Situation");
 
 // Creating voting situations for adding a new module and the module itself
-const daoRegistrySituation = buildVotingSituation("DAORegistry", `${DAO_REGISTRY_NAME}`);
+const daoRegistrySituation = buildVotingSituation("DAORegistry", `${DAO_REGISTRY_NAME}`);		
 const moduleVoteSituation = buildVotingSituation(`${MODULE_NAME}`, `${MODULE_NAME}`);
 ```
 
 ### Encoding the data
 
-We will encode this data to pass it with our transaction to Voting Contract and Main DAO Contract respectively using `getEncodedData`.
+We will encode this data to pass it with our transaction to Voting Contract and Main DAO Contract respectively using `getEncodedData`. 
 
 ```
 // Encoding the data for proposals
@@ -185,7 +181,7 @@ await VotingContract.createProposal("General Update Vote", `Adding ${MODULE_NAME
 console.log("Proposal Created");
 ```
 
-Kudos to you, because you have successfully created your script to interact with your DAO.
+Kudos to you, because you have successfully created your script to interact with your DAO. 
 
 ## Complete code
 
@@ -232,7 +228,7 @@ async function main() {
 		console.log("Creating Voting Situation");
 
     // Creating voting situations for adding a new module and the module itself
-    const daoRegistrySituation = buildVotingSituation("DAORegistry", `${DAO_REGISTRY_NAME}`);
+    const daoRegistrySituation = buildVotingSituation("DAORegistry", `${DAO_REGISTRY_NAME}`);		
 		const moduleVoteSituation = buildVotingSituation(`${MODULE_NAME}`, `${MODULE_NAME}`);
 
     // Encoding the data for proposals
@@ -264,28 +260,29 @@ main();
 Follow the following steps beofore you run the `2_createVoting.js` script. Because since we will be creating proposals to vote on, you need to prepare your account to be able to vote.
 
 1. First, you need to mint tokens from your DAO dashboard as you need to have some of your token to acquire the voting power. Make sure, that the private key in the `.env` file belongs to the account that you now increase the voting weight for.
-
-   1. Click on the three dots on “DAO Token Supply” card.
-   2. Click on “Mint Tokens”
-
-      ![Frame 3560339 (3).png](<https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Creating%20a%20Voting%20Situation/Frame_3560339_(3).png?raw=true>)
-
-   3. Paste your account address and select only the minted tokens count for quorum.
-   4. If you don’t want to mint all tokens, everything works fine as well. Just Make sure to have more than 10 % of all minted tokens in your account. Because remember - that’s the quorum for the proposal.
-
-Here’s a GIF where we’re showing you to the steps for your ease.
-![mint-tokens.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Creating%20a%20Voting%20Situation/mint-tokens-dao.gif?raw=true)
-
-2. After minting the tokens, you need to deposit the tokens to the DAO Vault to increase your voting power. The DAO Vault is important, so nobody can vote twice with their token.
-   1. Go to the “Voting Power” section in the side bar.
-   2. Choose maximum token on the “Deposit” card and click “Approve” to deposit maximum amount of tokens to your voting power.
-   3. Once you have approved the transfer, now click on “Deposit” to stake your token on the DAO. The “Deposit” button will be in the same place as the “Approve” button before.
-   4. You will now see your voting power updated in the Overview card.
+    1. Click on the three dots on “DAO Token Supply” card.
+    2. Click on “Mint Tokens”
+    
+    ![Frame 3560339 (3) (1).webp](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/main/assests_for_all/assests_for_q/q-update/4.%20Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/3.%20Creating%20a%20Voting%20Situation/Frame%203560339%20(3)%20(1).webp)
+    
+    3. Paste your account address and select only the minted tokens count for quorum. 
+    4. If you don’t want to mint all tokens, everything works fine as well. Just Make sure to have more than 10 % of all minted tokens in your account. Because remember - that’s the quorum for the proposal.
 
 Here’s a GIF where we’re showing you to the steps for your ease.
-![deposit-tokens.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Creating%20a%20Voting%20Situation/deposit-tokens-dao.gif?raw=true)
 
-3. Finally, run the following command to run the migration script.
+![ezgif.com-resize (1).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/4.%20Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/3.%20Creating%20a%20Voting%20Situation/ezgif.com-resize%20(1).gif?raw=true)
+
+1. After minting the tokens, you need to deposit the tokens to the DAO Vault to increase your voting power. The DAO Vault is important, so nobody can vote twice with their token.
+    1. Go to the “Voting Power” section in the side bar.
+    2. Choose maximum token on the “Deposit” card and click “Approve” to deposit maximum amount of tokens to your voting power.
+    3. Once you have approved the transfer, now click on “Deposit” to stake your token on the DAO. The “Deposit” button will be in the same place as the “Approve” button before.
+    4. You will now see your voting power updated in the Overview card.
+
+Here’s a GIF where we’re showing you to the steps for your ease.
+
+![ezgif.com-optimize (22).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/4.%20Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/3.%20Creating%20a%20Voting%20Situation/ezgif.com-optimize%20(22).gif?raw=true)
+
+1. Finally, run the following command to run the migration script.
 
 ```
 npx hardhat run scripts/AirDropV2/2_createVoting.js --network testnet
@@ -293,19 +290,20 @@ npx hardhat run scripts/AirDropV2/2_createVoting.js --network testnet
 
 The command will give you the following output.
 
-![airdrop-v2-output.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Creating%20a%20Voting%20Situation/airdrop-v2-output.png?raw=true)
+![airdrop-v2-output.webp](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/main/assests_for_all/assests_for_q/q-update/4.%20Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/3.%20Creating%20a%20Voting%20Situation/airdrop-v2-output.webp)
 
-4. Go back to the DAO dashboard and move to the “Governance” section from the side bar. Here, you will find two pending proposals.
-5. Go to each proposal one-by-one and vote for “yes” on both of them. You need to be quick, because the voting period is only 5 minutes. If you for some reason did not manage to vote on both proposals in time, you have to start again by running the migration script and create two new proposals.
+1. Go back to the DAO dashboard and move to the “Governance” section from the side bar. Here, you will find two pending proposals.
+2. Go to each proposal one-by-one and vote for “yes” on both of them. You need to be quick, because the voting period is only 5 minutes. If you for some reason did not manage to vote on both proposals in time, you have to start again by running the migration script and create two new proposals.
 
 Here’s a GIF where we’re showing you to the steps for your ease.
-![vote-proposal.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Creating%20a%20Voting%20Situation/vote-proposal-dao.gif?raw=true)
 
-6. Wait until the proposals get accepted (which we set to 5 minutes), then again click on each proposal one-by-one and execute the proposal. Here’s how you can do that.
+![ezgif.com-optimize (23).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/4.%20Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/3.%20Creating%20a%20Voting%20Situation/ezgif.com-optimize%20(23).gif?raw=true)
 
-![execute-proposal.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/Build%20a%20Gamer%20DAO%20on%20Q%20Blockchain/Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/Creating%20a%20Voting%20Situation/execute-propsal-dao.gif?raw=true)
+1. Wait until the proposals get accepted (which we set to 5 minutes), then again click on each proposal one-by-one and execute the proposal. Here’s how you can do that.
 
-7. Once executed, you have given the power to vote on adding the new modules to the DAO and to voting on the AirDropV2 module.
+![ezgif.com-optimize (25).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_q/q-update/4.%20Adding%20the%20AirDrop%20Module%20as%20DAO%20Resource/3.%20Creating%20a%20Voting%20Situation/ezgif.com-optimize%20(25).gif?raw=true)
+
+1. Once executed, you have given the power to vote on adding the new modules to the DAO and to voting on the AirDropV2 module.
 
 ## That’s a wrap
 
