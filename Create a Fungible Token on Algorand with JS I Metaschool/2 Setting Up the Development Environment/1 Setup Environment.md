@@ -172,7 +172,7 @@ createAccountAndExport();
 To get access to Testnet Algorand, we require a API service. We will use PureStake for this purpose as it provides secure and reliable access to native Algorand REST APIs and it’s free!
 
 - Create an account on PureStake: [https://developer.purestake.io/login](https://developer.purestake.io/login)
-- Now copy the API key written in-front of x-api-key int he first box of left panel. i have pointed out below:
+- Now copy the API key written in-front of x-api-key in the first box of left panel. i have pointed out below:
     
     ![Frame 48095931.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_1%20Setup%20Environment/Frame_48095931.jpg?raw=true)
     
