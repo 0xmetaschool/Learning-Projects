@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "LStan",
+      "name": "Stanislav Ladyzhenskiy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10183269?v=4",
+      "profile": "https://www.linkedin.com/in/lasto",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Learning-Projects",
+  "projectOwner": "0xmetaschool"
+}
