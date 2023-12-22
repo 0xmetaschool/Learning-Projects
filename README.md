@@ -1,4 +1,7 @@
 <h1>🔮 Metaschool.so</h1>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <h3> Learn, Build & Ship amazing Web3 Projects 🚀🚀</h3>
 <a href=".github/CONTRIBUTING.md#-how-to-contribute">
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
@@ -33,3 +36,25 @@ If you find an error, resolve it and submit a pull request. Let's build this! �
 ## 🤝 Sounds fun! How do I contribute
 
 Since our projects and their tutorials are available and opensourced for everyone, you can step us and report issues, resolve them and become a contributer too. [Follow this short guide](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository) by GitHub on how you can edit & contribute.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Ash20pk"><img src="https://avatars.githubusercontent.com/u/86375577?v=4?s=100" width="100px;" alt="Aswin Kumar"/><br /><sub><b>Aswin Kumar</b></sub></a><br /><a href="https://github.com/0xmetaschool/Learning-Projects/commits?author=Ash20pk" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
