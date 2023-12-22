@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "Ash20pk",
+      "name": "Aswin Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86375577?v=4",
+      "profile": "https://github.com/Ash20pk",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Learning-Projects",
+  "projectOwner": "0xmetaschool"
+}
