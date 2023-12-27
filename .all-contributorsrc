@@ -42,6 +42,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "aron-radvanyi",
+      "name": "Aron Radvanyi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108479744?v=4",
+      "profile": "http://linkedin.com/in/aronradvanyi",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
