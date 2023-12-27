@@ -45,7 +45,7 @@ Since our projects and their tutorials are available and opensourced for everyon
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/lasto"><img src="https://avatars.githubusercontent.com/u/10183269?v=4?s=100" width="100px;" alt="Stanislav Ladyzhenskiy"/><br /><sub><b>Stanislav Ladyzhenskiy</b></sub></a><br /><a href="#content-LStan" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/lasto"><img src="https://avatars.githubusercontent.com/u/10183269?v=4?s=100" width="100px;" alt="Stanislav Ladyzhenskiy"/><br /><sub><b>Stanislav Ladyzhenskiy</b></sub></a><br /><a href="#content-LStan" title="Content">🖋</a> <a href="https://github.com/0xmetaschool/Learning-Projects/commits?author=LStan" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
