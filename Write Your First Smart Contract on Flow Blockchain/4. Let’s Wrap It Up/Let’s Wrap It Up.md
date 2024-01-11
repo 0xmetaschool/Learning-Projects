@@ -34,6 +34,17 @@ Throughout your journey, you've delved into the fascinating world of the Fungibl
 
 You've just acquired the incredible power to write and deploy your very own Fungible Token on the Flow Blockchain, all thanks to the mighty Flow Playground!
 
+## ⚒️ A small yet important request:
+
+This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects/tree/main/Write%20Your%20First%20Smart%20Contract%20on%20Flow%20Blockchain). If you find any issues in the course, please feel free to resolve it. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://discord.com/invite/vbVMUwXWgc) and GitHub, too.
+
+While you’re contributing:
+
+1. Don’t forget to star ⭐️ our repository. We will be very thankful! ❤️
+2. We are a completely free platform and we aim to stay the same, so please consider following us on [X](https://bit.ly/flow-course-twitter) and [LinkedIn](https://bit.ly/flow-course-linkedin) as well. 🫶
+
+
+
 ## 🎊 Congratulations
 
 You did it! 💪 You've conquered the course and now hold the keys to unlock the thrilling world of blockchain and smart contract development on the Flow Blockchain! Get ready to embark on an exhilarating journey where you can turn your wildest ideas into reality. The possibilities are endless, and the future is yours to shape! So, let your creativity soar high and dive into the exciting realm of blockchain development on Flow. It's time to make your mark and be part of the revolution!

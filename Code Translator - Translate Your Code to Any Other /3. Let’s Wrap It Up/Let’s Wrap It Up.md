@@ -33,6 +33,16 @@ You can use this AI bot in your daily life.
 1. You want to learn a new programming language? Head over to code translator and ask to generate the code or convert the code using the programming language you already know.
 2. You already have written a piece of code in one language but finding it hard to write the same logic again in another language? Head over to code translator and convert your code in an instant.
 
+## ⚒️ A small yet important request:
+
+This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects/tree/main/Code%20Translator%20-%20Translate%20Your%20Code%20to%20Any%20Other%20). If you find any issues in the course, please feel free to resolve it. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://discord.com/invite/vbVMUwXWgc) and GitHub, too.
+
+While you’re contributing:
+
+1. Don’t forget to star ⭐️ our repository. We will be very thankful! ❤️
+2. We are a completely free platform and we aim to stay the same, so please consider following us on [X](https://bit.ly/code-trans-twitter) and [LinkedIn](https://bit.ly/code-trans-linkedin) as well. 🫶
+
+
 ## Stay Connected
 
 Don't forget to flex your new AI bot on Twitter and tag us @0xmetaschool. Stay connected with us and keep leveling up. Remember, OpenAI is a game-changer that can transform the world as we know it. So keep pushing boundaries, keep expanding your knowledge, and let's change the game together.

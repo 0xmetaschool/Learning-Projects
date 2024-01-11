@@ -65,3 +65,14 @@ One thing to note is that Ethereum is transitioning from a PoW consensus mechani
 There’s a lot to digest in this post, I know. If it takes you multiple reads to fully understand what’s going on, that’s totally fine. I personally read the Ethereum yellow paper, white paper, and various parts of the code base many times before grokking what was going on.
 
 Good luck! :)
+
+
+## ⚒️ A small yet important request:
+
+This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects/tree/main/How%20does%20Ethereum%20work%20-%20A%20deepdive). If you find any issues in the course, please feel free to resolve it. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://discord.com/invite/vbVMUwXWgc) and GitHub, too.
+
+While you’re contributing:
+
+1. Don’t forget to star ⭐️ our repository. We will be very thankful! ❤️
+2. We are a completely free platform and we aim to stay the same, so please consider following us on [X](https://bit.ly/eth-dive-twitter) and [LinkedIn](https://bit.ly/eth-dive-linkedin) as well. 🫶
+
