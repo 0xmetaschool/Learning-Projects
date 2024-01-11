@@ -35,6 +35,15 @@ The potential of AI is limitless and we urge you to go out there and create your
 3. Albert Einstein AI bot that gives you some dope wisdom.
 4. Luffy AI bot that will help you find One Piece! Isn’t it cool??
 
+## ⚒️ A small yet important request:
+
+This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects/tree/main/Build%20a%20YeBot%20with%20OpenAI%20API). If you find any issues in the course, please feel free to resolve it. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://discord.com/invite/vbVMUwXWgc) and GitHub, too.
+
+While you’re contributing:
+
+1. Don’t forget to star ⭐️ our repository. We will be very thankful! ❤️
+2. We are a completely free platform and we aim to stay the same, so please consider following us on [X](https://bit.ly/yebot-course-twitter) and [LinkedIn](https://bit.ly/yebot-course-linkedin) as well. 🫶
+
 ## Stay Connected
 
 Don't forget to flex your new AI bot on Twitter and tag us @0xmetaschool. Stay connected with us and keep leveling up. Remember, OpenAI is a game-changer that can transform the world as we know it. So keep pushing boundaries, keep expanding your knowledge, and let's change the game together.

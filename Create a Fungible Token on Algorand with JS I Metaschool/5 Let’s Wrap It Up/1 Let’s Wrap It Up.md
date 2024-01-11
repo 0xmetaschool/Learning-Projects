@@ -14,6 +14,16 @@ You have learned how you can setup your development environment for Algorand Blo
 
 You have gained the knowledge to write and deploy your own fungible token on the Algorand Blockchain using the Javascript programming language.
 
+## ⚒️ A small yet important request:
+
+This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects/tree/main/Create%20a%20Fungible%20Token%20on%20Algorand%20with%20JS%20I%20Metaschool). If you find any issues in the course, please feel free to resolve it. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://discord.com/invite/vbVMUwXWgc) and GitHub, too.
+
+While you’re contributing:
+
+1. Don’t forget to star ⭐️ our repository. We will be very thankful! ❤️
+2. We are a completely free platform and we aim to stay the same, so please consider following us on [X](https://bit.ly/fung-algo-twitter) and [LinkedIn](https://bit.ly/fung-algo-linkedin) as well. 🫶
+
+
 ## 🎊 Congratulations
 
 You have completed the tutorial and are now equipped with the foundational knowledge to start exploring the exciting world of blockchain and token development on the Algorand Blockchain.

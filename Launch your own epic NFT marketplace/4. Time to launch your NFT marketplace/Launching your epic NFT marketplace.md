@@ -30,6 +30,16 @@ You can also check if the NFT has been airdropped to your account or not:
 1. Go to [https://mumbai.polygonscan.com/](https://mumbai.polygonscan.com/) and check the contract address to see the latest transactions.
 2. Go to [https://testnets.opensea.io/](https://testnets.opensea.io/) and search your contract address to see minted NFTs.
 
+
+## ⚒️ A small yet important request:
+
+This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects/tree/main/Launch%20your%20own%20epic%20NFT%20marketplace). If you find any issues in the course, please feel free to resolve it. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://discord.com/invite/vbVMUwXWgc) and GitHub, too.
+
+While you’re contributing:
+
+1. Don’t forget to star ⭐️ our repository. We will be very thankful! ❤️
+2. We are a completely free platform and we aim to stay the same, so please consider following us on [X](https://bit.ly/nft-marketplace-twitter) and [LinkedIn](https://bit.ly/nft-marketplace-linkedin) as well. 🫶
+
 ## Summary
 
 Congratulations on completing the full course on how to make an NFT marketplace with a mint price.
@@ -39,7 +49,5 @@ I hope you learned a lot. 👏
 And I hope you had a lot of fun. If yes, invite your friends to take this project with you. It would make the fun 10x.
 
 Put your newly acquired skills to test with some other fun NFT project.
-
-For any doubts feel free to [reach out to us on discord.](https://discord.gg/vbVMUwXWgc)
 
 See you in the next tutorial!

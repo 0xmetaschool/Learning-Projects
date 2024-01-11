@@ -6,7 +6,21 @@ Still wondering how to build NFTs? Don’t worry, let us share some more informa
 
 Most NFTs are built using a consistent standard known as [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/). However, there are other standards that you might want to look into. The [ERC-1155](https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/) standard allows for semi-fungible tokens which is particularly useful in the realm of gaming. And more recently, [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309) has been proposed to make minting NFTs a lot more efficient. This standard lets you mint as many as you like in one transaction!
 
+## ⚒️ A small yet important request:
+
+This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects/tree/main/Learn%20everything%20about%20NFTs). If you find any issues in the course, please feel free to resolve it. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://discord.com/invite/vbVMUwXWgc) and GitHub, too.
+
+While you’re contributing:
+
+1. Don’t forget to star ⭐️ our repository. We will be very thankful! ❤️
+2. We are a completely free platform and we aim to stay the same, so please consider following us on [X](https://bit.ly/nfts-course-twitter) and [LinkedIn](https://bit.ly/nfts-course-linkedin) as well. 🫶
+
+
+
 Well, that’s all we've got for now but if you are planning to turn into an NFT guru, here’s some more reading material for you! Happy reading!
+
+
+
 
 ## Further reading 👇🏼
 
