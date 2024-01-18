@@ -51,6 +51,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "munimmetaschool",
+      "name": "munimmetaschool",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129931419?v=4",
+      "profile": "https://github.com/munimmetaschool",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
