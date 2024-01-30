@@ -1,6 +1,6 @@
 <h1>🔮 Metaschool.so</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <h3> Learn, Build & Ship amazing Web3 Projects 🚀🚀</h3>
 <a href=".github/CONTRIBUTING.md#-how-to-contribute">
@@ -54,6 +54,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://linkedin.com/in/aronradvanyi"><img src="https://avatars.githubusercontent.com/u/108479744?v=4?s=100" width="100px;" alt="Aron Radvanyi"/><br /><sub><b>Aron Radvanyi</b></sub></a><br /><a href="https://github.com/0xmetaschool/Learning-Projects/commits?author=aron-radvanyi" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/munimmetaschool"><img src="https://avatars.githubusercontent.com/u/129931419?v=4?s=100" width="100px;" alt="munimmetaschool"/><br /><sub><b>munimmetaschool</b></sub></a><br /><a href="https://github.com/0xmetaschool/Learning-Projects/commits?author=munimmetaschool" title="Code">💻</a> <a href="#content-munimmetaschool" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kuldeepyeware"><img src="https://avatars.githubusercontent.com/u/83532405?v=4?s=100" width="100px;" alt="kuldeepyeware"/><br /><sub><b>kuldeepyeware</b></sub></a><br /><a href="https://github.com/0xmetaschool/Learning-Projects/commits?author=kuldeepyeware" title="Code">💻</a> <a href="#content-kuldeepyeware" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/snehaweb3kid"><img src="https://avatars.githubusercontent.com/u/156779525?v=4?s=100" width="100px;" alt="snehaweb3kid"/><br /><sub><b>snehaweb3kid</b></sub></a><br /><a href="https://github.com/0xmetaschool/Learning-Projects/commits?author=snehaweb3kid" title="Code">💻</a> <a href="#content-snehaweb3kid" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
