@@ -29,5 +29,4 @@ While you’re contributing:
 You have completed the tutorial and are now equipped with the foundational knowledge to start exploring the exciting world of blockchain and token development on the Algorand Blockchain.
 
 WAGMI! Peace out! ✌🏻🔮
-
 ---

@@ -14,7 +14,7 @@ The **Algorand Virtual Machine (AVM)** powers Algorand's smart contracts. It boa
 
 Algorand Standard Assets (ASA) offer a uniform Layer-1 solution for the representation of diverse asset types on the Algorand blockchain. These assets can be fungible, non-fungible, or even restricted in both fungible and non-fungible assets. ASA ensures a consistent and efficient approach to managing various assets within the Algorand ecosystem.
 
-So what is Algorand currency? The platforms uses ALGO tokens for completing any transaction on it. Executing transactions on Algorand is super affordable at just .001 ALGOs. 
+So what is Algorand currency? The platform uses ALGO tokens for completing any transaction on it. Executing transactions on Algorand is super affordable at just .001 ALGOs. 
 
 If you're wondering about the programming languages compatible with Algorand, you'll be happy to know it's beginner-friendly. It supports the SDKs for the languages: Python, Java, Javascript, and Go.
 
@@ -22,4 +22,4 @@ If you're wondering about the programming languages compatible with Algorand, yo
 
 In a nutshell, Algorand is an exciting new blockchain technology that offers decentralization, scalability, security, and environmental sustainability. The Algorand Virtual Machine (AVM) and Algorand Standard Assets (ASA) are two key features that make Algorand stand out among other blockchains.
 
-In the next lesson, you will set up the environment for writing your own asset. Don't forget to complete the assignment before moving on to the next lesson!
+In the next lesson, you will set up the environment for writing your assets. Don't forget to complete the assignment before moving on to the next lesson!
