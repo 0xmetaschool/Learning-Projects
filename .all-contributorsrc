@@ -51,6 +51,36 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "munimmetaschool",
+      "name": "munimmetaschool",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129931419?v=4",
+      "profile": "https://github.com/munimmetaschool",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "kuldeepyeware",
+      "name": "kuldeepyeware",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83532405?v=4",
+      "profile": "https://github.com/kuldeepyeware",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "snehaweb3kid",
+      "name": "snehaweb3kid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156779525?v=4",
+      "profile": "https://github.com/snehaweb3kid",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
