@@ -1,8 +1,8 @@
-# 1. What Are We Building Today
+# What Are We Building Today
 
 GM everyone ☀ ️, today we are very excited to bring the first-ever detailed course about the ERC404 and DN404 token standards for developers on Metaschool.
 
-So, what are we building today? We are going to build the NFT Marketplace for the DN404 token which is the better version of the ERC404 token standard. 
+So, what are we building today? We are going to build the NFT Marketplace for the DN404 token which offers the versatile implementation of the ERC404 token standard. 
 
 Now, what’s the hype? At the start of 2024, the PANDORA coin was released which was based on the ERC404 token standard. Pandora aimed to increase the liquidity for NFTs by combining both ERC20 and ERC721 token standards.
 
@@ -12,7 +12,7 @@ Within a week of its release, it went from $250 to $32,000 price. In upcoming da
 
 So, it is high time we learn a new token standard that is getting a lot of traction only in the early days.
 
-## **Course overview**
+## Course overview
 
 Before we get started with the content, let me give you an overview of what we will be covering:
 
@@ -21,11 +21,11 @@ Before we get started with the content, let me give you an overview of what we w
 3. Implementation of our unique token using the DN404 token standard
 4. Building the NFT marketplace for DN404 token
 
-## **Who exactly should take this course?**
+## Who exactly should take this course?
 
 This course is for intermediate web3 developers who wish to learn about the ERC404 token standard. Don’t worry if you are not experienced with Solidity, We’ve got your back. Anyways it's good to have a basic knowledge of blockchain, ERC20 and ERC721 token standards, and basic level Solidity.
 
-## **Proof of completion**
+## Proof of completion
 
 Well, I'm glad to spill the beans here. After you complete this course with me, you will get XPs and a special NFT, which will unlock many more opportunities on the Metaschool platform. Here is a sneak peek of what the NFT will look like below.
 
