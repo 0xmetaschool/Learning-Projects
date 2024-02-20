@@ -18,11 +18,11 @@ Now, paste these files into the `frontend/src/contracts` folder.
 
 ## Set up the environment variables file
 
-Move to the .env file in your `frontend` folder and update the following environment variables with the addresses you got after deploying the contracts.
+Move to the `frontend/src/components/ConnectWallet.js`and update the following environment variables with the addresses you got after deploying the contracts.
 
 ```
-MARKETPLACE_ADDRESS="YOUR_MARKETPLACE_ADDRESS"
-NFT_CONTRACT_ADDRESS="YOUR_NFT_CONTRACT_ADDRESS"
+const marketplaceAddress = "YOUR_MARKETPLACE_ADDRESS";
+const nftContractAddress = "YOUR_NFT_CONTRACT_ADDRESS";
 ```
 
 ## Set up the frontend
@@ -30,7 +30,6 @@ NFT_CONTRACT_ADDRESS="YOUR_NFT_CONTRACT_ADDRESS"
 Before running the frontend, we need to install the dependencies. Move to the `frontend` folder in your terminal and run the following commands.
 
 ```
-npm install dotenv --save --force
 npm install --force
 ```
 
@@ -44,7 +43,7 @@ npm start
 
 Your frontend will look like this.
 
-![frontend.png](Set%20Up%20the%20Frontend%2021f91ef658094f629a8fa8d4d714db35/frontend.png)
+![frontend.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/5%20Work%20With%20the%20Frontend/Set%20Up%20the%20Frontend/frontend.png?raw=true)
 
 ## That’s a wrap
 

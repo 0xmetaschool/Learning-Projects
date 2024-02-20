@@ -1,4 +1,4 @@
-# 2. Build the Token - II
+# Build the Token - II
 
 Lastly, you built half of the DN404 token. In this lesson, we will get back to building our DN404 token. Without any delay let's dive in!
 

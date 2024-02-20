@@ -1,10 +1,10 @@
-# 2. Set Up Wallet
+# Set Up Wallet
 
 Greetings folks! Great work coming this far. You have been doing so awesome. Now, we will dive into setting up a few things so stay with us!
 
-## Metamask
+## MetaMask
 
-We need a wallet to proceed so if you have not installed Metamask, just install the [MetaMask Chrome extension](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn). 
+We need a wallet to proceed so if you have not installed MetaMask, just install the [MetaMask Chrome extension](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn). 
 
 ## Setting up the testnet environment
 

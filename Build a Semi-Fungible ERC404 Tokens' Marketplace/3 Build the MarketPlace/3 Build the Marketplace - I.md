@@ -1,4 +1,4 @@
-# 3. Build the Marketplace - I
+# Build the Marketplace - I
 
 Welcome back, folks! Great work on creating the token using the DN404 token standard. In this lesson, we will start writing the code for our marketplace. Why wait? Let’s start!
 

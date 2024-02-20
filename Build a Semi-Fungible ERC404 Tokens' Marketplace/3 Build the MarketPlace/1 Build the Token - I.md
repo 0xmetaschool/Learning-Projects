@@ -1,10 +1,11 @@
-# 1. Build the Token - I
+# Build the Token - I
 
 Welcome back, folks! Great work on setting up your hardhat project. In this lesson, we will create the token using the DN404 token standard. This token will play the part of a fraction of an NFT. We will use this token to build our marketplace. Where we can buy or sell the token. A person who will have all token fractions of one NFT will own the complete NFT.
 
 ## Create Token.sol
 
 First of all, head back to your `erc404-nftmarketplace-boilerplate` hardhat project. Move to the `contracts` folder and create a file named `Token.sol`.
+
 
 ![file-struct-1.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/3%20Build%20the%20MarketPlace/1%20Build%20the%20Token%20-%20I/file-struct-1.png?raw=true)
 

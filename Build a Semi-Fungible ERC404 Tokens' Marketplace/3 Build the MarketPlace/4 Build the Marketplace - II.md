@@ -1,4 +1,4 @@
-# 4. Build the Marketplace - II
+# Build the Marketplace - II
 
 Welcome back, folks! Great work on creating and starting to write the code for the marketplace. In this lesson, we will complete the code for our marketplace. Let’s resume!
 

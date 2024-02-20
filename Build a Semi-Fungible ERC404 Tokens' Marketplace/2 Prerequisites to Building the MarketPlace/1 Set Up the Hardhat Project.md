@@ -1,4 +1,4 @@
-# 1. Set Up the Hardhat Project
+# Set Up the Hardhat Project
 
 Greetings folks! Great work on understanding all about the ERC404 token. You have been doing so awesome. Now, we will dive into the development and start setting up our development environment.
 
