@@ -1,4 +1,4 @@
-# 2. What the Hell Is the ERC404?
+# What the Hell Is the ERC404?
 
 Welcome back! Today, we are going to explore the curious case of the ERC404 token. Let's dive into what it is, how it works, and its impact on the real world.
 
@@ -49,6 +49,7 @@ Let’s take an example to understand this better.
 ### Example
 
 Consider an NFT named "Artistic Ape" that represents the ERC404 token. This token is referred to as an "APtoken" and is divisible into 100 fractions, with each fraction representing 1% of the NFT. To own the APtoken completely, you would need to own all 100 tokens.
+
 
 ![intro-2.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/1%20Getting%20Started/2%20What%20the%20Hell%20Is%20the%20ERC404/intro-2.png?raw=true)
 
