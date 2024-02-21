@@ -21,7 +21,7 @@ To save you some work, we created a npm project with Hardhat configuration files
 git clone https://github.com/0xmetaschool/erc404-nftmarketplace-boilerplate.git
 ```
 
-Now, run the following commands to move to the repository folder and install all dependencies:
+Now, run the following commands one by one to move to the repository folder and install all dependencies:
 
 ```
 cd erc404-nftmarketplace-boilerplate
