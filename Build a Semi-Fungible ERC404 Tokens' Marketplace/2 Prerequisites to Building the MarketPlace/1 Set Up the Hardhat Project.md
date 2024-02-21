@@ -32,7 +32,7 @@ npm install --force
 
 When you install the dependencies, you will receive different warnings. Please ignore those warnings and move forward. Here is an example output of the `npm install --force` command.
 
-![setup-1.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/2%20Prerequisites%20to%20Building%20the%20MarketPlace/1%20Set%20Up%20the%20Hardhat%20Project/setup-1.png?raw=true)
+![setup-1.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/2%20Prerequisites%20to%20Building%20the%20MarketPlace/1%20Set%20Up%20the%20Hardhat%20Project/struct-1.1.png?raw=true)
 
 **Note:** If you are planning to not use the boilerplate project and create your own Hardhat project, please make sure that you are using the same config file and copying other important files from the `contracts` folder.
 

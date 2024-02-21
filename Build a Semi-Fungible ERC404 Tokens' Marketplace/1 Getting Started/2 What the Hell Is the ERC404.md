@@ -66,6 +66,8 @@ ERC404 token contract have several functionalities, but four main functions help
 
 ERC404 is a very versatile token standard that manages NFTs (non-fungible tokens) very effectively. With this standard, you can link tokens with NFTs and divide the NFT into smaller fractions, with each fraction represented by a token. These tokens can be easily bought, sold, or traded with other kinds of tokens, which makes the NFTs more accessible and increases their liquidity. Furthermore, the minting mechanism ensures that the owners of the token fractions are kept up-to-date, making ERC404 a secure and reliable token standard.
 
+You can find the Pandora ERC404 implementation [here](https://github.com/Pandora-Labs-Org/erc404).
+
 ## That’s a wrap
 
 ERC404 token is again revolutionizing the crypto world. If you deeply develop its understanding, you can build your own ERC404 token and launch it on the chain just like the PANDORA token. But it surely does have some shortcomings. Let’s discuss them in the next lesson and introduce you to the DN404 token standard.
