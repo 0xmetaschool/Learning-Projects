@@ -1,6 +1,6 @@
 # Set Up Wallet
 
-Greetings folks! Great work coming this far. You have been doing so awesome. Now, we will dive into setting up a few things so stay with us!
+Greetings folks! Great work coming this far. Now, we will dive into setting up a few things so stay with us!
 
 ## MetaMask
 
