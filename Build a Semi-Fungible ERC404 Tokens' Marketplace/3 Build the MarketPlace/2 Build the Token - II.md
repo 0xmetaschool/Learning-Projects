@@ -124,7 +124,6 @@ Let’s understand the code in detail.
     function setAllowlistPrice(uint120 allowlistPrice_) public onlyOwner {
         allowlistPrice = allowlistPrice_;
     }
-
 ```
 
 These functions provide a straightforward way for the contract owner to manage the allowlist functionality by setting the allowlist root hash and adjusting the price per token for allowlist minting. By calling these functions, the owner can control who is allowed to mint tokens and at what price, ensuring flexibility and customization of the minting process.
@@ -147,7 +146,6 @@ These functions provide a straightforward way for the contract owner to manage t
     function getURI() public view returns(string memory) {
         return _baseURI;
     }
-
 ```
 
 These functions provide useful information and utilities related to the NFTs minted by the contract, such as the total supply, the balance of NFTs owned by a specific address, the ID of the next token to be minted, and the base URI for token metadata. They enable users or other contracts to retrieve essential details about the NFTs managed by the contract.

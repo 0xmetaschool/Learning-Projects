@@ -6,7 +6,7 @@ Welcome!! So finally we are done with the code, so can move on to deploying it. 
 
 Navigate to `scripts/deployToken.js` and paste the following code to it: 
 
-```jsx
+```
 const { ethers } = require("hardhat");
 const fs = require("fs");
 
@@ -51,26 +51,26 @@ main()
 
 ### Code explanation
 
-```jsx
+```
 const { ethers } = require("hardhat");
 const fs = require("fs");
 ```
 
 - The script imports the required **`ethers`** package from Hardhat for interacting with Ethereum contracts and the **`fs`** (file system) module for file operations.
 
-```jsx
+```
 async function main() {
 ```
 
 - Defines an asynchronous function named **`main()`** to execute the deployment process.
 
-```jsx
+```
   const [deployer] = await ethers.getSigners();
 ```
 
 - Retrieves the deployer's Ethereum account (the first account) using **`getSigners()`**.
 
-```jsx
+```
   const name = "Meta";
   const symbol = "META";
   const maxSupply = ethers.parseEther("50");
@@ -81,43 +81,43 @@ async function main() {
 
 - Defines various parameters required for deploying the contract, such as **`name`**, **`symbol`**, **`maxSupply`**, **`publicPrice`**, **`initialtokenSupply`**, and **`signer`**.
 
-```jsx
+```
   const argumentsArray = [name, symbol, maxSupply.toString(), publicPrice.toString(), initialtokenSupply.toString(), signer];
 ```
 
 - Creates an array **`argumentsArray`** containing the deployment arguments.
 
-```jsx
+```
   const content = "module.exports = " + JSON.stringify(argumentsArray, null, 2) + ";";
 ```
 
 - Converts **`argumentsArray`** into a JSON string with proper formatting and assigns it to the **`content`** variable.
 
-```jsx
+```
   fs.writeFileSync("./arguments.js", content);
 ```
 
 - Writes the JSON string to a file named **`arguments.js`**.
 
-```jsx
+```
   console.log("arguments.js file generated successfully.");
 ```
 
 - Logs a success message indicating that the **`arguments.js`** file has been generated.
 
-```jsx
+```
   console.log("Deploying contracts with the account:", deployer.address);
 ```
 
 - Logs the Ethereum address of the deployer's account.
 
-```jsx
+```
   const Token = await ethers.getContractFactory("NFTMintDN404");
 ```
 
 - Retrieves the contract factory for the **`NFTMintDN404`** contract.
 
-```jsx
+```
   const token = await Token.deploy(
     name,
     symbol,
@@ -130,13 +130,13 @@ async function main() {
 
 - Deploys the **`NFTMintDN404`** contract with the specified parameters.
 
-```jsx
+```
   console.log("Fractionalized NFT deployed to:", await token.getAddress());}
 ```
 
 - Logs the Ethereum address where the contract has been deployed.
 
-```jsx
+```
 main()
   .then(() => process.exit(0))
   .catch(error => {
@@ -152,7 +152,7 @@ main()
 
 Navigate to `scripts/deployMarketplace.js` and paste the following code to it: 
 
-```jsx
+```
 const { ethers } = require("hardhat"); 
 
 async function main() {
@@ -185,7 +185,7 @@ main()
 - `const marketplace = await NFTMarketplace.deploy();`: Deploys the **`NFTMarketplace`** contract.
 - `console.log("NFT Marketplace deployed to:", await marketplace.getAddress());`: Logs the Ethereum address where the contract has been deployed.
 
-```jsx
+```
 main()
   .then(() => process.exit(0))
   .catch(error => {

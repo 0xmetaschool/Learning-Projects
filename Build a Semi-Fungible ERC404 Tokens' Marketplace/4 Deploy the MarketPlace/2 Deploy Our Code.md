@@ -6,7 +6,7 @@ Welcome!! So finally we are done with the prerequisites to deploy our code. Letâ
 
 Go to `hardhat.config` file and replace the existing content with the following:
 
-```jsx
+```
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-verify");
 

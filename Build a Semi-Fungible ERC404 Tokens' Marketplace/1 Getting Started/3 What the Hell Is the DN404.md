@@ -14,6 +14,12 @@ This is where the DN404 came into the picture. Out of frustration and to resolve
 
 DN404 is built upon the established and up to date ERC20 and ERC721 tokens. It introduce the better approach to manage the user balance and NFTs seperately. This setup promises a smoother experience for users and more efficient handling of tokens.
 
+## How does the DN404 work?
+
+DN404 offers almost 20% reduction in gas fees. The DN404 differs from ERC404 in the contract structure. The ERC404 merge the ERC20 and ERC721 tokens standard functionalities into the one contract. While, DN404 uses two separate contracts for a standard ERC20 token and a mirrored ERC721 token. However, the developers argue that this approach will cause the security risk.
+
+However, both ERC404 and DN404, are experimental tokens. Both are not approved by Ethereum as official standards.
+
 ## That’s a wrap
 
 In this course, we will use the DN404 to implement the token and create a marketplace for it. So, stay tuned and start building! 
