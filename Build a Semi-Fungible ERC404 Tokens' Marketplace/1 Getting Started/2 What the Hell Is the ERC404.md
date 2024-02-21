@@ -58,7 +58,7 @@ Consider an NFT named "Artistic Ape" that represents the ERC404 token. This toke
 ERC404 token contract have several functionalities, but four main functions help us create the token from end to end. Let’s discuss them using our APtoken example.
 
 1. **Mint:** To own our "Artistic Ape" NFT, token ownership begins with the minting of tokens. The token creator issues new tokens for APtoken, up to a supply chain of 100 fractions. For instance, if you decide to buy all 100 fractions of the NFT, the creator will mint your tokens and you will have complete ownership of the NFT.
-2. **Burn: By** using the burn function, you can reduce the total supply of your APtokens by burning some amount of tokens.
+2. **Burn:** By using the burn function, you can reduce the total supply of your APtokens by burning some amount of tokens.
 3. **Transfer:** If you choose to sell your tokens, you can transfer them to anyone using the transfer function. The function will first verify if you are the owner of the APtoken, and then it will change the ownership of your "Artistic Ape" NFT.
 4. **BatchTransfer:** What if you have multiple buyers of your APtoken? Transferring the tokens to them individually will be a hassle. The **BatchTransfer** function enables you to transfer fractions of tokens to multiple addresses in a single transaction and modify the ownership of your "Artistic Ape" NFT.
 

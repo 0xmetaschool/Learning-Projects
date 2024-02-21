@@ -4,7 +4,7 @@ Welcome back, folks! Great work on setting up your hardhat project. In this less
 
 ## Create Token.sol
 
-First of all, head back to your `erc404-nftmarketplace-boilerplate` hardhat project. Move to the `contracts` folder and create a file named `Token.sol`.
+First of all, head back to your `erc404-nftmarketplace-boilerplate` hardhat project. Navigate to the `contracts/Token.sol` file. We will add the token code in this file. If it is not created, create one like this:
 
 
 ![file-struct-1.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/3%20Build%20the%20MarketPlace/1%20Build%20the%20Token%20-%20I/file-struct-1.png?raw=true)
@@ -31,7 +31,6 @@ import {LibString} from "solady/src/utils/LibString.sol";
 import {SafeTransferLib} from "solady/src/utils/SafeTransferLib.sol";
 // Importing MerkleProofLib contract from solady library
 import {MerkleProofLib} from "solady/src/utils/MerkleProofLib.sol";
-
 ```
 
 - The code begins with SPDX-License-Identifier specifying the license for the solidity code.
@@ -60,7 +59,6 @@ This line defines a contract named `NFTMintDN404`, inheriting from `DN404`, `ERC
     bool public live;
     uint256 public numMinted;
     uint256 public MAX_SUPPLY;
-
 ```
 
 - First, we declare private variables named `_name`, `_symbol`, `_baseURI`, and `allowlistRoot`.
@@ -124,7 +122,6 @@ modifier isValidMint(uint256 price, uint256 amount) {
     if (price * amount != msg.value) {
         revert InvalidPrice();
     }
-
 ```
 
 - These lines of code check if the value sent matches the calculated price.
@@ -134,7 +131,6 @@ modifier isValidMint(uint256 price, uint256 amount) {
     if (numMinted + amount > MAX_SUPPLY) {
         revert TotalSupplyReached();
     }
-
 ```
 
 - These lines of code check if minting would exceed the maximum supply.
@@ -142,7 +138,6 @@ modifier isValidMint(uint256 price, uint256 amount) {
 
 ```
     _;
-
 ```
 
 - If all the conditions are met, it executes the function or code block that the modifier is applied to.
@@ -168,7 +163,6 @@ modifier isValidMint(uint256 price, uint256 amount) {
         address mirror = address(new DN404Mirror(msg.sender));
         _initializeDN404(initialTokenSupply, initialSupplyOwner, mirror);
     }
-
 ```
 
 Here, we are defining the constructor function for our `NFTMintDN404` contract. This constructor sets up the initial configuration of the contract, including setting the owner, defining the token's name, symbol, maximum supply, and public price, and initializing the DN404 token contract.

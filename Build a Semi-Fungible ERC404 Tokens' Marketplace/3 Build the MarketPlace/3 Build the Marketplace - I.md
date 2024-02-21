@@ -4,7 +4,7 @@ Welcome back, folks! Great work on creating the token using the DN404 token stan
 
 ## Create NFTMarketplace.sol
 
-First of all, head back to your `erc404-nftmarketplace-boilerplate` hardhat project. Move to the `contracts` folder and create a file named `NFTMarketplace.sol`.
+First of all, head back to your `erc404-nftmarketplace-boilerplate` hardhat project. Navigate to the `contracts/NFTMarketplace.sol` file. We will add the marketplace code in this file. If it is not created, create one like this:
 
 ![struct-2.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/3%20Build%20the%20MarketPlace/3%20Build%20the%20Marketplace%20-%20I/struct-2.png?raw=true)
 
@@ -14,7 +14,7 @@ Let’s start coding and create our `NFTMarketplace.sol` file.
 
 ### SPDX-License-Identifier and Pragma Directive
 
-```solidity
+```
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.20;
 ```
