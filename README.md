@@ -49,7 +49,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/lasto"><img src="https://avatars.githubusercontent.com/u/10183269?v=4?s=100" width="100px;" alt="Stanislav Ladyzhenskiy"/><br /><sub><b>Stanislav Ladyzhenskiy</b></sub></a><br /><a href="#content-LStan" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/fareeha25"><img src="https://avatars.githubusercontent.com/u/130544719?v=4?s=100" width="100px;" alt="fareeha25"/><br /><sub><b>fareeha25</b></sub></a><br /><a href="https://github.com/0xmetaschool/Learning-Projects/commits?author=fareeha25" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kimonkekes"><img src="https://avatars.githubusercontent.com/u/126149828?v=4?s=100" width="100px;" alt="kimonkekes"/><br /><sub><b>kimonkekes</b></sub></a><br /><a href="https://github.com/0xmetaschool/Learning-Projects/commits?author=kimonkekes" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kimonkekes"><img src="https://avatars.githubusercontent.com/u/126149828?v=4?s=100" width="100px;" alt="kimonkekes"/><br /><sub><b>kimonkekes</b></sub></a><br /><a href="https://github.com/0xmetaschool/Learning-Projects/commits?author=kimonkekes" title="Code">💻</a> <a href="#content-kimonkekes" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
