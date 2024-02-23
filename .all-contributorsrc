@@ -90,6 +90,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "jasonaw98",
+      "name": "Jason Aw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73338582?v=4",
+      "profile": "https://jasonaw.vercel.app/",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
