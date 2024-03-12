@@ -1,167 +1,105 @@
-# Setup the Frontend Project
+# Set Up the Frontend Project
 
-Welcome back! I’m so proud of you that you have so far and finally you are at the last stage of the course where you will be connecting your dApp to the frontend. 
+Welcome back! I’m so proud of you that you have so far and finally, you are at the last stage of the course where you will connect your dApp to the front end. 
 
 ## Set your project
 
-Open your terminal and run the following commands. You can run the commands either inside of the`hogwarts-dapp` folder or outside of the folder.
+Open your terminal and run the following commands. You can run the commands either inside the `one-piece-dapp` folder or outside of the folder.
 
 ```
-mkdir hogwarts-dapp-frontend 
-cd hogwarts-dapp-frontend 
+git clone https://github.com/0xmetaschool/one-piece-frontend-boilerplate.git
+cd one-piece-frontend-boilerplate
+npm install
 ```
 
-Initialize a new React project using the following command:
+Now create `.env` file in the `one-piece-frontend-boilerplate` and paste the following content into it:
 
 ```
-npx create-react-app .
+REACT_APP_CONTRACT_ADDRESS=<your-contract-address>
+REACT_APP_SUBGRAPH_URL=<your-subgraph-url>
 ```
 
-Now, let’s install our dependencies:
+Replace `<your-contract-address>` with your contract address.
+
+## Create subgraph
+
+Now let’s create the subgraph using Graph Studio.
+
+- Head over to [https://thegraph.com/studio/](https://thegraph.com/studio/).
+- Connect your Metamask account and sign the transaction.
+- Now verify your email to proceed
+    
+    ![Screen Recording 2024-03-11 at 5.07.02 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Screen_Recording_2024-03-11_at_5.07.02_PM.gif?raw=true)
+    
+- Now click on “Create a subgraph”.
+- Add the name and create it.
+    
+    ![Screen Recording 2024-03-11 at 5.08.25 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Screen_Recording_2024-03-11_at_5.08.25_PM.gif?raw=true)
+    
+
+- Now scroll down and look at the right panel of your screen, you will see the set of commands. We need to run them.
+    
+    ![Frame 3560371 (3).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560371_(3).jpg?raw=true)
+    
+
+- **Important**: Please note that I’ll be running the commands shown to me according to my subgraph, you have to run according to yours. In the steps below, I’ll help you with the inputs that the commands ask. So follow me and let’s go!
+
+I’ll run the commands with you and guide you what steps you have to follow. Ikuzou~
+
+- First of all, install the CLI. You can either use npm or yarn. I used yarn, so go to this [link](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) if you want to install yarn.
+    
+    ```
+    npm install -g @graphprotocol/graph-cli
+    // or run the following
+    yarn global add @graphprotocol/graph-cli
+    ```
+    
+- Next, is the `init` command. The command is designed according to whatever your subgraph name is defined.
+    
+    ```
+    graph init --studio one-piece
+    ```
+    
+    - Select “ethereum” for Protocol.
+    - Hit the Enter button for the next two options.
+    - Find the “Arbitrum Sepolia” Network.
+    - Paste your contract address.
+    - Hit Enter for the Start Block option.
+    - Give `OnePieceMint` for the contract name. If your smart contract name differs then provide that.
+    - Select `Y` for the option “Index contract events as entities”.
+    - Select `n` for the next option.
+    - Here’s the final output of this command:
+        
+        ![Frame 3560382.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560382.jpg?raw=true)
+        
+- Next is authenticate command, for me it shows `graph auth --studio 674cfa58b1f064d1b11f2ab99ff959db`. But for you, it’ll be different so copy yours and run it.
+- Move to the directory we created using `init` command by `cd one-piece`.
+- Run `graph codegen && graph build` to generate the code and build the graph.
+- Finally, deploy your graph. For me the command is `graph deploy --studio one-piece`. But for you, it’ll be different so copy yours and run it. Provide version when prompted. Since it’s our first deployment version you can use `v0.0.1`.
+    
+    ![Frame 3560382 (1).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560382_(1).jpg?raw=true)
+    
+    - **Note**: If you are deploying it again, make sure to update the version number otherwise you’ll receive an error.
+- As an output, you will see a URL at the end, replace `<your-subgraph-url>` in your `.env` file with it.
+    
+    ![Frame 3560382 (2).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560382_(2).jpg?raw=true)
+    
+
+## Run the dapp
+
+Now it’s time to finally run it. Open the terminal or use the existing one. First move to the previous directory and then run the dapp:
 
 ```
-npm install use-sound
-npm install lottie-react
+cd ../ 
+npm start
 ```
 
-Let me also provide you with some assets which can make this frontend even more exciting:
+## Interact with dapp
 
-- assets: [https://github.com/0xmetaschool/Learning-Projects/tree/main/assests_for_all/assests_for_hogwarts_app/assets](https://github.com/0xmetaschool/Learning-Projects/tree/main/assests_for_all/assests_for_hogwarts_app/assets)
-- loaders: [https://github.com/0xmetaschool/Learning-Projects/tree/main/assests_for_all/assests_for_hogwarts_app/loaders](https://github.com/0xmetaschool/Learning-Projects/tree/main/assests_for_all/assests_for_hogwarts_app/loaders)
-- sounds: [https://github.com/0xmetaschool/Learning-Projects/tree/main/assests_for_all/assests_for_hogwarts_app/sounds](https://github.com/0xmetaschool/Learning-Projects/tree/main/assests_for_all/assests_for_hogwarts_app/sounds)
+And you can experience interacting with your dApp. And yes, Zoro is my favv characterrrr!! What about you?
 
-Download them and add all these folders in `src`. Here’s how my project directory looks like:
-
-![Frame 3560365 (34).jpg](Setup%20the%20Frontend%20Project%200367c10fae834e888e33e6848bf9540e/Frame_3560365_(34).jpg)
-
-Now, we also need to add our code to our project, so why not just do it too right now! Create a folder named `artifacts` in `src`. Copy the json files for the two contracts we deployed in previous lesson and paste it to `src/artifacts`.
-
-![Frame 3560365 (36).jpg](Setup%20the%20Frontend%20Project%200367c10fae834e888e33e6848bf9540e/Frame_3560365_(36).jpg)
-
-- **Note:** Make sure to move these folders with the file content to `/src` under the root folder.
-
-## Add styling
-
-Navigate to `App.css` and replace the existing code with the following:
-
-```
-@font-face {
-  font-family: 'HPfont';
-  src: url('./assets/HPfont.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Potterfont';
-  src: url('./assets/Potter.otf') format('truetype');
-}
-
-body {
-  background-image : url(./assets/Old_paper.jpg);
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-
-h1 {
-  font-family: 'HPfont', sans-serif;
-  font-size: 85px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-button {
-  font-family: 'Hpfont', sans-serif;
-  padding: 10px 20px;
-  font-size: 35px;
-  background-color: #1c1c1c;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-button:hover {
-  font-family: 'Hpfont', sans-serif;
-  background-color: #333;
-}
-
-p {
-  font-family: 'Potterfont', sans-serif;
-  font-size: 60px;
-  display: block;
-  text-align: center;
-  margin-bottom: 15px;
-  margin-top: 15px;
-
-}
-.metamask-button {
-  position: absolute;
-  top: 10px;
-  right: 50px;
-}
-
-.user-info {
-  display: flex;
-  align-items: center;
-  background-color: #1a1a1a;  /* Dark background to match the theme */
-  padding: 10px;
-  border-radius: 8px;
-}
-
-.user-info span {
-  top: 10px;
-  right: 50px;
-  color: #f4e9d8;  /* A parchment-like text color to contrast the dark background */
-  margin-right: 15px;
-  font-size: 18px;
-}
-
-.form {
-  justify-content: center;
-  align-items: baseline;
-}
-
-.input-box {
-  font-family: 'Cinzel', serif;
-  font-size: 20px;
-  border: none;
-  background-color: #f4e9d8;
-  padding: 15px 20px;
-  margin-bottom: 20px;
-  outline: none;
-}
-
-.input-box:focus {
-  border-bottom: 2px solid #000000;
-}
-
-.input-box::placeholder {
-  color: #7f7f7f;
-  opacity: 0.8;
-}
-
-.form-button {
-  margin-left: 5px;
-  align-self: flex-end; /* To align it with the bottom border of the input */
-  font-size: 20px;  /* match the font-size with input-box */
-  padding: 15px 20px;  /* match the padding with input-box */
-}
-
-.Hogwarts-logo {
-  width: 10%; /* adjust to your preferred size */
-  height: auto; /* maintains aspect ratio */
-  display: block; /* centers the image horizontally */
-  margin: 0 auto; /* centers the image horizontally */
-}
-```
-
-Congrats you are all set to work on the codes now!!
+![interact.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/interact.gif?raw=true)
 
 ## Wrap up
 
-In this lesson, we learned how to set up a React project and install the necessary dependencies. We also added some exciting assets to our project directory to make the frontend more engaging. We created a folder for our contract artifacts and moved our smart contracts json files to our project directory. Lastly, we updated our styling. With all of this in place, we are now ready to start working on the frontend.
+In conclusion, this lesson guided you through the process of setting up the frontend of your dApp, creating a subgraph using Graph Studio, and deploying your graph. This is a crucial step in connecting your dApp with the front end. Great job on completing this complex task. By running the command `npm start` in the terminal, we can now interact with our dApp. This concludes our lesson.
