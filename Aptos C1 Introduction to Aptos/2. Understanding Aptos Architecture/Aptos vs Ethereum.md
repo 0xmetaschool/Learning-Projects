@@ -1,4 +1,4 @@
-# Comparison of Different Blockchain Platforms
+# Aptos vs Ethereum
 
 Hey, let's dive into what makes Aptos stand out from the crowd in the world of blockchain! Trust me, understanding this will totally help us see why Aptos is the one we want to work on.
 
@@ -6,7 +6,7 @@ You know how every blockchain has its unique features, right? Well, Aptos is no 
 
 ![8p245v.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Aptos%20C1%20Introduction%20to%20Aptos/2.%20Understanding%20Aptos%20Architecture/Aptos%20vs%20Ethereum%20Assets/8364495c-3fe8-4d9f-8065-7e99f825ab7c.png?raw=true)
 
-Phew ! Let’s jump back into comparing Aptos and Ethereum. 
+Phew! Let’s jump back into comparing Aptos and Ethereum. 
 
 | Features | Aptos | Ethereum |
 | --- | --- | --- |
