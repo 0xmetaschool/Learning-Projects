@@ -4,7 +4,7 @@ Hey, let's dive into what makes Aptos stand out from the crowd in the world of b
 
 You know how every blockchain has its unique features, right? Well, Aptos is no different, but it brings some seriously cool stuff to the table that sets it apart from the rest. So, buckle up, because we're about to explore what makes Aptos so special and why we should totally get on board with it!
 
-![8p245v.jpg](Aptos%20vs%20Ethereum%2022a5b7dae4824b6fa4b991cf16c385ff/8364495c-3fe8-4d9f-8065-7e99f825ab7c.png)
+![8p245v.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/Aptos%20C1%20Introduction%20to%20Aptos/2.%20Understanding%20Aptos%20Architecture/Aptos%20vs%20Ethereum%20Assets/8364495c-3fe8-4d9f-8065-7e99f825ab7c.png?raw=true)
 
 Phew ! Let’s jump back into comparing Aptos and Ethereum. 
 
