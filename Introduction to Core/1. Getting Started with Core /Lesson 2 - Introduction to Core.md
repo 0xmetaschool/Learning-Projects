@@ -44,9 +44,9 @@ Let’s see some of the major characteristics that set Core apart from its compe
 
 - **Leveraging Bitcoin's security:** Core utilizes Bitcoin security by letting miners delegate their hash power to validators on Core, earning CORE tokens. Also, through BTC staking, BTC holders can earn passive income in the form of CORE tokens.
 - **Ensuring decentralization through Satoshi Plus**: Core's decentralization is ensured by the unique Satoshi Plus consensus mechanism. This innovative system combines three distinct layers:
-  - 1. **Bitcoin miners** contribute by leveraging their existing Bitcoin hash power to secure the network.
-  - 2. **CORE token holders** participate in governance through staking and voting, allowing for community-driven decision-making.
-  - 3. **Non-custodial BTC staking** enables Bitcoin holders to contribute to the network's security while earning rewards, all without relinquishing control of their assets.
+  - **Bitcoin miners** contribute by leveraging their existing Bitcoin hash power to secure the network.
+  - **CORE token holders** participate in governance through staking and voting, allowing for community-driven decision-making.
+  - **Non-custodial BTC staking** enables Bitcoin holders to contribute to the network's security while earning rewards, all without relinquishing control of their assets.
 
   This three-layer system combines the established security of Bitcoin's proof-of-work, the flexibility of delegated proof-of-stake for CORE token holders, and the added security and incentives of non-custodial BTC staking to promote decentralization and security within the Core ecosystem.
 
