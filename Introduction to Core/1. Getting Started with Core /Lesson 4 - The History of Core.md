@@ -68,5 +68,3 @@ With all this fancy tech under the hood, Core aims to tackle major issues in the
 ## **Wrap Up**
 
 Alright! We've covered a ton about the Core’s history and its innovative approach to the blockchain trilemma. There's still much more to explore. In the coming lessons, we'll delve deeper into Core's inner workings, including its consensus mechanism, governance model, and the roles of different participants. Buckle up and get ready to discover the exciting world of Core!
-
-**Assignment:** What is the role of the Core chain and Core DAO in the Core ecosystem?
