@@ -16,7 +16,7 @@ Think of Core as a team of brilliant minds on a mission. They're not just buildi
 
 Why bring these two powerhouses together? Well, Bitcoin is like a fortress, virtually unhackable due to its robust proof-of-work consensus mechanism and vast network of miners. Meanwhile, Ethereum is a bustling city of innovation, where developers build amazing applications using smart contracts. Core wants to combine these strengths, creating a blockchain that's both secure and versatile enough to support the next generation of dApps.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXc6U4SPfb1xr1fNvrL0gSt4Xa81B-isvoH_TCFMCBgxp6JmcWZBxL0ETS_KhlrH9rT7zDBwm9zIuSi26yTcTx-dM1sDNyGpSCgHIPRtVXf3QwqXP2NfCqcY9NF1yfcPJRYrYgGq4R_vd_1xP8mM-q3gC_E?key=CjNbRn5FixD4uptj96esfQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L2%20P2.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXc6U4SPfb1xr1fNvrL0gSt4Xa81B-isvoH_TCFMCBgxp6JmcWZBxL0ETS_KhlrH9rT7zDBwm9zIuSi26yTcTx-dM1sDNyGpSCgHIPRtVXf3QwqXP2NfCqcY9NF1yfcPJRYrYgGq4R_vd_1xP8mM-q3gC_E?key=CjNbRn5FixD4uptj96esfQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L2%20P2.gif?raw=true)
 
 Imagine a world where you can use decentralized financial tools that are as secure as Bitcoin or create NFT marketplaces that can handle millions of transactions without breaking a sweat. That's the kind of future Core is envisioning.
 
