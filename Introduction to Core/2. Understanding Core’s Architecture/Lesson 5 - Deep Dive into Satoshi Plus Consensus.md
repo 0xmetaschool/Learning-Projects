@@ -4,7 +4,7 @@ Well..Well..Well, look at you, all fired up and ready to roll! It feels like jus
 
 All good? Awesome! Then let's dive right in and discuss one of the Core elements of the Core Network (Get it!)
 
-## Introduction to Satoshi Plus Consensus
+## Understanding Satoshi Plus Consensus Mechanism
 
 Satoshi Plus is a cutting-edge consensus mechanism, think of it like the engine that drives the Core ecosystem. What makes it so special? It's a hybrid, blending the robust security of Bitcoin's Proof of Work (PoW) with the agility and community spirit of Delegated Proof of Stake (DPoS) and the innovative Non-Custodial BTC Staking. This unique approach creates a blockchain network that's more secure, decentralized, and scalable, setting a new standard for the crypto world.
 
