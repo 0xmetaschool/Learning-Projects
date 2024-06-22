@@ -34,11 +34,13 @@ The hybrid score is like a final grade in school, reflecting a student's perform
 
 To be successfully elected as a validator on Core, three factors matter:
 
-**1**. **Staked CORE: The Community's Vote of Confidence**
+- **Staked CORE: The Community's Vote of Confidence**
   Imagine this as the popular vote. The more CORE tokens (Core's native currency) that are staked, or locked up, with a validator, the higher their score. It's like citizens casting their ballots for the candidate they believe in, showing their trust and confidence in their leadership. The more votes a candidate gets, the more popular they are, and the better their chances of winning.
-**2**. **Staked Bitcoin: The Cross-Chain Seal of Approval**
+
+- **Staked Bitcoin: The Cross-Chain Seal of Approval**
   Bitcoin holders from outside the Core community can also show their support by staking their BTC with a validator through the Non-Custodial BTC Staking mechanism. This means they can participate in Core's governance and earn rewards without giving up control of their Bitcoin. This cross-chain endorsement, secured through innovative technology, acts like a seal of approval from neighboring cities, recognizing the validator's capabilities and potential. It's like getting a glowing recommendation from a respected figure outside your own community.
-**3**. **Hash Power Delegation: A Measure of Security Contribution**
+
+- **Hash Power Delegation: A Measure of Security Contribution**
     Bitcoin miners, the backbone of Bitcoin's security, also play a crucial role. They can flex their computing power (hash power) by delegating it to a specific validator on the Core blockchain. This act is like a security firm lending its resources to protect the city. In return for their support, miners receive CORE tokens as a reward—a sweet deal for everyone involved! It's important to note that this delegated hash power doesn't just show a validator's technical capabilities but is a direct contribution to the security of the entire Core blockchain.
 
 ### The Winning Formula: A Delicate Balance
@@ -61,11 +63,11 @@ Okay, we know this looks like a bunch of gibberish, but bear with us! Here's the
     - 'n' is a weighting factor that determines how much each staked Bitcoin counts compared to each staked CORE token, like adjusting the value of different currencies.
     - '(1-m)' is the counterbalance to the hash power factor, ensuring that staked tokens have a fair say in the election.
 
-This formula ensures that the hybrid score is a fair and balanced representation of a validator's overall qualifications, taking into account both community support and contributions to network security. It's like a well-rounded assessment of a candidate's leadership potential, considering their popularity, experience, and skills. ****At the end of each round, the 23 candidates with the highest hybrid scores are elected as validators. They are the backbone of the Core network, responsible for its smooth and efficient operation.
+This formula ensures that the hybrid score is a fair and balanced representation of a validator's overall qualifications, taking into account both community support and contributions to network security. It's like a well-rounded assessment of a candidate's leadership potential, considering their popularity, experience, and skills. At the end of each round, the 23 candidates with the highest hybrid scores are elected as validators. They are the backbone of the Core network, responsible for its smooth and efficient operation.
 
 ### The Validator Duty
 
-Being a validator is a rewarding job, but it comes with responsibilities. Validators are incentivized to do their job well through block rewards and transaction fees. However, they also face consequences if they don't. If a validator misbehaves or fails to uphold their duties, they can be "slashed," meaning they lose a portion of their rewards or even their initial stake. In more severe cases, they can be temporarily "jailed" (removed from the network) or even permanently banned for stuff like double-signing (maliciously validating two conflicting blocks).
+Being a validator is a rewarding job, but it comes with responsibilities. Validators are incentivized to do their job well through block rewards and transaction fees. However, they also face consequences if they don't. If a validator misbehaves or fails to uphold their duties, they can be "slashed" meaning they lose a portion of their rewards or even their initial stake. In more severe cases, they can be temporarily "jailed" (removed from the network) or even permanently banned for stuff like double-signing (maliciously validating two conflicting blocks).
 
 ![https://lh7-us.googleusercontent.com/docsz/AD_4nXe2G5XLD_dg-u4JLiw2HKgksY-ege-H9G4ASwXQ04LIVNYQEuq54XlXmq_n0zsxiEYK8moMC6UFzb8YQdGknHjNC-5MckA_y7_Ekyz57j3eleqjQx4efCFKVsuqhx5YEXkqFdAr6J0eoMxKw8dAswMhKMNW?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P3.gif?raw=true)
 
