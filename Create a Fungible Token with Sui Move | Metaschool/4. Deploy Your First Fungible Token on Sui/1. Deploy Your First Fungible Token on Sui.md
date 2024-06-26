@@ -14,7 +14,7 @@ module metaschool::pepe {
     use sui::tx_context::{Self, TxContext};
 
     // Name matches the module name, but in UPPERCASE
-    struct PEPE has drop {}
+    public struct PEPE has drop {}
 
     // Module initializer is called once on module publish.
     // A treasury cap is sent to the publisher, who then controls minting and burning.
