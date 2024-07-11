@@ -92,8 +92,8 @@ All endpoints and parameter formatting are the same on Mainnet and Testnet, you 
 
 | Network | Endpoint URL | Documentation |
 | --- | --- | --- |
-| Mainnet | https://openapi.coredao.org/api | https://doc.coredao.org/api |
-| Testnet | https://api.test.btcs.network/api | https://doc.coredao.org/api |
+| Mainnet | https://openapi.coredao.org/api | https://docs.coredao.org/api |
+| Testnet | https://api.test.btcs.network/api | https://docs.coredao.org/api |
 
 Now we can easily fetch Information about deployed smart contracts, Users' CORE balances and Detailed transaction information using our endpoints.
 
