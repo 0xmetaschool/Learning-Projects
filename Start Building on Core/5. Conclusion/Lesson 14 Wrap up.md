@@ -12,7 +12,7 @@ A Lending dApp on the Core blockchain. It had the following key features:
 - **USD Deposits and Withdrawals**: You learned how to manage the USD deposits and withdrawals based on lending or borrowing needs.
 - **BTC Repayment**: You built how to repay borrowed BTC tokens with interest to unlock the staked USD collateral.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeqYGaRdjWKUmUzZOQuz4vOFthUWD6so97wFtavPhqXwKOENBpqmpG2H6GeqzrTD3HDdKOepJxKQNbGffQ2St9ATY45aEpfiUGS2DmnQ1WybhJHSPRfMaudlPV_LIx28OSr3Xj_u8l1w5XWEqHLG2nzg5Eb?key=p27kXPTrZe8UAFlizEdcVg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L14%20Image%201.gif?raw=true)
 
 ## What We Covered
 
