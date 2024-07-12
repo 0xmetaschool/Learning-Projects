@@ -14,7 +14,7 @@ Solidity is an object-oriented, high-level programming language used for writing
 
 Solidity is the first choice of development as it is specifically designed for creating smart contracts and interacting with EVM-compatible blockchains, like Core blockchain. This pretty much justifies the [$158 billion dollars of Total Value Locked (TVL)](https://defillama.com/languages) of Solidity language as of July 2024.
 
-![img1](https://lh7-us.googleusercontent.com/docsz/AD_4nXfO8w3bjDcTRZr1iZKEOQ1Ce-vGvwPiDRrQs5sH8H1kk-X02_2sU13TMTknSxJfrq7GLpBcMrRllhfLy5474DImc44IPaWqSwiGrSHSjja7P4n32jIoHboY3kbpskSg9z1l5Lt4f_j5EbMQQsN4UO111Us?key=_zOhLuY_gIL2THtHu9ZzcA)
+![img1](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L4%20Image%201.png?raw=true)
 
 ### Why use Solidity?
 
@@ -40,7 +40,7 @@ Solidity boasts a range of powerful features that make it ideal for creating sma
 
 Core isn't just a blockchain, it's a developer's playground. They are constantly pushing boundaries to make building their platform smooth and efficient.
 
-![img2](https://lh7-us.googleusercontent.com/docsz/AD_4nXcKFVk8wwL7Qf5etKZM__gaP3xwZsrlp7jO7wpCdAq11imKYCHQyy4hLPsRhQo1eROc--EvpNeAARJnwP2RCin5SxvUs55WlJHXWJe5pZDU8SBQ_byTdeg22XAopiRz1JBwLUnyY2bDBgndVxD0HD9MazRh?key=_zOhLuY_gIL2THtHu9ZzcA)
+![img2](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L4%20Image%202.png?raw=true)
 
 To ensure consistency and compatibility, Core supports all Solidity versions and EVM versions, however for solidity v0.8.19 and above it currently provides support using the Paris EVM. Don't fret, We'll guide you through the entire configuration process in the next lesson, making it easy for you to set up your project
 
@@ -52,7 +52,7 @@ Your MetaMask wallet is your key to the web3 world. With your MetaMask account, 
 
 MetaMask is available as a stand-alone mobile app and a Chrome browser extension. We'll be using the Chrome extension, as most of us will be developing in a desktop environment.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdXZeJoNLg67PmBOPDJ5XNHq_AbakC_YNY1OCBKmf3xzKMDJ6uVSURy2YTqExeaPFdxXld33feOxOuJkqoIb1GkS83EZgtthIFGYhTH2_6OMInhozVUqhMbhmRX1f71I7ZqOOvmThXGoMxAn3QhOe40ttL3?key=_zOhLuY_gIL2THtHu9ZzcA)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L4%20Image%203.png?raw=true)
 
 Here are the installation steps:
 
@@ -64,7 +64,7 @@ Here are the installation steps:
 
 Write down your recovery phrase and store it safely. If you lose it, there's no way to recover your account, so be very mindful.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdq7pTtU6N0tIVijNJBtohtXspUvgF6idCwPcZSR7Mtq1yZ0Z64uDlfhe-GbZ2xi36ErD6Au-5vGPmCKl5NaoLF5Vb44cTnaDgX2g7V1Cz9ssEi6NZhz2vknHVjoEaf3bDc22VOcA-YkvqQ7BjHzH4EoHw?key=_zOhLuY_gIL2THtHu9ZzcA)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L4%20Image%204.gif?raw=true)
 
 Congrats🎉! your account has been created and now we will need to get two important pieces of data related to our account for us to publish our dApp.
 
@@ -82,7 +82,7 @@ To extract your public address and private key from the MetaMask Chrome extensio
 - Click and hold the button to reveal your private key.
 - Copy your private key and store it securely. Remember, never share your private key with anyone.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXckWr5zyMBsp1Stvkb0nctr1X-O12DEfv4-mdXUHoZpr0NdSnPR5dpYqT80C1tJiHsAbHo1xrcxo5T13rKon8sM-KeyAVPA5NIQ-CYO4U6_f6vo5CbC-ic4pvqmxGHyNVarzVQjEZam3Jwn5Ur1xzu-fEZO?key=_zOhLuY_gIL2THtHu9ZzcA)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L4%20Image%205.gif?raw=true)
 
 We suggest keeping these pieces of information handy as we'll need them for upcoming lessons. Your MetaMask wallet serves as your gateway to the web3 world, enabling seamless interaction with the blockchain. Remember to safeguard your public address and private key securely, as they are essential for publishing your dApp and managing your digital assets.
 

@@ -4,7 +4,7 @@ Ahoy, blockchain pioneers! Bitcoin, the OG of cryptocurrency, is often hailed as
 
 Get ready to ditch the "HODLing" mindset and embark on a thrilling expedition into the future of Bitcoin. We're talking about Core and BTCfi—a dynamic duo that's transforming Bitcoin from a static store of value into a versatile financial powerhouse.
 
-![img-1](https://lh7-us.googleusercontent.com/docsz/AD_4nXfSi90Y8Yntj87V4KT0cnV8p0vQkasTG46gqegRcPVhyMrOtFEqLdS1YssTGpPiYkcBANaUZX1SQJpGJfaj_jZpb8gcoi7_MctAM0xC3JUvl9DsidINitVLyiEYMpFgqs-d-Dvgtr_IV9-tvet3lzvzm8zl?key=2XsRs8BLW2suVLq1xY9OLw)
+![img-1](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L2%20Image%201.gif?raw=true)
 
 Picture this: smart contracts, decentralized apps (dApps), lending, borrowing, and trading—all powered by the security and decentralization of Bitcoin. It's like upgrading your treasure chest into a bustling marketplace where your Bitcoin isn't just sitting pretty; it's working hard for you.
 
@@ -14,7 +14,7 @@ Imagine Bitcoin as a colossal medieval fortress, built on solid rock and guarded
 
 Now, picture Core as a futuristic metropolis built right on top of that fortress. It inherits the fortress's impenetrable walls and unwavering stability while adding a dazzling array of modern amenities, vibrant markets, and limitless opportunities.
 
-![img2](https://lh7-us.googleusercontent.com/docsz/AD_4nXdQQZSGA9I041C4mXn0pN4ix-wV2d5OxxIKniF_7QZclGKD45SJDKpAhpBZyfIhIkH0iRFOGKTdoMIQ-k7vwsKhOBCJsLVR3UKsFG_mWwWNXmj_xddXjpH2Gj8XUaY8Y-A38Rn11G52J-qjhqUbwnaQgwI9?key=2XsRs8BLW2suVLq1xY9OLw)
+![img2](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L2%20Image%202.gif?raw=true)
 
 Here's the twist: this isn't just any city; it's linked to the fortress. It draws energy from the fortress's defences, and its citizens actively contribute to fortifying the walls.
 
@@ -34,7 +34,7 @@ But what truly sets Satoshi Plus apart is its groundbreaking approach to Bitcoin
 
 Now that we've established the secure and innovative foundation of Core, let's explore its most exciting application: BTCfi, or Bitcoin Finance.
 
-![img3](https://lh7-us.googleusercontent.com/docsz/AD_4nXfdvolu-6JYVLuK_cLc7bKWM-csIJfzfvojLMX6PvCe8F42AJ5uVzniDquzqKxNgoxojRp6j1GiaZ-tK51CaZ9iExGw6kqRbfrdbBJ2pWTCVbt62CbWxzsdUSzZuV-rl58WS0sUqP_khTGG5Hjwufo8PnJx?key=2XsRs8BLW2suVLq1xY9OLw)
+![img3](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L2%20Image%203.png?raw=true)
 
 BTCfi is a rapidly growing sector of the decentralized finance (DeFi) movement that focuses on leveraging Bitcoin as a financial asset. It aims to unlock Bitcoin's potential beyond its traditional role as a store of value by enabling a wide range of financial activities directly on the blockchain.
 
