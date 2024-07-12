@@ -10,7 +10,7 @@ We have seen the term “real-world assets” a lot since the last lesson, it's 
 
 Simply put, real-world assets are tangible or intangible things of value that exist in the physical world – not just in the digital realm. They can be anything from physical assets like real estate, gold, cars, art, etc.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXciBF-uEMAovZ66bd16e4V2RBfzfPO30f7_KnHfpYYgiU71A8LKWKGFEy5VDw7OBwpLXoicoCAXtE9cHdMAQ_ybK3v56DP38do02Pry5SChfhRnCVMs5cdU4bn2Ky5S7o_jCf0dCItnp_kgnNFHXwl_H2yg?key=lp5CYlFAkv3ksy3UwU_zKQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%201.gif?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXciBF-uEMAovZ66bd16e4V2RBfzfPO30f7_KnHfpYYgiU71A8LKWKGFEy5VDw7OBwpLXoicoCAXtE9cHdMAQ_ybK3v56DP38do02Pry5SChfhRnCVMs5cdU4bn2Ky5S7o_jCf0dCItnp_kgnNFHXwl_H2yg?key=lp5CYlFAkv3ksy3UwU_zKQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%201.png?raw=true)
 
 Think of it this way: if you can touch it, own it, or trade it in the traditional financial world, it's likely a real-world asset.
 
