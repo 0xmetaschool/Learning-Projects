@@ -104,7 +104,7 @@ This pretty much sums up all the functionalities we will need for the lending fu
 
 First, let’s create a `.env` in the root directory and paste in your private key against the `PRIVATE_KEY` variable.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdf2awlKhVbFOz29V4iiqGPtC-aIYrw2rXCr_xJuenFXQ9g2SIu_djS6aaEMrWMG--L0SUPJ0IW4ZwtpHcG9Yq1ZicC77Ci8635A0NAd5aGKt-TV9Ts87P6g2Rego8czGXeSBSJk6AtJpFxn1tTtlbhjByV?key=g14du6X5d2vy8ygpLk_3tA)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L11%20Image%201.png?raw=true)
 
 Now let’s install all the dependencies and compile our contract using:
 
@@ -121,7 +121,7 @@ npx hardhat ignition deploy .\\ignition\\modules\\Deploy.js --network core_testn
 
 Copy the addresses of DAPP, USD, and BTC contract addresses from the terminal and paste them against the corresponding variables in the `.env` file present inside `*./interface/`* folder*.*
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcomJOEXy3yUpmcf_KsPF6WFS8uDOdu47borz33mQQY_FtH0A3tFsaqNsir05AtrUaV11Mt9KHLAKWXo1Hc31w5LxXF8aVLHLeem8Kqgu3Him21MWPm22a1ujm_TqfBt879fLH7FVWB0tSWXIEwffdkvAjH?key=g14du6X5d2vy8ygpLk_3tA)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L11%20Image%202.gif?raw=true)
 
 Navigate to the react app and install the dependencies :
 
@@ -137,7 +137,7 @@ Copy the .json files containing the ABI from `*./artifacts/contracts*` to `*./in
 - IERC20.json
 - USD.json
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeKkqWysuWKN4-TfHNoVijGpZO2gjSP1wLWAhfOAGo86_JJ_Vo_4SSTCSAfT-meo98MxJWc8nedg21P3-g3YX1jSpsSb8CZBMmWZJDm-Yaz7bdw4kkEyWplOsnbK8v9EYXRknwDSOwlOrCAY4g8i1NxZ4MF?key=g14du6X5d2vy8ygpLk_3tA)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L11%20Image%203.gif?raw=true)
 
 Finally, let’s launch the front using:
 
@@ -156,7 +156,8 @@ Time to test out the functionalities we have added into our app. Follow the give
 - Withdraw some of the staked amount by specifying it in the provided input field and pressing the withdraw button.
 - Approve the transaction in the MetaMask popup that appears.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdsUYL6R--pm8bx6C3FPxaaFB6DiB-bjO5nFzEO81ZWg1XoDXPbiVsnEn2TNuHdpzEy5e3G_LsPA76bD0Eh2L3zHuHs_N5h0VlYbhTHvsIYLurBLu9I_ODT7ssF2EiL75CzCFx4-B3tpuQkZmTD4eWPLiQ1?key=g14du6X5d2vy8ygpLk_3tA)
+![withdraw-Fasr](https://github.com/user-attachments/assets/bb0be7bf-dfa8-4723-a678-5996923c465c)
+
 
 And that’s it, our app now allows users to stake their BTC and withdraw it whenever they wish.
 

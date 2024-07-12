@@ -24,7 +24,7 @@ A constructor is a special function in a Solidity contract that gets executed on
 - Deployed code only includes public functions and code reachable through them, not the constructor itself.
 - A default empty constructor is provided if you don't define one.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeeEs0B7gpm-XvLuu24FrHr6PHb-Nrv_y9pMsyKFTRgMNKbxMVlUJJmJ4VNISGuvxTb3TVzh6GMd7io40rgZ8l6vBDGDSoB4EquscmKAz4yMgKNvingnRnSq3J6JXNoOGxu984ePXOFg69HzZWr8Ig0k8_q?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%201.png?raw=true)
 
 ### Initializing state variables
 
@@ -119,13 +119,13 @@ Okay, let’s learn about operators since we will use them in our code.
 
 Arithmetic operators are used to perform mathematical operations. Common arithmetic operators in Solidity include:
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfnOS7Zkf11l2D00uaWdpuJJBkWzIlpjk_bHgbRDGvOxmayas29CS5aESoLSq2W4j2qKwYJ8y5Qwj_B28eapx_mMsu-FP7Kiwfs80aceqgInovEFfcclqHKIkZlarztTFScfuC_q511As7s03tJc5fEsfmI?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%202.png?raw=true)
 
 ## Relational Operators
 
 Relational operators are used to compare values. Common relational operators in Solidity include:
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcMipBl1aqCmU9qCdxTNBmjPgYHRXnol3zF7k94KKKwnfOmI-nj7N7kyK0hMxNwVYVlrBR7IVqLWGq2QmMKYwqdbRIJzx8S9Sim0FPF-KlYkQjm6iJrCmTC6tETWYQonjrNT1ahO3T9rKuyWauT5V6b9qA-?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%203.png?raw=true)
 
 ## Require Statement: Enforcing Conditions
 
@@ -215,7 +215,7 @@ This pretty much sums up the basics, let’s deploy and test everything out.
 
 First, let’s create a `.env` in the root directory and paste your private key against the `PRIVATE_KEY` variable.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfjNaAKk8pYFSvrMZ9GF616FQSnBKtFKYDDfsUjjxhKWL1Xm2yd2x6nD-NG70z1lSmQzolNwt19_9to4PFvZCqWA68HWyNwTvR7F0yscB-w_rrl91XgM8a1XRVH7LpLgBlx0vVVcNU4Un1xVe9s1K_Kx4N1?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%204.png?raw=true)
 
 ### Deployment script
 
@@ -257,7 +257,7 @@ npx hardhat ignition deploy ./ignition/modules/Deploy.js --network core_testnet
 
 Copy the addresses of DAPP, USD, and BTC Contract addresses from the terminal and paste them against the corresponding variables in the `.env` file present inside the `*./interface/`* folder*.*
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdURE2z3XAZ2VYJf9zsyB1ZozHMKO98wFyQNNe_CcXiQjYbY0juwJkUNY1q1dpeDTg15HYDvRLL5OHXkLPRbc2PJk-m2NyC8ZJixRI-vcr5_9Q7uJbTKMUAV1VScqni3nw_cqDuL1HFCqUuaxpWrbgTSNgq?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%205.gif?raw=true)
 
 Navigate to the react app and install the dependencies :
 
@@ -273,7 +273,7 @@ Copy the .json files containing the ABI from `*./artifacts/contracts*` to `*./in
 - IERC20.json
 - USD.json
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXf62lahWLuvI5fC6dMnmg7ZnC2XeNDn4XRUJNJ5KRN-FtVWvimhXsaEUIy2tTnPsecnLdG3_hVfMgLuRlCggETGxgO0vLm4ka-I0PPQhn5Z0O6Ceg7N3XfdJx4aQ2C13AQWK5M8LNl3OyKQHjONaCwG4rbT?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%206.gif?raw=true)
 
 Finally, let’s launch the frontend using:
 
@@ -286,31 +286,31 @@ npm  start
 Let’s interact with our code. Follow the steps given below:
 
 1. Connect your wallet by clicking on “Connect Wallet”.
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfyJpL0MwxF7ahpB4vtOcZL7r7762R9gTBbOa-uSBzhaMnkQNsUTUpzDVSa_BvHQymOpoC-7ld_9QZ61RqaMD4XhU-12rhL1OSjwLvn0WHZ_YQ5iyj0YSDTIf15BCawfijx5b4MDTko0B6yan0zVDxGnNSL?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%207.gif?raw=true)
 
 2. Next, fetch some tokens. Click on the faucet icon and accept the two prompts to receive tokens in your wallet.
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfOXOU8jBbjriYD45GwlYVO3dHWLzsiGJJLa0-VWheixxriNPpX5lYuBIhm3-NRyRC6B59SFC3tAF4YPMiRCv4Ez4W-AFszR1GP8ZJfD9z2ISyCeqVwGpBEZbkm4xzvpoCGkjvLbiRsnn3mypx_DSwOfo4?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%208.gif?raw=true)
 
 3. It’s time to stake.
     - Enter 10 or any value you want in the tab under “Stake or Withdraw Collateral”.
     - Click on the Stake button.
     - Click on Next, Approve, and then Confirm.
-  ![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXf-nZolnU7EedW7ajzaBN_NMKXODjVvxzlUfbT0nQGzKtYXrluHR6uHqBBB7JcTHmDC2-MX_o72Yck62R9Pt5o6ZoeDJ5quFUn7-kCGBHrAFzT7jJAueVf6-LIWpJRVdCiW4bV1yg5HH0k22t0GI1tv2AHb?key=SvvLSoKwwYsKbkLRxbp6Ww)
+  ![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%209.gif?raw=true)
 
 4. After a few seconds, you can see the updated values:
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeHGSj2oJw55ISuMqHQwO83fg0r1vWqviifEMAxdMR3IaPK0AhSKuquILQ3gDN3r0t41IHjbtFmDpmMohxuDAHM2HBpAhu8L03hq3HKCN4bfeezYEpxYs5AoC-Z10O19CSA9A0Vc78vmYK7ppH03K_vckw?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%2010.png?raw=true)
 
 5. And now it’s time to test our withdrawal functionality.
     - Enter 6 or any value you want in the tab under “Stake or Withdraw Collateral”
     - Click on the Withdraw button
     - Click on Confirm
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXe6pRn1pWGjQzYSXb5B7P_r7c90uLBBmy_MTJNISOkfGgxtD2SDrFAuvjoiAdzRKAMJDVoCsN72c-hPC_414umu5S4807xBkRpdQvbKkcm3Gt3nyFMLifKoVrLni3xS2TwpdsYxJYeLxeRaflBUSQn-BmEk?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%2011.gif?raw=true)
 
 6. After a few seconds, you can see the updated values:
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdDV79SxcexhZisxHpd65XtWarUz1U7LD-5_eQ4aXOyJ08cOuqlFXk0BgmtOuQ-3cGau69qguOrK-ZukJfMYrdNI66Rvr7_Qb2qVaKWWT81axeR63_GPrKO145rOd5eTNoSp7SFDGw97eEj60-0Yat_qr4Y?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%2012.png?raw=true)
 
 7. Try BTC staking too, but for now, it doesn’t work because we haven’t implemented lending functionality.
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfIVs0D1JZR21uLMuKViWbr3DPi9IxEmVv7ZqOoe9DALn9fPT-fRZmgMhvHy-yyhERUC1IlSxkvi1QxZR0SiWfmfET9mjRapaKGkcJeH8AbQRXNEGZPVXlU05SyJlsoNV4KVOhbBVUuZvYSbMTEqr6PPF8P?key=SvvLSoKwwYsKbkLRxbp6Ww)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L10%20Image%2013.gif?raw=true)
 
 And that’s it, our app now allows users to stake and withdraw whenever they wish. Onto the last step!
 
