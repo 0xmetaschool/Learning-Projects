@@ -1,4 +1,4 @@
-# Lesson 14: Wrap up
+# Wrap up
 
 Alright, let's wrap it up and celebrate your incredible journey! It's time to take a moment and reflect on everything you've learned in this course. Let's summarize what you've learned and how it can empower you in the world of blockchain development.
 
@@ -20,7 +20,7 @@ We covered the following:
 
 - **Introduction:** Got an overview of Core, the bitcoin-centric advantage, Core Blockchain programs, Solidity, and created a Metamask wallet.
 - **Getting Started with Development:** Learned how to set up your development environment and installed the necessary tools.
-- **Building Your Lending dApp Project:** We built the dApp and covered the Solidity basics, created structure, studied mapping, functions, Interface, ERC20, constructors, and operators. We implemented functions to stake, borrow, and calculate interests.
+- **Building Your Lending dApp Project:** We built the dApp and covered the Solidity basics, created structure, and studied mapping, functions, Interface, ERC20, constructors, and operators. We implemented functions to stake, borrow, and calculate interests.
 - **Deploy and Interact:** We also learned how to deploy your dApp to the Core blockchain testnet and interact with it side by side.
 
 ## ⚒️ A small yet important request
