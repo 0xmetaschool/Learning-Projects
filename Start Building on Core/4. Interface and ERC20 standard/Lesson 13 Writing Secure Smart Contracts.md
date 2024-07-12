@@ -1,4 +1,4 @@
-# Lesson 13: Writing Secure Smart Contracts
+# Writing Secure Smart Contracts
 
 Welcome back, buddy! We love how you are being so great and awesome in this journey so far. So we have completed building our dApp. Well, now we have more things to explore.
 
