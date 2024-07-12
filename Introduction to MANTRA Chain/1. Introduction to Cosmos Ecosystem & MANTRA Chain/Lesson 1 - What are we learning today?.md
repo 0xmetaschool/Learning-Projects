@@ -43,7 +43,7 @@ If you complete this course, you will get a special NFT, a utility token, unlock
 Now before we move forward, let’s set some house rules first.
 
 1. Kindly do your quick assignments properly.
-2. Join [our discord server](https://bit.ly/mantra-chain-course-discord) and ask all relevant questions there.
+2. Join [our discord server](https://discord.gg/Jf4ArqVb) and ask all relevant questions there.
 3. We are a free open-source platform and if you follow us on [X](https://bit.ly/mantra-chain-twitter) and [LinkedIn](https://www.linkedin.com/company/0xmetaschool/), it would be a great support. 🫣
 4. You can subscribe to our [YouTube](https://www.youtube.com/@0xmetaschool/) channel for exciting videos too. ✨
 5. Stay happy and positive!
