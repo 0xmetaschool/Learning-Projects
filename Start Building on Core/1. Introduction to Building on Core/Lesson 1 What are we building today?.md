@@ -1,0 +1,68 @@
+# What are we building today?
+
+Hey there, developer! 👋
+
+So, you've been poking around Core blockchain and you're ready for more, huh? Awesome! That means you're in the perfect spot to level up your skills and go from a Core admirer to a full-fledged Core dApp builder! 🚀  First things first, let’s give you a big round of applause for completing the [first course on Core](https://metaschool.so/courses/introduction-to-core). Woohoo! 🎉
+
+Building on Core isn't just about code; it's about joining a revolution powered by Bitcoin's security and EVM compatibility. You get the best of both worlds: the rock-solid foundation of Bitcoin's decentralization and the flexibility of Ethereum's smart contract development to build BTCfi dApps. It's like having a Swiss Army knife for blockchain development!
+
+And the cherry on top? A thriving ecosystem of dApps is already taking shape! Dive into decentralized finance (DeFi), explore exciting NFT marketplaces, or even create your own gaming universe. With Core, your imagination is the only limit, and this course is designed to equip you with the tools and knowledge to turn your ideas into dApps!
+
+We have already discussed the Satoshi Plus Consensus Mechanism, Non-Custodial BTC Staking, the architecture, the primary goals, the ecosystem and the future roadmap in our first course. This course ensures you pick up practical skills and confidence, starting with building your own Lending dApp. As you progress, you’ll learn new concepts and add more functionalities to your dApp.
+
+## The Lending dApp
+This course will equip you with the knowledge and skills to build the **core functionalities** of a lending dApp:
+
+<a href="https://youtu.be/jnPWUEOcI0E" target="_blank">
+ <img src="https://github.com/0xmetaschool/Learning-Projects/assets/130544719/5cc96e37-91f1-4090-b165-c51ea9818fc4" alt="Watch the video" />
+</a>
+
+But why build a Lending dApp, you ask? Buckle up, because this isn't just about crunching numbers! This seemingly simple app serves as a powerful **launchpad** for your Core blockchain development journey. Here's why:
+
+- **Hands-on Learning:** Building a Lending dApp is an engaging and practical way to grasp blockchain concepts like **smart contracts**, which are self-executing programs that power dApps.
+- **Unlocking Bitcoin's Utility:** This project highlights Bitcoin's potential beyond its traditional role as a store of value. By incorporating Bitcoin as collateral in the Lending dApp, you'll witness firsthand how Bitcoin can participate in the growing world of decentralized finance.
+- **Solidity Fundamentals:** You'll delve into Solidity, the programming language designed for creating smart contracts on EVM-compatible chains. By building the Lending dApp, you'll gain a strong foundation in Soldity’s syntax and functionality.
+- **Deployment and Interaction:** The excitement doesn't stop at coding! You'll deploy your Lending dApp onto the Core blockchain, allowing you to interact with it and see your code come to life in a decentralized environment.
+
+## Course Overview
+
+We will:
+
+1. Learn about the advantages of building on Core
+2. Explore various Core community and developer programs
+3. Setting up Core development environment
+4. Connecting to the Core testnet & acquiring testnet CORE tokens from the faucet
+5. Learn how to Build and deploy a Lending app on Core using Solidity
+
+## Who exactly should take this course?
+
+This course is for beginner and experienced Web3 developers who wish to learn about Core and have completed our first introductory course on the Core blockchain. You should have basic programming knowledge as it will help you have a quick start to this course but if not, we are here for you!
+
+## What will you be getting out of this course?
+
+You will be getting the following outcomes when you complete this course:
+
+1. Get a good understanding of the development on Core
+2. Get yourself ready for the next advance level course in the series
+3. Claim your NFT on course completion
+
+## Proof of completion
+
+If you complete this course with us, you will be getting a special NFT which will unlock many more opportunities for you on the Metaschool platform. Here is what the NFT looks like.
+
+[https://lh7-us.googleusercontent.com/docsz/AD_4nXdG3jlr7TCT_bKlJq43BBob9aqsVZtvnlqBiWtN5PG7uJk9q8AAMBkYhm_H1L9bUG0RvkPFoL9v--vaiDbaUNmAKfzpxZF6qFbg6kUqgig44ATEd3O43dZOO7aKHqOp92V1Cjxk8MB2nPQ8s5RTxpuCZHo?key=e9OC9ZGVpl8h4yru9_x3Eg](https://lh7-us.googleusercontent.com/docsz/AD_4nXdG3jlr7TCT_bKlJq43BBob9aqsVZtvnlqBiWtN5PG7uJk9q8AAMBkYhm_H1L9bUG0RvkPFoL9v--vaiDbaUNmAKfzpxZF6qFbg6kUqgig44ATEd3O43dZOO7aKHqOp92V1Cjxk8MB2nPQ8s5RTxpuCZHo?key=e9OC9ZGVpl8h4yru9_x3Eg)
+
+Now before we move forward, let’s set some house rules first.
+
+1. Kindly do your quick assignments properly.
+2. Join [our discord server](https://bit.ly/core-course-discord) and ask all relevant questions there.
+3. We are a free open-source platform and if you follow us on [X](https://bit.ly/core-course-twitter) and [LinkedIn](https://bit.ly/core-course-linkedIn), it would be a great support. 🫣
+4. You can subscribe to our [YouTube](https://bit.ly/core-course-youtube) channel for exciting videos too. ✨
+5. Stay happy and positive!
+
+Now, since you are entering into the world of Core, join the Core’s family by:
+
+1. Joining their [Telegram channel](https://t.me/CoreDAOTelegram), [Discord channel](https://discord.com/invite/coredaoofficial).
+2. Follow Core on [X](https://twitter.com/Coredao_Org), [X account for Devs](https://x.com/corechain_devs), and subscribe on the [YouTube](https://www.youtube.com/@Core_DAO_Official) channel.
+
+Alright guys, no need to wait any longer. Let’s get started!!

@@ -1,0 +1,46 @@
+# Lesson 14: Wrap up
+
+Alright, let's wrap it up and celebrate your incredible journey! It's time to take a moment and reflect on everything you've learned in this course. Let's summarize what you've learned and how it can empower you in the world of blockchain development.
+
+## What You Built
+
+A Lending dApp on the Core blockchain. It had the following key features:
+
+- **Staked USD to Borrow BTC**: You built the functionality of depositing **USD tokens** as collateral to borrow **BTC** tokens. It's like putting down a deposit to access funds within the Core DeFi ecosystem.
+- **Collateralized Loans**: You maintained a minimum collateralization ratio, like staking 1.5 USD to borrow 1 BTC.
+- **Flexible Borrowing and Lending**: You built the staking and lending functionality. Where in staking, the learners can stake USD to receive BTC tokens and repaid with interest within a set timeframe. Or can lend BTC directly to borrowers and earn interest.
+- **USD Deposits and Withdrawals**: You learned how to manage the USD deposits and withdrawals based on lending or borrowing needs.
+- **BTC Repayment**: You built how to repay borrowed BTC tokens with interest to unlock the staked USD collateral.
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeqYGaRdjWKUmUzZOQuz4vOFthUWD6so97wFtavPhqXwKOENBpqmpG2H6GeqzrTD3HDdKOepJxKQNbGffQ2St9ATY45aEpfiUGS2DmnQ1WybhJHSPRfMaudlPV_LIx28OSr3Xj_u8l1w5XWEqHLG2nzg5Eb?key=p27kXPTrZe8UAFlizEdcVg)
+
+## What We Covered
+
+We covered the following:
+
+- **Introduction:** Got an overview of Core, the bitcoin-centric advantage, Core Blockchain programs, Solidity, and created a Metamask wallet.
+- **Getting Started with Development:** Learned how to set up your development environment and installed the necessary tools.
+- **Building Your Lending dApp Project:** We built the dApp and covered the Solidity basics, created structure, studied mapping, functions, Interface, ERC20, constructors, and operators. We implemented functions to stake, borrow, and calculate interests.
+- **Deploy and Interact:** We also learned how to deploy your dApp to the Core blockchain testnet and interact with it side by side.
+
+## ⚒️ A small yet important request
+
+Here’s a great news for you! This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects). If you find any issues in the course, please feel free to resolve them. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://discord.com/invite/vbVMUwXWgc) and GitHub, too.
+
+While you’re contributing:
+
+1. Don’t forget to star ⭐️ our [repository](https://github.com/0xmetaschool/Learning-Projects). We will be very thankful! ❤️
+2. We are a completely free platform and we aim to stay the same, so please consider following us on [X](https://bit.ly/core-course-twitter) and [LinkedIn](https://bit.ly/core-course-linkedIn) as well. 🫶
+3. Subscribe to our [YouTube](https://bit.ly/core-course-youtube) channel for exciting videos.
+
+Also, now that you have a strong understanding of Core, Why don't you take the next step and become an active participant in the Core ecosystem? Here's how you can get involved and make your mark:
+
+1. Join their [Telegram channel](https://t.me/CoreDAOTelegram), [Discord channel](https://discord.com/invite/coredaoofficial).
+2. Follow Core Chain on [X](https://twitter.com/Coredao_Org), [X account for Devs](https://x.com/corechain_devs), and subscribe on the [YouTube](https://www.youtube.com/@Core_DAO_Official) channel.
+3. Contribute directly to the CoreDAO [Github Repository](https://github.com/coredao-org).
+
+## 🎊 Congratulations
+
+You have completed the tutorial and are now equipped with the in-depth knowledge to start building in the exciting world of Core blockchain. We wish you luck!
+
+WAGMI! Peace out! ✌🏻🔮

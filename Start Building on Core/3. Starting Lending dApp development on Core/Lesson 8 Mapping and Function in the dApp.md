@@ -1,0 +1,394 @@
+# Mapping and Function in the dApp
+
+Welcome back, aspiring blockchain developers! In our previous lesson, we laid the foundation for our lending dApp by setting up our project, importing essential libraries, and declaring the basic structure of our smart contract. We're on our way to creating a decentralized lending platform on Core blockchain!
+
+Now, it's time to add some real functionality to our contract. In this lesson, we'll dive deeper into the world of Solidity and explore two crucial components for building dApps: mappings and functions. Think of mappings as your dApp's filing system and functions as the actions your dApp can take. By mastering these concepts, you'll be equipped to build a robust and interactive lending platform.
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcONF3Ihi0PssouoTpfX6LTgXXpfHNvUuw5hImmXwpCzPY7cyS_iqFBMw9mMcN6YjLyKkVf0P38jP0st7ZGBbP5xfvV_-YLuyue8L6f3kmQjqELh-Ac7g_bGFgTqayWHzqQz0o6J_vqaj9evJCgSKvoRgFw?key=zrQfRkX42gGR_JMyOsRyjw)
+
+By the end of this lesson, you'll have a solid understanding of how mappings and functions work together to create a simple yet functional lending dApp. So, grab your coding tools, and let's get building!
+
+## Structs: Your Custom Data Containers
+
+Now, in the real world, we often group related information. For instance, your medical records might contain your name, date of birth, medical history, and current medications. You wouldn't want this information scattered across random pieces of paper, would you?
+
+In Solidity, structs are like personalized folders for your data. They let you bundle multiple variables of different types into a single, organized unit.
+
+### Code Snippet: A Simple Struct
+
+```solidity
+struct Patient {
+	string name;
+	uint age;
+	string medicalHistory;
+}
+```
+
+In this example, the `Patient` struct acts like a medical record folder, holding a patient's name, age, and medical history in one place.
+
+**Structs in Our Lending dApp**
+
+We'll use a similar concept in our lending dApp with the `Loan` struct:
+
+```solidity
+struct Loan {
+	uint256 amount;    // The amount of BTC borrowed
+	uint256 collateral; // The amount of USD deposited as collateral
+	uint256 timestamp;  // When the loan was taken out
+	bool active;        // Whether the loan is still open
+}
+```
+
+Think of this `Loan` struct as a mini-file that neatly organizes all the essential details about a particular loan:
+
+- `amount`: The total amount of BTC tokens borrowed.
+- `collateral`: The amount of USD tokens deposited as collateral.
+- `timestamp`: The time (in seconds since the Unix epoch) when the loan was initiated. This helps us track the loan's duration.
+- `active`: A boolean flag indicating whether the loan is still active (true) or has been repaid (`false`).
+
+## Mappings: Your Smart Contract's Efficient Filing System
+
+Now that we have a way to neatly package loan information using the `Loan` struct, how do we organize and access all these loans within our smart contract? That's where mappings come in.
+
+Imagine you're running a lending library, but instead of books, you're lending out shiny crypto coins. Mappings are like your high-tech filing cabinets, allowing you to efficiently store and retrieve information. However, in our lending dApp, we need two separate filing cabinets to keep track of different types of data.
+
+### How Mappings Work
+
+Let's quickly recap the structure of a mapping:
+
+```solidity
+mapping(KeyType => ValueType) public mappingName;
+```
+
+- `KeyType`: The unique identifier or label for each entry in the mapping.
+- `ValueType`: The data associated with each key.
+- `mappingName`: A descriptive name for the mapping.
+
+### **Mappings in Our Lending dApp**
+
+We'll use three mappings in our contract to efficiently store and manage data related to loans, lender balances, and user collateral:
+
+1. **`loans`**: This mapping functions as a comprehensive record of all loan activities within our platform. The borrower's address (`address`) serves as the key, allowing us to quickly identify and retrieve the details of a specific loan. The value associated with each key is a `Loan` struct.
+    
+    ```solidity
+    mapping(address => Loan) public loans;
+    ```
+    
+2. **`lenderBalances`**: In our decentralized lending ecosystem, it's vital to maintain an accurate record of each lender's contributions. The `lenderBalances` mapping accomplishes this by associating each lender's address (`address`) with the total amount of BTC tokens they have deposited (`uint256`). This mapping is pivotal for:
+    - Ensuring lenders can withdraw only the amount they've deposited.
+    - Tracking the overall liquidity available for borrowing.
+    - Calculating interest earned based on individual contributions.
+    
+    ```solidity
+    mapping(address => uint256) public lenderBalances;
+    ```
+    
+3. **`userCollateral`**: This mapping keeps track of the collateral each user has locked in the contract.
+    
+    ```solidity
+    mapping(address => uint256) public userCollateral;
+    ```
+    
+
+## Practical Examples
+
+Let's illustrate how these mappings work with a couple of scenarios:
+
+- **Scenario 1: Alice Takes Out a Loan** Alice decides to borrow 100 BTC tokens and deposits 150 USD as collateral. We would store this information in the `loans` mapping under Alice's address:
+    
+    ```solidity
+    loans[Alice's Address] = Loan(100, 150, 1693526400, true);
+    ```
+    
+- Also, we would update the collateral mapping:
+    
+    ```solidity
+    userCollateral[Alice's Address] += 150;
+    ```
+    
+- **Scenario 2: Bob Deposits BTC** Bob wants to lend out some BTC tokens and deposit 500 USD into the platform. We would record this in the `lenderBalances` mapping:
+    
+    ```solidity
+    lenderBalances[Bob's Address] = 500;
+    ```
+    
+
+By utilizing these mappings effectively, our smart contract can efficiently manage loan records, lender balances, and user collateral deposits, ensuring transparency, security, and seamless operation of the lending platform.
+
+## Functions: The Actions Your dApp Takes
+
+Now that we have our data organized with mappings and structs, it's time to make our dApp do something! That's where **functions** come in. Functions are the actions your smart contract can perform, like accepting deposits, issuing loans, and calculating interest.
+
+### Anatomy of a Function
+
+```solidity
+function functionName(parameters) visibilitySpecifier returns (returnTypes) {
+	// The code that makes the function work
+}
+```
+
+Let's break it down:
+
+- **functionName:** A clear name that describes what the function does (e.g., `depositCollateral`).
+- **parameters:** The inputs the function needs to work (e.g., the `amount` of USD being deposited).
+- **visibilitySpecifier:** Who's allowed to call this function? It can be `public` (anyone), `external` (only from outside the contract), `internal` (only from within the contract or derived contracts), or `private` (only from within the same contract).
+- **returnTypes:** The values the function gives back after it's done (e.g., a boolean `true` or `false` to indicate success or failure).
+
+## Key Functions in Our Lending dApp
+
+Now, let’s take a look at all the major functions we are going to use in our Lending dApp
+
+```solidity
+function depositCollateral(uint256 amount) external;
+
+function withdrawCollateral(uint256 amount) external;
+
+function borrowBTC(uint256 amount) external;
+
+function repayLoan(address user) external;
+
+function depositBTC(uint256 amount) external;
+
+function withdrawBTC(uint256 amount) external;
+
+function calculateInterest(address user) external view returns (uint256);
+
+function getBorrowableAmount(address user) external view returns (uint256);
+
+function getLoanDetails(address borrower) external view returns (Loan memory);
+
+function getLenderBalance(address lender) external view returns (uint256);
+
+function getTotalStaked() external view returns (uint256);
+
+function getTotalBorrowed() external view returns (uint256);
+
+function getCurrentApy() external pure returns (uint256);
+
+function getUserCollateral(address user) external view returns (uint256);
+
+function getUserBorrowed(address user) external view returns (uint256);
+
+function getUserStaked(address user) external view returns (uint256);
+```
+
+These functions handle the core actions of our lending platform:
+
+- **depositCollateral(uint256 amount):** Lock up your USD tokens as collateral to borrow later.
+- **withdrawCollateral(uint256 amount):** Get your USD back if you're not borrowing anything.
+- **borrowBTC(uint256 amount):** Borrow some BTC, but only if you've got enough collateral.
+- **repayLoan(address user):** Pay back your BTC loan, plus a little extra for interest.
+- **depositBTC(uint256 amount):** Lend your BTC to the platform and let others borrow it.
+- **withdrawBTC(uint256 amount):** Take back the BTC you lent out, anytime you want.
+- **calculateInterest(address user):** See how much interest someone owes on their loan.
+- **getBorrowableAmount(address user):** Check how much BTC someone can borrow based on their collateral.
+- **getLoanDetails(address borrower):** Peek at all the juicy details of a particular loan.
+- **getLenderBalance(address lender):** See how much BTC a lender has deposited.
+- **getTotalStaked():** Get the grand total of all BTC staked in the platform.
+- **getTotalBorrowed():** See the combined amount of BTC currently on loan.
+- **getCurrentApy():** Check out the annual percentage yield (APY) lenders can earn.
+- **getUserCollateral(address user):** Find out how much USD collateral a user has stashed.
+- **getUserBorrowed(address user):** See how much BTC a user currently has borrowed.
+- **getUserStaked(address user):** Check how much BTC a user is lending out.
+
+By now, our smart contract should look something like this. You can copy the following code and paste it into the `CoreLoanPlatform.sol` file within the `contracts` folder of your project directory.
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+contract CoreLoanPlatform {
+
+	// Constants for loan parameters (values will be added later)
+	uint256 public constant COLLATERAL_RATIO = 150; // 150% collateralization
+	uint256 public constant BORROWABLE_RATIO = 80; // 80% of collateral can be borrowed
+	uint256 public constant INTEREST_RATE = 5; // 5% interest rate
+	uint256 public constant LOAN_DURATION = 30 days;
+	uint256 private totalStaked = 0; //Counter for total staked
+	uint256 private totalBorrowed = 0; //Counter for total borrowed
+	
+	//Loan Struct
+	struct Loan {
+	uint256 amount;
+	uint256 collateral;
+	uint256 timestamp;
+	bool active;
+	}
+
+	// Mappings to store loan and balance data
+	mapping(address => Loan) public loans;
+	mapping(address => uint256) public lenderBalances;
+	mapping(address => uint256) public userCollateral;
+
+	function depositCollateral(uint256 amount) external  {
+	// TODO : Implement Logic for deposting Collateral
+	}
+	
+	function withdrawCollateral(uint256 amount) external  {
+		// TODO : Implement Logic for withdrawing Collateral
+	}
+	
+	function withdrawBTC(uint256 amount) external  {
+	// TODO : Implement Logic for withdrawing BTC
+	}
+	
+	function getBorrowableAmount(address user) external view returns (uint256) {
+	// TODO : Implement Logic for fetching borrowable amount
+	}
+	
+	function getUserCollateral(address user) external view returns (uint256) {
+	// TODO : Implement Logic for fetching user's collateral amount
+	}
+
+	function borrowBTC(uint256 amount) external  {
+	// TODO : Implement Logic for borrowing BTC
+	}
+	
+	function depositBTC(uint256 amount) external  {
+	// TODO : Implement Logic for deposting BTC
+	}
+	
+	function repayLoan(address user) external  {
+	// TODO : Implement Logic for repaying Loan
+	}
+	
+	function calculateInterest(address user) external view returns (uint256) {
+	// TODO : Implement Logic for calculating interest
+	}
+
+	function getLoanDetails(address borrower) external view returns (Loan memory) {
+	// TODO : Implement Logic for fetching loan of specific borrower
+	}
+	
+	function getLenderBalance(address lender) external view returns (uint256) {
+	// TODO : Implement Logic for getting the Lender balance
+	}
+	
+	function getTotalStaked() external view returns (uint256) {
+	// TODO : Implement Logic for fetching total staked amount
+	}
+	
+	function getTotalBorrowed() external view returns (uint256) {
+	// TODO : Implement Logic for fetching total borrowed amount
+	}
+	
+	function getCurrentApy() external pure returns (uint256) {
+	// TODO : Implement Logic for fetching current APY
+	}
+	
+	function getUserBorrowed(address user) external view returns (uint256) {
+	// TODO : Implement Logic for fetching a User's borrowed amount
+	}
+	
+	function getUserStaked(address user) external view returns (uint256) {
+	// TODO : Implement Logic for fetching a User's Staked amount
+	}
+
+}
+```
+
+For now, the functions are just placeholders to help us define the contract's structure. As we progress through these lessons, we'll add the real code that makes our lending dApp actually do stuff, like transfer tokens and calculate interest.
+
+Also, notice how each function is marked as `external`. This is like putting a "members only" sign on your dApp's front door – it means these functions can only be called by someone *outside* the contract, like a user's wallet. This adds an extra layer of security, ensuring that only authorized actions can be performed on our platform.
+
+To make sure that everything is proper with our contract, let’s just go ahead and do a little test deployment of it using hardhat.
+
+## Compiling and Deploying Your Contract Using Hardhat
+
+Now for the exciting part: bringing your contract to life! We'll use Hardhat, a development environment for Ethereum and EVM-compatible chains like Core blockchain, to compile and deploy our contract.
+
+**1. Compile:**
+
+Open your terminal and navigate to your project directory (where your Solidity contract file, `CoreLoanPlatform.sol`, is located). Then, run the following command:
+
+```solidity
+npx hardhat compile
+```
+
+This command will compile your Solidity code into bytecode, the low-level representation that the blockchain can understand and execute.
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcylUr1V1Ay61M6pm-z2W9HXzDEYRH27C2cQa_KRriw1W8s2FUb1DkElVpa1tB16qNHu8p3MXH4cmd_b27VnjEZqgLu2Lm-6ptfFzkPf_fnObrmUPJRlj3nXAcZAZv8hcDGrLu28PTF1TgXnIZKXENUTSk4?key=zrQfRkX42gGR_JMyOsRyjw)
+
+In case you see any warnings during the compilation step, Don’t worry. We will fix them as we go along.
+
+**2. Deploy (to the Testnet):**
+
+Now that your contract is compiled, it's time to deploy it to the Core testnet. Testnets are safe environments where you can experiment and test your dApp without using real funds. They're like a playground for developers!
+
+**2.1 Create a Deployment Script:**
+
+In your Hardhat project directory, navigate to the `ignition/modules/Deploy.js`. Paste the following code in it:
+
+```solidity
+const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
+module.exports = buildModule("CoreLoanPlatform", (m) => {
+	const CoreLoanPlatform = m.contract("CoreLoanPlatform");
+	return { CoreLoanPlatform };
+});
+```
+
+**2.2 Configure Hardhat:**
+
+Make sure your `hardhat.config.js` file has the correct network configuration for the Core testnet. You'll need to add the RPC URL and other relevant details. We have already added for you:
+
+```solidity
+require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-verify");
+
+const dotenv = require("dotenv");
+dotenv.config();
+
+function privateKey() {
+	return process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [];
+}
+
+module.exports = {
+	networks: {
+		core_testnet: {
+			url: "https://rpc.test.btcs.network",
+			accounts: privateKey(),
+		},
+	},
+	solidity: {
+		version: "0.8.24",
+		settings: {
+			evmVersion: 'paris',
+			optimizer: {
+				enabled: true,
+				runs: 1000,
+			},
+		},
+	},
+};
+```
+
+**2.3 Deploy the Contract:**
+
+Now, run the following command in your terminal:
+
+```solidity
+npx hardhat ignition deploy ./ignition/modules/Deploy.js --network core_testnet
+```
+
+This will deploy your `CoreLoanPlatform` contract to the Core testnet. You'll see a message in your console indicating the address where your contract is deployed.
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXd6E7eYV9kKqDoZpBEC7YGfo9zE3Kudc8DSJtZEHj5ZXzMt3v40sHMZEYJhxiJvheUVqQrbV_ns3IjeYtkK9N4XAFtgnpe2HvAyH9dg_JI4jMnFEocTboYprPeDu3ZNrCUzC4TDlNh0CB2tgBDzNAL1MEmm?key=zrQfRkX42gGR_JMyOsRyjw)
+
+Remember, the functions in our contract are currently just placeholders. We'll add the actual logic in upcoming lessons. This deployment step is just to verify that our contract compiles and deploys without errors.
+
+## Pushing it to Git
+
+Alright, now that we have a working contract on our hands, let's just go ahead and push all our progress to your git repository. To do that, use the same terminal or open a new one in the root directory of the project and run the following commands:
+
+```solidity
+git add .
+git commit -m "code update"
+git push
+```
+
+Now, you can be as specific as you want with the commit message ( `-m “<message>”`). The important thing is to actually push the code to the repository and record your progress in the Core development journey.
+
+## Wrap Up
+
+Congratulations, you've just built the scaffolding for your very own decentralized lending dApp on Core blockchain! We've laid the groundwork by organizing our data with mappings, defining the actions our dApp can take with functions, and even creating a basic structure for our `Loan` data. We've even taken the first step toward bringing our dApp to life by successfully compiling and deploying this contract to the Core testnet.
+
+But remember, this is just the skeleton. The real magic happens when we add the logic that makes our dApp function like a well-oiled lending machine. In our upcoming lessons, we'll tackle that challenge head-on, filling in the function bodies with code that handles collateral deposits, loan approvals, interest calculations, and repayments. Get ready to transform this blueprint into a fully functional lending platform!

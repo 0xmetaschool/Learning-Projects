@@ -1,0 +1,177 @@
+# Implement Stake and Borrow functions
+
+Alright, now that we’ve created functions for depositing and withdrawing collateral, let’s focus on making it so that we can stake our BTC tokens and also be able to withdraw them whenever needed.
+
+## Quick Checkout
+
+First things first, let’s quickly swap out our boilerplate with the corresponding front end for these functionalities.
+
+```solidity
+git checkout origin/boilerplate03
+```
+
+Don't worry, all the code we’ve written so far will be present in the project. Navigate to the `CoreLoanPlatform.sol` file present inside the `contracts` folder and let’s add the required functions there.
+
+## Deposit your BTC
+
+Let’s get started with our `depositBTC()` function, this function should check whether the amount to be deposited is valid i.e. it must be greater than 0, and then transfer the amount from the sender to our contract.
+
+For this purpose, we will be using the `safeTransferFrom()` function from the [SafeERC20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/utils/SafeERC20.sol) contract. This version of the `TransferFrom` function is more secure and reliable because it reverts on failure, checks the transfer return value, and protects against non-standard ERC20 implementations. We will go through these in detail in the upcoming lessons.
+
+```solidity
+function depositBTC(uint256 amount) {
+	require(amount > 0, "Amount must be greater than 0");
+	BTC.safeTransferFrom(msg.sender, address(this), amount);
+}
+```
+
+Now we can update the lender’s balances by adding the amount deposited to it and then go ahead to increase the total staked value by the same amount passed to it.
+
+```solidity
+function depositBTC(uint256 amount) {
+	require(amount > 0, "Amount must be greater than 0");BTC.safeTransferFrom(msg.sender, address(this), amount);
+	lenderBalances[msg.sender] += amount;
+	totalStaked = totalStaked + amount;
+}
+```
+
+Finally, let’s make our `depositBTC()` function `external` so that we can allow external entities like users or contracts to initiate the deposit of BTC to our lending dApp. We will also emit the BTC Deposited event once all the tasks are over.
+
+```solidity
+function depositBTC(uint256 amount) external  {
+	require(amount > 0, "Amount must be greater than 0");
+	BTC.safeTransferFrom(msg.sender, address(this), amount);
+	lenderBalances[msg.sender] += amount;
+	totalStaked = totalStaked + amount;
+	emit BTCDeposited(msg.sender, amount);
+}
+```
+
+## Withdraw your BTC
+
+To allow a user to withdraw their staked BTC, we first and foremost need to ensure that the amount is valid and that the user has staked enough BTC so that the amount is available to withdraw.
+
+```solidity
+function withdrawBTC(uint256 amount) external  {
+	require(amount > 0, "Amount must be greater than 0");
+	require(lenderBalances[msg.sender] >= amount, "Insufficient balance");
+}
+```
+
+We then update the lender's balance and the total staked amount by reducing both the amount being withdrawn.
+
+```solidity
+function withdrawBTC(uint256 amount) external  {
+	require(amount > 0, "Amount must be greater than 0");
+	require(lenderBalances[msg.sender] >= amount, "Insufficient balance");
+	lenderBalances[msg.sender] -= amount;
+	totalStaked = totalStaked - amount;
+}
+```
+
+Finally, let’s transfer the `amount` to the user and emit the `BTCWithdrawn` event.
+
+```solidity
+function withdrawBTC(uint256 amount) external  {
+	require(amount > 0, "Amount must be greater than 0");
+	require(lenderBalances[msg.sender] >= amount, "Insufficient balance");
+	lenderBalances[msg.sender] -= amount;
+	totalStaked = totalStaked - amount;
+	BTC.safeTransfer(msg.sender, amount);
+	emit BTCWithdrawn(msg.sender, amount);
+}
+```
+
+And with that, we've successfully written the logic to allow a user to withdraw an amount of BTC that was previously staked.
+
+## Query Helper Functions
+
+Finally, we’ll just add two more functions to our contract that will help us fetch the user’s staked amount and the current APY.
+
+```solidity
+function getUserStaked(address user) external view returns (uint256) {
+	return lenderBalances[user];
+}
+
+function getCurrentApy() external pure returns (uint256) {
+	return INTEREST_RATE;
+}
+```
+
+This pretty much sums up all the functionalities we will need for the lending functionality, let’s deploy and test everything out.
+
+## Let’s try it out
+
+First, let’s create a `.env` in the root directory and paste in your private key against the `PRIVATE_KEY` variable.
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdf2awlKhVbFOz29V4iiqGPtC-aIYrw2rXCr_xJuenFXQ9g2SIu_djS6aaEMrWMG--L0SUPJ0IW4ZwtpHcG9Yq1ZicC77Ci8635A0NAd5aGKt-TV9Ts87P6g2Rego8czGXeSBSJk6AtJpFxn1tTtlbhjByV?key=g14du6X5d2vy8ygpLk_3tA)
+
+Now let’s install all the dependencies and compile our contract using:
+
+```solidity
+npm install
+npx hardhat compile
+```
+
+Let’s deploy our contract using hardhat ignition just like last time
+
+```solidity
+npx hardhat ignition deploy .\\ignition\\modules\\Deploy.js --network core_testnet
+```
+
+Copy the addresses of DAPP, USD, and BTC contract addresses from the terminal and paste them against the corresponding variables in the `.env` file present inside `*./interface/`* folder*.*
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcomJOEXy3yUpmcf_KsPF6WFS8uDOdu47borz33mQQY_FtH0A3tFsaqNsir05AtrUaV11Mt9KHLAKWXo1Hc31w5LxXF8aVLHLeem8Kqgu3Him21MWPm22a1ujm_TqfBt879fLH7FVWB0tSWXIEwffdkvAjH?key=g14du6X5d2vy8ygpLk_3tA)
+
+Navigate to the react app and install the dependencies :
+
+```solidity
+cd interface
+npm install
+```
+
+Copy the .json files containing the ABI from `*./artifacts/contracts*` to `*./interface/src/ABI/*` folder. You'll need to copy the following .json files from their respective folders
+
+- Bitcoin.json
+- CoreLoanPlatform.json
+- IERC20.json
+- USD.json
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeKkqWysuWKN4-TfHNoVijGpZO2gjSP1wLWAhfOAGo86_JJ_Vo_4SSTCSAfT-meo98MxJWc8nedg21P3-g3YX1jSpsSb8CZBMmWZJDm-Yaz7bdw4kkEyWplOsnbK8v9EYXRknwDSOwlOrCAY4g8i1NxZ4MF?key=g14du6X5d2vy8ygpLk_3tA)
+
+Finally, let’s launch the front using:
+
+```solidity
+npm  start
+```
+
+### Let’s stake our BTC
+
+Time to test out the functionalities we have added into our app. Follow the given steps to do so:
+
+- Connect your wallet by clicking on the *Connect Wallet* button
+- Use the faucet to get 100USD and 10BTC Tokens
+- Enter stake amount (≤ 10 BTC) and click on *Stake* Button
+- Approve the transaction in the MetaMask popup that appears.
+- Withdraw some of the staked amount by specifying it in the provided input field and pressing the withdraw button.
+- Approve the transaction in the MetaMask popup that appears.
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdsUYL6R--pm8bx6C3FPxaaFB6DiB-bjO5nFzEO81ZWg1XoDXPbiVsnEn2TNuHdpzEy5e3G_LsPA76bD0Eh2L3zHuHs_N5h0VlYbhTHvsIYLurBLu9I_ODT7ssF2EiL75CzCFx4-B3tpuQkZmTD4eWPLiQ1?key=g14du6X5d2vy8ygpLk_3tA)
+
+And that’s it, our app now allows users to stake their BTC and withdraw it whenever they wish.
+
+## Pushing it to Git
+
+Make sure you are in `build-lending-dapp-on-core` folder.
+
+As always, remember to push your code to your GitHub repository using the following commands.
+
+```solidity
+git add .
+git commit -m "code update"
+git push
+```
+
+## That’s a wrap
+
+Our app now lets users stake and withdraw their BTC tokens whenever they want. We've added and tested functions to handle deposits and withdrawals, updated balances, and emitted events, and created helper functions to fetch user balances and current APY. With these features in place, our lending dApp is inching closer to its completion. We’ll add the remaining pieces up in the next lesson, we’ll see you there.
