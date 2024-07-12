@@ -18,7 +18,7 @@ In this course, we got a thorough understanding of MANTRA Chain. Let’s see wha
 
 ## ⚒️ A small yet important request
 
-Here is great news for you! This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects). If you find any issues in the course, please feel free to resolve them. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://bit.ly/core-course-discord) and GitHub, too.
+Here is great news for you! This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects). If you find any issues in the course, please feel free to resolve them. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://discord.gg/Jf4ArqVb) and GitHub, too.
 
 While you're learning, don't forget to join the vibrant MANTRA Chain community!
 

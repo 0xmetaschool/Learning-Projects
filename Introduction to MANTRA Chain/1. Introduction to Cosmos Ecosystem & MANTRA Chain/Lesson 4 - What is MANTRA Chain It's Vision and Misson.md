@@ -18,7 +18,7 @@ It's built with regulatory compliance in mind, so you can be confident that your
 
 ![https://lh7-us.googleusercontent.com/docsz/AD_4nXdoYFN1c6HXURhV0x4jLBRk1GTRbSJ2OVtkhqD_3b9qpPjluCesW7-1mi5fiyqrcE53EbSvp-OdTnNpQrybjvUoWPRfnoAAnLdQU5FChQWuZAyH6ltp9UVBkRMlNMQuBdjOo8sfr2rQfOI5qkTnPrgJTOuZ?key=JTIHcQ6qj0Iy8WcNv-wT7Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L4%20Image%202.png?raw=true)
 
-So, when we say that “MANTRA is a security-first RWA Layer 1 Blockchain bringing the world’s financial system onchain*”*. What it really means is that MANTRA Chain is like the first layer of a new internet for trading real stuff, and it’s all set up to play nice with the rules. And yeah, those last couple of chapters you read? They totally set you up to understand this!"
+So, when we say that “MANTRA is a security-first RWA Layer 1 Blockchain bringing the world’s financial system onchain”. What it really means is that MANTRA Chain is like the first layer of a new internet for trading real stuff, and it’s all set up to play nice with the rules. And yeah, those last couple of chapters you read? They totally set you up to understand this!"
 
 ## Permissionless Layer 1 blockchain designed for Permissioned applications
 
