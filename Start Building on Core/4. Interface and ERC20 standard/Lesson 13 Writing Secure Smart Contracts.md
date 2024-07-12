@@ -1,4 +1,4 @@
-# Lesson 13: Writing Secure Smart Contracts
+# Writing Secure Smart Contracts
 
 Welcome back, buddy! We love how you are being so great and awesome in this journey so far. So we have completed building our dApp. Well, now we have more things to explore.
 
@@ -60,7 +60,7 @@ Imagine sending an email to a friend and assuming they received it without check
 require(success, "Call failed.");
 ```
 
-### **4. Front-Running**
+### 4. Front-Running
 
 Think of placing a bid at an auction, but someone sees your bid and quickly places a higher bid before yours is processed. This is akin to front-running in blockchain transactions.
 
@@ -83,7 +83,7 @@ function reveal(uint256 _value, bytes32 _salt) public {
 
 ## Best Practices for Secure Smart Contract Development
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeMML4J7FmVulbsHZpZQCSPegzhO3N-hTYBP2bgQnKX5kRwvVGUe3ODkFXfLEXTa2RG1KSj4MB5Sv5B4JkHIQDEeQMkhKPpcP1LCrnXarN5jhpxFgtb4f7Ph7dTkWe_HoX-hIjlp_kSZ4GHy_SDam6yKtA0?key=ofkvKY42VeFPU0_PXAkukA)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L13%20Image%201.png?raw=true)
 
 1. **Code Reviews and Audits**
 Think of it like getting a second opinion from a doctor. Another set of eyes can catch things you might have missed.
@@ -104,7 +104,7 @@ You should use formal verification tools and write comprehensive tests to simula
 
 ## Tools and Techniques
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfc8FqjORzTYK0D-cY11iXTAfhx0To4iwPsqek4vTCUJrFGwxw3U2-o3IwwaIyhEGBEMHvUgFfhUsMG-S5hfFPxCjHQCHw9NdnMj_NqQhn8xMcIYUPFYjoOSSZv72e1sK0osypmleYUGinS24_2J_1VPyw?key=ofkvKY42VeFPU0_PXAkukA)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L13%20Image%202.png?raw=true)
 
 1. **Static Analysis Tools (e.g., [MythX](https://mythx.io/), [Slither](https://github.com/crytic/slither))**
 These tools are like spell checkers for your code, automatically finding errors and vulnerabilities. You should regularly run static analysis tools on your smart contracts to catch potential issues early.

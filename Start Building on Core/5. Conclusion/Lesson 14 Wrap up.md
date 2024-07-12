@@ -1,4 +1,4 @@
-# Lesson 14: Wrap up
+# Wrap up
 
 Alright, let's wrap it up and celebrate your incredible journey! It's time to take a moment and reflect on everything you've learned in this course. Let's summarize what you've learned and how it can empower you in the world of blockchain development.
 
@@ -12,7 +12,7 @@ A Lending dApp on the Core blockchain. It had the following key features:
 - **USD Deposits and Withdrawals**: You learned how to manage the USD deposits and withdrawals based on lending or borrowing needs.
 - **BTC Repayment**: You built how to repay borrowed BTC tokens with interest to unlock the staked USD collateral.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeqYGaRdjWKUmUzZOQuz4vOFthUWD6so97wFtavPhqXwKOENBpqmpG2H6GeqzrTD3HDdKOepJxKQNbGffQ2St9ATY45aEpfiUGS2DmnQ1WybhJHSPRfMaudlPV_LIx28OSr3Xj_u8l1w5XWEqHLG2nzg5Eb?key=p27kXPTrZe8UAFlizEdcVg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L14%20Image%201.gif?raw=true)
 
 ## What We Covered
 
@@ -20,7 +20,7 @@ We covered the following:
 
 - **Introduction:** Got an overview of Core, the bitcoin-centric advantage, Core Blockchain programs, Solidity, and created a Metamask wallet.
 - **Getting Started with Development:** Learned how to set up your development environment and installed the necessary tools.
-- **Building Your Lending dApp Project:** We built the dApp and covered the Solidity basics, created structure, studied mapping, functions, Interface, ERC20, constructors, and operators. We implemented functions to stake, borrow, and calculate interests.
+- **Building Your Lending dApp Project:** We built the dApp and covered the Solidity basics, created structure, and studied mapping, functions, Interface, ERC20, constructors, and operators. We implemented functions to stake, borrow, and calculate interests.
 - **Deploy and Interact:** We also learned how to deploy your dApp to the Core blockchain testnet and interact with it side by side.
 
 ## ⚒️ A small yet important request
