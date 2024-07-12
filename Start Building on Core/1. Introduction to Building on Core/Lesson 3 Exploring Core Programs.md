@@ -1,0 +1,133 @@
+# Exploring Core Programs
+
+Ahoy again, blockchain crew! Last time, we embarked on a thrilling journey into the world of Core and BTCfi, exploring how this innovative blockchain is unleashing Bitcoin's full potential. We dove into the tech – Satoshi Plus, Non-Custodial BTC Staking, and the burgeoning BTCfi ecosystem. But Core isn't just about code and protocols; it's a thriving community of builders, innovators, and dreamers who are passionate about creating a Bitcoin-powered future.
+
+In this lesson, we're shifting gears from the tech specs to the human side of Core. Get ready to discover the exciting programs and initiatives that are fueling the growth of this ecosystem and empowering individuals like you to become part of the Bitcoin revolution.
+
+## Core Academy: Learn the Basics of Bitcoin and Blockchain
+
+Explore the fundamentals of blockchain technology with [Core Academy's](https://coredao.org/join/core-academy) easy-to-follow blogs and guidebooks. Learn about the building blocks of this revolutionary tech, from the basics of what a blockchain is to the different types that exist. Discover how consensus mechanisms keep the network secure and dive into the world of cryptocurrencies, NFTs, and wallets.
+
+Core Academy will also guide you through essential Web3 concepts like dApps, smart contracts, DAOs, DeFi, and BTCfi. And of course, you'll learn about Core in specific like its fundamentals,  Satoshi Plus consensus mechanism, Non-Custodial BTC Staking etc.
+
+![img1](https://lh7-us.googleusercontent.com/docsz/AD_4nXd4lBOwB9vEU_keIM3Hk2FxRe6ZdxXwLvTcQ-PMeqJVToWiE-eCIxrUCwhoLs7HVNUfEyiGfgrA0G_xowt7vrWXptx9967QE3GOyJGLwWkd5T6jzCp320bk5avIROELl2VzZKFN3PEzubIP1esLsV_pjzM?key=DtcE7jlMuhJ0KL8uT6aO1A)
+
+## Core Ambassador Program: Spreading the Bitcoin Gospel
+
+Passionate about Core and want to share the good news with the world? [The Core Ambassador Program](https://coredaofoundation.org/ambassador-program) is your chance to become a vocal advocate for this revolutionary platform. As an ambassador, you'll:
+
+- **Educate and Inspire:** Share your knowledge of Core with your network and community, helping others understand its benefits and potential.
+- **Build Community:** Organize meetups, workshops, and online events to connect with fellow Core enthusiasts.
+- **Earn Rewards:** Get recognized and rewarded for your contributions to the growth of the Core community.
+
+The ambassador program is open to anyone with a passion for Blockchain and a desire to make a difference. It's a fantastic opportunity to learn, connect, and make a real impact in the blockchain space.
+
+![img2](https://lh7-us.googleusercontent.com/docsz/AD_4nXfYsiJqj4RX49Yk5sJrvRs8s47Cf5CIuR_ck3ZWKFY6F7lUPonS2JWVd8q9KdPOn1qdCefg9FpFoUh-Imsc0tyov91H0bKGJ4bBjLS4xQS1UIZPzBkH5qnGczjWkrHPyWYvJ3tLC-WNNoDezSQQtU1WyA3D?key=DtcE7jlMuhJ0KL8uT6aO1A)
+
+## Core Starter Program: Launching Your BTCfi Venture
+
+[The Core Starter Program](https://coredao.org/initiatives/corestarterprogram) is a comprehensive initiative designed to accelerate the development of decentralized applications (dApps) on the Core blockchain. Combining the security of Bitcoin with the versatility of the Ethereum Virtual Machine (EVM), Core offers an ideal platform for building the next generation of Web3 solutions, particularly in the emerging field of Bitcoin Finance (BTCfi).
+
+This program offers an array of benefits to empower developers and projects:
+
+- **Security:**
+    - Discounted rates on security audits from [Hacken](https://hacken.io/) (20% off) and [Halborn](https://www.halborn.com/) (5% off).
+- **Financial Services:**
+    - Two months of free financial process management with [Request Finance](https://www.request.finance/).
+- **Cloud Services:**
+    - Fast-tracked application review, combined [Google Cloud](https://cloud.google.com/) and Firebase credits of up to $200,000 over two years, additional support credits, and complimentary Google Workspace Business Plus upon enrollment.
+- **Other Benefits:**
+    - Free hosting for Core games on [Elixir](https://www.elixir.app/) for one year.
+    - 20% off security audits from [ExVul](https://exvul.com/) for projects launching on Core.
+    - Two weeks of free development on [Questly](https://www.questly.quest/) for Core developers.
+    - [TokenSoft](https://www.tokensoft.io/): Receive a 10% reduction on compliance checks, save \$5,000 on token foundation entity setup, and get $10,000 off TokenSoft Awareness for a year.
+
+The Core Starter Program invites builders to join a vibrant and supportive community while leveraging a powerful platform for innovation.
+
+You can claim your Core Starter program offers by filling out [this form](https://forms.gle/MTYRVCKecZmYs1qS8).
+
+Build the future of Web3 with Core!
+
+![img3](https://lh7-us.googleusercontent.com/docsz/AD_4nXf4Fj4Ec95tFe1KtxyIaN5XhE6utPMefXWv1nxx6fSiSkYBtrtoWiaWlPSMWl1O30hSvXYZXH_TLFQJldsd6hIe_vqvDT_XvI3wFXGKS7Ft0UmKy0DVt9Kh5El-DzVTXc3IMgg-BmVoUAGU0Oe2BiMrNEfD?key=DtcE7jlMuhJ0KL8uT6aO1A)
+
+## Core Chain Ventures: Investing in the Bitcoin-Powered Future
+
+[Core Chain Ventures](https://corechain.ventures/) is the investment arm of the Core ecosystem. It's on a mission to identify and support the most promising projects building on the Core platform. This includes a wide range of initiatives, from decentralized finance (DeFi) protocols and non-fungible token (NFT) marketplaces to essential infrastructure projects that underpin the entire ecosystem.
+
+Core Chain Ventures isn't just about throwing money at projects; it's about strategic partnerships that fuel growth and innovation. By investing in a diverse portfolio, Core Chain Ventures aims to:
+
+- **Accelerate Growth:** Provide the necessary capital and resources for projects to scale and reach their full potential. This could involve funding marketing campaigns, expanding development teams, or establishing key partnerships.
+- **Foster Innovation:** Support groundbreaking ideas that are pushing the boundaries of what's possible with Bitcoin and blockchain technology. Core Chain Ventures is particularly interested in projects that tackle real-world problems and create value for the community.
+- **Strengthen the Ecosystem:** Create a thriving ecosystem of interconnected projects that benefit from each other's strengths. By fostering collaboration and cross-pollination, Core Chain Ventures aims to build a robust and sustainable ecosystem that can withstand the test of time.
+
+Whether you're a project seeking funding or an investor looking for opportunities in the BTCfi space, Core Chain Ventures plays a crucial role in driving the growth and development of the ecosystem.
+
+![img4](https://lh7-us.googleusercontent.com/docsz/AD_4nXflUIO7-g7_AuG76MIMNQerLQXbbq4n__xPU-QLTwqJFWfTDy1w-AoX4q_QER154Ib3rsWVoRVkqZ5fCZCPJinApMlrrmKzvll3YNdp1vdIMTcepLqf2P-X5oF38pVlRgkEPfDdVFqnVsWyziZuy3AEcVnk?key=DtcE7jlMuhJ0KL8uT6aO1A)
+
+## Core Chain Wishlist: Your Voice, Your Vision
+
+[The Core Chain Wishlist](https://github.com/coredao-org/core-community-contributions/blob/main/Core-Wishlist.md) is a unique platform where community members can submit their ideas and suggestions for improving the Core platform. It's a testament to the Core’s commitment to community-driven development.
+
+Your ideas could shape the future of Core. Whether it's a new feature, a dApp idea, or a suggestion for improving the user experience, your voice matters.
+
+![img5](https://lh7-us.googleusercontent.com/docsz/AD_4nXcURCZ7QIr1mBP-0vvXX1DsC_hbcy4hj0k0QZnU_gXukBqhNm-OGEW5vsIXBWM1fg9MZRuEBj8kFU69SqqjI7cuNTVCQnI2EKua5wwA4bMj55KtjpbDuqPQrJLdOoJfey4VBllp_LRFk6SVJB6QW63CLbJC?key=DtcE7jlMuhJ0KL8uT6aO1A)
+
+## Core Foundation Grants: Fueling Community-Led Innovation
+
+Got the next big idea in blockchain? Core Foundation has rolled out its [grants program](https://coredaofoundation.org/fund-your-project) to drive innovation and growth within its ecosystem. This initiative invites developers and visionaries eager to make a mark in the blockchain space, especially within the Core ecosystem. Whether you're an experienced developer or just starting out, if you're passionate about building on the Core blockchain, this is your opportunity to shine.
+
+The grants program offers two types of support:
+
+- **Builder Grants:** Ideal for early-stage projects needing a boost to get off the ground.
+- **Growth Grants:** Designed to help existing Core projects scale up and reach new heights.
+
+**What kind of projects are Core looking for?**
+
+Core Foundation is open to a wide range:
+
+- **GameFi:** From casual games to complex prediction markets, they're looking for your blockchain-based innovations.
+- **DeFi:** Innovative lending/borrowing protocols, DEXs, and derivatives platforms are highly encouraged.
+- **SocialFi:** Got an idea to blend social networking with DeFi? They’re all ears!
+- **Infrastructure:** Help build a better Web3 by improving tools and resources for Core dApp developers.
+- **The Unexpected:** Have a wild idea? Surprise them with your innovative and experimental dApps.
+- Etc..etc…etc….
+
+The Core Foundation Grants program is a testament to the project's commitment to fostering a vibrant and decentralized ecosystem where innovation thrives.
+
+![img6](https://lh7-us.googleusercontent.com/docsz/AD_4nXcCpbv4BD8mPvyJcV_KqfBoHZOf-A7swMsULk89VS6DwhtuhTOSWjOnwPczYe1KLFNnyx16usOgtzANuBFyb-g4JsFZeD2v1_sCt_oUrTDoyRHnYCjBTrODiHvL-_8dQDKo0WrOupbTTXJazHqanFjZuLg?key=DtcE7jlMuhJ0KL8uT6aO1A)
+
+## Core Builder Incentive Program: Igniting the Spark of Creativity
+
+[The Core Builder Incentive program](https://coredao.org/explore/blog/core-builder-incentive-program) is a special initiative aimed at attracting and rewarding up to 400K CORE tokens on monthly basis to qualified projects building on the Core blockchain. It offers a range of incentives, including:
+
+- **Financial Rewards:** Monthly rewards for achieving milestones based on 3 performance metrics - TVL, DAU, and Transaction Count.
+- **Recognition and Visibility:** Opportunities to showcase your work to Core community and potential users.
+- **Networking and Collaboration:** Access to a network of fellow developers and mentors who can provide support and guidance.
+
+The Core Builder Incentive program is designed to spark a wave of creativity and innovation on the Core platform, attracting top talent and fostering a thriving developer community.
+
+![img7](https://lh7-us.googleusercontent.com/docsz/AD_4nXdjWfZH-7v00KEqZNGuSHEkd8ETS-2IWTEyybezFHL3OODsTvF6Mw0LD_xU6Q-RlEYzQdXILsNoyKbYM7yPSdQNMvhdM97taXaNsGviksgdVsnl2zD4dicnlL7OiRWAAs0a6gKQyukVpPI2rntB77LWHL8?key=DtcE7jlMuhJ0KL8uT6aO1A)
+
+## Community Check-In
+
+We know that diving into a new blockchain platform can be both exciting and challenging. If you're feeling stuck or have questions as you explore Core blockchain, don't hesitate to reach out to the amazing Core community for support!
+
+You can connect with fellow developers and enthusiasts through:
+
+- [**Discord**](https://discord.com/invite/coredaoofficial)
+- [**Telegram**](https://t.me/CoreDAOTelegram)
+- [**Github**](https://github.com/coredao-org)
+- [**Twitter**](https://twitter.com/Coredao_Org)
+- [**Core Dev Twitter**](https://x.com/corechain_devs)
+
+These channels are a treasure trove of information, support, and inspiration. You'll find helpful tutorials, insightful discussions, and a welcoming community eager to help you succeed on your Core journey.
+
+## Wrap Up
+
+Core is more than just a blockchain; it's a movement, a community, and a vision for the future of Bitcoin.
+
+With its robust technology, thriving ecosystem, and passionate community, Core is poised to redefine what's possible with Bitcoin. But the journey doesn't end here. We've explored how you can engage with this vibrant community, whether it's by learning, advocating, or even launching your own BTCfi venture.
+
+But what if you're ready to get your hands dirty and start building on Core yourself? Get ready to level up, because, in our next chapter, we're diving into the world of development on Core. We'll equip you with the tools, resources, and knowledge you need to turn your ideas into reality and become an active contributor to this Bitcoin-powered revolution.
+
+So, get those creative juices flowing, because the future of Bitcoin is being built right now, and you're invited to join the construction crew!

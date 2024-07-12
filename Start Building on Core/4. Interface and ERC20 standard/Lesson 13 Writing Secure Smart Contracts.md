@@ -1,0 +1,120 @@
+# Lesson 13: Writing Secure Smart Contracts
+
+Welcome back, buddy! We love how you are being so great and awesome in this journey so far. So we have completed building our dApp. Well, now we have more things to explore.
+
+Imagine building a fancy vending machine for the digital age, filled with cool stuff you can buy with crypto. That's kind of what a smart contract is – a program on the blockchain that automates agreements and transactions. Pretty neat, right? But just like any machine, if it's not built securely, someone might find a way to exploit it and steal your crypto snacks!
+
+This lesson is your guide to building **bulletproof smart contracts**. We'll explore the sneaky tricks hackers love (and how to avoid them), as well as best practices to make your contract a fortress.
+
+## Common Vulnerabilities in Smart Contracts
+
+### 1. Reentrancy Attacks
+
+Imagine you’re a cashier at a store. A customer gives you money for an item, and before you finish updating your register, the customer keeps requesting more items using the same initial payment. You end up losing inventory because the register wasn't updated in time.
+
+This kind of flaw was exploited in the [famous DAO attack](https://liquidity-provider.com/articles/what-was-the-dao-the-story-of-infamous-hack/#:~:text=The%20DAO's%20success%20was%20short,funds%20and%20prevent%20future%20attacks), where attackers repeatedly called the withdrawal function before the balance was updated.
+
+**Solution**: Always update the state before making external calls. Use the Checks-Effects-Interactions pattern to avoid reentrancy issues.
+
+```solidity
+// Checks-Effects-Interactions pattern
+function withdraw(uint _amount) public {
+	require(balances[msg.sender] >= _amount);
+	
+	// Effects
+	balances[msg.sender] -= _amount;
+
+	// Interactions
+	(bool success, ) = msg.sender.call{value: _amount}("");
+	require(success, "Transfer failed.");
+
+}
+```
+
+We followed this strategy in our functions by placing the require statements and making changes.
+
+### 2. Integer Overflow and Underflow
+
+Picture an odometer in a car. If it only has five digits, once it hits 99,999, the next mile rolls it over to 0. Similarly, numbers in computers can "wrap around" if not handled correctly.
+
+**Solution**: Use SafeMath libraries that handle these issues, or better yet, rely on Solidity's built-in overflow checks in version 0.8.0 and above.
+
+```solidity
+// Using SafeMath for safe arithmetic
+using SafeMath for uint256;
+uint256 public totalSupply;
+
+function addSupply(uint256 _amount) public {
+	totalSupply = totalSupply.add(_amount); // Safe addition
+}
+```
+
+### 3. Unchecked Call Return Values
+
+Imagine sending an email to a friend and assuming they received it without checking their reply. They might not have received it at all!
+
+**Solution**: Always check the return value of low-level calls to ensure they succeed.
+
+```solidity
+(bool success, ) = someAddress.call{value: msg.value}("");
+require(success, "Call failed.");
+```
+
+### **4. Front-Running**
+
+Think of placing a bid at an auction, but someone sees your bid and quickly places a higher bid before yours is processed. This is akin to front-running in blockchain transactions.
+
+**Solution**: Design your contracts to be resistant to front-running by using commit-reveal schemes or by batching transactions in a way that prevents individual transactions from being prioritized unfairly.
+
+```solidity
+// Commit-reveal scheme
+mapping(address => bytes32) public commitments;
+
+function commit(bytes32 _commitment) public {
+	commitments[msg.sender] = _commitment;
+}
+
+function reveal(uint256 _value, bytes32 _salt) public {
+	require(commitments[msg.sender] == keccak256(abi.encodePacked(_value, _salt)));
+	// Process the revealed value
+
+}
+```
+
+## Best Practices for Secure Smart Contract Development
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeMML4J7FmVulbsHZpZQCSPegzhO3N-hTYBP2bgQnKX5kRwvVGUe3ODkFXfLEXTa2RG1KSj4MB5Sv5B4JkHIQDEeQMkhKPpcP1LCrnXarN5jhpxFgtb4f7Ph7dTkWe_HoX-hIjlp_kSZ4GHy_SDam6yKtA0?key=ofkvKY42VeFPU0_PXAkukA)
+
+1. **Code Reviews and Audits**
+Think of it like getting a second opinion from a doctor. Another set of eyes can catch things you might have missed.
+So it’s better if you regularly have your code reviewed by peers and conduct thorough audits before deploying to the mainnet.
+2. **Use of Established Frameworks (e.g., OpenZeppelin)**
+Building a house with pre-approved blueprints and materials ensures safety and reliability.
+Similarly, you should utilize established libraries like [OpenZeppelin](https://www.openzeppelin.com/), which are widely used and tested in the community. Remember, we used imports from OpenZeppelin too:
+    
+    ```solidity
+    import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+    import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+    import "@openzeppelin/contracts/access/Ownable.sol";
+    ```
+    
+3. **Formal Verification and Testing**
+It’s like stress-testing a bridge before allowing traffic. You want to make sure it holds up under various conditions.
+You should use formal verification tools and write comprehensive tests to simulate different scenarios and edge cases.
+
+## Tools and Techniques
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfc8FqjORzTYK0D-cY11iXTAfhx0To4iwPsqek4vTCUJrFGwxw3U2-o3IwwaIyhEGBEMHvUgFfhUsMG-S5hfFPxCjHQCHw9NdnMj_NqQhn8xMcIYUPFYjoOSSZv72e1sK0osypmleYUGinS24_2J_1VPyw?key=ofkvKY42VeFPU0_PXAkukA)
+
+1. **Static Analysis Tools (e.g., [MythX](https://mythx.io/), [Slither](https://github.com/crytic/slither))**
+These tools are like spell checkers for your code, automatically finding errors and vulnerabilities. You should regularly run static analysis tools on your smart contracts to catch potential issues early.
+2. **Dynamic Analysis and Fuzzing**
+Imagine testing a car by driving it over all kinds of terrain to see how it performs under different conditions.
+Just like that, you should use dynamic analysis and fuzzing to test how your contract behaves under various inputs and states.
+3. **Auditing Tools and Services**
+Think of it as hiring a security expert to test the locks on your doors and windows.
+So engage with professional auditing services to get an in-depth security assessment of your smart contracts.
+
+## Wrap up
+
+Writing secure smart contracts is crucial for maintaining the integrity and trust of blockchain applications. By understanding common vulnerabilities and following best practices, you can create contracts that are robust and secure. Always use established tools and frameworks, conduct thorough testing, and seek external audits to ensure your smart contracts stand up to scrutiny. Happy coding, and stay secure!

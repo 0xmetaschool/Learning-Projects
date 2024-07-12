@@ -1,0 +1,172 @@
+# Lesson 5: Setting up the Development Environment
+
+Hey there, future blockchain builders! So, you're eager to dive into the exciting world of Core development, huh? Awesome! This lesson is your personal tour guide, walking you through setting up your developer toolkit and even deploying your first smart contract on the Core testnet. Think of it as building your own blockchain laboratory! Don't worry if this is all new to you – we'll keep it chill and explain every step so you can follow along with ease.
+
+By the end of this lesson, you'll have your very own coding playground ready to experiment with smart contracts, just like a kid with a brand-new LEGO set. And to celebrate your setup success, we'll deploy a simple "Hello World" contract to the Core testnet – your first step into the world of Core development!
+
+## Tool Time: Gathering Your Gear
+
+Before we dive into the coding fun, we need to gather some essential tools. Think of it like prepping your ingredients before baking a cake – you can't make deliciousness without the right stuff!
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdOSn84YbwiPWgPc_7uG6RBwhqgc9g-kHKV94jIa0CDf9H_HX7B3xEnno4Qr5h43e85zlhrYYGgP6xlQAFxogqI4o-UwEJ3lelD-NRl-27PxXZ97aN9odD8ncHdetC5qoLgNjl8mCK54Lx1Yj7KTIYBF5o?key=1L-qCESe1-6s6q3I_7Tpvg)
+
+1. **Node.js & npm (or yarn):** Think of Node.js as the engine that powers your JavaScript code, even outside of a web browser. This is super important for blockchain development because it allows you to interact with the Core network directly from your computer. npm (or yarn) is your trusty package manager. It's like a shopping cart for code libraries, making it easy to install and manage all the software components your project needs.
+    - **Download & Install Node.js:** Head over to [nodejs.org](https://nodejs.org/) and grab the installer for your operating system (Windows, macOS, or Linux). The installer will also include npm (or you can choose to install yarn separately). Just follow the on-screen instructions. If you're not sure which one to choose, npm is a great starting point.
+    - **Verify Success:** Open your terminal (or command prompt) and type the following commands:
+        
+        ```solidity
+        node -v
+        npm -v
+        ```
+        
+        (If you're using yarn, run `yarn -v` instead of `npm -v`)
+        
+    
+    You should see version numbers for both Node.js and your package manager printed out. If you do, congrats! You've successfully installed Node.js and your package manager.
+    
+2. **Visual Studio Code (VSCode):** This is our code editor of choice. It's a free, powerful tool that makes writing Solidity code (the language for smart contracts) a breeze. It's got a clean interface, tons of customization options, and a huge library of extensions to help you code like a pro.
+    - **Download & Install:** Grab it from [code.visualstudio.com](https://code.visualstudio.com/) and follow the simple installation instructions.
+    - **Power-Up:** Install the "Solidity" extension. This extension is a must-have for Solidity developers. It provides syntax highlighting (makes your code colorful and easier to read), code completion (suggests code as you type), and error checking (helps you catch mistakes early). You can find it in the VSCode extensions marketplace by searching for "Solidity."
+        
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfXA639V5E8swCk9yQ_xSVyTSGRoWLDSNrCmGBnYzP5jFVgBJBLRGiVZO7v3f_w50qs6m1Xt4SlzWw7dPsCuPg3CyhiXWPFSJ2BCdc-BWSus50e-ACsFLURPRhOLCPdnm6ketPT8fDhmFTZMqm8cEwFCryz?key=1L-qCESe1-6s6q3I_7Tpvg)
+        
+1. **Git:** Git is a version control system that lets you track changes to your code, collaborate with others, and revert to previous versions if needed. It's like a time machine for your code!
+    - **Download & Install:** Grab it from the official website: [git-scm.com](https://git-scm.com/) and follow the instructions.
+        
+        ![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeQotvZK1vaZykJ96G-Xa6_0EVqiuaze7arE5MV9BtChDtSrcDz2d7Vuz041M2vpJnKlW5DE87aRKupyce3Fld0lqHJELM-7gnEwL2V8iUcY7x8oDvXJWobo_1hr3v4yyEG1gwsga4haxwvZg2T_J4gp1E?key=1L-qCESe1-6s6q3I_7Tpvg)
+        
+2. **Git CLI:** It allows you to connect with your git from the terminal, so let’s install it too. You can follow the steps given [here](https://github.com/cli/cli). Once you have installed the Git CLI, let me tell you how you can configure your terminal with it.
+    - Open your favorite terminal.
+    - Run `gh --version` to ensure that you have installed the Git CLI successfully.
+    - Run `gh auth login --web` in your terminal and follow the steps given below:
+        1. First, it will ask for your preferred protocol for Git operations. I chose HTTPS, you can choose any.
+        2. Second, it will ask you to Authenticate Git with your GitHub credentials, and type Y.
+        3. Third, you will be able to see some code on your terminal. Copy it.
+        4. Then, press Enter. It will open a window in your browser.
+        5. Paste the code you copied and authorize your git. You might need to enter your GitHub password if you have yet to log in.
+        6. Do not close this terminal!
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfP2mCTBXoejK3mITrX6-HKC9Qtk5n_tOWVNmp_AOMHt0Xx6hhPhCXYH3wuhqnrYzslZFh1qJI6Tr2TnOVckW_XyZe0nIf2iZryN0rRIDtdWGLIpUbqF6QXNptraP7J-xb_dLL1wzzP1frbduXSsoGbdAmf?key=1L-qCESe1-6s6q3I_7Tpvg)
+
+Awesome, you are all set!! Good job!
+
+## Adding the Core Testnet to MetaMask: Your Blockchain Playground
+
+Imagine the Core testnet as your personal blockchain playground. You can experiment, test your dApps, and make mistakes without worrying about real-world consequences.
+
+Let’s add it to MetaMask so you can access it:
+
+1. **Open MetaMask:** Click on the little fox icon in your browser (or open the app).
+2. **Network Dropdown:** Click the dropdown menu at the top where it usually says "Ethereum Mainnet."
+3. **Custom RPC:** Scroll down and select "Add network".
+4. This will open a tab in the browser, click on “Add network manually” there.
+5. **Enter Details:** Fill in the following information, double-checking that it's correct:
+    - **Network Name:** Core Testnet
+    - **New RPC URL:** [https://rpc.test.btcs.network](https://rpc.test.btcs.network/)
+    - **ChainID:** 1115
+    - **Symbol:** CORE
+6. **Save:** Hit "Save," and you're in! It will ask you to switch to the network, well switch!
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdrQaOOQ5f71SodbtKCfhb-fO4aMRB49gAXFc8tWnqplyfNZ7kvYfW1OdpX3ahiKEoOjYXEg_T8qTg7sOBgvrnkan5GPCjxCiduFPmns2fn17KLX3_vGBByssdNWQndQNhD6Ya4Lhgz7_86Ob4xT65Tjt3T?key=1L-qCESe1-6s6q3I_7Tpvg)
+
+You can explore more Core Blockchain rpc links [here](https://docs.coredao.org/docs/Dev-Guide/rpc-list).
+
+## Fetching Some Test tokens
+
+Well, we know that we need test tokens to run any transaction on the blockchain, so let’s fetch some.
+
+1. Head over to Core testnet faucet: [https://scan.test.btcs.network/faucet](https://scan.test.btcs.network/faucet).
+2. Enter your wallet address which is the same public address we had copied up in the previous lesson.
+3. Click on “Get tCORE”.
+4. View your Metamask, you might have received 1 CORE.
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXehoHd8dqCqsioNQZfnLa-BD6UTe5pF1VXsaY3CdeX8DCzIEBnSyDwPKxqJRnnZav9YrV7J4fsmlelD8JL6jcfx__TLb188T0u8qkCHrGAtZiJaRz4u5p0p0GoWEr4U4H3swsXIE7BGZtTjq--tQ8yW9Btx?key=1L-qCESe1-6s6q3I_7Tpvg)
+
+## Your First Project
+
+[Hardhat](https://hardhat.org/) is our secret weapon for smart contract development! It simplifies everything from testing your code to deploying it on the blockchain. You can think of it as your blockchain toolkit. Well, instead of building everything from scratch, we have made it easy for you by providing a boilerplate code. This will help you to start right away~
+
+In the same terminal where you configured your Git CLI, run the following command:
+
+```solidity
+gh repo fork <https://github.com/0xmetaschool/build-lending-dapp-on-core.git> --clone
+```
+
+This will clone the boilerplate code of your project onto your system and fork the repository to your Git account as well.
+
+Now run these commands:
+
+```solidity
+cd build-lending-dapp-on-core
+npm install
+```
+
+This will download and install Hardhat, its dependencies, and other code libraries like `ether.js` that it needs to work.
+
+Well, Ethers.js is a JavaScript library that allows developers to interact with EVM-based blockchains. It provides a range of utilities and abstractions to make it easier to work with smart contracts, manage wallets, and perform blockchain operations. It is essential for front-end interaction too. Don’t worry, we will explore it in upcoming lessons.
+
+## Configuring Hardhat for Core
+
+Now, let's tell Hardhat about our new playground (the Core testnet). This will allow it to connect to the network and deploy our contracts on the Core testnet.
+
+**Open hardhat.config.js:** This file is like the control panel for Hardhat. You'll find it in your project's root directory. You will see we have a variable of `PRIVATE_KEY` there and we need to initialize somewhere, but yes, we want it **safe** so let me tell you a way how we can do it:
+
+Create a `.env` file in `build-lending-dapp-on-core` folder and add the following content to it.
+
+```solidity
+PRIVATE_KEY=" "
+```
+
+Do you remember, we copied our private key in the last lesson? Well, here we will use it. Paste the private key into your `.env` file in between the `“”`. And we are set!
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfaU7LafjGHUQLWk-ffVyh-zcE-4wJWFgMbMCNn2BieDJcYd5cb_8tKNbZScxP0vR0Dmuvlhm8idevHl9vIgSRB4qDAW-styqitts-rV7qTLIvpHI1NM7KFKs8OMPSncp6qZ6x20D8TLD0daxHdPfs0IWh4?key=1L-qCESe1-6s6q3I_7Tpvg)
+
+## Your First Smart Contract: Hello, Core!
+
+We have created a simple "Hello World" contract to test if everything works as it should. Navigate to `build-lending-dapp-on-core/contracts/HelloWorld.sol`. There you will see a smart contract with the following code:
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+contract HelloWorld {
+	string public message = "Hello, Core!";
+}
+```
+
+## Compiling and Deploying
+
+1. **Compile:** Run the following command to compile the code:
+    
+    ```solidity
+    npx hardhat compile
+    ```
+    
+2. This translates your Solidity code into bytecode that the Core network can understand.
+3. **Deployment Script:** In the `ignition/modules` folder of your project, you will find `deploy_hello_world.js` with the following code:
+    
+    ```solidity
+    const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
+    module.exports = buildModule("HelloWorldModule", (m) => {
+    	const HelloWorldContract = m.contract("HelloWorld", []);
+    	return { HelloWorldContract };
+    });
+    ```
+    
+4. **Deploy:** In your terminal, run the following command. Type `y` for deployment and viola, it will be deployed.
+    
+    ```solidity
+    npx hardhat ignition deploy ./ignition/modules/deploy_hello_world.js --network core_testnet
+    ```
+    
+5. If everything is set up correctly, you'll see a message in your console indicating the address of your deployed "Hello World" contract. Congratulations! Your development environment is ready for building awesome dApps on Core.
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeX8TLtpIn0-7GKZlu_iTTbQhyaRqpVHEvzUraiGcF8O7jCZrsSqDEHZAoOKYhfjwLVggNTST8LX9IERvoHHs-EVvYmfgEZwbVCnS8MPur66DpJPp6PDxKsgxvSzycAPIIYcMrV6jkKeDE0cg1UATekKMd7?key=1L-qCESe1-6s6q3I_7Tpvg)
+
+## Wrap up: You're a Blockchain Builder Now!
+
+High-five, coding champ! You've just set up your Core Blockchain development environment like a pro. You've installed Node.js, VSCode, git, and Git CLI, connected your MetaMask wallet to the Core testnet, and even unleashed your first "Hello World" smart contract on the blockchain.
+
+That wasn't so scary, was it? You're officially part of the growing community of Core Blockchain developers who are building the future of decentralized finance.
+
+But remember, this is just the first step of your exciting journey. In our upcoming lessons, we'll tackle more advanced Solidity concepts, build out the functionality of our lending dApp, and explore how to create a user interface to interact with it. So keep that coding spark alive, because the possibilities on Core blockchain are endless!

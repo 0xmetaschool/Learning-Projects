@@ -1,0 +1,271 @@
+# Lesson 9: Using Interface and ERC20
+
+Welcome back, code adventurers! In our journey till now, we built the basic skeleton of our lending dApp. Now, we're about to level up our Solidity skills with another two essential tools: interfaces and the ERC20 token standard. Don't worry if these sound a bit like magical incantations at first – we'll break them down in a way that's easy to understand.
+
+Think of interfaces as blueprints that show how different smart contracts can chat with each other, and the ERC20 standard as the universal language spoken by most tokens in the blockchain world. By mastering these concepts, you'll be able to create more sophisticated and interoperable dApps on Core blockchain. It's like learning the secret handshake to the coolest blockchain club!
+
+## The ERC20 Standard: The Universal Language of Tokens
+
+Imagine you're in a bustling marketplace filled with vendors from all over the world. Each vendor speaks a different language, making it challenging to trade goods. But what if there was a universal language that everyone understood? That's exactly what the ERC20 standard is for tokens in the blockchain world.
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdG2WrC4DekUCOKFZizOVWXZ2fwNR3sBo3W5Cd1Co-EDazEN1Cwm58lzuU_0ETszwUBAVKX9Ycgctl2UvTD6ww9j0j-WRWxCvqf-b8dWcFuTmbnJzGWqdKbi6b7Eun8B9WWOo9a99W1D9LmoJe-8HLF35jB?key=Lve7xPzVRrL0IMpAvw3fyg)
+
+ERC20 is a set of rules that defines how tokens should behave. It's like a universal dictionary that outlines the essential vocabulary and grammar for tokens to interact with each other. These rules cover everything from how tokens are transferred between addresses to how you can check your token balance. By adhering to the ERC20 standard, token creators ensure that their tokens can be easily used across different platforms and applications, promoting interoperability and creating a more unified token ecosystem.
+
+### Why ERC20 is Awesome for Our Lending dApp
+
+Think of it this way: if every token spoke its own unique language, building a dApp that could interact with them all would be a nightmare! It'd be like trying to understand a conversation between people speaking French, Mandarin, and Spanish all at the same time.
+
+But thanks to the ERC20 standard, our lending dApp can work with any token that follows the rules. It's like having a universal translator for the blockchain world! This makes our dApp super flexible and adaptable.
+
+## Interfaces: Your dApp's Communication Protocol
+
+Now that we understand the importance of the ERC20 standard (that universal language for tokens), let's figure out how our smart contract actually talks to these tokens. This is where interfaces come in, and they're pretty awesome!
+
+Imagine you're a language whiz who speaks every language on Earth. You walk into a bustling international marketplace. You can chat with the French pastry chef, haggle with the Egyptian spice merchant, and even order sushi from the Japanese fishmonger – all in their native languages!
+
+**Interfaces are like your multilingual skills for smart contracts.** They let your contract "speak" the language of other contracts, even if they were written differently or by different developers. This is especially important when you're dealing with tokens.
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXc7bGRVreT_ulORNCT2o8I2OaBgDEMN0Z3srHvvjDl9OHuxEZrWvrisAqn19BujeM47mv7KQ6rhmgNdd8DmrDgZFGU_8qGGSXqwmyXjT_XPh6xpgU-1Yym3uWazFnjCJPm1yBpFZyTVl8gjOCgcrTis83ry?key=Lve7xPzVRrL0IMpAvw3fyg)
+
+### How do Interfaces Work?
+
+Think of an interface as a blueprint or a contract. It defines a set of functions that any smart contract claiming to follow a certain standard (like ERC20) *must* have. But here's the cool part: the interface doesn't tell those contracts *how* to implement the functions, just that they *have* to have them.
+
+**Code Snippet: Interface Example**
+
+```solidity
+interface IERC20 {
+	function transfer(address recipient, uint256 amount) external returns (bool);
+	function balanceOf(address account) external view returns (uint256);
+	function transferFrom(address sender, address recipient, uint256 amount) external returns (bool);
+	
+	// ... other functions ...
+}
+```
+
+In this snippet, we're defining an interface called `IERC20`. This is the standard interface for ERC20 tokens – like a rulebook they all agree to follow. Notice how it only outlines the *signatures* of the functions (their names, inputs, outputs) but not the actual code that makes them work. That's the beauty of interfaces! They let contracts talk to each other without needing to know all the nitty-gritty implementation details.
+
+Let's break down some key functions defined in the `IERC20` interface:
+
+- **transfer(address to, uint256 amount):** This function is used to transfer a specified `amount` of tokens from the caller's address to another address (`to`).
+    
+    ![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcA7NOSVIEiG4gk9bpIV1-IV9vAMmT3GOHAKIPKrDVHiwDZYBppin_j78P332k8ez_ZeOPAfnr2HCicnY0ojg8mlhhgdGPTTN2YoXaTqKBL_rHYCS_rM5SxtDtPW9uMaBO4LbkuR9-c2GHI7yEm4A1mF4jQ?key=Lve7xPzVRrL0IMpAvw3fyg)
+    
+- **balanceOf(address account):** This function retrieves the token balance of a specific account.
+    
+    ![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcrFiC8pGh0yepc3kUjS1btf_DgHz60cKWYdCcJOLIK8QjKOQShF-xzP8WskQNxHSE3VkkpS4nO3Xn1u6OTTmsHmlpJuEgFGZC0K5d_bKcl2mKB-j5bE0ZhY6uoIs1SIe-4G2zpgC2AGNKsVeFPbHYTHRPd?key=Lve7xPzVRrL0IMpAvw3fyg)
+    
+- **transferFrom(address from, address to, uint256 amount):** This function allows you to transfer tokens from one address (`from`) to another (`to`) on behalf of the original owner (from), provided you've been given permission (`allowance`) to do so.
+    
+    ![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcHgezubrOR3FjlimHVUHKn5vmdGY3sl5__50ogGwwRxfonr_3f6hHXwpCySBv1l3n3XM67m9lLfWzhiQzmHZOlymJJSxiMP5Yk0JKY98KBzhSVVSWGgjWfIu1fYh4Pj7LKAa5ugZya-kmTY5afLckmNts?key=Lve7xPzVRrL0IMpAvw3fyg)
+    
+
+## Immutable Variables: Setting Things in Stone
+
+In Solidity, immutable variables are like setting things in stone. They're constant values that are defined once when the contract is created and can never be changed. This is perfect for things like:
+
+- **Contract Parameters:** Maybe the interest rate on loans or the minimum collateral ratio shouldn't change once the dApp is live. Immutables ensure these rules are set in stone.
+- **Token Addresses:** You wouldn't want someone accidentally (or maliciously) changing the address of the token your dApp uses, right? Immutables keep these addresses locked in.
+
+## Applying Interfaces and Immutables to Our Lending dApp
+
+Now that we've got a solid grasp on interfaces (our communication blueprints for smart contracts) and immutables (our unchangeable constants), it's time to see how they work together in our lending dApp. We'll be using the `IERC20` interface as our bridge to interact with the tokens that users will lend and borrow (`USD` and `BTC` in this case). And, to make sure our lending rules stay rock solid, we'll use immutable variables to lock down key parameters like interest rates and collateral requirements.
+
+```solidity
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+contract CoreLoanPlatform {
+	// Interface Variables
+	IERC20 public immutable USD;
+	IERC20 public immutable BTC;
+}
+```
+
+Let's break this code down:
+
+**The ERC20 Connection**
+
+First, we import the `IERC20` interface from OpenZeppelin, a reputable library of battle-tested smart contracts. This interface is like a universal translator that allows our contract to understand and interact with any `ERC20` token.
+
+**Our Token Champions: USD and BTC**
+
+Next, we declare two special variables called `USD` and `BTC`. They are of the `IERC20` type, which means they're not just basic addresses but powerful tools that know how to "talk" to `ERC20` tokens. We want our dApp to specifically work with `USD` (a stablecoin on Core blockchain) as collateral and `BTC` as the borrowing asset.
+
+Notice the `public immutable` keywords:
+
+- **public:** This means anyone can see the addresses of the USD and BTC contracts that our dApp is using. Transparency is key in the world of decentralized finance!
+- **immutable:** This is like putting these addresses in a safety deposit box. Once set in the constructor, they can't be changed – ever! This is crucial for security, preventing any funny business like someone trying to swap out your trusted tokens for dodgy ones.
+
+## Our Lending dApp Smart Contract (So Far)
+
+Let's take a look at how our smart contract is shaping up with the concepts we've discussed: interfaces, the ERC20 standard, immutables, mappings, structs, and function outlines:
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+contract CoreLoanPlatform {
+
+	// Interfaces for ERC20 tokens
+	IERC20 public immutable USD;
+	IERC20 public immutable BTC;
+
+	// Loan Parameters (Immutable Constants)
+	uint256 public constant COLLATERAL_RATIO = 150; // 150% collateralization
+	uint256 public constant BORROWABLE_RATIO = 80; // 80% of collateral can be borrowed
+	uint256 public constant INTEREST_RATE = 5; // 5% interest rate
+	uint256 public constant LOAN_DURATION = 30 days;
+	uint256 private totalStaked = 0; //Counter for total staked
+	uint256 private totalBorrowed = 0; //Counter for total borrowed
+
+	// Loan Struct
+		struct Loan {
+		uint256 amount;        // Amount of USD borrowed
+		uint256 collateral;     // Amount of BTC deposited as collateral
+		uint256 startTimeStamp; // Timestamp of loan initiation
+		bool active;           // Status of the loan (true = active, false = repaid)
+	}
+	
+	// Mappings to Store Loan and Balance Data
+	mapping(address => Loan) public loans;  // Maps borrower's address to their loan details
+	mapping(address => uint256) public lenderBalances; // Maps lender's address to their BTC balance
+	
+	// Function Declarations (Placeholders)
+	function depositCollateral(uint256 amount) external  {
+	// TODO : Implement Logic for deposting Collateral
+	}
+	
+	function withdrawCollateral(uint256 amount) external  {
+	// TODO : Implement Logic for withdrawing Collateral
+	}
+	
+	function withdrawBTC(uint256 amount) external  {
+	// TODO : Implement Logic for withdrawing BTC
+	}
+	
+	function getBorrowableAmount(address user) external view returns (uint256) {
+	// TODO : Implement Logic for fetching borrowable amount
+	}
+	
+	function getUserCollateral(address user) external view returns (uint256) {
+	// TODO : Implement Logic for fetching user's collateral amount
+	}
+	
+	function borrowBTC(uint256 amount) external  {
+	// TODO : Implement Logic for borrowing BTC
+	}
+	
+	function depositBTC(uint256 amount) external  {
+	// TODO : Implement Logic for deposting BTC
+	}
+	
+	function repayLoan(address user) external  {
+	// TODO : Implement Logic for repaying Loan
+	}
+	
+	function calculateInterest(address user) external view returns (uint256) {
+	// TODO : Implement Logic for calculating interest
+	}
+	
+	function getLoanDetails(address borrower) external view returns (Loan memory) {
+	// TODO : Implement Logic for fetching loan of specific borrower
+	}
+	
+	function getLenderBalance(address lender) external view returns (uint256) {
+	// TODO : Implement Logic for getting the Lender balance
+	}
+	
+	function getTotalStaked() external view returns (uint256) {
+	// TODO : Implement Logic for fetching total staked amount
+	}
+	
+	function getTotalBorrowed() external view returns (uint256) {
+	// TODO : Implement Logic for fetching total borrowed amount
+	}
+	
+	function getCurrentApy() external pure returns (uint256) {
+	// TODO : Implement Logic for fetching current APY
+	}
+	
+	function getUserBorrowed(address user) external view returns (uint256) {
+	// TODO : Implement Logic for fetching a User's borrowed amount
+	}
+	
+	function getUserStaked(address user) external view returns (uint256)  {
+	// TODO : Implement Logic for fetching a User's Staked amount
+	}
+
+}
+```
+
+## Compiling and Deploying Your Upgraded Contract
+
+Now that you've added interfaces and immutables to your contract, it's time to compile and deploy it! Follow these steps:
+
+**Compile:**
+
+```solidity
+npx hardhat compile
+```
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfARXSMmD9I-reOwNYO47lWThgoc6KxWxXUrz5qCNU4tNBIUYreCRGNWAQdvH6W9LDOelZIsG6AUjYo38GOSFaOPvES5poBbeoMOedQVVzkRf2ecZn-eP74oPj06gEI6zWITwsrcJcW5trJDRfdipFn6c1k?key=Lve7xPzVRrL0IMpAvw3fyg)
+
+**Write the deploy script:**
+
+Now in the `ignition/modules/Deploy.js` file, paste the following code for deploying your contract
+
+```solidity
+// Import the module builder from the Ignition library
+const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
+
+// Define the module for your BTCfi system
+module.exports = buildModule("BTCfi", (m) => {
+
+	// Create a contract for the Bitcoin (BTC) token
+	const BTC = m.contract("Bitcoin", ["Bitcoin", "BTC"]); // Name and symbol of the token
+	
+	// Create a contract for the US Dollar (USD) token
+	const USD = m.contract("USD", ["US Dollar", "USD"]);  // Name and symbol of the token
+	
+	// Create the main lending platform contract, using BTC and USD as parameters
+	const lending = m.contract("CoreLoanPlatform", [USD, BTC]);
+	
+	// Transfer ownership of the BTC contract to the lending platform
+	m.call(BTC, "transferOwnership", [lending]);
+	
+	// Transfer ownership of the USD contract to the lending platform
+	m.call(USD, "transferOwnership", [lending]);
+	
+	// Return the BTC, USD, and lending contracts for later use
+	return { BTC, USD, lending };
+
+});
+```
+
+This code lays the groundwork for our "BTCfi" system.  Think of it like setting up a digital playground where Bitcoin (BTC) and US Dollars (USD) exist as tokens you can trade and use. The code also creates a special contract – the "loan platform" – that acts as the central bank of this playground. It's in charge of overseeing all the lending and borrowing activity, making sure everything runs smoothly and securely. Most importantly, this code gives the loan platform control over those BTC and USD tokens, ensuring it has the authority to manage the funds used in loans. This is the first step towards building a whole suite of financial tools on top of this platform, allowing users to lend, borrow, and potentially even invest using these digital assets.
+
+**Deploy to a Testnet:**
+
+Once the `Deploy.js` script is set, open a terminal in the root directory of your project and run the following command:
+
+```solidity
+npx hardhat ignition deploy ./ignition/modules/Deploy.js --network core_testnet
+```
+
+This will return the following output:
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdIMxraB_czwmYAzh0rSrxASPwhZf9yRepDhqYtDrtfvMbV7R2qQ27kMwG6c7792C8ACqxrRXb9mPrFWVPGV-9AjZDPL8w7Xt_clbdbrsDMiw1Z13R7CJcpjC0nYQgcJUPmYuHNhbTp1keWLTFE0OQePolU?key=Lve7xPzVRrL0IMpAvw3fyg)
+
+### Pushing it to Git
+
+As always, remember to push your to your github repository using the following commands:
+
+```solidity
+git add .
+git commit -m "code update"
+git push
+```
+
+## Wrap up
+
+We've now laid the groundwork for our lending dApp. In our next exciting lesson, we'll finally start adding real logic to our functions. We'll cover everything from depositing and withdrawing collateral to calculating interest and processing loan repayments. Be ready to transform your contract from a blueprint into a fully functional lending platform!
