@@ -8,7 +8,7 @@ Now if you’re already familiar with Solidity then writing the contract is gonn
 
 Alright, let’s start with the basics. Head over to the `contracts` folder that will contain an empty file named `CoreLoanPlatform.sol`. This is the file where all the magic will happen.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcM7PILhX4HFyJSbaoGAlQOfc69PkUrGbcUi9l6wf9mUyifxjS_f9c_wYj7z5dAVQP6Bq3r69x1dwE_UW3_rFz3jyyniQrCNQU4RENbox230Z4bZgCgwerGy6-lx7sFoGfqNwU1riR19wvNN4Brz3CXluk?key=4LaIVa-wPwo9LlwevICM7A)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L7%20Image%201.png?raw=true)
 
 Let’s start with a bare-bones contract containing only the following three things:
 
@@ -35,7 +35,7 @@ A typical Contract in Solidity will contain three things:
 2. **Functions**
 3. **Events**
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfuAfMrv8-wHQj_yL7kDb-Ibzpgsx5JVcofmD7ydepTj5f1aeY4QpW9-C8oibn9EUPIBxLmMlREekENm1tKnC3cOkKIB3cSAjaO8LE6p-9mByJvpyM-Ya9wDYmmhDCVJli1nK8K7WulvI9RTucg9RaZe9Ri?key=4LaIVa-wPwo9LlwevICM7A)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L7%20Image%202.png?raw=true)
 
 Let's start with understanding state variables and how to create them.
 
@@ -117,11 +117,11 @@ Finally, let’s deploy our contract by running the following command in your te
 npx hardhat ignition deploy ./ignition/modules/deploy.js --network core_testnet
 ```
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcO9h4Hr2rgc_2T8Hau26Lwy9Akcn_9fNImen0tQ9h6ka-UqSrWYUoRv54rSDAg7g84DMREBBXdOu26G-prHhhqve84wm7PvYdoqybafCNO38q118cauHkG9RFRPdKWjr9dzOZJ3pMDqQ49oI9YYq5jthSA?key=4LaIVa-wPwo9LlwevICM7A)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L7%20Image%203.png?raw=true)
 
 This will deploy the CoreLoanPlatform contract to the Core testnet, and you'll receive a console message showing the deployment address of your contract. Copy the address and head over to [Core TestNet Scan](https://scan.test.btcs.network/). Paste the address in the search panel and you should be able to see your contract live in the Core blockchain.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdHUMFfZR1zk2BfSPiihElLyMbLPwRqN_ffsK9XAUICZk3AZn-ZYXnDHg1TKfzogfCDwhDe7OzMAKciTWTpPrnr8vJMLN8Ryy8T6PAKjbvPrDV9s6AVdDrJDIf22RT1nhtSiRPrTuN06O5cMmGIVtqt1HE?key=4LaIVa-wPwo9LlwevICM7A)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L7%20Image%204.png?raw=true)
 
 ## Contract Verification
 
@@ -137,18 +137,18 @@ Transparency and Trust are two of the cornerstones of blockchain technology. Our
     - Open-source license type: License type of our contract will be *MIT License*.
 - Click on the Continue button so as to proceed.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXejskj6DmUDFypXLo1XtUiC2h0f7JnZv18kxm90H7RgGXz8Q61Q66pahsP14d0wZ0PEl2hpQ2du0hqpFgPhdc8LyiyRvWNJKqb5a-1anBGZrnnCMBojdQecHmOqlkvhzeFNdwFYJMHDtZS0MJ2-WNlPjlBk?key=4LaIVa-wPwo9LlwevICM7A)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L7%20Image%205.gif?raw=true)
 
 - Select *Yes* under the Optimization field.
 - Enter your Smart contract code in the provided field.
 - As we have not created any custom constructor for our contract yet, we can leave the Constructor Argument Field empty.
 - Click on the *Verify and Publish* button to finish the process.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfKFkgCvJ21Tka3jmB_UeYMivnSrUjAZtUUuOXGv0V5-haz43ZK5-qfdktnyuRh_7yH5G4Nw3cCemed0ApFZ_qA93zdih6gxOcFB2EI387bb6m5akhDUxD-wwMEDllWBgxv_CJQSC1tx1Ebjb873M1jYx8?key=4LaIVa-wPwo9LlwevICM7A)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L7%20Image%206.gif?raw=true)
 
 There we go, we have successfully verified our contract and your contract should be shown below in the Explorer.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXf420B547ASkWqpC_1xZPaQRf6Q90p8dout4mNPBwzDlWbTmfHtEEE8t6y5SPkLnh901hc7EK4SJOIDfGID-VYHn0rTqaqKy8rv0AcdN8NPqJB--FdTzowXAs1NWBPswNroWy-5zxh8fIljqgQv4X1dK0rE?key=4LaIVa-wPwo9LlwevICM7A)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L7%20Image%207.png?raw=true)
 
 ## That’s a Wrap
 

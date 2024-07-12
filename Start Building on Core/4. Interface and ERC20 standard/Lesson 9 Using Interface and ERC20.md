@@ -8,7 +8,7 @@ Think of interfaces as blueprints that show how different smart contracts can ch
 
 Imagine you're in a bustling marketplace filled with vendors from all over the world. Each vendor speaks a different language, making it challenging to trade goods. But what if there was a universal language that everyone understood? That's exactly what the ERC20 standard is for tokens in the blockchain world.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdG2WrC4DekUCOKFZizOVWXZ2fwNR3sBo3W5Cd1Co-EDazEN1Cwm58lzuU_0ETszwUBAVKX9Ycgctl2UvTD6ww9j0j-WRWxCvqf-b8dWcFuTmbnJzGWqdKbi6b7Eun8B9WWOo9a99W1D9LmoJe-8HLF35jB?key=Lve7xPzVRrL0IMpAvw3fyg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L9%20Image%201.gif?raw=true)
 
 ERC20 is a set of rules that defines how tokens should behave. It's like a universal dictionary that outlines the essential vocabulary and grammar for tokens to interact with each other. These rules cover everything from how tokens are transferred between addresses to how you can check your token balance. By adhering to the ERC20 standard, token creators ensure that their tokens can be easily used across different platforms and applications, promoting interoperability and creating a more unified token ecosystem.
 
@@ -26,7 +26,7 @@ Imagine you're a language whiz who speaks every language on Earth. You walk into
 
 **Interfaces are like your multilingual skills for smart contracts.** They let your contract "speak" the language of other contracts, even if they were written differently or by different developers. This is especially important when you're dealing with tokens.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXc7bGRVreT_ulORNCT2o8I2OaBgDEMN0Z3srHvvjDl9OHuxEZrWvrisAqn19BujeM47mv7KQ6rhmgNdd8DmrDgZFGU_8qGGSXqwmyXjT_XPh6xpgU-1Yym3uWazFnjCJPm1yBpFZyTVl8gjOCgcrTis83ry?key=Lve7xPzVRrL0IMpAvw3fyg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L9%20Image%202.gif?raw=true)
 
 ### How do Interfaces Work?
 
@@ -50,15 +50,15 @@ Let's break down some key functions defined in the `IERC20` interface:
 
 - **transfer(address to, uint256 amount):** This function is used to transfer a specified `amount` of tokens from the caller's address to another address (`to`).
     
-    ![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcA7NOSVIEiG4gk9bpIV1-IV9vAMmT3GOHAKIPKrDVHiwDZYBppin_j78P332k8ez_ZeOPAfnr2HCicnY0ojg8mlhhgdGPTTN2YoXaTqKBL_rHYCS_rM5SxtDtPW9uMaBO4LbkuR9-c2GHI7yEm4A1mF4jQ?key=Lve7xPzVRrL0IMpAvw3fyg)
+    ![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L9%20Image%203.gif?raw=true)
     
 - **balanceOf(address account):** This function retrieves the token balance of a specific account.
     
-    ![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcrFiC8pGh0yepc3kUjS1btf_DgHz60cKWYdCcJOLIK8QjKOQShF-xzP8WskQNxHSE3VkkpS4nO3Xn1u6OTTmsHmlpJuEgFGZC0K5d_bKcl2mKB-j5bE0ZhY6uoIs1SIe-4G2zpgC2AGNKsVeFPbHYTHRPd?key=Lve7xPzVRrL0IMpAvw3fyg)
+    ![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L9%20Image%204.gif?raw=true)
     
 - **transferFrom(address from, address to, uint256 amount):** This function allows you to transfer tokens from one address (`from`) to another (`to`) on behalf of the original owner (from), provided you've been given permission (`allowance`) to do so.
     
-    ![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcHgezubrOR3FjlimHVUHKn5vmdGY3sl5__50ogGwwRxfonr_3f6hHXwpCySBv1l3n3XM67m9lLfWzhiQzmHZOlymJJSxiMP5Yk0JKY98KBzhSVVSWGgjWfIu1fYh4Pj7LKAa5ugZya-kmTY5afLckmNts?key=Lve7xPzVRrL0IMpAvw3fyg)
+    ![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L9%20Image%205.gif?raw=true)
     
 
 ## Immutable Variables: Setting Things in Stone
@@ -208,7 +208,7 @@ Now that you've added interfaces and immutables to your contract, it's time to c
 npx hardhat compile
 ```
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfARXSMmD9I-reOwNYO47lWThgoc6KxWxXUrz5qCNU4tNBIUYreCRGNWAQdvH6W9LDOelZIsG6AUjYo38GOSFaOPvES5poBbeoMOedQVVzkRf2ecZn-eP74oPj06gEI6zWITwsrcJcW5trJDRfdipFn6c1k?key=Lve7xPzVRrL0IMpAvw3fyg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L9%20Image%206.png?raw=true)
 
 **Write the deploy script:**
 
@@ -254,7 +254,7 @@ npx hardhat ignition deploy ./ignition/modules/Deploy.js --network core_testnet
 
 This will return the following output:
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdIMxraB_czwmYAzh0rSrxASPwhZf9yRepDhqYtDrtfvMbV7R2qQ27kMwG6c7792C8ACqxrRXb9mPrFWVPGV-9AjZDPL8w7Xt_clbdbrsDMiw1Z13R7CJcpjC0nYQgcJUPmYuHNhbTp1keWLTFE0OQePolU?key=Lve7xPzVRrL0IMpAvw3fyg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L9%20Image%207.png?raw=true)
 
 ### Pushing it to Git
 

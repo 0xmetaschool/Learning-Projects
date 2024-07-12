@@ -50,7 +50,7 @@ You will be getting the following outcomes when you complete this course:
 
 If you complete this course with us, you will be getting a special NFT which will unlock many more opportunities for you on the Metaschool platform. Here is what the NFT looks like.
 
-[https://lh7-us.googleusercontent.com/docsz/AD_4nXdG3jlr7TCT_bKlJq43BBob9aqsVZtvnlqBiWtN5PG7uJk9q8AAMBkYhm_H1L9bUG0RvkPFoL9v--vaiDbaUNmAKfzpxZF6qFbg6kUqgig44ATEd3O43dZOO7aKHqOp92V1Cjxk8MB2nPQ8s5RTxpuCZHo?key=e9OC9ZGVpl8h4yru9_x3Eg](https://lh7-us.googleusercontent.com/docsz/AD_4nXdG3jlr7TCT_bKlJq43BBob9aqsVZtvnlqBiWtN5PG7uJk9q8AAMBkYhm_H1L9bUG0RvkPFoL9v--vaiDbaUNmAKfzpxZF6qFbg6kUqgig44ATEd3O43dZOO7aKHqOp92V1Cjxk8MB2nPQ8s5RTxpuCZHo?key=e9OC9ZGVpl8h4yru9_x3Eg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L1%20Image%201.gif?raw=true)
 
 Now before we move forward, let’s set some house rules first.
 

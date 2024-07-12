@@ -10,7 +10,7 @@ Explore the fundamentals of blockchain technology with [Core Academy's](https://
 
 Core Academy will also guide you through essential Web3 concepts like dApps, smart contracts, DAOs, DeFi, and BTCfi. And of course, you'll learn about Core in specific like its fundamentals,  Satoshi Plus consensus mechanism, Non-Custodial BTC Staking etc.
 
-![img1](https://lh7-us.googleusercontent.com/docsz/AD_4nXd4lBOwB9vEU_keIM3Hk2FxRe6ZdxXwLvTcQ-PMeqJVToWiE-eCIxrUCwhoLs7HVNUfEyiGfgrA0G_xowt7vrWXptx9967QE3GOyJGLwWkd5T6jzCp320bk5avIROELl2VzZKFN3PEzubIP1esLsV_pjzM?key=DtcE7jlMuhJ0KL8uT6aO1A)
+![img1](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L3%20Image%201.gif?raw=true)
 
 ## Core Ambassador Program: Spreading the Bitcoin Gospel
 
@@ -22,7 +22,7 @@ Passionate about Core and want to share the good news with the world? [The Core 
 
 The ambassador program is open to anyone with a passion for Blockchain and a desire to make a difference. It's a fantastic opportunity to learn, connect, and make a real impact in the blockchain space.
 
-![img2](https://lh7-us.googleusercontent.com/docsz/AD_4nXfYsiJqj4RX49Yk5sJrvRs8s47Cf5CIuR_ck3ZWKFY6F7lUPonS2JWVd8q9KdPOn1qdCefg9FpFoUh-Imsc0tyov91H0bKGJ4bBjLS4xQS1UIZPzBkH5qnGczjWkrHPyWYvJ3tLC-WNNoDezSQQtU1WyA3D?key=DtcE7jlMuhJ0KL8uT6aO1A)
+![img2](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L3%20Image%202.gif?raw=true)
 
 ## Core Starter Program: Launching Your BTCfi Venture
 
@@ -48,7 +48,7 @@ You can claim your Core Starter program offers by filling out [this form](https:
 
 Build the future of Web3 with Core!
 
-![img3](https://lh7-us.googleusercontent.com/docsz/AD_4nXf4Fj4Ec95tFe1KtxyIaN5XhE6utPMefXWv1nxx6fSiSkYBtrtoWiaWlPSMWl1O30hSvXYZXH_TLFQJldsd6hIe_vqvDT_XvI3wFXGKS7Ft0UmKy0DVt9Kh5El-DzVTXc3IMgg-BmVoUAGU0Oe2BiMrNEfD?key=DtcE7jlMuhJ0KL8uT6aO1A)
+![img3](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L3%20Image%203.gif?raw=true)
 
 ## Core Chain Ventures: Investing in the Bitcoin-Powered Future
 
@@ -62,7 +62,7 @@ Core Chain Ventures isn't just about throwing money at projects; it's about stra
 
 Whether you're a project seeking funding or an investor looking for opportunities in the BTCfi space, Core Chain Ventures plays a crucial role in driving the growth and development of the ecosystem.
 
-![img4](https://lh7-us.googleusercontent.com/docsz/AD_4nXflUIO7-g7_AuG76MIMNQerLQXbbq4n__xPU-QLTwqJFWfTDy1w-AoX4q_QER154Ib3rsWVoRVkqZ5fCZCPJinApMlrrmKzvll3YNdp1vdIMTcepLqf2P-X5oF38pVlRgkEPfDdVFqnVsWyziZuy3AEcVnk?key=DtcE7jlMuhJ0KL8uT6aO1A)
+![img4](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L3%20Image%204.gif?raw=true)
 
 ## Core Chain Wishlist: Your Voice, Your Vision
 
@@ -70,7 +70,7 @@ Whether you're a project seeking funding or an investor looking for opportunitie
 
 Your ideas could shape the future of Core. Whether it's a new feature, a dApp idea, or a suggestion for improving the user experience, your voice matters.
 
-![img5](https://lh7-us.googleusercontent.com/docsz/AD_4nXcURCZ7QIr1mBP-0vvXX1DsC_hbcy4hj0k0QZnU_gXukBqhNm-OGEW5vsIXBWM1fg9MZRuEBj8kFU69SqqjI7cuNTVCQnI2EKua5wwA4bMj55KtjpbDuqPQrJLdOoJfey4VBllp_LRFk6SVJB6QW63CLbJC?key=DtcE7jlMuhJ0KL8uT6aO1A)
+![img5](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L3%20Image%205.gif?raw=true)
 
 ## Core Foundation Grants: Fueling Community-Led Innovation
 
@@ -94,7 +94,7 @@ Core Foundation is open to a wide range:
 
 The Core Foundation Grants program is a testament to the project's commitment to fostering a vibrant and decentralized ecosystem where innovation thrives.
 
-![img6](https://lh7-us.googleusercontent.com/docsz/AD_4nXcCpbv4BD8mPvyJcV_KqfBoHZOf-A7swMsULk89VS6DwhtuhTOSWjOnwPczYe1KLFNnyx16usOgtzANuBFyb-g4JsFZeD2v1_sCt_oUrTDoyRHnYCjBTrODiHvL-_8dQDKo0WrOupbTTXJazHqanFjZuLg?key=DtcE7jlMuhJ0KL8uT6aO1A)
+![img6](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L3%20Image%206.gif?raw=true)
 
 ## Core Builder Incentive Program: Igniting the Spark of Creativity
 
@@ -106,7 +106,7 @@ The Core Foundation Grants program is a testament to the project's commitment to
 
 The Core Builder Incentive program is designed to spark a wave of creativity and innovation on the Core platform, attracting top talent and fostering a thriving developer community.
 
-![img7](https://lh7-us.googleusercontent.com/docsz/AD_4nXdjWfZH-7v00KEqZNGuSHEkd8ETS-2IWTEyybezFHL3OODsTvF6Mw0LD_xU6Q-RlEYzQdXILsNoyKbYM7yPSdQNMvhdM97taXaNsGviksgdVsnl2zD4dicnlL7OiRWAAs0a6gKQyukVpPI2rntB77LWHL8?key=DtcE7jlMuhJ0KL8uT6aO1A)
+![img7](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L3%20Image%207.gif?raw=true)
 
 ## Community Check-In
 

@@ -2,7 +2,7 @@
 
 Let’s now unveil what we are going to be building throughout this course. As we want to showcase Core’s security and innovative features, we thought of helping you guys create your own Lending dApp. And remember, in blockchain, every mistake is a new 'block' in your understanding! So, let's build something amazing and learn along the way.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcvh5D5CG-PFjp8KGc3ceokCeuiXm0SE9fou2ZZgfXeeSXpenScS6BmVbo-IAMN-KCSG9d9_t47mnrF1wVa3S41AhTHgIjLttqGOuYhK6tr9ucw8Rlxt64NFUGNyAymm2lVzFWv0HfM11f_iIVPFIXvIx0m?key=fU7VcNrcfqaSaIs4PMXbMw)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L6%20Image%201.gif?raw=true)
 
 ## Features of our Lending dApp
 
@@ -14,7 +14,7 @@ Let’s now unveil what we are going to be building throughout this course. As w
 - **USD Deposits and Withdrawals:** Easily manage your USD deposits and withdrawals based on your lending or borrowing needs.
 - **BTC Repayment:** Repay borrowed BTC tokens with interest to unlock your staked USD collateral.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcoCmwqzo2bKCtPal3G5HwrTyJReTrxY-sZ0KUGdhi3PfBS41hjzaqHFodu-xWFjxwHTMes9kpWTphdbFhfbm19MYrxqsGr8QR6co-8m15PupTw5bIK6fvhWU1FPbsIAhWSBzY9bSVJayoahx0uLY-x8hFn?key=fU7VcNrcfqaSaIs4PMXbMw)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L6%20Image%202.gif?raw=true)
 
 Our Lending dApp lets you borrow BTC by staking USD as collateral, ensuring a safe collateralization ratio. You can also lend BTC for interest. Manage USD deposits easily, and repay borrowed BTC plus interest to unlock your collateral.
 

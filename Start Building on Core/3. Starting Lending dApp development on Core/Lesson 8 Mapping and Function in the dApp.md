@@ -4,7 +4,7 @@ Welcome back, aspiring blockchain developers! In our previous lesson, we laid th
 
 Now, it's time to add some real functionality to our contract. In this lesson, we'll dive deeper into the world of Solidity and explore two crucial components for building dApps: mappings and functions. Think of mappings as your dApp's filing system and functions as the actions your dApp can take. By mastering these concepts, you'll be equipped to build a robust and interactive lending platform.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcONF3Ihi0PssouoTpfX6LTgXXpfHNvUuw5hImmXwpCzPY7cyS_iqFBMw9mMcN6YjLyKkVf0P38jP0st7ZGBbP5xfvV_-YLuyue8L6f3kmQjqELh-Ac7g_bGFgTqayWHzqQz0o6J_vqaj9evJCgSKvoRgFw?key=zrQfRkX42gGR_JMyOsRyjw)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L8%20Image%201.gif?raw=true)
 
 By the end of this lesson, you'll have a solid understanding of how mappings and functions work together to create a simple yet functional lending dApp. So, grab your coding tools, and let's get building!
 
@@ -306,7 +306,7 @@ npx hardhat compile
 
 This command will compile your Solidity code into bytecode, the low-level representation that the blockchain can understand and execute.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXcylUr1V1Ay61M6pm-z2W9HXzDEYRH27C2cQa_KRriw1W8s2FUb1DkElVpa1tB16qNHu8p3MXH4cmd_b27VnjEZqgLu2Lm-6ptfFzkPf_fnObrmUPJRlj3nXAcZAZv8hcDGrLu28PTF1TgXnIZKXENUTSk4?key=zrQfRkX42gGR_JMyOsRyjw)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L8%20Image%202.png?raw=true)
 
 In case you see any warnings during the compilation step, Don’t worry. We will fix them as we go along.
 
@@ -371,7 +371,7 @@ npx hardhat ignition deploy ./ignition/modules/Deploy.js --network core_testnet
 
 This will deploy your `CoreLoanPlatform` contract to the Core testnet. You'll see a message in your console indicating the address where your contract is deployed.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXd6E7eYV9kKqDoZpBEC7YGfo9zE3Kudc8DSJtZEHj5ZXzMt3v40sHMZEYJhxiJvheUVqQrbV_ns3IjeYtkK9N4XAFtgnpe2HvAyH9dg_JI4jMnFEocTboYprPeDu3ZNrCUzC4TDlNh0CB2tgBDzNAL1MEmm?key=zrQfRkX42gGR_JMyOsRyjw)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L8%20Image%203.png?raw=true)
 
 Remember, the functions in our contract are currently just placeholders. We'll add the actual logic in upcoming lessons. This deployment step is just to verify that our contract compiles and deploys without errors.
 

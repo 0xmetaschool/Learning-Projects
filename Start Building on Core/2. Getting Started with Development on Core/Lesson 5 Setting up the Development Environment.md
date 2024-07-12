@@ -1,4 +1,4 @@
-# Lesson 5: Setting up the Development Environment
+# Setting up the Development Environment
 
 Hey there, future blockchain builders! So, you're eager to dive into the exciting world of Core development, huh? Awesome! This lesson is your personal tour guide, walking you through setting up your developer toolkit and even deploying your first smart contract on the Core testnet. Think of it as building your own blockchain laboratory! Don't worry if this is all new to you – we'll keep it chill and explain every step so you can follow along with ease.
 
@@ -8,7 +8,7 @@ By the end of this lesson, you'll have your very own coding playground ready to 
 
 Before we dive into the coding fun, we need to gather some essential tools. Think of it like prepping your ingredients before baking a cake – you can't make deliciousness without the right stuff!
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdOSn84YbwiPWgPc_7uG6RBwhqgc9g-kHKV94jIa0CDf9H_HX7B3xEnno4Qr5h43e85zlhrYYGgP6xlQAFxogqI4o-UwEJ3lelD-NRl-27PxXZ97aN9odD8ncHdetC5qoLgNjl8mCK54Lx1Yj7KTIYBF5o?key=1L-qCESe1-6s6q3I_7Tpvg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L5%20Image%201.jpeg?raw=true)
 
 1. **Node.js & npm (or yarn):** Think of Node.js as the engine that powers your JavaScript code, even outside of a web browser. This is super important for blockchain development because it allows you to interact with the Core network directly from your computer. npm (or yarn) is your trusty package manager. It's like a shopping cart for code libraries, making it easy to install and manage all the software components your project needs.
     - **Download & Install Node.js:** Head over to [nodejs.org](https://nodejs.org/) and grab the installer for your operating system (Windows, macOS, or Linux). The installer will also include npm (or you can choose to install yarn separately). Just follow the on-screen instructions. If you're not sure which one to choose, npm is a great starting point.
@@ -28,12 +28,12 @@ Before we dive into the coding fun, we need to gather some essential tools. Thin
     - **Download & Install:** Grab it from [code.visualstudio.com](https://code.visualstudio.com/) and follow the simple installation instructions.
     - **Power-Up:** Install the "Solidity" extension. This extension is a must-have for Solidity developers. It provides syntax highlighting (makes your code colorful and easier to read), code completion (suggests code as you type), and error checking (helps you catch mistakes early). You can find it in the VSCode extensions marketplace by searching for "Solidity."
         
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfXA639V5E8swCk9yQ_xSVyTSGRoWLDSNrCmGBnYzP5jFVgBJBLRGiVZO7v3f_w50qs6m1Xt4SlzWw7dPsCuPg3CyhiXWPFSJ2BCdc-BWSus50e-ACsFLURPRhOLCPdnm6ketPT8fDhmFTZMqm8cEwFCryz?key=1L-qCESe1-6s6q3I_7Tpvg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L5%20Image%202.png?raw=true)
         
 1. **Git:** Git is a version control system that lets you track changes to your code, collaborate with others, and revert to previous versions if needed. It's like a time machine for your code!
     - **Download & Install:** Grab it from the official website: [git-scm.com](https://git-scm.com/) and follow the instructions.
         
-        ![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeQotvZK1vaZykJ96G-Xa6_0EVqiuaze7arE5MV9BtChDtSrcDz2d7Vuz041M2vpJnKlW5DE87aRKupyce3Fld0lqHJELM-7gnEwL2V8iUcY7x8oDvXJWobo_1hr3v4yyEG1gwsga4haxwvZg2T_J4gp1E?key=1L-qCESe1-6s6q3I_7Tpvg)
+        ![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L5%20Image%203.png?raw=true)
         
 2. **Git CLI:** It allows you to connect with your git from the terminal, so let’s install it too. You can follow the steps given [here](https://github.com/cli/cli). Once you have installed the Git CLI, let me tell you how you can configure your terminal with it.
     - Open your favorite terminal.
@@ -46,7 +46,7 @@ Before we dive into the coding fun, we need to gather some essential tools. Thin
         5. Paste the code you copied and authorize your git. You might need to enter your GitHub password if you have yet to log in.
         6. Do not close this terminal!
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfP2mCTBXoejK3mITrX6-HKC9Qtk5n_tOWVNmp_AOMHt0Xx6hhPhCXYH3wuhqnrYzslZFh1qJI6Tr2TnOVckW_XyZe0nIf2iZryN0rRIDtdWGLIpUbqF6QXNptraP7J-xb_dLL1wzzP1frbduXSsoGbdAmf?key=1L-qCESe1-6s6q3I_7Tpvg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L5%20Image%204.gif?raw=true)
 
 Awesome, you are all set!! Good job!
 
@@ -67,7 +67,7 @@ Let’s add it to MetaMask so you can access it:
     - **Symbol:** CORE
 6. **Save:** Hit "Save," and you're in! It will ask you to switch to the network, well switch!
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXdrQaOOQ5f71SodbtKCfhb-fO4aMRB49gAXFc8tWnqplyfNZ7kvYfW1OdpX3ahiKEoOjYXEg_T8qTg7sOBgvrnkan5GPCjxCiduFPmns2fn17KLX3_vGBByssdNWQndQNhD6Ya4Lhgz7_86Ob4xT65Tjt3T?key=1L-qCESe1-6s6q3I_7Tpvg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L5%20Image%205.gif?raw=true)
 
 You can explore more Core Blockchain rpc links [here](https://docs.coredao.org/docs/Dev-Guide/rpc-list).
 
@@ -80,7 +80,7 @@ Well, we know that we need test tokens to run any transaction on the blockchain,
 3. Click on “Get tCORE”.
 4. View your Metamask, you might have received 1 CORE.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXehoHd8dqCqsioNQZfnLa-BD6UTe5pF1VXsaY3CdeX8DCzIEBnSyDwPKxqJRnnZav9YrV7J4fsmlelD8JL6jcfx__TLb188T0u8qkCHrGAtZiJaRz4u5p0p0GoWEr4U4H3swsXIE7BGZtTjq--tQ8yW9Btx?key=1L-qCESe1-6s6q3I_7Tpvg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L5%20Image%206.gif?raw=true)
 
 ## Your First Project
 
@@ -119,7 +119,7 @@ PRIVATE_KEY=" "
 
 Do you remember, we copied our private key in the last lesson? Well, here we will use it. Paste the private key into your `.env` file in between the `“”`. And we are set!
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXfaU7LafjGHUQLWk-ffVyh-zcE-4wJWFgMbMCNn2BieDJcYd5cb_8tKNbZScxP0vR0Dmuvlhm8idevHl9vIgSRB4qDAW-styqitts-rV7qTLIvpHI1NM7KFKs8OMPSncp6qZ6x20D8TLD0daxHdPfs0IWh4?key=1L-qCESe1-6s6q3I_7Tpvg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L5%20Image%207.gif?raw=true)
 
 ## Your First Smart Contract: Hello, Core!
 
@@ -161,7 +161,7 @@ contract HelloWorld {
     
 5. If everything is set up correctly, you'll see a message in your console indicating the address of your deployed "Hello World" contract. Congratulations! Your development environment is ready for building awesome dApps on Core.
 
-![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeX8TLtpIn0-7GKZlu_iTTbQhyaRqpVHEvzUraiGcF8O7jCZrsSqDEHZAoOKYhfjwLVggNTST8LX9IERvoHHs-EVvYmfgEZwbVCnS8MPur66DpJPp6PDxKsgxvSzycAPIIYcMrV6jkKeDE0cg1UATekKMd7?key=1L-qCESe1-6s6q3I_7Tpvg)
+![img](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Core%20C2%20assets%20-%20Start%20Building%20on%20Core/Core%20C2%20L5%20Image%208.jpeg?raw=true)
 
 ## Wrap up: You're a Blockchain Builder Now!
 
