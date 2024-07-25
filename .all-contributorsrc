@@ -99,6 +99,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "SethuRamanOmanakuttan",
+      "name": "Sethu Raman Omanakuttan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44131280?v=4",
+      "profile": "https://github.com/SethuRamanOmanakuttan",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
