@@ -2,7 +2,8 @@
 
 Hey there Developers! In the last chapter, we gave you a sneak peek into the Core blockchain. Now, as blockchain enthusiasts, we know you guys are super pumped to start the building part, but as the Developer's code of conduct would dictate, one should understand the ‘why’ before they get to the ‘how’.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcQV3wiVVkmG81fmn8Hqb3Vqpj0T3aODwi4FUMk4P__IZsHCPNHcCvGOF4siuCiJdxaTmBr5upDX24SDt9Z1aE75MciL_kk4P8TyKpnTfPjPZedn4f4_FZwm2mfCMQk213fzD1J6cLbjLfI6ty27ReUC15J?key=vtLTtJHs5MQqzL6kDiBltQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P1.png?raw=true)
+![image-depicting-core-history](https://lh7-us.googleusercontent.com/docsz/AD_4nXcQV3wiVVkmG81fmn8Hqb3Vqpj0T3aODwi4FUMk4P__IZsHCPNHcCvGOF4siuCiJdxaTmBr5upDX24SDt9Z1aE75MciL_kk4P8TyKpnTfPjPZedn4f4_FZwm2mfCMQk213fzD1J6cLbjLfI6ty27ReUC15J?key=vtLTtJHs5MQqzL6kDiBltQ)
+[comment]: (https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P1.png?raw=true)
 
 So, in this lesson, we will be looking into why the Core was conceptualized in the first place. So without further ado, let’s dive into the history of Core.
 
@@ -14,7 +15,8 @@ Ready for some truth? No blockchain is perfect. This statement lies at the heart
 - **Scalability** involves handling increasing amounts of transactions without sacrificing speed or efficiency.
 - **Decentralization** ensures no single entity controls the network, maintaining trust and resilience
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcUSkSXrmEMCn7m9p_pJoyQ66mH1N6IAO19vRKNhk3CtTmnP_iCgmZ0-avJ0aADsIKV8qSX7O8FnIwfe-qultUoaluoWJUEJ1F2ivklNAWZ5DuZBS1-ymK8EEFem_mos5LkMgQW-qZXrJLn4Dr4j5dqHo0?key=vtLTtJHs5MQqzL6kDiBltQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P2.png?raw=true)
+![image-depicting-blockchain-trilemma](https://lh7-us.googleusercontent.com/docsz/AD_4nXcUSkSXrmEMCn7m9p_pJoyQ66mH1N6IAO19vRKNhk3CtTmnP_iCgmZ0-avJ0aADsIKV8qSX7O8FnIwfe-qultUoaluoWJUEJ1F2ivklNAWZ5DuZBS1-ymK8EEFem_mos5LkMgQW-qZXrJLn4Dr4j5dqHo0?key=vtLTtJHs5MQqzL6kDiBltQ)
+[comment]: (https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P2.png?raw=true)
 
 Every blockchain aims to solve the trilemma, each with its unique features. This trend began with Bitcoin, the original blockchain network.
 
