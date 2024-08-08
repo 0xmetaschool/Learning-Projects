@@ -8,15 +8,15 @@ We need a wallet to proceed so if you have not installed MetaMask, just install 
 
 ## Setting up the testnet environment
 
-Next, we will opt for the Mumbai network to deploy our code. To set it up, complete the following steps:
+Next, we will opt for the Amoy network to deploy our code. To set it up, complete the following steps:
 
-- Head over to [https://chainlist.org/chain/80001](https://chainlist.org/chain/80001).
+- Head over to [https://chainlist.org/chain/80002](https://chainlist.org/chain/80002).
 - Click on “Connect Wallet”.
 - Click on Next, then Connect, then Approve, and finally Switch Network.
 - After connecting your wallet, click on “Add to Metamask”.
 - Click on Approve and then Switch Network.
 
-You will be successfully connected to the Mumbai network. See in the following gif how I did it:
+You will be successfully connected to the Amoy network. See in the following gif how I did it:
 
 ![Screen Recording 2023-08-02 at 7.19.24 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/2%20Prerequisites%20to%20Building%20the%20MarketPlace/2%20Set%20Up%20Wallet/Screen_Recording_2023-08-02_at_7.19.24_PM.gif?raw=true)
 
