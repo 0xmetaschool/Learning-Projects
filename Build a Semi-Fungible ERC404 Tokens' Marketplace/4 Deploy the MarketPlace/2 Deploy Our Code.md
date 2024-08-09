@@ -28,8 +28,8 @@ module.exports = {
       },
       hardfork: "berlin",
     },
-    mumbai: {
-      url: "https://rpc.ankr.com/polygon_mumbai",
+    amoy: {
+      url: "https://rpc-amoy.polygon.technology/",
       accounts: privateKey(),
     }
   },
@@ -55,8 +55,8 @@ The output will be like the following:
 Now run the following commands:
 
 ```
-npx hardhat run scripts/deployToken.js --network mumbai
-npx hardhat run scripts/deployMarketplace.js --network mumbai
+npx hardhat run scripts/deployToken.js --network amoy
+npx hardhat run scripts/deployMarketplace.js --network amoy
 ```
 
 Here’s the output:
