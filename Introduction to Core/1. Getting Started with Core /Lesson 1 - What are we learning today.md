@@ -2,7 +2,9 @@
 
 Hello everyone ☀️
 
-Exciting news: we're kicking off our first-ever course of Core blockchain’s learning track at Metaschool! Core is all about leveling up security, decentralization, AND scalability. We are super excited to have you with us on this journey to learn and build on Core!
+Exciting news: we're kicking off our first-ever course on Core blockchain’s learning track at Metaschool! Core is all about leveling up security, decentralization, AND scalability. We are super excited to have you with us on this journey to learn and build on Core!
+
+But, before we start can we request you follow [Metaschool's github](https://github.com/0xmetaschool)? Also since it's a course on Core blockchain make sure to follow [Core's github](https://github.com/coredao-org) to not miss any important updates.
 
 So, Why Core? At the time of writing, Core has already hit [258M+ transactions on-chain](https://scan.coredao.org/) and [5M active wallets](https://scan.coredao.org/chart/active-address). Not only this, it has a strong community of [267k discord members](https://discord.com/invite/coredaoofficial) and a strong following on [X of 2.3M.](https://x.com/Coredao_Org)
 
