@@ -51,7 +51,7 @@ Now before we move forward, let’s set some house rules first.
 While you're learning, don't forget to join the vibrant MANTRA Chain community!
 
 - **Follow & Subscribe:** Stay in the loop on [X (formerly Twitter)](https://twitter.com/MANTRA_Chain), [LinkedIn](https://www.linkedin.com/company/mantrachain/), [YouTube](https://www.youtube.com/@MANTRAChain) and [Instagram](https://www.instagram.com/mantra_chain/).
-- **Chat & Connect:** Join the conversation on [Discord](https://discord.gg/gfks4TwAJV) & [Telegram](https://t.me/MANTRA_Chain), and read about MANTRA Chain on [Medium](https://mantrachain.medium.com/).
+- **Chat & Connect:** Join the conversation on [Discord](https://discord.com/invite/gfks4TwAJV) & [Telegram](https://t.me/MANTRA_Chain), and read about MANTRA Chain on [Medium](https://mantrachain.medium.com/).
 
 By actively participating in the community, you'll gain valuable insights, network with like-minded individuals, and stay at the forefront of the decentralized finance revolution.
 
