@@ -4,7 +4,7 @@ Hello everyone ☀️
 
 Exciting news: we're kicking off our first-ever course on Core blockchain’s learning track at Metaschool! Core is all about leveling up security, decentralization, AND scalability. We are super excited to have you with us on this journey to learn and build on Core!
 
-But, before we start can we request you follow [Metaschool's github](https://github.com/0xmetaschool)? Also since it's a course on Core blockchain make sure to follow [Core's github](https://github.com/coredao-org) to not miss any important updates.
+Btw, following official github repos of blockchains and interacting with it is a great idea. Blockchains airdrop and consistently reward their followers. Do follow Core [here](https://github.com/coredao-org).
 
 So, Why Core? At the time of writing, Core has already hit [258M+ transactions on-chain](https://scan.coredao.org/) and [5M active wallets](https://scan.coredao.org/chart/active-address). Not only this, it has a strong community of [267k discord members](https://discord.com/invite/coredaoofficial) and a strong following on [X of 2.3M.](https://x.com/Coredao_Org)
 
@@ -48,13 +48,7 @@ Now before we move forward, let’s set some house rules first.
 
 1. Kindly do your quick assignments properly.
 2. Join [our discord server](https://bit.ly/core-course-discord) and ask all relevant questions there.
-3. We are a free open-source platform and if you follow us on [X](https://bit.ly/core-course-twitter) and [LinkedIn](https://bit.ly/core-course-linkedIn), it would be a great support. 🫣
-4. You can subscribe to our [YouTube](https://bit.ly/core-course-youtube) channel for exciting videos too. ✨
-5. Stay happy and positive!
-
-Now, since you are entering into the world of Core, join the Core’s family by:
-
-1. Joining their [Telegram channel](https://t.me/CoreDAOTelegram), [Discord channel](https://discord.com/invite/coredaoofficial).
-2. Follow Core on [X](https://twitter.com/Coredao_Org), [X account for Devs](https://x.com/corechain_devs), and subscribe on the [YouTube](https://www.youtube.com/@Core_DAO_Official) channel.
+3. We are a free open-source platform and if you follow us on [Github](https://github.com/0xmetaschool), it would be a great support. 🫣
+4. Stay happy and positive!
 
 Alright guys, no need to wait any longer. Let’s get started!!
