@@ -37,9 +37,10 @@ MANTRA Chain's network architecture is a multi-layered marvel, carefully crafted
 
 1. **Staking Layer:** This is the bedrock of security and community governance, where users can stake their $OM tokens to participate in network operations and earn rewards.
 2. **Interoperability Layer:** The bridge that connects MANTRA Chain to the wider blockchain universe, allowing for seamless communication and asset transfer across different chains.
-3. **Module Layer:** A toolkit for innovation, this layer houses a collection of specialized modules that add specific functionalities to the blockchain, making it a versatile platform for building dApps.
-4. **Execution Layer:** The engine room of the blockchain, where transactions are processed, smart contracts are executed, and the network hums along without a hitch.
-5. **Application Layer:** This is where the fun begins! The application layer is the user-facing interface where you'll find all the exciting dApps that make MANTRA Chain so unique.
+3. **Execution Layer:**
+- **Generic Modules:** Most blockchains in the Cosmos ecosystem incorporate these generic execution modules, it's where simple transactions are processed and user-created smart contracts are executed.
+- **Mantra Modules:** In addition to generic execution modules, the Mantra blockchain includes a collection of modules that add specific functionalities applicable to Mantra's vision and are unique to the Mantra blockchain.
+4. **Application Layer:** This is where the fun begins! The application layer is the user-facing interface where you'll find all the exciting dApps that make MANTRA Chain so unique.
 
 This harmonious interplay of layers empowers MANTRA Chain to be a flexible, scalable, and user-centric platform for the future of decentralized finance.
 
