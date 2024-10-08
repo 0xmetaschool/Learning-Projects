@@ -8,7 +8,7 @@ The contracts directory will have the contract of your Hello World program. Dele
 
 ```
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.4;
+pragma solidity ^0.8.24;
 
 contract HelloWorld {
     //events
