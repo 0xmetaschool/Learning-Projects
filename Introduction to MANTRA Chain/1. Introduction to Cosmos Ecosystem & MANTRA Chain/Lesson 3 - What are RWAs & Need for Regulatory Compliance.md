@@ -14,7 +14,7 @@ Simply put, real-world assets are tangible or intangible things of value that ex
 
 Think of it this way: if you can touch it, own it, or trade it in the traditional financial world, it's likely a real-world asset.
 
-### Why are RWAs Important in the Blockchain Space?
+### What is the role of Blockchain technology in expanding access to RWAs
 
 RWAs have always been a cornerstone of the global economy. They represent real value and offer various investment opportunities. However, investing in RWAs has often been exclusive, and limited to wealthy individuals or institutions.
 
