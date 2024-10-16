@@ -1,86 +1,245 @@
-﻿# All you need to know about The Execution Model 🚀
+# What is proof-of-stake (PoS)
 
-## Execution model
+## Ethereum: From Digging to Staking
+![image (6)](https://github.com/user-attachments/assets/e99ae8bd-1830-45f9-a1f4-aa250559abcd)
 
-So far, we’ve learned about the series of steps that have to happen for a transaction to execute from start to finish. Now, we’ll look at how the transaction actually executes within the VM.
 
-The part of the protocol that actually handles processing the transactions is Ethereum’s own virtual machine, known as the Ethereum Virtual Machine (EVM).
+Once upon a time, Ethereum was a goldmine. Miners would dig and dig to get a piece of the pie, their powerful computers churning away. But the digging was tiring, and the rewards were getting smaller.
 
-The EVM is a Turing complete virtual machine, as defined earlier. The only limitation the EVM has that a typical Turing complete machine does not is that the EVM is intrinsically bound by gas. Thus, the total amount of computation that can be done is intrinsically limited by the amount of gas provided.  
-![](https://lh5.googleusercontent.com/Bplawsohn862Xut1echN74jbW9ULOHF41HHuspjAYZCIXfTFrCEgmrZ9caNFT8UyXOBiu0HF0C9e3CfHBykcaUMkTNMWnctHAGyXxOTuVNG5d0wfmgZqACjH2Ct5ZGXZVBQRaciP)
+So, the wise leader of Ethereum, Vitalik Buterin, had an idea. Instead of digging, people could become guardians of the mine. They'd stake their gold (ETH) to protect the mine and earn rewards for their efforts.
 
-Moreover, the EVM has a stack-based architecture. A [stack machine](https://en.wikipedia.org/wiki/Stack_machine) is a computer that uses a last-in, first-out stack to hold temporary values.
+This was the great shift from Proof-of-Work (PoW) to Proof-of-Stake (PoS). Now, anyone with ETH could become a guardian, even if they didn't have a supercomputer.
 
-The size of each stack item in the EVM is 256-bit, and the stack has a maximum size of 1024.
+## The Hard Fork: Transitioning from PoW to PoS
+![image (7)](https://github.com/user-attachments/assets/a82deb0f-b0bb-4a0a-8eff-6d8623e4c0bd)
 
-The EVM has memory, where items are stored as word-addressed byte arrays. Memory is volatile, meaning it is not permanent.
 
-The EVM also has storage. Unlike memory, storage is non-volatile and is maintained as part of the system state. The EVM stores program code separately, in a virtual [ROM](https://en.wikipedia.org/wiki/Read-only_memory) that can only be accessed via special instructions. In this way, the EVM differs from the typical [von Neumann architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture), in which program code is stored in memory or storage.
+In September 2022, Ethereum underwent a historic hard fork—an essential change in the blockchain protocol that created a divergence from the previous version—moving from Proof-of-Work (PoW) to Proof-of-Stake (PoS) through **EIP-3675**. This significant upgrade revolutionized Ethereum by:
 
-![](https://lh4.googleusercontent.com/V9hJWsUQGS4l6R3LK-Bo7jw2aXPU_f6etCqrnTp1xKffw_dZ6mEsRlugF1hMOQcaxA4QrZeSN-vW6_tBxt84_MJrVBSbh2h-WU2DaK1tCQtTt3l1yMWZz-3WZnlBLiV8EeNEG3hA)
+- **Streamlining Activation:** EIP-3675 made it easy for validators to join and secure the network.
+- **Preserving Integrity:** It managed historical data, ensuring a smooth transition.
+- **Aligning Rewards:** Validators now earn rewards proportional to their staked ETH, with penalties for dishonest behavior.
 
-The EVM also has its own language: “EVM bytecode.” When a programmer like you or me writes smart contracts that operate on Ethereum, we typically write code in a higher-level language such as Solidity. We can then compile that down to EVM bytecode that the EVM can understand.
+The hard fork and EIP-3675 marked a pivotal moment for Ethereum, ushering in a more sustainable and efficient blockchain future.
 
-Okay, now on to execution.
+## Validator
 
-Before executing a particular computation, the processor makes sure that the following information is available and valid:
+![image (8)](https://github.com/user-attachments/assets/02f65c71-6597-4f86-b6e1-fe4e3c8f4a5a)
 
-- System state
-- Remaining gas for computation
-- Address of the account that owns the code that is executing
-- Address of the sender of the transaction that originated this execution
-- Address of the account that caused the code to execute (could be different from the original sender)
-- Gas price of the transaction that originated this execution
-- Input data for this execution
-- Value (in Wei) passed to this account as part of the current execution
-- Machine code to be executed
-- Block header of the current block
-- Depth of the present message call or contract creation stack
 
-At the start of execution, memory and stack are empty and the program counter is zero.
+A validator in the Ethereum blockchain is a network participant responsible for securing the network and maintaining consensus. Unlike miners in Proof-of-Work (PoW) systems who compete to solve complex mathematical problems, validators are selected based on the amount of cryptocurrency they stake in the network. 
 
-PC: 0 STACK: [] MEM: [], STORAGE: {}
+### How to become a Validator?
 
-The EVM then executes the transaction recursively, computing the system state and the machine state for each loop. The system state is simply Ethereum’s global state. The machine state is comprised of:
+To become a validator, one must meet the following requirements:
 
-- gas available
-- program counter
-- memory contents
-- active number of words in memory
-- stack contents.
+- **Deposit:** Deposit 32 ETH into the deposit contract. This ETH is locked up and serves as a security deposit.
+- **Software:** Run three separate pieces of software:
+    - **Execution Client:** Executes transactions and smart contracts.
+    - **Consensus Client:** Participates in the consensus mechanism and validates blocks.
+    - **Validator Client:** Manages the validator's stake and interacts with the network.
 
-Stack items are added or removed from the leftmost portion of the series.
+### Validator Responsibilities
 
-On each cycle, the appropriate gas amount is reduced from the remaining gas, and the program counter increments.
+- **Block Validation:** When a new block is proposed, validators verify the validity of the transactions included in the block. This involves re-executing the transactions to ensure they adhere to the Ethereum Virtual Machine (EVM) rules.
+- **Block Signature:** Validators check the signature of the block to verify that it was created by the designated block proposer.
+- **Attestation:** Validators send a vote, called an attestation, in favor of the valid block across the network. This helps establish consensus and ensures that the majority of validators agree on the state of the blockchain.
 
-At the end of each loop, there are three possibilities:
+## Slashing: The Penalty for Misbehavior
 
-1.  The machine reaches an exceptional state (e.g. insufficient gas, invalid instructions, insufficient stack items, stack items would overflow above 1024, invalid JUMP/JUMPI destination, etc.) and so must be halted, with any changes discarded
-2.  The sequence continues to process into the next loop
-3.  The machine reaches a controlled halt (the end of the execution process)
+![image (9)](https://github.com/user-attachments/assets/a5aac413-ada0-4fa1-b769-35cf0e9b83da)
 
-Assuming the execution doesn’t hit an exceptional state and reaches a “controlled” or normal halt, the machine generates the resultant state, the remaining gas after this execution, the accrued substate, and the resultant output.
 
-Phew. We got through one of the most complex parts of Ethereum. Even if you didn’t fully comprehend this part, that’s okay. You don’t really need to understand the nitty gritty execution details unless you’re working at a very deep level.
+Ever heard of a digital time-out? That's basically what slashing is in the world of blockchain. Imagine a bunch of kids (validators) playing a game (blockchain) and one kid (validator) starts cheating or being naughty. The other kids (network) don't like that, so they give the naughty kid a digital spanking (slashing) by taking away some of his toys (staked coins).
 
-## How a block gets finalized
+![image (10)](https://github.com/user-attachments/assets/af0630a0-08d8-4865-89de-e561d8c2775b)
 
-Finally, let’s look at how a block of many transactions gets finalized.
 
-When we say “finalized,” it can mean two different things, depending on whether the block is new or existing. If it’s a new block, we’re referring to the process required for mining this block. If it’s an existing block, then we’re talking about the process of validating the block. In either case, there are four requirements for a block to be “finalized”:
+Slashing, in essence, is the process of penalizing a validator for violating the rules of the Ethereum network. Validators, entrusted with the task of securing the blockchain and ensuring consensus, are expected to perform their duties diligently. Failure to do so can result in severe consequences, including the forfeiture of their staked Ether.
 
-1. Validate (or, if mining, determine) ommers
+### The Three Cardinal Sins of Slashing
 
-Each ommer block within the block header must be a valid header and be within the sixth generation of the present block.
+There are primarily three ways a validator can find themselves on the wrong side of the slashing sword:
 
-2. Validate (or, if mining, determine) transactions
+- **Double-signing:** Validators who sign two conflicting blocks are essentially cheating. This undermines the blockchain's consensus mechanism and is a serious offense.
+- **Invalid blocks:** Proposing blocks that don't follow the rules can also lead to slashing. Think of it like submitting a faulty report card: it's not acceptable.
+- **Downtime:** Validators must be online and active. Going AWOL can disrupt the network, so there's a penalty for excessive downtime.
 
-The gasUsed number on the block must be equal to the cumulative gas used by the transactions listed in the block. (Recall that when executing a transaction, we keep track of the block gas counter, which keeps track of the total gas used by all transactions in the block).
+### Implications of Slashing
 
-3. Apply rewards (only if mining)
+Slashing can have significant consequences for validators, including:
 
-The beneficiary address is awarded 5 Ether for mining the block. (Under Ethereum proposal [EIP-649](https://github.com/ethereum/EIPs/pull/669), this reward of 5 ETH will soon be reduced to 3 ETH). Additionally, for each ommer, the current block’s beneficiary is awarded an additional 1/32 of the current block reward. Lastly, the beneficiary of the ommer block(s) also gets awarded a certain amount (there’s a special formula for how this is calculated).
+- **Loss of Staked Funds:** The primary penalty for slashing is the loss of a portion or all of the validator's staked funds. This financial loss can be substantial and serve as a powerful deterrent.
+- **Reduced Voting Power:** A slashed validator's voting power within the network may be reduced, affecting their influence on the consensus process.
+- **Reputation Damage:** Being slashed can damage a validator's reputation, making it difficult to attract delegators in the future.
+- **Potential Exclusion from the Network:** In some cases, severely slashed validators may be permanently excluded from the network, losing their ability to participate in the consensus process.
 
-4. Verify (or, if mining, compute a valid) state and nonce
+## The Math Behind Ethereum's Proof of Stake (PoS)
 
-Ensure that all transactions and resultant state changes are applied, and then define the new block as the state after the block reward has been applied to the final transaction’s resultant state. Verification occurs by checking this final state against the state trie stored in the header.
+Validators are chosen to propose and validate blocks based on how much ETH they stake. Here's how the math works in Ethereum’s PoS system.
+
+### 1. Selection Probability
+
+The more ETH a validator stakes, the higher their chance of being selected to propose a new block. This probability is calculated using the following formula:
+![image (11)](https://github.com/user-attachments/assets/6ab3218e-1f1b-4cc4-bf07-4ab829bc9263)
+
+
+Where:
+
+- ETH (staked by validator) is the amount of ETH staked by the individual validator.
+- ∑ ETH (staked by all validators) is the total amount of ETH staked by all validators in the network.
+
+For example, if a validator stakes 32 ETH and the total staked ETH in the network is 100,000 ETH, their probability of being selected is:
+
+![image (12)](https://github.com/user-attachments/assets/f7f2dd80-0a42-433e-a35b-69c213709c6a)
+
+
+This ensures fairness—larger stakes have a higher chance of earning rewards, but even validators with smaller stakes have the opportunity to participate.
+
+### 2. Rewards and Slashing
+![image (13)](https://github.com/user-attachments/assets/99a6e1c8-f6a2-4456-9387-4a12c3c40a0d)
+
+Validators earn rewards for participating honestly in the network and are penalized (slashed) if they attempt to attack or behave maliciously.
+
+**Rewards**:
+
+Validators receive rewards for:
+
+- Proposing new blocks.
+- Attesting to the validity of blocks proposed by others.
+
+The rewards are proportional to the amount of ETH they stake and the performance of the network (i.e., how many other validators are online and participating). The exact reward rate varies based on these factors and is dynamically adjusted by the Ethereum protocol.
+
+**Penalty (Slashing) Formula:**
+
+If a validator behaves maliciously or incorrectly (e.g., signs two different blocks for the same slot), a portion of their staked ETH is slashed. 
+
+The penalty S is a percentage of their stake:
+![image (15)](https://github.com/user-attachments/assets/dd327324-ef0a-4f91-aace-e770007fe0d8)
+
+Where:
+
+- Slash_Rate is the percentage of the staked ETH that will be slashed.
+
+For example, if a validator stakes 32 ETH and the slash rate is 5%, the penalty would be:
+![image (14)](https://github.com/user-attachments/assets/bb90e0c9-1f94-4591-a8ab-10536fe2e0e0)
+
+
+So, 1.6 ETH will be deducted from their staked amount.
+
+### 3. Epochs and Slots
+
+![TS Lineat Filled](https://github.com/user-attachments/assets/809c207d-80bd-4fd2-a5f5-8712d8bb43d3)
+
+In Ethereum PoS, time is divided into **epochs** and **slots**:
+
+- An **epoch** is a fixed period during which a group of validators are responsible for proposing and attesting to blocks. It is composed of 32 **slots**.
+- A **slot** is a 12-second time window where a selected validator has the chance to propose a block to the blockchain. Not every slot necessarily results in a block, but it provides the opportunity for one.
+- Every epoch (approximately 6.4 minutes), the validators are reshuffled to ensure randomness and improve the security of the network.
+
+This division of time into epochs and slots ensures efficient block production while maintaining fairness and security in validator selection.
+
+### 4. Finality and Casper FFG
+
+Ethereum uses the **Casper FFG (Friendly Finality Gadget)** to finalize blocks. Finality means that once a block is finalized, it cannot be reverted. Casper FFG introduces the concept of **justification** and **finalization** of blocks using votes from validators.
+
+**Finality Condition:**
+
+A block becomes finalized if two-thirds (66%) of the validators (weighted by their stake) attest to its validity over two consecutive epochs. This ensures security and prevents malicious validators from reversing the finalized state of the blockchain.
+
+**Voting Power:**
+
+Validators' voting power is proportional to their stake. 
+
+The total voting power V(total) is:
+![image (16)](https://github.com/user-attachments/assets/76c08cf6-b07c-4b57-a361-e32e26344a00)
+
+
+For finality, the block must receive votes from validators representing at least two-thirds of the total voting power:
+![image (17)](https://github.com/user-attachments/assets/ec647f73-1ec3-4346-aff3-142f372204a7)
+
+
+## Proof-of-Stake Security
+
+![image (18)](https://github.com/user-attachments/assets/c60e55fd-6c92-4d38-8e88-51f37113710c)
+
+**Think of PoS like a cryptocurrency game of thrones.** To launch a 51% attack, you'd need to be the richest lord in the kingdom, owning more than half the land and peasants. But here's the twist: if you try to bend the rules and change the history of the kingdom, the other lords can vote to banish you and seize your land. So, it's like saying, 'Hey, let's commit a crime, but it's gonna cost me everything I own.' Not a very smart move, right?
+
+Think of PoS like a cryptocurrency game of thrones. To launch a 51% attack, you'd need to be the richest lord in the kingdom, owning more than half the land and peasants.
+
+However, unlike a traditional game of thrones, a 51% attack on a PoS network is incredibly challenging and costly. Ethereum, for instance, has a threshold of around 5 million ETH required to control more than 50% of the network. But in reality, due to the staking mechanics, an attacker would need to own more than 66% of the staked ETH to successfully execute an attack.
+
+Furthermore, launching a 51% attack on a PoS network could be extremely risky. If detected, the network can be hard forked, effectively rendering the attacker's investment worthless. Additionally, the attacker could face significant financial losses due to penalties and the potential loss of their staked funds.
+
+So, while a 51% attack is theoretically possible, the immense cost, risk, and potential consequences make it a highly impractical and unlikely scenario
+
+## Pros of Proof of Stake (PoS)
+
+| Feature | Advantages | Clarification |
+| --- | --- | --- |
+| Energy Usage | Minimal Power Requirements | PoS eliminates the need for vast energy resources used by PoW mining, making it a more sustainable option. |
+| Financial Accessibility | Lower Financial Entry Barriers | Users can stake without expensive mining equipment, allowing broader participation from a more diverse range of individuals and small entities. |
+| Economic Benefits | Passive Income Opportunities | PoS enables users to earn income simply by staking their coins, incentivizing broader network participation. |
+| Transaction Throughput | Higher Efficiency | PoS blockchains typically process more transactions at lower costs, improving scalability for applications that require high transaction throughput. |
+| Decentralization Potential | Wider Validator Participation | PoS allows anyone with tokens to become a validator, enhancing decentralization compared to PoW, which favors those with specialized equipment. |
+
+## Cons of Proof of Stake (PoS)
+
+| Feature | Disadvantages | Clarification |
+| --- | --- | --- |
+| Energy Usage | Not Fully Proven at Scale | Despite its promising features, PoS lacks the historical validation that PoW has for its security mechanisms and long-term viability. |
+| Financial Accessibility | Large Stakeholders Hold Power | The more tokens an individual or entity holds, the more influence they can exert on transaction validation, creating risks of centralized control. |
+| Economic Benefits | Validator Wealth Concentration | Wealthier participants have an inherent advantage in earning rewards and influence, creating potential inequalities in reward distribution. |
+| Transaction Throughput | System Complexity | PoS networks are often more complex to manage and maintain due to intricate consensus protocols, requiring additional technical expertise. |
+| Decentralization Potential | Influence of Major Stakeholders | Large validators can wield significant influence over decision-making processes, reducing the network's true decentralized nature. |
+
+## **Proof of Stake Vs. Proof of Work**
+![Gemini_Generated_Image_7zzzhm7zzzhm7zzz jpeg](https://github.com/user-attachments/assets/e8bd502f-bdb0-439a-8a43-bc56f9b413ef)
+
+| Aspect | Proof of Work (PoW) | Proof of Stake (PoS) |
+| --- | --- | --- |
+| Consensus Mechanism | Miners compete to solve complex cryptographic puzzles to validate transactions and create new blocks. | Validators are randomly selected based on the amount of cryptocurrency they hold and are willing to "stake." |
+| Energy Consumption | 1. Extremely energy-intensive due to the need 
+    for large amounts of computational power to   
+    solve cryptographic puzzles.
+2. Bitcoin alone uses more energy than some 
+    countries. | 1. Significantly lower energy consumption as no 
+    extensive computations are needed to 
+    validate blocks.
+2. Environmentally sustainable compared to  
+    PoW. |
+| Hardware Requirements | 1. Requires specialized and expensive  
+    hardware (e.g., ASICs for Bitcoin) to mine     
+    profitably.
+2. Leads to centralization of mining power in 
+    large mining pools or farms with access to 
+    these high-end hardware setups. | 1. Validators only require standard server-grade 
+    hardware, making it more accessible to a   
+    larger audience.
+2. No need for specialized hardware (e.g.,   
+    ASICs), which are expensive and create 
+    centralization risks. |
+| Rewards Distribution | The first miner to solve the cryptographic puzzle receives block rewards and transaction fees. | Validators earn transaction fees as rewards for validating blocks, and their income is proportional to the amount staked. |
+| 51% Attack Vulnerability | A malicious actor needs to control 51% of the network's mining power to execute an attack, which requires significant investment in hardware. | An attacker would need to own 51% of the total cryptocurrency supply to execute a successful attack, making it extremely costly. |
+| Transaction Speed | Transactions can be slower due to the time taken to solve puzzles, leading to congestion during peak times. | Generally offers faster transaction processing times since block creation is based on stake rather than competition. |
+| Finality of Transactions | PoW requires multiple confirmations to secure finality, which can cause delays and vulnerabilities to chain reorgs, especially in scenarios of network attacks or congestion. | **Faster finality**: PoS offers quicker finalization times as blocks are confirmed faster, reducing the likelihood of chain reorganization |
+| Examples | Bitcoin (BTC), Litecoin (LTC), Ethereum Classic (ETC) | Ethereum (ETH), Cardano (ADA), Sepolia Testnet |
+
+## Conclusion
+
+…Phew! You made it to the end. I hope.
+
+I know there’s a lot to digest in this. If it takes you multiple reads to fully understand what’s going on, that’s totally fine. I personally read the Ethereum yellow paper, white paper, and various parts of the code base many times before grokking what was going on.
+
+Good luck! :)
+
+
+## ⚒️ A small yet important request:
+
+This is a 100% open-source project like all the other projects on our platform. You can find the tutorial markdown files [here](https://github.com/0xmetaschool/Learning-Projects/tree/main/How%20does%20Ethereum%20work%20-%20A%20deepdive). If you find any issues in the course, please feel free to resolve it. We, at Metaschool, love love love contributions by our community and acknowledge the contributors on our [Discord](https://discord.com/invite/vbVMUwXWgc) and GitHub, too.
+
+While you’re contributing:
+
+1. Don’t forget to star ⭐️ our repository. We will be very thankful! ❤️
+2. We are a completely free platform and we aim to stay the same, so please consider following us on [X](https://bit.ly/eth-dive-twitter) and [LinkedIn](https://bit.ly/eth-dive-linkedin) as well. 🫶
+
