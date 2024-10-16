@@ -81,6 +81,7 @@ Validators are chosen to propose and validate blocks based on how much ETH they 
 ### 1. Selection Probability
 
 The more ETH a validator stakes, the higher their chance of being selected to propose a new block. This probability is calculated using the following formula:
+
 ![image (11)](https://github.com/user-attachments/assets/6ab3218e-1f1b-4cc4-bf07-4ab829bc9263)
 
 
@@ -97,6 +98,7 @@ For example, if a validator stakes 32 ETH and the total staked ETH in the networ
 This ensures fairness—larger stakes have a higher chance of earning rewards, but even validators with smaller stakes have the opportunity to participate.
 
 ### 2. Rewards and Slashing
+
 ![image (13)](https://github.com/user-attachments/assets/99a6e1c8-f6a2-4456-9387-4a12c3c40a0d)
 
 Validators earn rewards for participating honestly in the network and are penalized (slashed) if they attempt to attack or behave maliciously.
@@ -115,6 +117,7 @@ The rewards are proportional to the amount of ETH they stake and the performance
 If a validator behaves maliciously or incorrectly (e.g., signs two different blocks for the same slot), a portion of their staked ETH is slashed. 
 
 The penalty S is a percentage of their stake:
+
 ![image (15)](https://github.com/user-attachments/assets/dd327324-ef0a-4f91-aace-e770007fe0d8)
 
 Where:
@@ -122,6 +125,7 @@ Where:
 - Slash_Rate is the percentage of the staked ETH that will be slashed.
 
 For example, if a validator stakes 32 ETH and the slash rate is 5%, the penalty would be:
+
 ![image (14)](https://github.com/user-attachments/assets/bb90e0c9-1f94-4591-a8ab-10536fe2e0e0)
 
 
@@ -152,10 +156,12 @@ A block becomes finalized if two-thirds (66%) of the validators (weighted by the
 Validators' voting power is proportional to their stake. 
 
 The total voting power V(total) is:
+
 ![image (16)](https://github.com/user-attachments/assets/76c08cf6-b07c-4b57-a361-e32e26344a00)
 
 
 For finality, the block must receive votes from validators representing at least two-thirds of the total voting power:
+
 ![image (17)](https://github.com/user-attachments/assets/ec647f73-1ec3-4346-aff3-142f372204a7)
 
 
@@ -193,7 +199,7 @@ So, while a 51% attack is theoretically possible, the immense cost, risk, and po
 | Transaction Throughput | System Complexity | PoS networks are often more complex to manage and maintain due to intricate consensus protocols, requiring additional technical expertise. |
 | Decentralization Potential | Influence of Major Stakeholders | Large validators can wield significant influence over decision-making processes, reducing the network's true decentralized nature. |
 
-## **Proof of Stake Vs. Proof of Work**
+## Proof of Stake Vs. Proof of Work
 ![Gemini_Generated_Image_7zzzhm7zzzhm7zzz jpeg](https://github.com/user-attachments/assets/e8bd502f-bdb0-439a-8a43-bc56f9b413ef)
 
 | Aspect | Proof of Work (PoW) | Proof of Stake (PoS) |
