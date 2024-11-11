@@ -205,26 +205,8 @@ So, while a 51% attack is theoretically possible, the immense cost, risk, and po
 | Aspect | Proof of Work (PoW) | Proof of Stake (PoS) |
 | --- | --- | --- |
 | Consensus Mechanism | Miners compete to solve complex cryptographic puzzles to validate transactions and create new blocks. | Validators are randomly selected based on the amount of cryptocurrency they hold and are willing to "stake." |
-| Energy Consumption | 1. Extremely energy-intensive due to the need 
-    for large amounts of computational power to   
-    solve cryptographic puzzles.
-2. Bitcoin alone uses more energy than some 
-    countries. | 1. Significantly lower energy consumption as no 
-    extensive computations are needed to 
-    validate blocks.
-2. Environmentally sustainable compared to  
-    PoW. |
-| Hardware Requirements | 1. Requires specialized and expensive  
-    hardware (e.g., ASICs for Bitcoin) to mine     
-    profitably.
-2. Leads to centralization of mining power in 
-    large mining pools or farms with access to 
-    these high-end hardware setups. | 1. Validators only require standard server-grade 
-    hardware, making it more accessible to a   
-    larger audience.
-2. No need for specialized hardware (e.g.,   
-    ASICs), which are expensive and create 
-    centralization risks. |
+| Energy Consumption | <ol><li>Extremely energy-intensive due to the need for large amounts of computational power to solve cryptographic puzzles.</li><li>Bitcoin alone uses more energy than some countries.</li></ol> | <ol><li>Significantly lower energy consumption as no extensive computations are needed to validate blocks.</li><li>Environmentally sustainable compared to PoW.</li></ol> |
+| Hardware Requirements | <ol><li>Requires specialized and expensive hardware (e.g., ASICs for Bitcoin) to mine profitably.</li><li>Leads to centralization of mining power in large mining pools or farms with access to these high-end hardware setups.</li></ol> | <ol><li>Validators only require standard server-grade hardware, making it more accessible to a larger audience.</li><li>No need for specialized hardware (e.g., ASICs), which are expensive and create centralization risks.</li></ol> |
 | Rewards Distribution | The first miner to solve the cryptographic puzzle receives block rewards and transaction fees. | Validators earn transaction fees as rewards for validating blocks, and their income is proportional to the amount staked. |
 | 51% Attack Vulnerability | A malicious actor needs to control 51% of the network's mining power to execute an attack, which requires significant investment in hardware. | An attacker would need to own 51% of the total cryptocurrency supply to execute a successful attack, making it extremely costly. |
 | Transaction Speed | Transactions can be slower due to the time taken to solve puzzles, leading to congestion during peak times. | Generally offers faster transaction processing times since block creation is based on stake rather than competition. |
