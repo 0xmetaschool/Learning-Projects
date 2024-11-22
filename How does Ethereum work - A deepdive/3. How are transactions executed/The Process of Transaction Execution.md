@@ -2,7 +2,7 @@
 
 We’ve come to one of the most complex parts of the Ethereum protocol: the execution of a transaction. Say you send a transaction off into the Ethereum network to be processed. What happens to transition the state of Ethereum to include your transaction?
 
-![](https://lh6.googleusercontent.com/6eNqO71lOP86G7T87dczDJBStjAxz6vL8Ts4FHnJqL_kORO2Y8twQ7hZqII7ELHSlR61z6y42-Q2B2Q7nkjc5muQjVrgP0FFob4XeKk_0-f-cR6ViWd46-s_wVy8K3QeQEtaFmZQ)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L7%20Image%201.webp)
 
 First, all transactions must meet an initial set of requirements in order to be executed. These include:
 
@@ -15,17 +15,17 @@ First, all transactions must meet an initial set of requirements in order to be 
 2.  a gas fee for data sent with the transaction (4 gas for every byte of data or code that equals zero, and 68 gas for every non-zero byte of data or code)
 3.  if the transaction is a contract-creating transaction, an additional 32,000 gas
 
-![](https://lh3.googleusercontent.com/Ofb7zpp4CQvQRWQnnpjdWoNhgiPmMfiKPXR6NIJZbjhUl0Byea5lCFn60AmmDgxNU4a06gDSWpO656IN3HvPRFbjsRnLNiglTUF-sfZDkhIgNvL6emZCsU_qFBT0unpSiDNatYBh)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L7%20Image%202.webp)
 
 - The sender’s account balance must have enough Ether to cover the “upfront” gas costs that the sender must pay. The calculation for the upfront gas cost is simple: First, the transaction’s gas limit is multiplied by the transaction’s gas price to determine the maximum gas cost. Then, this maximum cost is added to the total value being transferred from the sender to the recipient.
 
-![](https://lh6.googleusercontent.com/chVl451TDYVknE9ZbsqPi_LMI2lLoihApaIYdn2gU3_ld3D5CLPH4ERlnGNzN9aYmTjuOC1D2wZpCTd60YhIrDJaemNHEX35CZmqDh03AGkptq8uejGAkAKhyiX2CaN5cAJkCakq)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L7%20Image%203.webp)
 
 If the transaction meets all of the above requirements for validity, then we move on to the next step.
 
 First, we deduct the upfront cost of execution from the sender’s balance and increase the nonce of the sender’s account by 1 to account for the current transaction. At this point, we can calculate the gas remaining as the total gas limit for the transaction minus the intrinsic gas used.
 
-![](https://lh6.googleusercontent.com/CRdp6yuD6D5eEU3ZK0H_jJneeB99txnCb1QwJYSie4RH3KGAE84BNSSWW0NWl-k_DHNuRY8kjSRHMeSYmysfZrWqTOaAsO0SsTnywVW8sXWj9yxTYshl1dmELFBYIFE0zroTpiEf)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L7%20Image%204.webp)
 
 Next, the transaction starts executing. Throughout the execution of a transaction, Ethereum keeps track of the “substate.” This substate is a way to record information accrued during the transaction that will be needed immediately after the transaction completes. Specifically, it contains:
 
@@ -92,7 +92,8 @@ So far, we’ve learned about the series of steps that have to happen for a tran
 The part of the protocol that actually handles processing the transactions is Ethereum’s own virtual machine, known as the Ethereum Virtual Machine (EVM).
 
 The EVM is a Turing complete virtual machine, as defined earlier. The only limitation the EVM has that a typical Turing complete machine does not is that the EVM is intrinsically bound by gas. Thus, the total amount of computation that can be done is intrinsically limited by the amount of gas provided.  
-![](https://lh5.googleusercontent.com/Bplawsohn862Xut1echN74jbW9ULOHF41HHuspjAYZCIXfTFrCEgmrZ9caNFT8UyXOBiu0HF0C9e3CfHBykcaUMkTNMWnctHAGyXxOTuVNG5d0wfmgZqACjH2Ct5ZGXZVBQRaciP)
+
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L7%20Image%205.webp)
 
 Moreover, the EVM has a stack-based architecture. A [stack machine](https://en.wikipedia.org/wiki/Stack_machine) is a computer that uses a last-in, first-out stack to hold temporary values.
 
@@ -102,7 +103,8 @@ The EVM has memory, where items are stored as word-addressed byte arrays. Memory
 
 The EVM also has storage. Unlike memory, storage is non-volatile and is maintained as part of the system state. The EVM stores program code separately, in a virtual [ROM](https://en.wikipedia.org/wiki/Read-only_memory) that can only be accessed via special instructions. In this way, the EVM differs from the typical [von Neumann architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture), in which program code is stored in memory or storage.
 
-![](https://lh4.googleusercontent.com/V9hJWsUQGS4l6R3LK-Bo7jw2aXPU_f6etCqrnTp1xKffw_dZ6mEsRlugF1hMOQcaxA4QrZeSN-vW6_tBxt84_MJrVBSbh2h-WU2DaK1tCQtTt3l1yMWZz-3WZnlBLiV8EeNEG3hA)
+
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L7%20Image%206.webp)
 
 The EVM also has its own language: “EVM bytecode.” When a programmer like you or me writes smart contracts that operate on Ethereum, we typically write code in a higher-level language such as Solidity. We can then compile that down to EVM bytecode that the EVM can understand.
 

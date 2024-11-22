@@ -8,7 +8,7 @@ Ethereum’s proof-of-work algorithm is called “[Ethash](https://github.com/et
 
 The algorithm is formally defined as:
 
-![](https://lh5.googleusercontent.com/GwsfqXOsZ7XvLEKMtKxWhFfrmuccepUl5fnnnhj6pwt4hrTUTMT9Zh6qBA3fheuL5Prsd8hoJ3_ZvVN6Vha7AqM5CtSU4ramyim-R1hrFoH6B7dyrS71blt4SKUS4ixVHl2yvW_F)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L8%20Image%201.webp)
 
 where m is the mixHash, n is the nonce, Hn is the new block’s header (excluding the nonce and mixHash components, which have to be computed), Hn is the nonce of the block header, and d is the [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph), which is a large data set.
 
@@ -37,7 +37,7 @@ What do we mean by blockchain security? It’s simple: we want to create a block
 
 This is exactly what the PoW algorithm does: it ensures that a particular blockchain will remain canonical into the future, making it incredibly difficult for an attacker to create new blocks that overwrite a certain part of history (e.g. by erasing transactions or creating fake transactions) or maintain a fork. To have their block validated first, an attacker would need to consistently solve for the nonce faster than anyone else in the network, such that the network believes their chain is the heaviest chain (based on the principles of the GHOST protocol we mentioned earlier). This would be impossible unless the attacker had more than half of the network mining power, a scenario known as the [majority 51% attack](https://en.bitcoin.it/wiki/Majority_attack).
 
-![](https://lh6.googleusercontent.com/egO90FyoMzyzswg5MPbdn7FQ7hZmjBHtfQ5dXW_SuqOUDGOOBvPxYNJhuYACdRQAxJtKLeUu9CRnN2J4F7pYUz44vmf-EyQ7ov7nYGRUimxCtdtynn14W613yYo-UCjQYVytlWBW)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L8%20Image%202.webp)
 
 ## Mining as a wealth distribution mechanism
 
