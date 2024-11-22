@@ -1,7 +1,8 @@
 # What is proof-of-stake (PoS)
 
 ## Ethereum: From Digging to Staking
-![image (6)](https://github.com/user-attachments/assets/e99ae8bd-1830-45f9-a1f4-aa250559abcd)
+
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%201.webp)
 
 
 Once upon a time, Ethereum was a goldmine. Miners would dig and dig to get a piece of the pie, their powerful computers churning away. But the digging was tiring, and the rewards were getting smaller.
@@ -11,7 +12,8 @@ So, the wise leader of Ethereum, Vitalik Buterin, had an idea. Instead of diggin
 This was the great shift from Proof-of-Work (PoW) to Proof-of-Stake (PoS). Now, anyone with ETH could become a guardian, even if they didn't have a supercomputer.
 
 ## The Hard Fork: Transitioning from PoW to PoS
-![image (7)](https://github.com/user-attachments/assets/a82deb0f-b0bb-4a0a-8eff-6d8623e4c0bd)
+
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%202.webp)
 
 
 In September 2022, Ethereum underwent a historic hard fork—an essential change in the blockchain protocol that created a divergence from the previous version—moving from Proof-of-Work (PoW) to Proof-of-Stake (PoS) through **EIP-3675**. This significant upgrade revolutionized Ethereum by:
@@ -24,7 +26,8 @@ The hard fork and EIP-3675 marked a pivotal moment for Ethereum, ushering in a m
 
 ## Validator
 
-![image (8)](https://github.com/user-attachments/assets/02f65c71-6597-4f86-b6e1-fe4e3c8f4a5a)
+
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%203.webp)
 
 
 A validator in the Ethereum blockchain is a network participant responsible for securing the network and maintaining consensus. Unlike miners in Proof-of-Work (PoW) systems who compete to solve complex mathematical problems, validators are selected based on the amount of cryptocurrency they stake in the network. 
@@ -47,12 +50,12 @@ To become a validator, one must meet the following requirements:
 
 ## Slashing: The Penalty for Misbehavior
 
-![image (9)](https://github.com/user-attachments/assets/a5aac413-ada0-4fa1-b769-35cf0e9b83da)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%204.webp)
 
 
 Ever heard of a digital time-out? That's basically what slashing is in the world of blockchain. Imagine a bunch of kids (validators) playing a game (blockchain) and one kid (validator) starts cheating or being naughty. The other kids (network) don't like that, so they give the naughty kid a digital spanking (slashing) by taking away some of his toys (staked coins).
 
-![image (10)](https://github.com/user-attachments/assets/af0630a0-08d8-4865-89de-e561d8c2775b)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%205.webp)
 
 
 Slashing, in essence, is the process of penalizing a validator for violating the rules of the Ethereum network. Validators, entrusted with the task of securing the blockchain and ensuring consensus, are expected to perform their duties diligently. Failure to do so can result in severe consequences, including the forfeiture of their staked Ether.
@@ -82,7 +85,7 @@ Validators are chosen to propose and validate blocks based on how much ETH they 
 
 The more ETH a validator stakes, the higher their chance of being selected to propose a new block. This probability is calculated using the following formula:
 
-![image (11)](https://github.com/user-attachments/assets/6ab3218e-1f1b-4cc4-bf07-4ab829bc9263)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%206.webp)
 
 
 Where:
@@ -92,14 +95,14 @@ Where:
 
 For example, if a validator stakes 32 ETH and the total staked ETH in the network is 100,000 ETH, their probability of being selected is:
 
-![image (12)](https://github.com/user-attachments/assets/f7f2dd80-0a42-433e-a35b-69c213709c6a)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%207.webp)
 
 
 This ensures fairness—larger stakes have a higher chance of earning rewards, but even validators with smaller stakes have the opportunity to participate.
 
 ### 2. Rewards and Slashing
 
-![image (13)](https://github.com/user-attachments/assets/99a6e1c8-f6a2-4456-9387-4a12c3c40a0d)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%208.webp)
 
 Validators earn rewards for participating honestly in the network and are penalized (slashed) if they attempt to attack or behave maliciously.
 
@@ -118,7 +121,7 @@ If a validator behaves maliciously or incorrectly (e.g., signs two different blo
 
 The penalty S is a percentage of their stake:
 
-![image (15)](https://github.com/user-attachments/assets/dd327324-ef0a-4f91-aace-e770007fe0d8)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%209.webp)
 
 Where:
 
@@ -126,14 +129,15 @@ Where:
 
 For example, if a validator stakes 32 ETH and the slash rate is 5%, the penalty would be:
 
-![image (14)](https://github.com/user-attachments/assets/bb90e0c9-1f94-4591-a8ab-10536fe2e0e0)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%2010.webp)
 
 
 So, 1.6 ETH will be deducted from their staked amount.
 
 ### 3. Epochs and Slots
 
-![TS Lineat Filled](https://github.com/user-attachments/assets/809c207d-80bd-4fd2-a5f5-8712d8bb43d3)
+
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%2011.webp)
 
 In Ethereum PoS, time is divided into **epochs** and **slots**:
 
@@ -157,17 +161,17 @@ Validators' voting power is proportional to their stake.
 
 The total voting power V(total) is:
 
-![image (16)](https://github.com/user-attachments/assets/76c08cf6-b07c-4b57-a361-e32e26344a00)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%2012.webp)
 
 
 For finality, the block must receive votes from validators representing at least two-thirds of the total voting power:
 
-![image (17)](https://github.com/user-attachments/assets/ec647f73-1ec3-4346-aff3-142f372204a7)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%2013.webp)
 
 
 ## Proof-of-Stake Security
 
-![image (18)](https://github.com/user-attachments/assets/c60e55fd-6c92-4d38-8e88-51f37113710c)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%2014.webp)
 
 **Think of PoS like a cryptocurrency game of thrones.** To launch a 51% attack, you'd need to be the richest lord in the kingdom, owning more than half the land and peasants. But here's the twist: if you try to bend the rules and change the history of the kingdom, the other lords can vote to banish you and seize your land. So, it's like saying, 'Hey, let's commit a crime, but it's gonna cost me everything I own.' Not a very smart move, right?
 
@@ -200,31 +204,13 @@ So, while a 51% attack is theoretically possible, the immense cost, risk, and po
 | Decentralization Potential | Influence of Major Stakeholders | Large validators can wield significant influence over decision-making processes, reducing the network's true decentralized nature. |
 
 ## Proof of Stake Vs. Proof of Work
-![Gemini_Generated_Image_7zzzhm7zzzhm7zzz jpeg](https://github.com/user-attachments/assets/e8bd502f-bdb0-439a-8a43-bc56f9b413ef)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assests-for-eth-deep-dive/L9%20Image%2015.webp)
 
 | Aspect | Proof of Work (PoW) | Proof of Stake (PoS) |
 | --- | --- | --- |
 | Consensus Mechanism | Miners compete to solve complex cryptographic puzzles to validate transactions and create new blocks. | Validators are randomly selected based on the amount of cryptocurrency they hold and are willing to "stake." |
-| Energy Consumption | 1. Extremely energy-intensive due to the need 
-    for large amounts of computational power to   
-    solve cryptographic puzzles.
-2. Bitcoin alone uses more energy than some 
-    countries. | 1. Significantly lower energy consumption as no 
-    extensive computations are needed to 
-    validate blocks.
-2. Environmentally sustainable compared to  
-    PoW. |
-| Hardware Requirements | 1. Requires specialized and expensive  
-    hardware (e.g., ASICs for Bitcoin) to mine     
-    profitably.
-2. Leads to centralization of mining power in 
-    large mining pools or farms with access to 
-    these high-end hardware setups. | 1. Validators only require standard server-grade 
-    hardware, making it more accessible to a   
-    larger audience.
-2. No need for specialized hardware (e.g.,   
-    ASICs), which are expensive and create 
-    centralization risks. |
+| Energy Consumption | Extremely energy-intensive due to the need for large amounts of computational power to solve cryptographic puzzles. Bitcoin alone uses more energy than some countries. | Significantly lower energy consumption as no extensive computations are needed to validate blocks. Environmentally sustainable compared to PoW. |
+| Hardware Requirements | Requires specialized and expensive  hardware (e.g., ASICs for Bitcoin) to mine profitably. Leads to centralization of mining power in large mining pools or farms with access to these high-end hardware setups. | Validators only require standard server-grade hardware, making it more accessible to a larger audience. No need for specialized hardware (e.g., ASICs), which are expensive and create centralization risks. |
 | Rewards Distribution | The first miner to solve the cryptographic puzzle receives block rewards and transaction fees. | Validators earn transaction fees as rewards for validating blocks, and their income is proportional to the amount staked. |
 | 51% Attack Vulnerability | A malicious actor needs to control 51% of the network's mining power to execute an attack, which requires significant investment in hardware. | An attacker would need to own 51% of the total cryptocurrency supply to execute a successful attack, making it extremely costly. |
 | Transaction Speed | Transactions can be slower due to the time taken to solve puzzles, leading to congestion during peak times. | Generally offers faster transaction processing times since block creation is based on stake rather than competition. |
