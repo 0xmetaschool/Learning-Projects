@@ -26,7 +26,7 @@ By completing this course, you'll gain:
 
 When you complete this course, you'll receive a special NFT, a digital badge of honor that unlocks many more opportunities on our platform. Here's a sneak peek of what your NFT will look like:
 
-![default nft.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Ocean%20C3%20Build%20Decentralized%20Marketplace%20on%20Ocean%20Protocol/Lesson%201%20What%20are%20we%20building%20today/Completion%20NFT.webp?raw=true)
+![default nft.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Ocean%20C3%20Build%20Decentralized%20Marketplace%20on%20Ocean%20Protocol/Lesson%201%20What%20are%20we%20building%20today/oceanc3%20(1).webp?raw=true)
 
 Now before we move forward, let’s set some house rules first.
 
