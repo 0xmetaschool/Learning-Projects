@@ -18,7 +18,7 @@ It's not just the developers who are in for a treat, though! Core also delivers 
 
 We all know that an ecosystem is thriving when currently, according to https://coredao.org/ at the time of writing, there are 2.3M Twitter Followers, 258M+ Transactions On-Chain, 267K Discord Members, and 5M Active Wallets. It’s time to explore some awesome dApps this community is creating and using.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXe15qyjEsJbBD0Vh47CRD89M8YXc09SYv6TdLS69zYm6zZ08qsQwKHu1QQttgKLo48Tt0fpuyR80kpAXACFKR4bLrrBtndD1jUEHPJGQZt8kmNqcNOWOoMYxIa0FXJ5CnZv8iL8_EY7xUoyn4i5nk09rhCL?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P1.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXe15qyjEsJbBD0Vh47CRD89M8YXc09SYv6TdLS69zYm6zZ08qsQwKHu1QQttgKLo48Tt0fpuyR80kpAXACFKR4bLrrBtndD1jUEHPJGQZt8kmNqcNOWOoMYxIa0FXJ5CnZv8iL8_EY7xUoyn4i5nk09rhCL?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P1.webp?raw=true)
 
 ## Exploration of notable decentralized applications (dApps) built on Core
 
@@ -26,31 +26,31 @@ The dApps on Core covers a wide range of use cases from Defi, Gaming, NFT, Launc
 
 ### Dev Tools
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXeBbNaln5Vm-KnNYGtlPCv3uJDXzG7pSVB2mhftiT9s_eGipORJTNBIYrSJLmFHCUoUvSvKG7D-2KBomS-nudrHnpPWyjA3JA8jZF9GMcPDUA6zfvw5ZRjQWqYmG47gW3P-g58WdOM21GUBLnTejX8USWeH?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P2.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXeBbNaln5Vm-KnNYGtlPCv3uJDXzG7pSVB2mhftiT9s_eGipORJTNBIYrSJLmFHCUoUvSvKG7D-2KBomS-nudrHnpPWyjA3JA8jZF9GMcPDUA6zfvw5ZRjQWqYmG47gW3P-g58WdOM21GUBLnTejX8USWeH?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P2.webp?raw=true)
 
 Core's got some seriously cool developer tools to make building on the blockchain a breeze. For example, projects like Footprint Analytics let us easily visualize and understand blockchain data, while Supra and Switchboard provide powerful Oracle solutions for our dApps. Bonsai3 is an all-in-one Web3 hub, and TaskOn makes collaboration a breeze. And for all game developers, Altura is here to supercharge Web3 gaming experiences. With so many incredible tools at your fingertips, who wouldn't want to build the next big thing on Core?
 
 ### Defi (Decentralized Finance)
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXfJCbQOZDPqZHdvtqvUjdX1e-IqMOf6rWSUEuAVZfhPxjO6bwMnqqgsDwcROFi8I_eMnVEzRDjjHmDXLFmLGi7xv4orm58q_t1kBjHw3wtbtl1yEbdb2c9Rh2xwpuf2kgxCesqNn9veERenA6uAGWug2Yo?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P3.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXfJCbQOZDPqZHdvtqvUjdX1e-IqMOf6rWSUEuAVZfhPxjO6bwMnqqgsDwcROFi8I_eMnVEzRDjjHmDXLFmLGi7xv4orm58q_t1kBjHw3wtbtl1yEbdb2c9Rh2xwpuf2kgxCesqNn9veERenA6uAGWug2Yo?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P3.webp?raw=true)
 
 Speaking of DeFi, Core has a growing list of decentralized finance platforms that are perfect for both seasoned investors and newbies alike. We can easily swap tokens, earn yield, or explore the possibilities of decentralized finance on platforms like Akka, Bit Stable, Archer Swap, Colend, Glyph Exchange, Ice Cream Swap, Omni BTC, and PinkSale. Core makes it easy and secure to dive into the future of finance!
 
 ### Wallets
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXdpc2MmEt1NKtqYzkGyIEdyMY1q0HlMSjcH6PlKAhGnQWUsk6aRNd0o1K3CSNwFP2VsFp4JHnrPl6BLCk9TUNpnDVaizsLSpWppuGiJJ6iRfjcIfei1pLd8SUYSF3nBeG17IxuN9iZcfMAvfQa-e7iiNGJP?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P4.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXdpc2MmEt1NKtqYzkGyIEdyMY1q0HlMSjcH6PlKAhGnQWUsk6aRNd0o1K3CSNwFP2VsFp4JHnrPl6BLCk9TUNpnDVaizsLSpWppuGiJJ6iRfjcIfei1pLd8SUYSF3nBeG17IxuN9iZcfMAvfQa-e7iiNGJP?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P4.webp?raw=true)
 
 As users, we can see that it is easy to manage our Core assets using popular and trusted options like MetaMask, Atomic Wallet, Bitget Wallet, FoxWallet, Math Wallet, etc. These wallets offer a secure and convenient way to store, send, and receive CORE tokens, plus many integrate with the broader Core ecosystem, allowing us to interact with dApps and other blockchain features effortlessly.
 
 ### Exchanges
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXe57QznbIpuN-sqfAwe8PVd1PmgkDsJ-Gme4esy9VQ_BDW4Pg6Fbqjd3_0pPZ26N0UCzQ4ikp8BaBGE2OqAD_8S8qhO7HzqpSZmW2YDyUDzRz19ykm_vUCLYqMCl2TZWOQeBazV_13ZIMicUGnlnEwRxlG9?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P5.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXe57QznbIpuN-sqfAwe8PVd1PmgkDsJ-Gme4esy9VQ_BDW4Pg6Fbqjd3_0pPZ26N0UCzQ4ikp8BaBGE2OqAD_8S8qhO7HzqpSZmW2YDyUDzRz19ykm_vUCLYqMCl2TZWOQeBazV_13ZIMicUGnlnEwRxlG9?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P5.webp?raw=true)
 
 Core's got a whole bunch of exchanges where we can swap our tokens around. We've got options like ArcherSwap, Bitget, ByBit, Eddy Finance, Gate, Glyph Exchange, Huobi, and MexC. It's super easy to swap CORE tokens for other cryptocurrencies or even cash out. It's like a crypto playground, but way more grown-up!
 
 ### Launchpads
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXdTBtDK8LopeQQPOw4pt2RrPYMnnZcGYaaUwhrG-2KVeJCaOup9UaKouCYA6ULHuqaPkfnVyzMeOYMfzGJ-UhaehaoZ0N4dWvaZ5BMewzxgZFv2Yi9nxs2GwwCNhm-s4lvWGjYExXSOlZg6fulkE3IHipkU?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P6.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXdTBtDK8LopeQQPOw4pt2RrPYMnnZcGYaaUwhrG-2KVeJCaOup9UaKouCYA6ULHuqaPkfnVyzMeOYMfzGJ-UhaehaoZ0N4dWvaZ5BMewzxgZFv2Yi9nxs2GwwCNhm-s4lvWGjYExXSOlZg6fulkE3IHipkU?key=k4kZrmvdR6k9od8EuSjt4g](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L8%20P6.webp?raw=true)
 
 Core partners with platforms like Decubate, Elixir Games, Miidas, and Ordify, where we can discover the most promising new dApps and tokens before anyone else. They're all about supporting new ideas and giving us early access to invest in the future of Web3. So, who knows, maybe you'll be the first to discover the next unicorn dApp – made possible through Core's awesome partnerships!
 
