@@ -8,7 +8,7 @@ Btw, following official github repos of blockchains and interacting with it is a
 
 So, Why Core? At the time of writing, Core has already hit [258M+ transactions on-chain](https://scan.coredao.org/) and [5M active wallets](https://scan.coredao.org/chart/active-address). Not only this, it has a strong community of [267k discord members](https://discord.com/invite/coredaoofficial) and a strong following on [X of 2.3M.](https://x.com/Coredao_Org)
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcJDNqFGMaDaNzvHfFuGu-jz6rO32k1uiFM3UHFFrWp2z1uwC-5BIA1aiQzHX636mSgmwNCZCn2s58A8niPwa43gHqFkHkGXJUNpnNNTbO-dMTUdCZKW7BFMkOMpnjHCU4-Fwvaqk3cKyvnQg3u7eSUZuNj?key=7jxxoZbU2J8q5A8ybAThPg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L1%20P1.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXcJDNqFGMaDaNzvHfFuGu-jz6rO32k1uiFM3UHFFrWp2z1uwC-5BIA1aiQzHX636mSgmwNCZCn2s58A8niPwa43gHqFkHkGXJUNpnNNTbO-dMTUdCZKW7BFMkOMpnjHCU4-Fwvaqk3cKyvnQg3u7eSUZuNj?key=7jxxoZbU2J8q5A8ybAThPg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L1%20P1.webp?raw=true)
 
 Another exciting aspect is that Core is the world’s first most Bitcoin-aligned Layer 1 blockchain, meaning it leverages Bitcoin's robust security while also offering smart contract functionality. This allows Bitcoin holders to stake their coins and earn passive income, while also opening up a world of possibilities for building decentralized applications on the blockchain. Yep! I hear you, they are pretty dope and we don’t want you to miss out on them.
 
@@ -42,7 +42,7 @@ You will be getting the following outcomes when you complete this course:
 
 If you complete this course, you will get a special NFT, a utility token, which will unlock many more opportunities on the Metaschool platform. Here is what the NFT looks like.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXfeYlZOy6z8pMuKqgjONArtSrf9ohaUviGk_DAb1jopx7lLj6FFlXbbKiB7b3bb21waeP4_9z7-zglq2baHE5lG6KtDddED4DDUoi8PwK4JUDYJVu4XyoizfNQ2jruuDBJlHnrDG3UN76o-xIDA6nK_zBVL?key=7jxxoZbU2J8q5A8ybAThPg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L1%20P2.gif?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXfeYlZOy6z8pMuKqgjONArtSrf9ohaUviGk_DAb1jopx7lLj6FFlXbbKiB7b3bb21waeP4_9z7-zglq2baHE5lG6KtDddED4DDUoi8PwK4JUDYJVu4XyoizfNQ2jruuDBJlHnrDG3UN76o-xIDA6nK_zBVL?key=7jxxoZbU2J8q5A8ybAThPg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L1%20P2.webp?raw=true)
 
 Now before we move forward, let’s set some house rules first.
 
