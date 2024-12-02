@@ -189,6 +189,22 @@ event LogItemBought(
         - Otherwise, it continues with the execution of the function that uses this modifier.
     - The underscore `_;` indicates where the code of the function using this modifier will be placed.
 
+#### Best Practices : Gas Fee Optimization 
+- Instead of creating a memory variable `listing` which is an extra operation, thus consuming gas, we can do the following :
+```
+    modifier isListed(address nftAddress) {
+        require(s_listings[nftAddress].price > 0, "Not Listed");
+        _;
+    }
+
+    modifier notListed(address nftAddress) {
+        require(s_listings[nftAddress].price == 0, "Already Listed");
+        _;
+    }
+```
+- Here, similar functionality is achieved but with lower gas fees. Can you spot more instances to optimize your gas? Let us know!
+
+
 ```
     modifier isOwner(address nftAddress, address spender) {
         IDN404 nft = IDN404(nftAddress);
