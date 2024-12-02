@@ -10,7 +10,7 @@ Core's power lies in its unique consensus mechanism, Satoshi Plus, a multifacete
 - **Delegated Proof of Stake (DPoS):** This is where you, the everyday crypto holder, can get involved. By staking your CORE tokens (Core's native currency) or even your Bitcoin, you're essentially vouching for the credibility of certain "validators." These validators are responsible for processing transactions and maintaining the blockchain's integrity. The more tokens staked with a validator, the more likely they are to be elected to do this important work. It's like a democratic election where your vote matters, but in this case, your vote is backed by your financial stake in the network.
 - **Non-Custodial BTC Staking**: Here's where Core truly stands out. It is the first and only blockchain to offer a groundbreaking feature called Non-Custodial BTC Staking. This unique innovation sets Core apart from other blockchains by allowing Bitcoin holders to stake their BTC directly on Core without relinquishing control of their assets. It's like earning interest on your savings without having to deposit your money in a bank. You get to actively participate in the Core ecosystem, earn rewards in CORE tokens, and still retain full ownership and control over your Bitcoin. It's a win-win scenario for both Bitcoin holders and the Core network, as it enhances security while providing a new way for Bitcoin holders to put their assets to work.
 
-![image-depicting-satoshi-plus-consensus-mechanisms](https://lh7-us.googleusercontent.com/docsz/AD_4nXdWPzKcGRG1cDexRqh9WFdgsv2whcvLbRoM2wFlunC3Vhnj4Ru1Qo06rer-gPO654KoNsfpObi10BNUTavivTu5RJPlU1eq8nnhHv4EsRIh1BB59S3OHIzKtVT7oR5p6D9wp7G0_pzhJOMAKN9RqRZmd6ah?key=XwfQlAVgRWlAFTMMIstIaQ)
+![image-depicting-satoshi-plus-consensus-mechanisms](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assets-for-core-c1/Section%201%20images/L3%20P1.webp)
 
 ## Major Components and Roles
 
@@ -23,7 +23,7 @@ Core is more than just a technology; it's a vibrant ecosystem with diverse key r
 - **Bitcoin Holders:** They can participate in the Core ecosystem by staking their BTC, earning rewards, and contributing to the network's security.
 - **Bitcoin Miners:** By lending their computing power to Core’s validators, they contribute to the network's security and earn a share of the rewards. They're like the city's security forces, protecting it from external threats while getting paid for their services.
 
-![image-depicting-major-components-and-roles](https://lh7-us.googleusercontent.com/docsz/AD_4nXeetr48_maOZVQazGBCw7MAxjEGX0XVVTQhbegTJdT-h1X5nmqpjBwMGlAXpm-0YSQx7F7tWmVmE_meM0wLi_WDCMmQAsqN-HgQiMorDH72ClSTLWO9JL8EwDmUCj7b4cXQAxRC0Gm9dB66VrlK6YewRyEF?key=XwfQlAVgRWlAFTMMIstIaQ)
+![image-depicting-major-components-and-roles](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assets-for-core-c1/Section%201%20images/L3%20P2.webp)
 
 ## Bitcoin Alignment: Honoring the Original Vision
 

@@ -6,7 +6,7 @@ Hey there, blockchain enthusiasts! Ever wondered what happens when you mix Bitco
 
 Core is the world's first most Bitcoin-aligned layer-1 blockchain, merging Bitcoin's robust security with Ethereum's smart contract flexibility. Being "Bitcoin-aligned" means that Core leverages Bitcoin's principles and security through its unique Satoshi Plus consensus mechanism, which combines Delegated Proof of Work (DPoW) from Bitcoin miners with Delegated Proof of Stake (DPoS) that brings together the power of CORE holder and BTC holders through the ground-breaking feature of Non-Custodial BTC Staking. This innovative approach enhances security, expands Bitcoin miners' utility by incorporating them into the security of Turing-complete smart contracts, and provides miners with supplemental income in the form of CORE token rewards. As a result, Core unlocks a new realm of possibilities for developing complex smart contracts and decentralized applications.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXdEnAmj8-NhkLgkIrMe3gaKIPdDsqE9GXL2kQgpjU1YDeKkf9BIZGKCQwwN4irjv8Y3TwyjvwFhhp0RnjlMIwgSBcij_1poE0OnJeujDu5PMhR_qMVMQmn0cxhNLFELHZuda1G0xBA6TRyNxN9yfWQPhcIR?key=CjNbRn5FixD4uptj96esfQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L2%20P1.jpeg?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXdEnAmj8-NhkLgkIrMe3gaKIPdDsqE9GXL2kQgpjU1YDeKkf9BIZGKCQwwN4irjv8Y3TwyjvwFhhp0RnjlMIwgSBcij_1poE0OnJeujDu5PMhR_qMVMQmn0cxhNLFELHZuda1G0xBA6TRyNxN9yfWQPhcIR?key=CjNbRn5FixD4uptj96esfQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L2%20P1.webp?raw=true)
 
 Let’s see what makes Core special…
 
@@ -16,7 +16,7 @@ Think of Core as a team of brilliant minds on a mission. They're not just buildi
 
 Why bring these two powerhouses together? Well, Bitcoin is like a fortress, virtually unhackable due to its robust proof-of-work consensus mechanism and vast network of miners. Meanwhile, Ethereum is a bustling city of innovation, where developers build amazing applications using smart contracts. Core wants to combine these strengths, creating a blockchain that's both secure and versatile enough to support the next generation of dApps.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXc6U4SPfb1xr1fNvrL0gSt4Xa81B-isvoH_TCFMCBgxp6JmcWZBxL0ETS_KhlrH9rT7zDBwm9zIuSi26yTcTx-dM1sDNyGpSCgHIPRtVXf3QwqXP2NfCqcY9NF1yfcPJRYrYgGq4R_vd_1xP8mM-q3gC_E?key=CjNbRn5FixD4uptj96esfQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L2%20P2.gif?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXc6U4SPfb1xr1fNvrL0gSt4Xa81B-isvoH_TCFMCBgxp6JmcWZBxL0ETS_KhlrH9rT7zDBwm9zIuSi26yTcTx-dM1sDNyGpSCgHIPRtVXf3QwqXP2NfCqcY9NF1yfcPJRYrYgGq4R_vd_1xP8mM-q3gC_E?key=CjNbRn5FixD4uptj96esfQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L2%20P2.webp?raw=true)
 
 Imagine a world where you can use decentralized financial tools that are as secure as Bitcoin or create NFT marketplaces that can handle millions of transactions without breaking a sweat. That's the kind of future Core is envisioning.
 
@@ -24,7 +24,7 @@ Imagine a world where you can use decentralized financial tools that are as secu
 
 Here are Core's key features that tell how it is ahead of its competitors:
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXf5ulPwrEgFlDcoAzMRUbm_EfkQEoJfnaTkzptBZ2G99QZM_vGtfS7RDMCy4o3vlSwiO1hwt68m4lQVJfB_xUtAFqIT_Xjy7hZt7jCud6GYiDkLn50rdxID9XVPE4vlHAYPS1zNEwzEvbzwGcIxCd-dqx2I?key=CjNbRn5FixD4uptj96esfQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L2%20P3.gif?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXf5ulPwrEgFlDcoAzMRUbm_EfkQEoJfnaTkzptBZ2G99QZM_vGtfS7RDMCy4o3vlSwiO1hwt68m4lQVJfB_xUtAFqIT_Xjy7hZt7jCud6GYiDkLn50rdxID9XVPE4vlHAYPS1zNEwzEvbzwGcIxCd-dqx2I?key=CjNbRn5FixD4uptj96esfQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L2%20P3.webp?raw=true)
 
 - **Satoshi Plus Consensus Protocol:** This innovative consensus mechanism combines the security of Bitcoin's Delegated Proof of Work (DPoW) with the efficiency of Delegated Proof of Stake (DPoS) and the uniqueness of Non-Custodial BTC Staking. This three-layer approach ensures robust network security while incentivizing participation through staking rewards for both CORE and Bitcoin holders.
 - **EVM Compatibility:** Core is fully compatible with the Ethereum Virtual Machine (EVM). This allows existing Ethereum-based applications to seamlessly run on Core, opening up a vast ecosystem of dApps and tools for developers and users.
