@@ -2,7 +2,7 @@
 
 Hey there Developers! In the last chapter, we gave you a sneak peek into the Core blockchain. Now, as blockchain enthusiasts, we know you guys are super pumped to start the building part, but as the Developer's code of conduct would dictate, one should understand the ‘why’ before they get to the ‘how’.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcQV3wiVVkmG81fmn8Hqb3Vqpj0T3aODwi4FUMk4P__IZsHCPNHcCvGOF4siuCiJdxaTmBr5upDX24SDt9Z1aE75MciL_kk4P8TyKpnTfPjPZedn4f4_FZwm2mfCMQk213fzD1J6cLbjLfI6ty27ReUC15J?key=vtLTtJHs5MQqzL6kDiBltQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P1.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXcQV3wiVVkmG81fmn8Hqb3Vqpj0T3aODwi4FUMk4P__IZsHCPNHcCvGOF4siuCiJdxaTmBr5upDX24SDt9Z1aE75MciL_kk4P8TyKpnTfPjPZedn4f4_FZwm2mfCMQk213fzD1J6cLbjLfI6ty27ReUC15J?key=vtLTtJHs5MQqzL6kDiBltQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P1.webp?raw=true)
 
 So, in this lesson, we will be looking into why the Core was conceptualized in the first place. So without further ado, let’s dive into the history of Core.
 
@@ -14,7 +14,7 @@ Ready for some truth? No blockchain is perfect. This statement lies at the heart
 - **Scalability** involves handling increasing amounts of transactions without sacrificing speed or efficiency.
 - **Decentralization** ensures no single entity controls the network, maintaining trust and resilience
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcUSkSXrmEMCn7m9p_pJoyQ66mH1N6IAO19vRKNhk3CtTmnP_iCgmZ0-avJ0aADsIKV8qSX7O8FnIwfe-qultUoaluoWJUEJ1F2ivklNAWZ5DuZBS1-ymK8EEFem_mos5LkMgQW-qZXrJLn4Dr4j5dqHo0?key=vtLTtJHs5MQqzL6kDiBltQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P2.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXcUSkSXrmEMCn7m9p_pJoyQ66mH1N6IAO19vRKNhk3CtTmnP_iCgmZ0-avJ0aADsIKV8qSX7O8FnIwfe-qultUoaluoWJUEJ1F2ivklNAWZ5DuZBS1-ymK8EEFem_mos5LkMgQW-qZXrJLn4Dr4j5dqHo0?key=vtLTtJHs5MQqzL6kDiBltQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P2.webp?raw=true)
 
 Every blockchain aims to solve the trilemma, each with its unique features. This trend began with Bitcoin, the original blockchain network.
 
@@ -30,7 +30,7 @@ Today, many blockchain projects offer their solutions to the Trilemma. Some prio
 
 The origin of Core is essentially one of those rare instances where a debate among friends led to something productive and by productive we mean a thriving blockchain ecosystem. According to an official tweet from Core DAO: Two friends, one an ETH Maxi and another a Bitcoin Maxi were debating the pros and cons of the two blockchains and this sparked the idea to create a blockchain that will carry the best of both chains.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXfWCF3hbFWpKzEE-XiQJQ64gI-9eSG6S93PeCf7zlMJnD-_WARR3PrZD2_P1AoHDGghzknopEr7xOmqCo9U4Ea-GiBA2qACVwnRzuuyIy-K8gpRAuy9e8zi0zNjB8yxwyQSrr-J-dMpCK211rZaGHdUB84?key=vtLTtJHs5MQqzL6kDiBltQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P3.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXfWCF3hbFWpKzEE-XiQJQ64gI-9eSG6S93PeCf7zlMJnD-_WARR3PrZD2_P1AoHDGghzknopEr7xOmqCo9U4Ea-GiBA2qACVwnRzuuyIy-K8gpRAuy9e8zi0zNjB8yxwyQSrr-J-dMpCK211rZaGHdUB84?key=vtLTtJHs5MQqzL6kDiBltQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P3.webp?raw=true)
 
 Now, in case you are wondering what a Maxi is, they are essentially hardcore supporters of a particular protocol.
 
@@ -42,7 +42,7 @@ Core's codebase is built upon a heavily modified and enhanced version of [Geth](
 
 However, Core differentiates itself significantly through its unique consensus mechanism called Satoshi Plus. This algorithm combines Bitcoin's [Proof of Work (PoW)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/) with a [Delegated Proof of Stake (DPoS)](https://en.bitcoin.it/wiki/Delegated_proof_of_stake) system and Non-custodial BTC Staking. Through this, it addresses the scalability and energy concerns of traditional PoW while preserving the decentralization that is fundamental to blockchain technology.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXchmewK1XreTp_2LF7XB6naC3yflCYQGAsVqyuScPKceYufbbsiraivpbtk-04H3ycGXcbXQmpjilxciw64Bdb5LOP65_dUzpZ7TR-FVzBfjiclu5ifq1J6X9Ue507jB872AjuturXbcvPmS4TJ9Cq_8JZf?key=vtLTtJHs5MQqzL6kDiBltQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P4.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXchmewK1XreTp_2LF7XB6naC3yflCYQGAsVqyuScPKceYufbbsiraivpbtk-04H3ycGXcbXQmpjilxciw64Bdb5LOP65_dUzpZ7TR-FVzBfjiclu5ifq1J6X9Ue507jB872AjuturXbcvPmS4TJ9Cq_8JZf?key=vtLTtJHs5MQqzL6kDiBltQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%201%20images/L4%20P4.webp?raw=true)
 
 Furthermore, Core introduces a novel hybrid score system, which factors in delegated Bitcoin hash power (PoW), delegated stake in the form of CORE tokens (DPoS) and delegated BTC through the Non Custodial BTCs staked, to determine validator selection and reward distribution. This approach aims to create a more equitable and accessible validator ecosystem. But more on that later.
 
@@ -63,6 +63,6 @@ With all this fancy tech under the hood, Core aims to tackle major issues in the
 - **Permissionless Innovation:** Core is open to everyone. Bitcoin holders can earn passive income by staking their BTC, while developers can build innovative dApps on the platform. This creates a vibrant and inclusive ecosystem that benefits all participants.
 - **Unlocking Bitcoin's Potential:** Core enhances Bitcoin's functionality by providing additional revenue streams for Bitcoin miners, maximizing Bitcoin's utility and value.
 
-## **Wrap Up**
+## Wrap Up
 
 Alright! We've covered a ton about the Core’s history and its innovative approach to the blockchain trilemma. There's still much more to explore. In the coming lessons, we'll delve deeper into Core's inner workings, including its consensus mechanism, governance model, and the roles of different participants. Buckle up and get ready to discover the exciting world of Core!
