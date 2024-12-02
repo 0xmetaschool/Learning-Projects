@@ -18,8 +18,7 @@ Satoshi Plus isn't just a technical concept; it's a collaborative effort involvi
 - **Relayers:** These participants ensure smooth communication between the Bitcoin and Core blockchain. They're essential for making sure the DPoW process works seamlessly.
 - **Verifiers:** Verifiers act as the watchdogs of the network. They monitor validators to ensure compliance with network rules and report any misbehavior, maintaining the network's integrity.
 
-![image-depicting-players](https://lh7-us.googleusercontent.com/docsz/AD_4nXd9Xaf_UKIK-GAGqcl8qQTzHV4qN2Vx6aU1sIzqOQznAIAWRQnZrICjunNndafBCDQo4O-l8YVovasXa0TfCgCYmazu2qANo5NdOtiBwsGyaYw9ZGW1803618cdn0WNiXLVBBebRsUIcu5HpmW3Q3VsFszQ?key=oiHupD-8TbB9THA6lSU9eA)
-[comment]: (https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L5%20P1.png?raw=true)
+![comment](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L5%20P1.webp?raw=true)
 
 ## How DPoW Works in Satoshi Plus
 
@@ -27,8 +26,7 @@ Core leverages the Delegated Proof of Work (DPoW) through its consensus mechanis
 
 Relayers on the Core blockchain continuously monitor the Bitcoin blockchain for these endorsements. When they detect an endorsement, they submit proof of this endorsement to the Core blockchain. This proof is then used to determine the likelihood of a validator being selected to create new blocks on the Core blockchain. The more endorsements a validator receives from Bitcoin miners, the higher their chances of being selected.
 
-![image-depcting-how-dpow-works](https://lh7-us.googleusercontent.com/docsz/AD_4nXcB9Gdk4OYKZm87a5tmY1xeZshZ-WR66qPU0C9nPCJmEtMxPa3qKI2Ac9wYQUridtNSjGqZb-wuej6nW0va5x5R35Kc0gA8fvZR9oEV5LyZT5YM1Qy_Di7jHeXGTMcTzXfUlnK37ajQ4oOXigJgNUd2uS8?key=oiHupD-8TbB9THA6lSU9eA)
-[comment]: (https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L5%20P2.gif?raw=true)
+![comment](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L5%20P2.webp?raw=true)
 
 This system not only enhances Core's security by leveraging Bitcoin's established hash power but also provides Bitcoin miners with an additional source of income in the form of CORE tokens. It's a mutually beneficial relationship that strengthens both networks and fosters a collaborative environment for the growth of the broader blockchain ecosystem.
 
@@ -36,8 +34,7 @@ This system not only enhances Core's security by leveraging Bitcoin's establishe
 
 DPoS is all about giving the community a voice and control over the Core network. CORE token holders get to choose who they want to run the network by staking their tokens with their preferred validators. This is like voting in an election – the more votes (or staked tokens) a validator gets, the more likely they are to be elected to the active validator set.
 
-![image-depcting-how-dpos-works](https://lh7-us.googleusercontent.com/docsz/AD_4nXeshQ8gSvqxs5lMM29BgzWm223DzHanlG2Q1vbJLPV2BmhCnzdWqYnjF40byLWvxy1dlH7eUrdfb1YZfvjJPUcCJaVS6jOzKuoA9M4kGjxiTjPK72euOrEocaowVKF6S1gGgoN5xK63J-KBmzhRAO2SZbc_?key=oiHupD-8TbB9THA6lSU9eA)
-[comment]: (https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L5%20P3.gif?raw=true)
+![comment](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L5%20P3.webp?raw=true)
 
 **Benefits of DPoS**
 
@@ -47,8 +44,7 @@ This staking mechanism gives token holders a direct say in the network's decisio
 
 One of the most innovative aspects of Satoshi Plus is the Non-Custodial Bitcoin (BTC) Staking. It allows Bitcoin holders to join the Core Ecosystem without giving up control of their precious BTC. Instead of handing over their Bitcoin to a third party, users leverage a Bitcoin-native cryptographic feature called "absolute time locks." This is like setting a timer on your Bitcoin, locking it up for a specific period to prove your commitment to the Core network. This time-locked transaction doesn't move the BTC from your wallet but creates a representation of it on the Core blockchain. This representation, though not a separate token like wrapped Bitcoin on other chains, acts as your ticket to participate in Core's decision-making process and earn rewards in CORE tokens.
 
-![image-depcting-how-nonCustodialBtc-works](https://lh7-us.googleusercontent.com/docsz/AD_4nXeKKV8IV6ltwB8CcJIkvLhMuVc31upWxq247vL1IN5FDEsVyJF7UDdMGhhShdhmZBrENwWmscTnTjmpia8pH3_Pze5iBucO_4dNt37mifA2SCm1ulqGing_q8McHTNgYgkHnmuBIwrU-E8UwstMyMhAxig?key=oiHupD-8TbB9THA6lSU9eA)
-[comment]: (https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L5%20P4.png?raw=true)
+![comment](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L5%20P4.webp?raw=true)
 
 The beauty of this system is threefold:
 
