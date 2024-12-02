@@ -22,7 +22,7 @@ Imagine the Core blockchain as a bustling city with its internal clock. This clo
 
 Think of it like a relay race, with each validator taking a turn (called a "slot") to add a new block to the chain. A slot is incredibly short, just three seconds each, ensuring a constant flow of activity and swift transaction processing. Every 10 minutes, an "epoch" occurs, acting as a checkpoint to ensure all the validators are doing their jobs correctly and maintaining the network's security and efficiency.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXdlYuE2tYcz3dgCWc5ypp9oKeTyZ4kn-VrBwR2EBKH3vKNJYU6wTUGXT1txakyendBG4rY3nqJBSp6lIFaNCPxpVb8JpVAG5D8l5RkjWTECRCLfbvg6z9CkHOzYzpgdF2UoEG20kvvjl_tCn87wrTK0Uj-R?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P1.gif?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXdlYuE2tYcz3dgCWc5ypp9oKeTyZ4kn-VrBwR2EBKH3vKNJYU6wTUGXT1txakyendBG4rY3nqJBSp6lIFaNCPxpVb8JpVAG5D8l5RkjWTECRCLfbvg6z9CkHOzYzpgdF2UoEG20kvvjl_tCn87wrTK0Uj-R?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P1.webp?raw=true)
 
 ### The Hybrid Score
 
@@ -49,7 +49,7 @@ The hybrid score isn't just a simple popularity vote; it's a carefully crafted f
 
 Hybrid Score = (rHp / tHp) * m + ((rSp + rBp * n) / (tSp + tBp * n)) * (1 - m)
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXc8N_ixDcOhelhGn0cSiWUoGT7KYj5DgSI8wkvHNWBcfVahHutafLVsA85EIK3s63M-0KqyvRmbvye7E-uL43Jr3w2xsiifE39wNtbcaIJIfFrD-wsFYagCLcfbKi21ryXu2xKy7PanP-9zy2qCIDcMnQpy?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P2.gif?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXc8N_ixDcOhelhGn0cSiWUoGT7KYj5DgSI8wkvHNWBcfVahHutafLVsA85EIK3s63M-0KqyvRmbvye7E-uL43Jr3w2xsiifE39wNtbcaIJIfFrD-wsFYagCLcfbKi21ryXu2xKy7PanP-9zy2qCIDcMnQpy?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P2.webp?raw=true)
 
 Okay, we know this looks like a bunch of gibberish, but bear with us! Here's the breakdown:
 
@@ -69,7 +69,7 @@ This formula ensures that the hybrid score is a fair and balanced representation
 
 Being a validator is a rewarding job, but it comes with responsibilities. Validators are incentivized to do their job well through block rewards and transaction fees. However, they also face consequences if they don't. If a validator misbehaves or fails to uphold their duties, they can be "slashed" meaning they lose a portion of their rewards or even their initial stake. In more severe cases, they can be temporarily "jailed" (removed from the network) or even permanently banned for stuff like double-signing (maliciously validating two conflicting blocks).
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXe2G5XLD_dg-u4JLiw2HKgksY-ege-H9G4ASwXQ04LIVNYQEuq54XlXmq_n0zsxiEYK8moMC6UFzb8YQdGknHjNC-5MckA_y7_Ekyz57j3eleqjQx4efCFKVsuqhx5YEXkqFdAr6J0eoMxKw8dAswMhKMNW?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P3.gif?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXe2G5XLD_dg-u4JLiw2HKgksY-ege-H9G4ASwXQ04LIVNYQEuq54XlXmq_n0zsxiEYK8moMC6UFzb8YQdGknHjNC-5MckA_y7_Ekyz57j3eleqjQx4efCFKVsuqhx5YEXkqFdAr6J0eoMxKw8dAswMhKMNW?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P3.webp?raw=true)
 
 **Block Production: Building the Chain**
 
@@ -91,13 +91,13 @@ Core validators get rewarded for keeping the network safe and running by process
 
 Validators get 90% of base rewards that are distributed after each round, with 10% going to a System Reward Contract. Validators can keep a commission before sharing the remaining 90% with their delegators (CORE stakers, BTC stakers, PoW delegators). The more validators share, the more attractive they become to attract delegators and boost their earnings.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXedgm6bBy3MiS3C-S9CyoR64OL_5nU9jOpu4cJ9eQKBopsIx-S67gkEgSjKVEYk5J_t5sTeRhkoiqFoK928cKDu_KKP0yzqiaRaKuMJowhe7qOPzpfIC5pot7opgmIf-Ga9JKhIZxnt3kyeMfnszFB9TqI0?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P4.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXedgm6bBy3MiS3C-S9CyoR64OL_5nU9jOpu4cJ9eQKBopsIx-S67gkEgSjKVEYk5J_t5sTeRhkoiqFoK928cKDu_KKP0yzqiaRaKuMJowhe7qOPzpfIC5pot7opgmIf-Ga9JKhIZxnt3kyeMfnszFB9TqI0?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P4.webp?raw=true)
 
 ### How Rewards are Calculated and Distributed
 
 A somewhat complex mathematical formula determines the exact split,
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXeJYN7rrTbBJvqpbZB62rdjT0_HLKTowp2C42NolBSK3VvaRahrW6Og4hepnZGSZF-toVfcy8HhDraj8QNGJwWOoO-bFUr1nW7o2w13FjtKyF0Ca0rG8LZxy9bEHRVZ5u0O_9P5oCn-O21W4z66qaOiAsXI?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P5.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXeJYN7rrTbBJvqpbZB62rdjT0_HLKTowp2C42NolBSK3VvaRahrW6Og4hepnZGSZF-toVfcy8HhDraj8QNGJwWOoO-bFUr1nW7o2w13FjtKyF0Ca0rG8LZxy9bEHRVZ5u0O_9P5oCn-O21W4z66qaOiAsXI?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P5.webp?raw=true)
 
 In summary, we can say that it depends on two key factors:
 
@@ -127,7 +127,7 @@ There are two main categories of attacks that blockchain projects need to be vig
     - Long-Range Attacks: An attack where a malicious actor tries to replace a significant portion of the blockchain's history with a fraudulent version.
 - **Governance Attacks:** These attacks specifically target the decision-making process of the blockchain. Attackers exploit vulnerabilities in the voting or proposal system to gain control or push through changes that benefit them, not the network's health. (e.g., Bribery, Exploiting Voting Mechanisms)
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXfI0yqCO34tZXyJIJNe0UDvQEEYYIzko7TD0wPN749neeaT8MfIv2kuhNB3X0g2z5r3Cc7XgUUYGIXMV_RtSmxDNn4i67TDsQXgIgTKP8eg1sy1_5PDstLbj24KlDbBrn7WLLVmzqkhy3dVRm3uOvRCyj-v?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P7.png?raw=true)
+![https://lh7-us.googleusercontent.com/docsz/AD_4nXfI0yqCO34tZXyJIJNe0UDvQEEYYIzko7TD0wPN749neeaT8MfIv2kuhNB3X0g2z5r3Cc7XgUUYGIXMV_RtSmxDNn4i67TDsQXgIgTKP8eg1sy1_5PDstLbj24KlDbBrn7WLLVmzqkhy3dVRm3uOvRCyj-v?key=RMbE3SnA3hsbj7mtDPGw4Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-core-c1/Section%202%20Images/L6%20P7.webp?raw=true)
 
 ### The Multi-Layered Security Approach
 
