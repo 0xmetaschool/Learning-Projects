@@ -1,6 +1,6 @@
 <h1>🔮 Metaschool.so</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <h3> Learn, Build & Ship amazing Web3 Projects 🚀🚀</h3>
 <a href=".github/CONTRIBUTING.md#-how-to-contribute">
@@ -63,6 +63,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/yangzuijie2021"><img src="https://avatars.githubusercontent.com/u/85876634?v=4?s=100" width="100px;" alt="yangzuijie2021"/><br /><sub><b>yangzuijie2021</b></sub></a><br /><a href="#content-yangzuijie2021" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jayadithya-g7"><img src="https://avatars.githubusercontent.com/u/144100792?v=4?s=100" width="100px;" alt="<0xethjayadithya_g7/>"/><br /><sub><b><0xethjayadithya_g7/></b></sub></a><br /><a href="#content-jayadithya-g7" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://blog.benehub.tech"><img src="https://avatars.githubusercontent.com/u/83569891?v=4?s=100" width="100px;" alt="Gideon Bature"/><br /><sub><b>Gideon Bature</b></sub></a><br /><a href="#content-GideonBature" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/leopardracer"><img src="https://avatars.githubusercontent.com/u/136604165?v=4?s=100" width="100px;" alt="leopardracer"/><br /><sub><b>leopardracer</b></sub></a><br /><a href="#content-leopardracer" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
