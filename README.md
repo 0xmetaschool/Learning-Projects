@@ -35,7 +35,7 @@ If you find an error, resolve it and submit a pull request. Let's build this! �
 
 ## 🤝 Sounds fun! How do I contribute
 
-Since our projects and their tutorials are available and opensourced for everyone, you can step us and report issues, resolve them and become a contributer too. [Follow this short guide](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository) by GitHub on how you can edit & contribute.
+Since our projects and their tutorials are available and opensourced for everyone, you can step us and report issues, resolve them and become a contributor too. [Follow this short guide](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository) by GitHub on how you can edit & contribute.
 
 ## ✨ Contributors
 
