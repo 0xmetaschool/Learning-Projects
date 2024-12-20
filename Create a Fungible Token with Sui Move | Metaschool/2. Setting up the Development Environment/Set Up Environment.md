@@ -26,7 +26,7 @@ Navigate to the `sources/` directory. Create a new Move file. I am naming it 
 
 This is what my directory looks like now:
 
-![Frame 3560370 (13).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_sui_c3/L2_Set%20Up%20Environment/Frame_3560370_(13).jpg?raw=true)
+![Frame 3560370 (13).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_sui_c3/L2_Set%20Up%20Environment/Frame_3560370_(13).webp?raw=true)
 
 ## Check your wallet
 
@@ -46,7 +46,7 @@ If you do not have an active address, follow the steps given below:
     
     It will generate the output something like this:
     
-    ![deploy-5.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_sui_c3/L2_Set%20Up%20Environment/deploy-5.png?raw=true)
+    ![deploy-5.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_sui_c3/L2_Set%20Up%20Environment/deploy-5.webp?raw=true)
     
 - **Important**: Save the recovery phrase, it is important to have it to import your wallet.
 1. Replace `[YOUR_ADDRESS]` in the command below with the address you received after running the last command and run it.
