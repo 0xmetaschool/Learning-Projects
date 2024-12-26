@@ -18,7 +18,7 @@ This is where the ERC404 token comes in. What is it, you may ask? Stay tuned!
 
 The ERC404 token is a unique token that combines both ERC20 and ERC721 token features. It aims to blend the best features of both token standards and propose innovation to the NFTs. With this innovation, multiple wallets can own shares of a single NFT piece from a collection.
 
-![intro-1.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/1%20Getting%20Started/2%20What%20the%20Hell%20Is%20the%20ERC404/intro-1.png?raw=true)
+![intro-1.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/1%20Getting%20Started/2%20What%20the%20Hell%20Is%20the%20ERC404/intro-1.webp?raw=true)
 
 This token is experimental and can be either a fungible or non-fungible token based on its implementation. Let me explain this with multiple examples.
 
@@ -51,7 +51,7 @@ Let’s take an example to understand this better.
 Consider an NFT named "Artistic Ape" that represents the ERC404 token. This token is referred to as an "APtoken" and is divisible into 100 fractions, with each fraction representing 1% of the NFT. To own the APtoken completely, you would need to own all 100 tokens.
 
 
-![intro-2.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/1%20Getting%20Started/2%20What%20the%20Hell%20Is%20the%20ERC404/intro-2.png?raw=true)
+![intro-2.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/1%20Getting%20Started/2%20What%20the%20Hell%20Is%20the%20ERC404/intro-2.webp?raw=true)
 
 ### ERC404 token standard contract implementation
 

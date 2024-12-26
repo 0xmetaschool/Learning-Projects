@@ -18,7 +18,7 @@ Next, we will opt for the Mumbai network to deploy our code. To set it up, compl
 
 You will be successfully connected to the Mumbai network. See in the following gif how I did it:
 
-![Screen Recording 2023-08-02 at 7.19.24 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/2%20Prerequisites%20to%20Building%20the%20MarketPlace/2%20Set%20Up%20Wallet/Screen_Recording_2023-08-02_at_7.19.24_PM.gif?raw=true)
+![Screen Recording 2023-08-02 at 7.19.24 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/2%20Prerequisites%20to%20Building%20the%20MarketPlace/2%20Set%20Up%20Wallet/Screen_Recording_2023-08-02_at_7.19.24_PM.webp?raw=true)
 
 ### Get some fake MATIC $$ 🤑
 
@@ -30,7 +30,7 @@ Now it's time to get some money!
 
 See in the following gif how I did it:
 
-![Frame 3560365 (7).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/2%20Prerequisites%20to%20Building%20the%20MarketPlace/2%20Set%20Up%20Wallet/Frame_3560365_(7).gif?raw=true)
+![Frame 3560365 (7).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/2%20Prerequisites%20to%20Building%20the%20MarketPlace/2%20Set%20Up%20Wallet/Frame_3560365_(7).webp?raw=true)
 
 This fake money will be used for deploying your contract and doing transactions on your contract. This is not real money, you can’t buy NFTs, or other assets via these MATIC.
 
@@ -47,7 +47,7 @@ While writing and deploying your contract you sign off each contract with your p
 
 See in the following gif how I did it:
 
-![Screen Recording 2023-08-02 at 7.28.24 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/2%20Prerequisites%20to%20Building%20the%20MarketPlace/2%20Set%20Up%20Wallet/Screen_Recording_2023-08-02_at_7.28.24_PM.gif?raw=true)
+![Screen Recording 2023-08-02 at 7.28.24 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/2%20Prerequisites%20to%20Building%20the%20MarketPlace/2%20Set%20Up%20Wallet/Screen_Recording_2023-08-02_at_7.28.24_PM.webp?raw=true)
 
 Your private key is super important and should be secured. So be extra vigilant in keeping it that way. Next, I’ll tell you how to keep your account and private key safe.
 

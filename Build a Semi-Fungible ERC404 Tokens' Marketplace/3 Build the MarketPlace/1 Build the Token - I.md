@@ -7,7 +7,7 @@ Welcome back, folks! Great work on setting up your hardhat project. In this less
 First of all, head back to your `erc404-nftmarketplace-boilerplate` hardhat project. Navigate to the `contracts/Token.sol` file. We will add the token code in this file. If it is not created, create one like this:
 
 
-![file-struct-1.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/3%20Build%20the%20MarketPlace/1%20Build%20the%20Token%20-%20I/file-struct-1.png?raw=true)
+![file-struct-1.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/3%20Build%20the%20MarketPlace/1%20Build%20the%20Token%20-%20I/file-struct-1.webp?raw=true)
 
 ## Start Coding
 

@@ -6,7 +6,7 @@ So, what are we building today? We are going to build the NFT Marketplace for th
 
 Now, what’s the hype? At the start of 2024, the PANDORA coin was released which was based on the ERC404 token standard. Pandora aimed to increase the liquidity for NFTs by combining both ERC20 and ERC721 token standards.
 
-![intro-1 (1).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/1%20Getting%20Started/1%20What%20Are%20We%20Building%20Today/intro-1_(1).png?raw=true)
+![intro-1 (1).png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/1%20Getting%20Started/1%20What%20Are%20We%20Building%20Today/intro-1_(1).webp?raw=true)
 
 Within a week of its release, it went from $250 to $32,000 price. In upcoming days it is estimated that it will go even higher from this point.
 
@@ -29,7 +29,7 @@ This course is for intermediate web3 developers who wish to learn about the ERC4
 
 Well, I'm glad to spill the beans here. After you complete this course with me, you will get XPs and a special NFT, which will unlock many more opportunities on the Metaschool platform. Here is a sneak peek of what the NFT will look like below.
 
-![https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/course%20NFT.gif?raw=true](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/course%20NFT.gif?raw=true)
+![https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/course%20NFT.gif?raw=true](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Completion%20NFT.webp?raw=true)
 
 Now before we move forward, let’s set some house rules first.
 
