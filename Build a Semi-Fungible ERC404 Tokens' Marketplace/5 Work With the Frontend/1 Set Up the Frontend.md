@@ -43,7 +43,7 @@ npm start
 
 Your frontend will look like this.
 
-![frontend.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/5%20Work%20With%20the%20Frontend/Set%20Up%20the%20Frontend/frontend.png?raw=true)
+![frontend.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/5%20Work%20With%20the%20Frontend/Set%20Up%20the%20Frontend/frontend.webp?raw=true)
 
 ## That’s a wrap
 

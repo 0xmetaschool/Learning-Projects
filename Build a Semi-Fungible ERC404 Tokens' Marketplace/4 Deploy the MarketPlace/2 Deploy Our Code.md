@@ -48,7 +48,7 @@ npx hardhat compile
 
 The output will be like the following:
 
-![Frame 3560381.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/4%20Deploy%20the%20MarketPlace/Deploy%20Our%20Code/Frame_3560381.jpg?raw=true)
+![Frame 3560381.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/4%20Deploy%20the%20MarketPlace/Deploy%20Our%20Code/Frame_3560381.webp?raw=true)
 
 ## Deploy the contracts
 
@@ -61,7 +61,7 @@ npx hardhat run scripts/deployMarketplace.js --network mumbai
 
 Here’s the output:
 
-![Frame 3560381 (1).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/4%20Deploy%20the%20MarketPlace/Deploy%20Our%20Code/Frame_3560381_(1).jpg?raw=true)
+![Frame 3560381 (1).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests_for_erc404/4%20Deploy%20the%20MarketPlace/Deploy%20Our%20Code/Frame_3560381_(1).webp?raw=true)
 
 ## Wrap up
 
