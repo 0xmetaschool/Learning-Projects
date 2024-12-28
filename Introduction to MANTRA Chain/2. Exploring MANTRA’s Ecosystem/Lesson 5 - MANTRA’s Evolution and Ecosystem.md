@@ -6,7 +6,7 @@ Think of it like a superhero origin story, but instead of superpowers, we've got
 
 This early engagement laid the foundation for MANTRA Chain's eventual migration to the Cosmos ecosystem, showcasing its commitment to innovation and adaptability. From its starting days on Ethereum to its groundbreaking leap into the Cosmos, MANTRA Chain's evolution is a testament to its unwavering pursuit of creating a more accessible and inclusive financial system.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcz9YjoiXkBICYKcsx1Kuq8cUCQRaE3unHfta1WiyjkN5oBLDpEUkHPPAzSnr4EnSlaZ13QEYpAh3mWNbJxP_22AY0kTZHkcVMAZ5IhR8vkbeXWvNCG71F3k3agR4oseAPeQWcbLutwzPnSPqwegf8oMrdV?key=YWyODTc4sc5Fs1B1XtR_Mw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L5%20Image%201.png?raw=true)
+![](https://raw.githubusercontent.com/0xmetaschool/Learning-Projects/refs/heads/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L5%20Image%201.png?raw=true)
 
 In this chapter, we'll dive into the key milestones that shaped MANTRA Chain into the powerhouse platform it is today. Get ready to discover how this project is not just tokenizing assets, but also building a bridge between the traditional and decentralized worlds of finance. So, buckle up and get ready for a journey through the evolution of MANTRA Chain – it's going to be epic!
 
@@ -18,7 +18,7 @@ Recognizing the key challenges that have hindered wider DeFi / onchain adoption,
 
 By combining the benefits of self-custody with the security and regulatory oversight of centralized exchanges, MANTRA Finance offers a "best of both worlds" approach. The platform initially launched on Ethereum, BNB Chain, and Polygon, providing a diverse range of yield-bearing DeFi products designed to deliver a safe and compliant environment for its customers.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcaedPDn6jT9unOC4dcgnJhq08TkqRjw0aZankVGZFv7OjMJv-4C3iw4LwtnoP0RUZKgmg_diDN25sIbgbPw6siTai949Fouy_Uu0OXBdwZeyhG1NqIMDzXlDBhREFsqHqqIg5U1YKsh5DuBAEzx_taXIio?key=YWyODTc4sc5Fs1B1XtR_Mw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L5%20Image%202.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L5%20Image%202.webp?raw=true)
 
 At the core of MANTRA Finance's unique value proposition is its ability to offer the transparency, efficiency, and speed of DeFi, while maintaining regulatory focus and a fully compliant platform.
 
@@ -38,7 +38,7 @@ MANTRA Finance's vision was ambitious, but the limitations of the Ethereum netwo
 
 The Inter-Blockchain Communication (IBC) protocol, a core feature of Cosmos, opened the door to seamless asset transfer across different chains, presenting a new frontier for RWA tokenization.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXd1WKKOe8Tm-nEREk2Gn5Gotaeajkt-DcOK-GDogAAkWzYH8ow4wYQFURZm9f9D97At6TeGq2IV11Y3MO5fPM_RyEtJgbWCnILpuoQcI7538DBzyUElAVmEOBRLUQhBgUXj7rrsQWPiPXO7lgkzWCN8U7hV?key=YWyODTc4sc5Fs1B1XtR_Mw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L5%20Image%203.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L5%20Image%203.webp?raw=true)
 
 MANTRA developed a dedicated blockchain called MANTRA Chain. This custom-built chain leverages the Tendermint consensus mechanism, a Byzantine Fault Tolerant (BFT) engine renowned for its speed, security, and efficiency. Tendermint's Proof-of-Stake consensus offers fast transaction finality, enhanced security against attacks, and the capacity to handle high volumes of transactions.
 
@@ -48,7 +48,7 @@ This robust infrastructure, combined with the interoperability of the Cosmos eco
 
 The Hongbai Testnet marked a pivotal moment in MANTRA Chain's journey within the Cosmos ecosystem. Far more than a simple testing phase, it also serves as 1:1 copy of the real environment where the chain's core functionalities, robustness and efficiency can be tested.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXdKjh9ZS8Zv-btvsGXXqS0YLyVPSvPU7p9FBk0jCrfn0Z0GIRJDVCdLTxM1kgIfJaODrHsdrA99H7UV8O0WeHmsMTSWcPGcf580-sQYTvtvIeGHqTOmCJZ8KSnaJynpCELNu5Cpg_b0m2dZxJ0_LxQXHorz?key=YWyODTc4sc5Fs1B1XtR_Mw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L5%20Image%204.gif?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L5%20Image%204.webp?raw=true)
 
 A key focus of the Hongbai Testnet is to thoroughly test MANTRA Chain's integration with the Inter-Blockchain Communication (IBC) protocol. This groundbreaking technology enables seamless communication and asset transfer between different blockchains within the Cosmos network. By rigorously testing this integration, MANTRA Chain developers ensured that their platform would be ready to participate in the broader Cosmos ecosystem from day one.
 
@@ -62,7 +62,7 @@ In essence, the Hongbai Testnet was a crucial proving ground for MANTRA Chain's 
 
 $OM, the beating heart of the MANTRA ecosystem, has undergone a remarkable transformation, mirroring the platform's evolution from DeFi on Ethereum, BNB Chain, and Polygon, to the Cosmos-powered MANTRA Chain we know today.
 
-![Om token](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L5%20Image%205.png?raw=true)
+![Om token](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L5%20Image%205.webp?raw=true)
 
 **A Token's Transformation into a Coin**
 
@@ -78,7 +78,7 @@ However, with the transition to the Cosmos-powered MANTRA Chain, $OM is set to b
 
 Despite its ongoing evolution, $OM has already garnered significant attention in the crypto world. It's currently listed on top-tier exchanges like Binance, making it easily accessible to traders and investors worldwide.
 
-**The Future of** $**OM**
+**The Future of $OM**
 
 As MANTRA Chain continues to grow and expand, so too will the utility and value of $OM. It's poised to become a key player in the Cosmos ecosystem, powering a wide range of decentralized applications and financial services.
 

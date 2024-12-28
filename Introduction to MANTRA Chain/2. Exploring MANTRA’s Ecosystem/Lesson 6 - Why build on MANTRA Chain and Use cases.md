@@ -8,7 +8,7 @@ Get ready to witness how MANTRA Chain is reshaping the financial landscape and e
 
 ## Why Build on MANTRA Chain?
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXc3TzK0kUppJprdcYBgLRjrWjFtBuLa7Esud_Vm3chWYgcXezZGUeUWeje1HYrWJt7EcdtJEh9kMcQpsLFyRHLDI3DoQYoTP5qdkivc9b3MNIpJ4anR9J_QG5UKgvgROhCvdIgdqM2UskIyRa0jQLYbwkDU?key=3AecdSTL2OCLThArOtizTg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L6%20Image%201.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L6%20Image%201.webp?raw=true)
 
 Okay, builders, let's get real. Why should you choose MANTRA Chain as your launchpad for your next decentralized application (dApp)? It's simple: MANTRA Chain offers a unique combination of features that make it the ideal platform for bringing real-world assets into the digital age.
 
@@ -21,7 +21,7 @@ But the real magic of MANTRA Chain lies in its ability to transform how we inter
 
 ## Features of MANTRA Chain
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXeQ5k6WNhxWeVBo0wJYxz_Ry23gVbA_Ws4wMf3geosXd66Hpghy_rxR7f9sPFDugZCB3VOJc2fqtDIf7fmiwd-YnofxBycRgKv8ZSle1o9GnLkGIq8sP2zkSP1o9foUi7qp6SD9QNVWv_ECSGU9c8HfBmE_?key=3AecdSTL2OCLThArOtizTg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L6%20Image%202.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L6%20Image%202.webp?raw=true)
 
 MANTRA Chain is packed with innovative features that make it a powerful platform for building the future of decentralized finance. Let's break down some of these features and explore how they contribute to MANTRA Chain's unique value proposition:
 
@@ -32,7 +32,7 @@ MANTRA Chain is packed with innovative features that make it a powerful platform
 
 ## MANTRA Chain Use Cases
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXevERLVG729zyuhOYFpiPvn919wQZPsNvWbB2y6vS2dq-IQML0VEQFyDFqxGO5ZjccU4tGH_wsP2-AwRgQSL1QN_cBsVOTvsHedqtg4PPGkIy3eLyEE9Z1wIZZixejYiPP4tMxY3_mYgcTwM1KIkxrWtRy0?key=3AecdSTL2OCLThArOtizTg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L6%20Image%203.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L6%20Image%203.webp?raw=true)
 
 The above-mentioned features pave the way for a wide array of innovative use cases on MANTRA Chain, unlocking the potential of real-world assets in the digital realm. Let's explore some of the most promising applications:
 
