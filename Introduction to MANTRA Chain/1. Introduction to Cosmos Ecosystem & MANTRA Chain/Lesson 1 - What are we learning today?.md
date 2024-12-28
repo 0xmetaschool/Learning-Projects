@@ -4,7 +4,7 @@ Hey there, future blockchain buff! 🌟 We’re super excited to kick off the fi
 
 Did you know? Active participants in blockchain communities often find themselves rewarded in unexpected ways. Staying connected through GitHub repos is a smart move for any crypto enthusiast. Speaking of which, have you checked out [MANTRA's official repository](https://github.com/MANTRA-Finance) yet?
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXey-65XFbaUqLelaoRrjZC9-Rt5DP-ACNSDyX67TgrqI4oWyIZF8P7p9eohfsHbrFjClnrvxs_3gCoDTz1Mm_1o8sikVfD6hhpeHY6qJ3suy08MYfpJ4Ah98bgijP6M8fk9kVpqyY4Y2zBsGgtSyevpb9s?key=5nux_2-mkDEv0d6cByPXrw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L1%20Image%201.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L1%20Image%201.webp?raw=true)
 
 Why MANTRA? Why Real-World Assets? Let's talk about a market that's not just big, it's colossal! The global real-world asset (RWA) market is estimated to be worth a staggering $16 trillion by 2030. MANTRA Chain is your key to unlocking this immense potential, allowing you to compliantly tokenize and trade these assets on the blockchain with unprecedented ease and flexibility.
 
@@ -14,7 +14,7 @@ But hold your horses before you hit that next button! Let's quickly peek at what
 
 Here's what you can expect from this course:
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcnQ1qRWjg63ONa-1A-26DusqrSogrE6zLKC5uKxutUBzXGOwNogpbOXLqdYMlFXSas-3sOqWf7-NVwM5Flnpk3SL0dUTkuVUQesV-9Sqp7DLGlRga6T5y0fgNVq8FNNz8D9RXo4BjppsU9xTMZK5g85Fjp?key=5nux_2-mkDEv0d6cByPXrw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L1%20Image%202.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L1%20Image%202.webp?raw=true)
 
 1. **Cosmic Beginnings:** An Introduction to the Cosmos Ecosystem
 2. **RWA-lly Important Stuff**: The ABCs of Real-world Assets(RWA), Liquidity, Regulations, and Compliance
@@ -40,7 +40,7 @@ You will be getting the following outcomes when you complete this course:
 
 If you complete this course, you will get a special NFT, a utility token, unlocking many more opportunities on the Metaschool platform. Here is what the NFT looks like.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXf8-8hO2RylDw6wtEWtJoJG1PcNNyPHHP0xfO97bW3UTIQT8WAXZnBrXmj5Dju56kvoWn-jwwmy9CVOuXZZrak15UqmatBeCywWsZ9_PQQxQ5oX_lwJw1OMmqdjFfpqkRd1xOrTZTtBF1dANCxwQLO9oc1H?key=5nux_2-mkDEv0d6cByPXrw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L1%20Image%203.gif?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L1%20Image%203.webp?raw=true)
 
 Now before we move forward, let’s set some house rules first.
 

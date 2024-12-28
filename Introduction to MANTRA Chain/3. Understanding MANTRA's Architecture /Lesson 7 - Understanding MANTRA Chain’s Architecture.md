@@ -15,7 +15,7 @@ The architecture is divided into two main parts:
 1. **Node Architecture:** This is the basic building block of the blockchain, like the bricks that make up a house. Each node is a mini-computer that tirelessly works to maintain the blockchain's ledger, validate transactions, and participate in consensus.
 2. **Network Architecture:** This is the bigger picture, the overall design of the city. It encompasses all the different layers that work together to make the blockchain function.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcCKSS_O3DHpSo3pAfS5vSPVWxfECT2diwxUPRwvr3VB5fYcVMKXS4G1kdeJX7nSowAINeZc_x2Ty3eQJD_WUmMbrEtfZ0ArzKR58AebMBP_J9xQQVc_M11Nq3Lx6KvypPF1Ob3PwVlK48BX4rsVmMn2Znc?key=1Fe5FFVv1GXQSTaUn6PLrw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L7%20Image%201.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L7%20Image%201.png?raw=true)
 
 ## MANTRA Chain Node Architecture
 
@@ -27,7 +27,7 @@ These hardworking nodes have three main components:
 2. **Traffic Controller (CometBFT)**: This component, powered by the CometBFT consensus engine, is the backbone of MANTRA Chain's decentralized decision-making process. It ensures that all nodes agree on the order and validity of transactions, even in the face of potential network disruptions or malicious actors. This is crucial for maintaining a single, consistent version of the blockchain across the entire network. The CometBFT engine utilizes a voting mechanism where nodes propose blocks of transactions and vote on their validity. Once a block receives enough votes, it's added to the blockchain.
 3. **Translator (ABCI Interface)**: This interface acts as a bridge between the blockchain's core logic and the decentralized applications (dApps) built on top of it. The ABCI defines a set of standardized messages and responses that allow dApps to interact with the blockchain without needing to understand its intricate inner workings. This abstraction simplifies dApp development and promotes interoperability between different applications on the MANTRA Chain.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXetGuklweOWggdcfNxhWzCfoWbclzBjsx3339A3bf2gvIiI2gIrqav7bu2bs8g34NiLP2Y-7SKTW0ZzD-Q2JJ2zTRWPTpMKzWMo-kiwAEu7bDMhexH34frDDuwa09QWynpY7ypiFtzTU5c00Ev1099pFDY?key=1Fe5FFVv1GXQSTaUn6PLrw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L7%20Image%202.gif?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L7%20Image%202.webp?raw=true)
 
 In addition to these core components, MANTRA Chain nodes also handle network communication, peer discovery, and data synchronization. They participate in the gossip protocol to exchange information with other nodes and maintain a synchronized view of the blockchain, ensuring that all nodes are on the same page and the network remains decentralized and resilient.
 
@@ -44,7 +44,7 @@ MANTRA Chain's network architecture is a multi-layered marvel, carefully crafted
 
 This harmonious interplay of layers empowers MANTRA Chain to be a flexible, scalable, and user-centric platform for the future of decentralized finance.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXfKsGLFso2xSQqYv1K3uHWDgpN9DQeezXEIFwKU-xC9JMf3ZcQTeS8VVI1huT1JLdu9FW2uCUdd8W8ZkG5rTaejs_o3lhXDaty1h23KcAMWbiOOJJ7_cmI_yVID6jdpvYY-t_ko4meCsnYXwFf-FlXvP-p-?key=1Fe5FFVv1GXQSTaUn6PLrw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L7%20Image%203.gif?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L7%20Image%203.webp?raw=true)
 
 ## Wrap Up
 

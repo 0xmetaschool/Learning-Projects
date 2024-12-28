@@ -6,7 +6,7 @@ We are on an exhilarating journey to explore the groundbreaking MANTRA Chain. So
 
 In this lesson, we’ll dive deep into MANTRA Chain, discover its inspiring vision and mission, and explore why it’s set to create ripples in the decentralized finance universe. So fasten your seatbelts, my fellow crypto enthusiasts, because we’re about to dive headfirst into this revolutionary blockchain! 🚀💡
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcbVB60w2ukL8VHIuUbIEK9IY2sOIzEc_fZWAdUUCInyIjuzgTkKV5qE8Ga6hLhrmOkqU-vqDJLI3goaiCyiaExf_KruCmAnCsaVBHtH9JVxE_D_P6NCW1CeBGMKZiO8e99cUQTv4cJHJDcnMCnJZHNQyw?key=JTIHcQ6qj0Iy8WcNv-wT7Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L4%20Image%201.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L4%20Image%201.webp?raw=true)
 
 ## What is MANTRA Chain?
 
@@ -16,7 +16,7 @@ But here’s the kicker – it’s all done by the book, with dApps built for RW
 
 It's built with regulatory compliance in mind, so you can be confident that your tokenized assets adhere to the same rigorous standards as their traditional counterparts. It's all about keeping things legit and above board! This means you can explore the exciting world of tokenized assets with the confidence and security you're used to.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXdoYFN1c6HXURhV0x4jLBRk1GTRbSJ2OVtkhqD_3b9qpPjluCesW7-1mi5fiyqrcE53EbSvp-OdTnNpQrybjvUoWPRfnoAAnLdQU5FChQWuZAyH6ltp9UVBkRMlNMQuBdjOo8sfr2rQfOI5qkTnPrgJTOuZ?key=JTIHcQ6qj0Iy8WcNv-wT7Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L4%20Image%202.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L4%20Image%202.webp?raw=true)
 
 So, when we say that “MANTRA is a security-first RWA Layer 1 Blockchain bringing the world’s financial system onchain”. What it really means is that MANTRA Chain is like the first layer of a new internet for trading real stuff, and it’s all set up to play nice with the rules. And yeah, those last couple of chapters you read? They totally set you up to understand this!"
 
@@ -26,7 +26,7 @@ MANTRA Chain is all about staying ahead of the game when it comes to rules and r
 
 Think of it like a public park that's also designed for private events. The park is open to everyone (permissionless), but there are certain areas that can be reserved for specific groups or activities (permissioned).
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXfKPCono2Hxu6WSrO_bcJBD8-L07r_gQN9gZAg-5SvnzgBLZo0WUgYu6slHelXMJx_eL9SR42X-lQ9rJJJI7mSpXU4XebABoU8wOwYSRp43_xgwc_v9mfHz5MVofsvzSQSOEppJuKCOUpxuaBnSQug5Ptqe?key=JTIHcQ6qj0Iy8WcNv-wT7Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L4%20Image%203.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L4%20Image%203.webp?raw=true)
 
 In the same way, MANTRA Chain is a blockchain that anyone can join and use. However, it also allows for the creation of special, regulated sections where only authorized participants can access and trade specific assets. This is ideal for tokenizing regulated real-world assets like stocks or bonds, which require stricter controls to comply with financial laws.
 
@@ -42,7 +42,7 @@ So, you know how the Cosmos ecosystem is huge with 50+ blockchains. Well, there�
 
 Here’s the scoop on why MANTRA Chain is pretty awesome:
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcLsDYDCjWm8b0WIAxUWthIVjx3KHccJDGrPzRZrhSZg99dRz1Vg-HOFDLlPSLKOyRG0d4l4mqbbWzAZBVv_G3Lq51I062j0OMXfPWrc8XSwyuJPM8Us3jNYZ-gT1Bst2aBiPdD4GG0tiFYrbgl8PthHKQ?key=JTIHcQ6qj0Iy8WcNv-wT7Q](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L4%20Image%204.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L4%20Image%204.webp?raw=true)
 
 - **Playing by the Rules:** MANTRA Chain is providing all the necessary tools to build regulatory-compliant dApps, ensuring that when you engage with the permissioned blockchain segment, you can be confident in the high standard of compliance it offers.
 - **Attracting Diverse Users:** By offering a permissioned environment, MANTRA Chain is rolling out the red carpet for all kinds of investors, including the big fish in the pond who like everything neat and tidy, legally speaking.

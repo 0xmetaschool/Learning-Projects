@@ -8,7 +8,7 @@ Think of the network architecture as the sprawling metropolis that houses all th
 
 In our previous lesson, we introduced MANTRA Chain's layered architecture, a well-oiled machine built for speed, security, and versatility. We gave you a bird's-eye view of the different layers and their functions. Now, it's time to roll up our sleeves and get our hands dirty as we take a deep dive into each layer. Get ready to explore the inner workings of this groundbreaking blockchain and discover the technical marvels that make it tick!
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXd9QkF7sF7sVjwJpUjse8IApeAdIL69tbXf1zx5QWTsB8Yr57lNYi1wUqNRpA6MJfoGQ_wZL5itlQNUrnyIPotO4GXmrWqviLc2t3FIcJj6bjMFcL3O6gY3NZpF3hYlz8c-BYO5y8pVse5jbz9KQ8a8kuMT?key=b8IlQPLs_vowVQ2diyX4Pw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L8%20Image%201.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L8%20Image%201.webp?raw=true)
 
 ### Layer 1: Staking Layer – Your Ticket to Participation
 
@@ -33,7 +33,7 @@ The module layer is where MANTRA Chain's flexibility and adaptability truly shin
 - **MANTRA Assets Module:** This module is the heart of MANTRA Chain's mission, enabling the tokenization of real-world assets. It's like a magical portal that allows you to bring your physical assets into the digital world, unlocking liquidity and creating new investment opportunities.
 - **MANTRA Guard Module:** This module acts as a gatekeeper, ensuring that only verified users and dApps can participate in the network. It's like a security checkpoint, keeping out bad actors and ensuring the safety of your assets.
     
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXeiAK_fWfpVTNQXGvIHWyJL0ZsR_WimyM25g_Z4N7B08lniogdT7G8QIAtLT-r9_7PBWd8Vi67evSX1yKk5D7-SKJ_ymS6Kgh8zardNwPXWPnzVRY5WghtI1K4_WgY-keixxHfOwyOTB83jzaG1AXpPhNvL?key=b8IlQPLs_vowVQ2diyX4Pw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L8%20Image%202.gif?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L8%20Image%202.webp?raw=true)
     
 
 ### Layer 4: Execution Layer – The Engine Room of the Blockchain
@@ -45,7 +45,7 @@ Let's step into the bustling heart of MANTRA Chain—the execution layer. This i
 - **P2P Networking: The Blockchain's Gossip Mill:** Imagine a group of friends sharing the latest news and rumors. That's basically how peer-to-peer (P2P) networking works on MANTRA Chain. Each node in the network acts as both a teller and a listener, sharing information about transactions and keeping the ledger in sync. It's like a super-fast and secure gossip network that ensures everyone stays in the loop.
 - **Tendermint Consensus: The Democratic Decision-Maker:** In a decentralized world, everyone gets a say. Tendermint, the consensus mechanism used by MANTRA Chain, is like a digital democracy. It ensures that all nodes agree on the validity and order of transactions through a voting process. This keeps things fair and prevents any single node from throwing a tantrum and disrupting the network.
     
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXfI0c24yVHDf4gLdD8S8jtpb5ia3hvGRFvsnoK7QuVgh7twGD4XzWZw-ZwojRbjZz4T2dpj6v7jMfqDNzmTlrZNjlBn_-uZ5h5YdchOWElid1mZE3MiubR9Qg_HkgTO-MPR0-g2mfkG4mJ10BmGBpG9fMA?key=b8IlQPLs_vowVQ2diyX4Pw](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L8%20Image%203.gif?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L8%20Image%203.webp?raw=true)
     
 
 ### Layer 5: Application Layer – The Funhouse of Decentralized Apps

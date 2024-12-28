@@ -10,7 +10,7 @@ We have seen the term “real-world assets” a lot since the last lesson, it's 
 
 Simply put, real-world assets are tangible or intangible things of value that exist in the physical world – not just in the digital realm. They can be anything from physical assets like real estate, gold, cars, art, etc.
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXciBF-uEMAovZ66bd16e4V2RBfzfPO30f7_KnHfpYYgiU71A8LKWKGFEy5VDw7OBwpLXoicoCAXtE9cHdMAQ_ybK3v56DP38do02Pry5SChfhRnCVMs5cdU4bn2Ky5S7o_jCf0dCItnp_kgnNFHXwl_H2yg?key=lp5CYlFAkv3ksy3UwU_zKQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%201.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%201.webp?raw=true)
 
 Think of it this way: if you can touch it, own it, or trade it in the traditional financial world, it's likely a real-world asset.
 
@@ -20,7 +20,7 @@ RWAs have always been a cornerstone of the global economy. They represent real v
 
 This is where blockchain technology steps in, offering a potential game-changer. Blockchain can revolutionize the way we interact with RWAs by:
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXc0w5Uk9WOdUSIksW4FInP_RlG8PZqF2_QlhfhWwnJAb7ZwZXcCczp1mIm-W3lmxwXiCMfITsPXBaUXZfwkdsuUvY7hQNAzWrfXNVio7LdSaOhr1r9yDr4Zt3UXyhVNk8WVC0Mfs0Y-0p7hYy_xkOTaqppA?key=lp5CYlFAkv3ksy3UwU_zKQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%202.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%202.webp?raw=true)
 
 - **Tokenization:** Turning RWAs into digital tokens on the blockchain makes them easier to buy, sell, and trade. This unlocks liquidity and opens up investment opportunities to a broader audience.
 - **Fractional Ownership:** Blockchain enables fractional ownership of RWAs, allowing investors to own a small portion of an asset that would otherwise be too expensive to purchase outright.
@@ -39,7 +39,7 @@ Liquidity refers to how easily an asset can be bought or sold without affecting 
 
 **Challenges with Traditional RWA Investments:**
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXc3g82lnHj9IlbiA5wx2idMAQHx8etvzwshgM5hF4qbZy8HXdogOrPA2Smz9_rQGvCdy6n4ly7ntG2eb4F1Sp7fdbYjnvRqUVhcf4GI3loHTGwus4XoMN4CGMgmd8WlmmlOAwoF4zdpLeTU1HCsyNxI2tA?key=lp5CYlFAkv3ksy3UwU_zKQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%203.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%203.webp?raw=true)
 
 1. **Illiquidity:** As mentioned above, RWAs are not easily converted into cash. This means your investment is locked up, and you might not be able to access your money quickly if needed.
 2. **High Barriers to Entry:** Many RWAs require significant capital to invest, making them inaccessible to most people. For example, buying a property or investing in a large-scale infrastructure project requires a substantial amount of money upfront.
@@ -47,7 +47,7 @@ Liquidity refers to how easily an asset can be bought or sold without affecting 
 
 **How Tokenization Unlocks Liquidity:**
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXcAMFHJJQK7-G_gZUqGKy-KJxwiV-JZPLIi8s2hoCOYXNL061lme6ZzNuRn8pFJZjh2fI51xnrSoc6YdaaKliadgrWgv-xQfFlyWoqzSO2C4Hs4c9NI2GmDivKitSens-24DIWumL9xGgdoENkMterDa8o?key=lp5CYlFAkv3ksy3UwU_zKQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%204.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%204.webp?raw=true)
 
 Tokenization is the process of converting RWAs into digital tokens on the blockchain. These tokens represent fractional ownership of the underlying asset. For example, a real estate property worth \$1 million could be divided into 1 million tokens, each worth $1. This makes investing in RWAs more accessible and affordable for everyone.
 
@@ -55,7 +55,7 @@ But tokenization does more than just make RWAs affordable. It also significantly
 
 By increasing liquidity, tokenization opens up new opportunities for investors and asset owners. It allows investors to diversify their portfolios and access asset classes that were previously out of reach. For asset owners, it provides a new way to raise capital and unlock the value of their assets.
 
-![Tokenization-V2.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%205.png?raw=true)
+![Tokenization-V2.png](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%205.webp?raw=true)
 
 As we've seen, tokenization has the potential to unlock immense value in the world of RWAs. But for this potential to be fully realized, it's crucial to address another key factor: regulatory compliance.
 
@@ -69,7 +69,7 @@ As the world of digital assets continues to evolve, so does the regulatory lands
 
 Regardless of the specific regulations in each jurisdiction, one thing is clear: compliance is crucial for the long-term success and adoption of digital assets. Here's why:
 
-![https://lh7-us.googleusercontent.com/docsz/AD_4nXdZrEcNAj6lqD5dgOD3jWPwqkVjyDif4Zjj_x2x7D1jQ0IklEFcT7MdR-P37eVg1889rb9p2RFyoEvAMOZyQbve9v9yuF4zWmdI1IA6JRW8aCS0bNIn5QrjUmXC_6QH66fQY_hIh7pGEn6UyDDyLrlwtIEP?key=lp5CYlFAkv3ksy3UwU_zKQ](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%206.png?raw=true)
+![](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assets-for-MANTRA-C1/MANTRA%20C1%20L3%20Image%206.webp?raw=true)
 
 1. **Building Trust:** Clear and consistent regulations create a framework for trust. When investors and institutions know that there are rules in place to protect them, they are more likely to participate in the market.
 2. **Protecting Consumers:** Regulations help protect consumers from fraud, scams, and market manipulation. By setting standards for transparency, security, and fair practices, regulators can ensure that investors are not taken advantage of.
