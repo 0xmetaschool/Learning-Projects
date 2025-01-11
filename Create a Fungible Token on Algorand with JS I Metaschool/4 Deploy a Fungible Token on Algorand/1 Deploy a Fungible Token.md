@@ -12,13 +12,13 @@ node CreateAsset.js
 
 This will show an output like below:
 
-![Frame 3560380.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/4_1%20Deploy%20a%20Fungible%20Token/Frame_3560380.jpg?raw=true)
+![Frame 3560380.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/4_1%20Deploy%20a%20Fungible%20Token/Frame_3560380.webp?raw=true)
 
 ## Interact with token
 
 Go to the Asset URL that was generated as your output, for me it was [https://testnet.explorer.perawallet.app/asset/592354835/](https://testnet.explorer.perawallet.app/asset/592354835/) and interact with your created token:
 
-![algorand.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/4_1%20Deploy%20a%20Fungible%20Token/algorand.gif?raw=true)
+![algorand.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/4_1%20Deploy%20a%20Fungible%20Token/algorand.webp?raw=true)
 
 ## That’s a wrap
 

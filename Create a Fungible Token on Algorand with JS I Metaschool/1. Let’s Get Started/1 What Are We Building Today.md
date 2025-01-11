@@ -6,7 +6,7 @@ So what are we building today? We will be building our very own fungible token u
 
 Let’s look at how the token deployed looks on the Algo explorer by the end of the course.
 
-![algorand.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/1_1%20What%20Are%20We%20Building%20Today/algorand.gif?raw=true)
+![algorand.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/1_1%20What%20Are%20We%20Building%20Today/algorand.webp?raw=true)
 
 Why Algorand? Algorand is the Layer-1 protocol that supports developing dApps, uses the Pure Proof of Stake (PPoS) consensus mechanism, is a sustainable green blockchain, and is also in partnership with [ClimateTrade](https://climatetrade.com/). It is energy efficient as compared to other blockchains.
 
@@ -36,7 +36,7 @@ This course is the best fit for those who want to explore the web3 world but can
 
 If you complete this course with me today, you will be getting a special NFT, a utility token, which will unlock many more opportunities for you on the Metaschool platform. Here is what the NFT looks like.
 
-![Untitled (1).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/course%20NFT.gif?raw=true)
+![Untitled (1).gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Completion%20NFT.webp?raw=true)
 
 
 Now before we move forward, let’s set some house rules first.

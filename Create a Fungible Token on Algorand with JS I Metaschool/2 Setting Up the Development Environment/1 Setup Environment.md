@@ -63,18 +63,18 @@ Welcome back!  So, you've completed learning about Algorand? Awesome! In this le
     
     Here’s how my file in Visual Studio looks like:
     
-    ![Frame 3560364 (14).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_1%20Setup%20Environment/Frame_3560364_(14).jpg?raw=true)
+    ![Frame 3560364 (14).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_1%20Setup%20Environment/Frame_3560364_(14).webp?raw=true)
     
 - Now run the following command in the terminal:  `node CreateAccount.js`. It will show output like this:
     
-    ![Frame 3560365 (1).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_1%20Setup%20Environment/Frame_3560365_(1).jpg?raw=true)
+    ![Frame 3560365 (1).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_1%20Setup%20Environment/Frame_3560365_(1).webp?raw=true)
     
     - It shows your account address, your mnemonic recovery 25-word phrase or passphrase (don’t share it with anyone!), and a link to the dispenser to fund your wallet. ***Copy the passphrase and save it somewhere, we will need it in the next lesson.***
     - Click on the Algorand Dispenser link.
     - Select the reCAPTCHA and click on Dispense.
     - 5 ALGOs will be dispatched to your wallet.
     
-    ![Frame 48095929 (3).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_1%20Setup%20Environment/Frame_48095929_(3).jpg?raw=true)
+    ![Frame 48095929 (3).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_1%20Setup%20Environment/Frame_48095929_(3).webp?raw=true)
     
 - Now click “Enter” or any key in the terminal where you ran the `node CreateAccount.js` command.
     - **Don’t worry!** We will explain how to verify if our wallet is filled with ALGOs in the next lesson.
