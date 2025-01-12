@@ -10,11 +10,11 @@ Greetings! So you have successfully created your wallet, it’s time to import i
 - Next, select the “Recover an account” button.
 - Remember the passphrase generated when you ran the command `node CreateAccount.js` in the last lesson. It is the 25-word  recovery passphrase, you need to copy that.
     
-    ![Frame 3560365 (1) (1).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_2%20Setup%20Wallet/Frame_3560365_(1)_(1).jpg?raw=true)
+    ![Frame 3560365 (1) (1).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_2%20Setup%20Wallet/Frame_3560365_(1)_(1).webp?raw=true)
     
 - Now enter your 25-word recovery passphrase and click the “Recover” button.
     
-    ![Frame 3560376.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_2%20Setup%20Wallet/Frame_3560376.jpg?raw=true)
+    ![Frame 3560376.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_2%20Setup%20Wallet/Frame_3560376.webp?raw=true)
     
 
 - Now you have imported your account and you can see your balance and accounts.
@@ -22,14 +22,14 @@ Greetings! So you have successfully created your wallet, it’s time to import i
 - Click on the “Settings” icon present at the bottom right corner.
 - Now scroll all the way down and select “Developer Settings.”
     
-    ![Frame 3560378.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_2%20Setup%20Wallet/Frame_3560378.jpg?raw=true)
+    ![Frame 3560378.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_2%20Setup%20Wallet/Frame_3560378.webp?raw=true)
     
 
 - Click on “Node Settings.”
 - Select “Testnet.”
 - Go back to main page and now you can see the fake money that you received from the dispenser.
     
-    ![Frame 3560379.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_2%20Setup%20Wallet/Frame_3560379.jpg?raw=true)
+    ![Frame 3560379.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/assests-for-algorand/2_2%20Setup%20Wallet/Frame_3560379.webp?raw=true)
     
 
 ## That’s a wrap

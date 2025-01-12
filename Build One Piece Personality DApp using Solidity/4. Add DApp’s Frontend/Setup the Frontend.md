@@ -29,17 +29,17 @@ Now let’s create the subgraph using Graph Studio.
 - Connect your Metamask account and sign the transaction.
 - Now verify your email to proceed
     
-    ![Screen Recording 2024-03-11 at 5.07.02 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Screen_Recording_2024-03-11_at_5.07.02_PM.gif?raw=true)
+    ![Screen Recording 2024-03-11 at 5.07.02 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Screen_Recording_2024-03-11_at_5.07.02_PM.webp?raw=true)
     
 - Now click on “Create a subgraph”.
 - Add the name and create it.
     
-    ![Screen Recording 2024-03-11 at 5.08.25 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Screen_Recording_2024-03-11_at_5.08.25_PM.gif?raw=true)
+    ![Screen Recording 2024-03-11 at 5.08.25 PM.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Screen_Recording_2024-03-11_at_5.08.25_PM.webp?raw=true)
     
 
 - Now scroll down and look at the right panel of your screen, you will see the set of commands. We need to run them.
     
-    ![Frame 3560371 (3).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560371_(3).jpg?raw=true)
+    ![Frame 3560371 (3).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560371_(3).webp?raw=true)
     
 
 - **Important**: Please note that I’ll be running the commands shown to me according to my subgraph, you have to run according to yours. In the steps below, I’ll help you with the inputs that the commands ask. So follow me and let’s go!
@@ -70,19 +70,19 @@ I’ll run the commands with you and guide you what steps you have to follow. Ik
     - Select `n` for the next option.
     - Here’s the final output of this command:
         
-        ![Frame 3560382.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560382.jpg?raw=true)
+        ![Frame 3560382.jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560382.webp?raw=true)
         
 - Next is authenticate command, for me it shows `graph auth --studio 674cfa58b1f064d1b11f2ab99ff959db`. But for you, it’ll be different so copy yours and run it.
 - Move to the directory we created using `init` command by `cd one-piece`.
 - Run `graph codegen && graph build` to generate the code and build the graph.
 - Finally, deploy your graph. For me the command is `graph deploy --studio one-piece`. But for you, it’ll be different so copy yours and run it. Provide version when prompted. Since it’s our first deployment version you can use `v0.0.1`.
     
-    ![Frame 3560382 (1).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560382_(1).jpg?raw=true)
+    ![Frame 3560382 (1).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560382_(1).webp?raw=true)
     
     - **Note**: If you are deploying it again, make sure to update the version number otherwise you’ll receive an error.
 - As an output, you will see a URL at the end, replace `<your-subgraph-url>` in your `.env` file with it.
     
-    ![Frame 3560382 (2).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560382_(2).jpg?raw=true)
+    ![Frame 3560382 (2).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/Frame_3560382_(2).webp?raw=true)
     
 
 ## Run the dapp
@@ -98,7 +98,7 @@ npm start
 
 And you can experience interacting with your dApp. And yes, Zoro is my favv characterrrr!! What about you?
 
-![interact.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/interact.gif?raw=true)
+![interact.gif](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/one-piece-dapp/Set%20Up%20the%20Frontend%20Project/interact.webp?raw=true)
 
 ## Wrap up
 
