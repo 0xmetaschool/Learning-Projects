@@ -10,7 +10,7 @@ npm run start
 
 You should be able to see your NFT marketplace in your browser.
 
-![Frame 3560365 (22).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Launch%20your%20own%20epic%20NFT%20place/4%20Time%20to%20launch%20your%20NFT%20marketplace/Launching%20your%20epic%20NFT%20marketplace/Frame_3560365_(22).jpg?raw=true)
+![Frame 3560365 (22).jpg](https://github.com/0xmetaschool/Learning-Projects/blob/main/assests_for_all/Launch%20your%20own%20epic%20NFT%20place/4%20Time%20to%20launch%20your%20NFT%20marketplace/Launching%20your%20epic%20NFT%20marketplace/Frame_3560365_(22).webp?raw=true)
 
 Try clicking random mint buttons and see what happens.
 
