@@ -1,6 +1,6 @@
 <h1>🔮 Metaschool.so</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <h3> Learn, Build & Ship amazing Web3 Projects 🚀🚀</h3>
 <a href=".github/CONTRIBUTING.md#-how-to-contribute">
@@ -66,6 +66,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/leopardracer"><img src="https://avatars.githubusercontent.com/u/136604165?v=4?s=100" width="100px;" alt="leopardracer"/><br /><sub><b>leopardracer</b></sub></a><br /><a href="#content-leopardracer" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nnsW3"><img src="https://avatars.githubusercontent.com/u/146735585?v=4?s=100" width="100px;" alt="Elias Rad"/><br /><sub><b>Elias Rad</b></sub></a><br /><a href="#content-nnsW3" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
