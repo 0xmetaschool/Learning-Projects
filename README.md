@@ -1,6 +1,6 @@
 <h1>🔮 Metaschool.so</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <h3> Learn, Build & Ship amazing Web3 Projects 🚀🚀</h3>
 <a href=".github/CONTRIBUTING.md#-how-to-contribute">
@@ -68,6 +68,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/leopardracer"><img src="https://avatars.githubusercontent.com/u/136604165?v=4?s=100" width="100px;" alt="leopardracer"/><br /><sub><b>leopardracer</b></sub></a><br /><a href="#content-leopardracer" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nnsW3"><img src="https://avatars.githubusercontent.com/u/146735585?v=4?s=100" width="100px;" alt="Elias Rad"/><br /><sub><b>Elias Rad</b></sub></a><br /><a href="#content-nnsW3" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://dev-araujo.com.br/"><img src="https://avatars.githubusercontent.com/u/97068163?v=4?s=100" width="100px;" alt="Adriano P. Araujo"/><br /><sub><b>Adriano P. Araujo</b></sub></a><br /><a href="https://github.com/0xmetaschool/Learning-Projects/commits?author=dev-araujo" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/vtjl10"><img src="https://avatars.githubusercontent.com/u/139509124?v=4?s=100" width="100px;" alt="fuder.eth"/><br /><sub><b>fuder.eth</b></sub></a><br /><a href="#content-vtjl10" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
