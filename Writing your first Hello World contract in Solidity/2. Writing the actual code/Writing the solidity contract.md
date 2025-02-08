@@ -4,7 +4,7 @@ Welcome back! So far, you have set up your wallet. Now, we are getting to the me
 
 ## Creating the Solidity contract
 
-The contracts directory will have the contract of your Hello World program. Delete the exsiting `contracts/lock.sol` file, create a `HelloWorld.sol` file in the `contracts` folder and write the following code.
+The contracts directory will have the contract of your Hello World program. Delete the existing `contracts/lock.sol` file, create a `HelloWorld.sol` file in the `contracts` folder and write the following code.
 
 ```
 // SPDX-License-Identifier: UNLICENSED
@@ -38,7 +38,7 @@ We start with mentioning the version of the solidity that we are using and then 
 
 - The states are usually variables, tokens, NFTs whose state we want to maintain in the contract.
 - In order to read, write or change the states, we use functions.
-- Events are triggers that are activated based on a transformation in a state, a call to a function etc. So our code right now has a state variable called `message`, a function called `update` and and event called `messagechanged`.
+- Events are triggers that are activated based on a transformation in a state, a call to a function etc. So our code right now has a state variable called `message`, a function called `update` and an event called `messagechanged`.
 
 This is a basic `HelloWorld` code that takes a string when the smart contract is first time executed and if we want we can change that value to a new message as well.
 
