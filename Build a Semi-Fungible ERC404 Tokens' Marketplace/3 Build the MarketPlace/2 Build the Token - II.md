@@ -24,9 +24,8 @@ Technically:
 ### Initializing the `setPrices` function
 
 ```
-    function setPrices(uint120 publicPrice_, uint120 allowlistPrice_) public onlyOwner {
+    function setPublicPrice(uint120 publicPrice_) public onlyOwner {
         publicPrice = publicPrice_;
-        allowlistPrice = allowlistPrice_;
     }
 ```
 
@@ -34,10 +33,10 @@ By calling this function, the contract owner can easily adjust the prices for mi
 
 Technically:
 
-- The `setPrices` function allows the contract owner to set the public and allowlist prices for minting tokens. It's marked as `public`, meaning it can be called externally.
+- The `setPublicPrice` function allows the contract owner to set the public price for minting tokens. It's marked as `public`, meaning it can be called externally.
 - The `onlyOwner` modifier ensures that only the owner of the contract can execute this function.
-- Inside of the function, we update the `publicPrice` and `allowlistPrice` variables with the values provided as parameters (`publicPrice_` and `allowlistPrice_`, respectively).
-- `publicPrice` represents the price per token for public minting, while `allowlistPrice` represents the price per token for users on the allowlist.
+- Inside of the function, we update the `publicPrice` variable with the value provided as parameter (`publicPrice_`).
+- `publicPrice` represents the price per token for public minting.
 
 ### Initializing the `toggleLive` function
 
