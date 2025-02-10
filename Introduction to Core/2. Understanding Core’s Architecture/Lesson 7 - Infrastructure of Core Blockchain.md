@@ -73,7 +73,7 @@ Following are some of its features :
 - **Confirmation Checkup:** Ensure your transactions are secure by verifying the number of confirmations. More confirmations mean a higher level of security.
 - **Block Deep Dives:** Go beyond the surface and analyze individual blocks. Explore details like block hash, timestamps, validator information, and included transactions.
 - **Validator Watchdog:** Monitor the performance of individual validators. Track metrics like block production rate, uptime, and self-delegation to identify reliable validators.
-- **Network Pulse Check:** Gain a real-time understanding of Core blockhain's health. See live data on total transactions, active validators, circulating supply, and other essential network metrics.
+- **Network Pulse Check:** Gain a real-time understanding of Core blockchain's health. See live data on total transactions, active validators, circulating supply, and other essential network metrics.
 
 ## Core scan API
 
