@@ -7,31 +7,28 @@ Welcome back! So far, you have set up your wallet. Now, we are getting to the me
 The contracts directory will have the contract of your Hello World program. Delete the exsiting `contracts/lock.sol` file, create a `HelloWorld.sol` file in the `contracts` folder and write the following code.
 
 ```
-// SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.24;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
 contract HelloWorld {
-    //events
-    //states
-    //functions
-
-    event messagechanged(string oldmsg, string newmsg);
-
+    // State variable - stored on blockchain
     string public message;
 
-    constructor(string memory firstmessage) {
-        message = firstmessage;
+    // Constructor - runs once when contract is deployed
+    constructor() {
+        message = "Hello World!";
     }
 
-    function update(string memory newmesssage) public {
-        string memory oldmsg = message;
-        message = newmesssage;
+    // Function to get the message
+    function getMessage() public view returns (string memory) {
+        return message;
+    }
 
-        emit messagechanged(oldmsg, newmesssage);
-
+    // Function to set a new message
+    function setMessage(string memory newMessage) public {
+        message = newMessage;
     }
 }
-
 ```
 
 We start with mentioning the version of the solidity that we are using and then write the actual contract. A smart contract has states, functions and events.
