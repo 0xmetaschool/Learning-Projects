@@ -19,7 +19,7 @@ async function main() {
     const GeneralDAOVotingFactory = await ethers.getContractFactory("GeneralDAOVoting");
     const VotingContract = GeneralDAOVotingFactory.attach(VOTING_CONTRACT_ADDRESS);
 
-    // Merkle Root; Chnage the address accordingly, make sure there are at least two
+    // Merkle Root; Change the address accordingly, make sure there are at least two
     let addresses = [
         {
             addr: "0xABe215Fb79fB827978C82379d5974831E2FB5E0d",
