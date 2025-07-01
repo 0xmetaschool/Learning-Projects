@@ -1,9 +1,9 @@
 <h1>🔮 Metaschool.so</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <h3> Learn, Build & Ship amazing Web3 Projects 🚀🚀</h3>
-<a href=".github/CONTRIBUTING.md#-how-to-contribute">
+<a href="https://github.com/0xmetaschool/Learning-Projects/issues">
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
 </a>
 
